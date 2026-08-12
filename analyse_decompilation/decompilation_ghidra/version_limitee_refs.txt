@@ -1,0 +1,27 @@
+  literal Version limit          1010:34f9  -> offset segment 0x34f9
+  literal Non disponible en version 1010:350a  -> offset segment 0x350a
+  literal monstration            1000:348d  -> offset segment 0x348d
+  literal monstration            1000:3820  -> offset segment 0x3820
+  literal Simstra1               1000:33d0  -> offset segment 0x33d0
+  literal Simstra1               1000:3464  -> offset segment 0x3464
+  literal Simstra1               10b0:0003  -> offset segment 0x0003
+literaux trouves dans 3 segments de code
+
+Version limit(pfx)           <- 1010:3560  MOV DI,0x34f8                       FUN_1010_352b @1010:352b
+Non disponible en version(pfx) <- 1010:35a0  MOV DI,0x3509                       FUN_1010_352b @1010:352b
+Simstra1(pfx)                <- 10b0:1b16  MOV word ptr [BP + -0x4],0x2        FUN_10b0_1afd @10b0:1afd
+Simstra1(pfx)                <- 10b0:1b2d  CMP byte ptr ES:[DI + 0x112],0x2    FUN_10b0_1afd @10b0:1afd
+Simstra1                     <- 10b0:1b3a  CMP byte ptr ES:[DI + 0x112],0x3    FUN_10b0_1afd @10b0:1afd
+Simstra1(pfx)                <- 10b0:1b4b  PUSH 0x2                            FUN_10b0_1afd @10b0:1afd
+Simstra1(pfx)                <- 10b0:1c54  MOV word ptr [BP + -0x8],0x2        FUN_10b0_1afd @10b0:1afd
+Simstra1                     <- 10b0:1c78  CMP byte ptr ES:[DI + 0x112],0x3    FUN_10b0_1afd @10b0:1afd
+Simstra1                     <- 10b0:1c89  PUSH 0x3                            FUN_10b0_1afd @10b0:1afd
+Simstra1(pfx)                <- 10b0:1da6  PUSH 0x2                            FUN_10b0_1afd @10b0:1afd
+Simstra1                     <- 10b0:1dd5  PUSH 0x3                            FUN_10b0_1afd @10b0:1afd
+Simstra1(pfx)                <- 10b0:385f  MOV AX,0x2                          FUN_10b0_385c @10b0:385c
+Simstra1(pfx)                <- 10b0:3867  SUB SP,0x2                          FUN_10b0_385c @10b0:385c
+
+fonctions candidates : 3
+   FUN_1010_352b @1010:352b  (189 octets)
+   FUN_10b0_1afd @10b0:1afd  (939 octets)
+   FUN_10b0_385c @10b0:385c  (72 octets)

@@ -293,3 +293,60 @@ Notes de format rencontrées (non documentées publiquement pour cette version) 
   quartet bas = nombre de décimales) + 32 quartets de chiffres ;
 - les **valeurs négatives** stockent chaque quartet **complémenté à 0xF**
   (ex. `42 ff…fd ffff` → `00…02 0000` = 20000 → −200,00).
+
+---
+
+## 8. Ce que la version de démonstration bride (établi par décompilation)
+
+Le binaire analysé ici est une **version de démonstration**. Le mécanisme est
+désormais connu précisément : un **drapeau global** du segment de données
+(`DAT_1160_0042`), positionné au démarrage par le contrôle de licence porté par
+`Simstra1.dll`, commande sept gardes conditionnels. Chaque garde suit la même
+forme :
+
+```c
+void TTheMainForm_ArbitrageA1Click(...)
+{
+    if (DAT_1160_0042 == '\0') {      /* version complète : action normale */
+        FUN_1018_03d9();              /* ouverture du formulaire d'arbitrage */
+        ...
+    }
+    else {                            /* version limitée */
+        FUN_1010_352b();              /* « Non disponible en version limitée » */
+    }
+}
+```
+
+Les sept actions bloquées, retrouvées par recherche des appelants de
+`FUN_1010_352b` (voir `decompilation_ghidra/version_limitee_refs.txt`) :
+
+| Méthode | Fonction bridée |
+|---|---|
+| `TTheMainForm.Nouveau1Click` | Créer un nouveau jeu |
+| `TTheMainForm.DecisionsAnimateurClick` | Décisions de l'animateur |
+| `TTheMainForm.DAEnt1Click` | Décisions animateur par entreprise |
+| `TTheMainForm.DecisionsE1Click` | Décisions des entreprises |
+| `TTheMainForm.ArbitrageA1Click` | **Lancer l'arbitrage** |
+| `TTheMainForm.RepriseA1Click` | Reprise de période |
+| `TTheMainForm.VoirTTABLE1Click` | Visualiser les tables |
+
+Conséquence : la démonstration ne permet **ni de créer un jeu, ni de saisir des
+décisions, ni d'arbitrer**. Elle sert uniquement à consulter les résultats des
+jeux d'exemple livrés, déjà calculés par une version complète. Ce n'est donc
+pas seulement une question de mention légale : le logiciel de démonstration est
+fonctionnellement incapable d'animer une formation.
+
+Le code du moteur, lui, **reste présent** dans le binaire : le gestionnaire
+`TFormSJDA_Arbitrage.BitBtnArbitrerClick` et la routine `1018:ab2b` existent,
+avec leurs trois phases et leur boucle sur les entreprises. Seul le chemin
+d'accès depuis le menu est coupé.
+
+### Pourquoi le graphe d'appel ne montre pas le calcul
+
+La cartographie depuis le gestionnaire d'arbitrage
+(`decompilation_ghidra/arbre_arbitrage.txt`) n'atteint que 193 fonctions, dont
+9 seulement utilisent le x87 et presque aucune arithmétique. Ce n'est pas que
+le calcul soit absent : Delphi dispatche massivement par **tables de méthodes
+virtuelles**, et ces appels indirects (`(*(code *)*puVar1)(...)`) ne sont pas
+résolus statiquement. Le graphe est donc tronqué, et retrouver le calcul
+demanderait une analyse des VMT — piste non explorée à ce jour.

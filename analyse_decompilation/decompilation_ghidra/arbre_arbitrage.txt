@@ -1,0 +1,318 @@
+TFormSJDA_Arbitrage_BitBtnArbitrerClick @1018:0e0b
+  FUN_1138_1c77 @1138:1c77
+    FUN_1138_1573 @1138:1573
+      FUN_1138_3633 @1138:3633
+        FUN_1138_36c5 @1138:36c5
+        FUN_1138_64fa @1138:64fa
+        FUN_1138_36d4 @1138:36d4
+          FUN_1138_36f9 @1138:36f9
+            FUN_1138_3633 @1138:3633   (deja vu)
+        FUN_1158_161b @1158:161b
+    FUN_1138_24bb @1138:24bb
+    FUN_1158_206a @1158:206a
+      FUN_1158_2085 @1158:2085
+      FUN_1158_008f @1158:008f
+        FUN_1158_0097 @1158:0097
+          MESSAGEBOX @14d0:0334
+          FUN_1158_0114 @1158:0114
+          FUN_1158_0132 @1158:0132
+            FUN_1158_0132 @1158:0132   (deja vu)
+  FUN_1158_0444 @1158:0444
+    FUN_1158_008f @1158:008f   (deja vu)
+  FUN_1018_ab2b @1018:ab2b
+    FUN_1158_0444 @1158:0444   (deja vu)
+    FUN_1018_0303 @1018:0303
+      FUN_1158_17e7 @1158:17e7
+      FUN_1138_62b9 @1138:62b9
+        FUN_1138_6286 @1138:6286
+          FUN_1138_6286 @1138:6286   (deja vu)
+      FUN_1140_5556 @1140:5556
+        FUN_1140_5cb9 @1140:5cb9
+          FUN_1140_2f19 @1140:2f19
+            FUN_1138_1c77 @1138:1c77   (deja vu)
+        FUN_1140_5f1d @1140:5f1d
+          FUN_1138_62b9 @1138:62b9   (deja vu)
+          POSTMESSAGE @14d0:0430
+        FUN_1140_7543 @1140:7543
+          POSTQUITMESSAGE @14d0:033c
+        FUN_1140_5648 @1140:5648
+          FUN_1140_5648 @1140:5648   (deja vu)
+          FUN_1140_32f6 @1140:32f6
+            FUN_1140_60f4 @1140:60f4
+            FUN_1140_60cf @1140:60cf
+          FUN_1140_335c @1140:335c
+            FUN_1140_60f4 @1140:60f4   (deja vu)
+            FUN_1140_60cf @1140:60cf   (deja vu)
+        FUN_1140_3a14 @1140:3a14
+          FUN_1138_62b9 @1138:62b9   (deja vu)
+          SHOWWINDOW @14d0:03a0
+      FUN_1158_0444 @1158:0444   (deja vu)
+      MESSAGEBOX @14d0:0334   (deja vu)
+      FUN_1150_28c3 @1150:28c3
+        FUN_1158_1399 @1158:1399
+          FUN_1158_153f @1158:153f
+            FUN_1158_14a4 @1158:14a4
+            FUN_1158_15ca @1158:15ca
+          FUN_1158_008f @1158:008f   (deja vu)
+          FUN_1158_159f @1158:159f
+            FUN_1158_14a4 @1158:14a4   (deja vu)
+            FUN_1158_15ca @1158:15ca   (deja vu)
+          FUN_1158_1514 @1158:1514
+            FUN_1158_14a4 @1158:14a4   (deja vu)
+            FUN_1158_15ca @1158:15ca   (deja vu)
+          FUN_1158_14a6 @1158:14a6
+            FUN_1158_14a4 @1158:14a4   (deja vu)
+            FUN_1158_15ca @1158:15ca   (deja vu)
+        FUN_1150_2923 @1150:2923
+          FUN_1158_1fe2 @1158:1fe2
+          FUN_1150_05d7 @1150:05d7
+            FUN_1158_17e7 @1158:17e7   (deja vu)
+            FUN_1158_0182 @1158:0182
+          FUN_1150_092b @1150:092b
+            LOADSTRING @14d0:04b8
+        FUN_1150_28bc @1150:28bc
+      FUN_1158_184c @1158:184c
+      FUN_1138_1d53 @1138:1d53
+        FUN_1138_1d02 @1138:1d02
+          FUN_1138_24bb @1138:24bb   (deja vu)
+        FUN_1158_1ec1 @1158:1ec1
+      FUN_1000_28c7 @1000:28c7
+        FUN_10d8_31d2 @10d8:31d2
+          FUN_10d8_3227 @10d8:3227
+            FUN_10d8_3191 @10d8:3191
+            FUN_10d8_3202 @10d8:3202
+        FUN_1158_0444 @1158:0444   (deja vu)
+        FUN_10d8_2672 @10d8:2672
+          FUN_10d8_2323 @10d8:2323
+            FUN_1150_0ddb @1150:0ddb
+            FUN_1158_1f7f @1158:1f7f
+            FUN_10d8_224f @10d8:224f
+            Ordinal_5 @14d0:057c
+            FUN_10e8_21bd @10e8:21bd
+            FUN_10d8_11ef @10d8:11ef
+            FUN_10e8_04bd @10e8:04bd
+            FUN_10d8_1c9e @10d8:1c9e
+            FUN_10d8_1073 @10d8:1073
+            FUN_1148_1d08 @1148:1d08
+            FUN_1150_1034 @1150:1034
+            FUN_10d8_124e @10d8:124e
+            FUN_1148_1519 @1148:1519
+            FUN_10e8_004d @10e8:004d
+            FUN_1150_0d6a @1150:0d6a
+            FUN_10d8_1ac5 @10d8:1ac5
+            FUN_10d8_18ad @10d8:18ad
+            FUN_10d8_10b8 @10d8:10b8
+          FUN_10d8_2023 @10d8:2023
+            FUN_10e8_14dd @10e8:14dd
+            FUN_10e8_005d @10e8:005d
+            FUN_10d8_2090 @10d8:2090
+        FUN_10d8_210d @10d8:210d
+          FUN_1148_0dd0 @1148:0dd0
+        FUN_1000_0dc2 @1000:0dc2
+          FUN_1158_0444 @1158:0444   (deja vu)
+          FUN_1130_1353 @1130:1353
+            FUN_1130_04d6 @1130:04d6
+            FUN_1148_0dd0 @1148:0dd0   (deja vu)
+          FUN_1130_1326 @1130:1326
+          FUN_1130_13a5 @1130:13a5
+            FUN_1158_206a @1158:206a   (deja vu)
+          FUN_1158_043e @1158:043e
+            FUN_1158_0060 @1158:0060
+          FUN_1130_129b @1130:129b
+            FUN_1158_206a @1158:206a   (deja vu)
+        FUN_1000_1271 @1000:1271
+          FUN_1158_17e7 @1158:17e7   (deja vu)
+          FUN_1158_0444 @1158:0444   (deja vu)
+          FUN_1138_1d8c @1138:1d8c
+            FUN_1150_0d4c @1150:0d4c
+            FUN_1138_1d25 @1138:1d25
+            FUN_1138_1d53 @1138:1d53   (deja vu)
+            FUN_1158_18be @1158:18be
+          FUN_1158_17cd @1158:17cd
+          FUN_1158_184c @1158:184c   (deja vu)
+          FUN_1138_1d53 @1138:1d53   (deja vu)
+          FUN_1150_08a9 @1150:08a9
+            FUN_1150_106c @1150:106c
+        FUN_10d8_2132 @10d8:2132
+        FUN_1158_043e @1158:043e   (deja vu)
+    FUN_1018_216e @1018:216e   [x87 1 : ld0 st1 mul0 DIV0 add0 sub0 cmp0]
+      FUN_1018_0303 @1018:0303   (deja vu)
+      FUN_1158_0444 @1158:0444   (deja vu)
+      FUN_10e0_2895 @10e0:2895
+        FUN_10d8_4c3d @10d8:4c3d
+          FUN_10d8_558b @10d8:558b
+            FUN_10d8_3a08 @10d8:3a08
+            FUN_10d8_483b @10d8:483b
+            FUN_10d8_3191 @10d8:3191   (deja vu)
+            FUN_10d8_5710 @10d8:5710
+            FUN_10d8_4b1e @10d8:4b1e
+            FUN_10e8_037d @10e8:037d
+          FUN_10d8_44be @10d8:44be
+            FUN_10d8_11ef @10d8:11ef   (deja vu)
+          FUN_10d8_11ef @10d8:11ef   (deja vu)
+          FUN_10d8_54a0 @10d8:54a0
+            FUN_10d8_45a7 @10d8:45a7
+            FUN_10d8_44be @10d8:44be   (deja vu)
+            FUN_10d8_3a08 @10d8:3a08   (deja vu)
+            FUN_10e8_013d @10e8:013d
+            FUN_10d8_124e @10d8:124e   (deja vu)
+            FUN_10e8_014d @10e8:014d
+            FUN_10d8_3191 @10d8:3191   (deja vu)
+            FUN_10d8_483b @10d8:483b   (deja vu)
+            FUN_10d8_5710 @10d8:5710   (deja vu)
+            FUN_10d8_53f0 @10d8:53f0
+            FUN_10d8_4b1e @10d8:4b1e   (deja vu)
+        FUN_10e0_2bcb @10e0:2bcb
+          FUN_10d8_56e8 @10d8:56e8
+          FUN_10e8_095d @10e8:095d
+            FUN_10e8_24ed @10e8:24ed
+          FUN_10d8_4c3d @10d8:4c3d   (deja vu)
+          FUN_10d8_4b1e @10d8:4b1e   (deja vu)
+          FUN_10d8_4857 @10d8:4857
+        FUN_10d8_5785 @10d8:5785
+          FUN_10d8_3cfb @10d8:3cfb
+            FUN_10d8_2d4a @10d8:2d4a
+            FUN_10d8_120a @10d8:120a
+            FUN_10d8_11ef @10d8:11ef   (deja vu)
+            FUN_10d8_3be6 @10d8:3be6
+          FUN_10d8_42cd @10d8:42cd
+            FUN_1158_1ee5 @1158:1ee5
+            FUN_10e8_07cd @10e8:07cd
+          FUN_10d8_6277 @10d8:6277   [x87 2 : ld1 st1 mul0 DIV0 add0 sub0 cmp0]
+            FUN_1150_0e6e @1150:0e6e
+            FUN_10d8_6230 @10d8:6230
+            FUN_1158_2255 @1158:2255
+            FUN_1158_18e9 @1158:18e9
+      FUN_10d8_3b9b @10d8:3b9b
+        FUN_10d8_120a @10d8:120a   (deja vu)
+        FUN_10d8_3c43 @10d8:3c43
+          FUN_1150_07ed @1150:07ed
+            FUN_1150_0d4c @1150:0d4c   (deja vu)
+            LSTRCMPI @14d0:0574
+          FUN_1148_0dd0 @1148:0dd0   (deja vu)
+    FUN_10d8_533c @10d8:533c
+      FUN_10d8_4624 @10d8:4624
+        FUN_1158_1ee5 @1158:1ee5   (deja vu)
+      FUN_10d8_45a7 @10d8:45a7   (deja vu)
+      FUN_10d8_124e @10d8:124e   (deja vu)
+      FUN_10d8_483b @10d8:483b   (deja vu)
+      FUN_10d8_3191 @10d8:3191   (deja vu)
+      FUN_10d8_4cae @10d8:4cae
+        FUN_10d8_11ef @10d8:11ef   (deja vu)
+      FUN_10d8_4c3d @10d8:4c3d   (deja vu)
+      FUN_10d8_4f99 @10d8:4f99
+        FUN_10d8_50e9 @10d8:50e9
+          FUN_10d8_3191 @10d8:3191   (deja vu)
+        FUN_10d8_45a7 @10d8:45a7   (deja vu)
+        FUN_10d8_50b8 @10d8:50b8
+          FUN_10d8_4cae @10d8:4cae   (deja vu)
+          FUN_10d8_4c3d @10d8:4c3d   (deja vu)
+        FUN_10d8_44ee @10d8:44ee
+          FUN_1158_1ec1 @1158:1ec1   (deja vu)
+        FUN_1158_1ec1 @1158:1ec1   (deja vu)
+        FUN_10d8_4294 @10d8:4294
+          FUN_1158_1ee5 @1158:1ee5   (deja vu)
+          FUN_10e8_07cd @10e8:07cd   (deja vu)
+      FUN_10e8_010d @10e8:010d
+        FUN_10e8_24ed @10e8:24ed   (deja vu)
+    FUN_10b8_1843 @10b8:1843
+      FUN_1158_0444 @1158:0444   (deja vu)
+      FUN_10d8_5306 @10d8:5306
+        FUN_10d8_518e @10d8:518e
+          FUN_10d8_45a7 @10d8:45a7   (deja vu)
+          FUN_10e8_013d @10e8:013d   (deja vu)
+          FUN_10d8_50b8 @10d8:50b8   (deja vu)
+          FUN_10d8_3a08 @10d8:3a08   (deja vu)
+          FUN_10d8_124e @10d8:124e   (deja vu)
+          FUN_10d8_483b @10d8:483b   (deja vu)
+          FUN_10e8_093d @10e8:093d
+            FUN_10e8_24ed @10e8:24ed   (deja vu)
+          FUN_10d8_44ee @10d8:44ee   (deja vu)
+          FUN_10d8_4f4f @10d8:4f4f
+            FUN_10d8_3b4b @10d8:3b4b
+            FUN_10d8_6277 @10d8:6277   [x87 2 : ld1 st1 mul0 DIV0 add0 sub0 cmp0]   (deja vu)
+          FUN_10d8_4441 @10d8:4441
+          FUN_10d8_4294 @10d8:4294   (deja vu)
+      FUN_10e0_2895 @10e0:2895   (deja vu)
+    FUN_10e0_2895 @10e0:2895   (deja vu)
+    FUN_10d8_3b9b @10d8:3b9b   (deja vu)
+    FUN_1158_043e @1158:043e   (deja vu)
+    FUN_10b8_4436 @10b8:4436
+      FUN_1158_0444 @1158:0444   (deja vu)
+      FUN_10e0_2895 @10e0:2895   (deja vu)
+      FUN_10d8_5321 @10d8:5321
+        FUN_10d8_518e @10d8:518e   (deja vu)
+    FUN_10b8_3a8a @10b8:3a8a
+      FUN_1158_0444 @1158:0444   (deja vu)
+      FUN_10e0_2895 @10e0:2895   (deja vu)
+      FUN_10d8_5321 @10d8:5321   (deja vu)
+    FUN_1018_7ddc @1018:7ddc   [x87 9 : ld4 st5 mul0 DIV0 add0 sub0 cmp0]
+      FUN_1000_0a69 @1000:0a69   [x87 4 : ld2 st1 mul0 DIV0 add0 sub1 cmp0]
+        FUN_1158_1083 @1158:1083
+          FUN_1158_122d @1158:122d   [x87 16 : ld4 st6 mul0 DIV0 add0 sub1 cmp0]
+        FUN_1158_100e @1158:100e   [x87 4 : ld2 st2 mul0 DIV0 add0 sub0 cmp0]
+        FUN_1158_0444 @1158:0444   (deja vu)
+        FUN_1158_1087 @1158:1087
+          FUN_1158_12a7 @1158:12a7   [x87 44 : ld12 st10 mul2 DIV1 add2 sub1 cmp1]
+        FUN_1158_0416 @1158:0416
+          FUN_1158_0438 @1158:0438
+            FUN_1158_0060 @1158:0060   (deja vu)
+        FUN_1158_0f9d @1158:0f9d   [x87 2 : ld2 st0 mul0 DIV0 add0 sub0 cmp0]
+      FUN_1018_0303 @1018:0303   (deja vu)
+      FUN_1158_0444 @1158:0444   (deja vu)
+      FUN_1018_66ff @1018:66ff   [x87 4 : ld1 st3 mul0 DIV0 add0 sub0 cmp0]
+        FUN_1158_0444 @1158:0444   (deja vu)
+        FUN_1018_0303 @1018:0303   (deja vu)
+        FUN_10e0_2895 @10e0:2895   (deja vu)
+        FUN_10d8_3b9b @10d8:3b9b   (deja vu)
+        FUN_1158_0416 @1158:0416   (deja vu)
+        FUN_10d8_3c43 @10d8:3c43   (deja vu)
+      FUN_10e0_2895 @10e0:2895   (deja vu)
+      FUN_10d8_3b9b @10d8:3b9b   (deja vu)
+      FUN_1158_043e @1158:043e   (deja vu)
+    FUN_10b8_47d0 @10b8:47d0
+      FUN_1158_0444 @1158:0444   (deja vu)
+      FUN_10e0_2895 @10e0:2895   (deja vu)
+      FUN_10d8_5321 @10d8:5321   (deja vu)
+    FUN_10d8_54a0 @10d8:54a0   (deja vu)
+  FUN_1140_7303 @1140:7303
+    FUN_1140_7236 @1140:7236
+      FUN_1140_70d4 @1140:70d4
+        ISDIALOGMESSAGE @14d0:0414
+      TRANSLATEMESSAGE @14d0:043c
+      FUN_1140_71f6 @1140:71f6
+        FUN_1140_7911 @1140:7911
+          FUN_1138_1c77 @1138:1c77   (deja vu)
+          FUN_1138_62b9 @1138:62b9   (deja vu)
+          FUN_1140_7cc6 @1140:7cc6
+            KILLTIMER @14d0:0344
+          FUN_1138_64fa @1138:64fa   (deja vu)
+          SHOWWINDOW @14d0:03a0   (deja vu)
+      PEEKMESSAGE @14d0:042c
+      DISPATCHMESSAGE @14d0:0440
+      FUN_1140_7169 @1140:7169
+        FUN_1138_62b9 @1138:62b9   (deja vu)
+        GETCAPTURE @14d0:04d8
+        SENDMESSAGE @14d0:0434
+      FUN_1140_7104 @1140:7104
+        TRANSLATEMDISYSACCEL @14d0:0560
+  FUN_1140_63a9 @1140:63a9
+    SETCURSOR @14d0:03e4
+    WINDOWFROMPOINT @14d0:0374
+    FUN_1140_633e @1140:633e
+    SENDMESSAGE @14d0:0434   (deja vu)
+    GETCURSORPOS @14d0:034c
+
+fonctions atteintes : 193
+dont utilisant le x87 : 9
+
+fonction                           adresse        x87   ld   st  mul  DIV  add  sub  cmp
+FUN_1158_12a7                      1158:12a7       44   12   10    2    1    2    1    1
+FUN_1158_122d                      1158:122d       16    4    6    0    0    0    1    0
+FUN_1018_7ddc                      1018:7ddc        9    4    5    0    0    0    0    0
+FUN_1000_0a69                      1000:0a69        4    2    1    0    0    0    1    0
+FUN_1158_100e                      1158:100e        4    2    2    0    0    0    0    0
+FUN_1018_66ff                      1018:66ff        4    1    3    0    0    0    0    0
+FUN_10d8_6277                      10d8:6277        2    1    1    0    0    0    0    0
+FUN_1158_0f9d                      1158:0f9d        2    2    0    0    0    0    0    0
+FUN_1018_216e                      1018:216e        1    0    1    0    0    0    0    0
