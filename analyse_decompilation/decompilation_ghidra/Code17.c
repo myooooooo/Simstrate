@@ -1,4 +1,4 @@
-/* Simstrat (FR).EXE - segment Code17 - 24 fonctions
+/* Simstrat (FR).EXE - segment Code17 - 29 fonctions
    Decompile par Ghidra 11.2.1 (x86 16 bits, chargeur NE). */
 
 /* ---- FUN_1080_07e2 @ 1080:07e2  (43 octets) ---- */
@@ -19,9 +19,152 @@ void __stdcall16far FUN_1080_07e2(undefined4 param_1)
 
 
 
-/* ---- FUN_1080_0ac8 @ 1080:0ac8  (31 octets) ---- */
+/* ---- TFormSEDI_Print_FormCreate @ 1080:081d  (1 octets) ---- */
 
-void __stdcall16far FUN_1080_0ac8(undefined4 param_1,undefined *param_2)
+/* WARNING: Removing unreachable block (ram,0x10800962) */
+
+void TFormSEDI_Print_FormCreate(undefined2 param_1,undefined4 param_2)
+
+{
+  char cVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  uint uVar6;
+  int iVar7;
+  undefined2 uVar8;
+  undefined2 unaff_SS;
+  bool bVar9;
+  bool bVar10;
+  longdouble in_ST0;
+  longdouble in_ST1;
+  undefined4 uVar11;
+  long lVar12;
+  undefined *puVar13;
+  undefined *puVar14;
+  undefined2 uVar15;
+  undefined2 uVar16;
+  undefined auStack_304 [256];
+  undefined auStack_204 [256];
+  undefined auStack_104 [250];
+  undefined4 uStack_a;
+  int iStack_6;
+  
+  iStack_6 = 0x828;
+  FUN_1158_0444();
+  FUN_1158_17cd(0x80d,0x1158);
+  FUN_1158_184c(0x1dfa,0x1160);
+  FUN_1158_184c(0x819,0x1158);
+  puVar13 = auStack_204;
+  uVar8 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar7 = (int)param_2;
+  uVar15 = unaff_SS;
+  FUN_1138_1d53();
+  FUN_1158_184c(puVar13,uVar15);
+  FUN_1158_17e7();
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar7 + 0x188),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x188) >> 0x10),0x1dfa,0x1160);
+  FUN_1140_1cd0((int)*(undefined4 *)(iVar7 + 0xd8),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0xd8) >> 0x10),0);
+  FUN_1140_1cd0((int)*(undefined4 *)(iVar7 + 0xdc),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0xdc) >> 0x10),0);
+  *(undefined2 *)(iVar7 + 0x398) = 1;
+  *(undefined2 *)(iVar7 + 0x39a) = 1;
+  iVar2 = FUN_1148_527d(iVar7,uVar8);
+  iVar3 = iVar2 + -1;
+  if (SBORROW2(iVar2,1)) {
+    iVar3 = FUN_1158_043e(0x1148);
+  }
+  iStack_6 = iVar3;
+  if (-1 < iVar3) {
+    iVar2 = 0;
+    while( true ) {
+      uVar11 = FUN_1148_5246(iVar7,uVar8,iVar2);
+      cVar1 = FUN_1158_2255(0x399,0x1138,uVar11);
+      if (cVar1 != '\0') {
+        uVar11 = FUN_1148_5246(iVar7,uVar8,iVar2);
+        uStack_a = FUN_1158_2273(0x399,0x1138,uVar11);
+        uVar15 = (undefined2)((ulong)uStack_a >> 0x10);
+        iVar3 = (int)uStack_a;
+        if ((*(char *)(iVar3 + 0x29) != '\0') &&
+           (*(int *)(iVar3 + 0xc) != 0 || *(int *)(iVar3 + 0xe) != 0)) {
+          iVar5 = DAT_1160_1e06 >> 0xf;
+          iVar4 = *(int *)(iVar3 + 0xc);
+          uVar6 = *(uint *)(iVar3 + 0xe);
+          bVar10 = false;
+          if ((int)uVar6 < 0) {
+            bVar9 = iVar4 != 0;
+            iVar4 = -iVar4;
+            iVar3 = ~uVar6 + 1;
+            bVar10 = SBORROW2(~uVar6,-1) != SBORROW2(iVar3,(uint)bVar9);
+            uVar6 = iVar3 - (uint)bVar9;
+          }
+          lVar12 = CONCAT22(uVar6,iVar4);
+          iVar3 = DAT_1160_1e06;
+          if (bVar10) {
+            lVar12 = FUN_1158_043e(0x1158);
+          }
+          FUN_1138_1c77((int)uStack_a,(int)((ulong)uStack_a >> 0x10),lVar12 <= CONCAT22(iVar5,iVar3)
+                       );
+        }
+      }
+      if (iVar2 == iStack_6) break;
+      iVar2 = iVar2 + 1;
+    }
+  }
+  puVar13 = auStack_104;
+  uVar11 = *(undefined4 *)((int)DAT_1160_18f6 + 0x24c);
+  uVar15 = unaff_SS;
+  FUN_1138_1d53((int)uVar11,(int)((ulong)uVar11 >> 0x10));
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar7 + 0x37c),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x37c) >> 0x10),puVar13,uVar15);
+  puVar13 = auStack_104;
+  uVar11 = *(undefined4 *)((int)DAT_1160_18f6 + 0x250);
+  uVar15 = unaff_SS;
+  FUN_1138_1d53((int)uVar11,(int)((ulong)uVar11 >> 0x10));
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar7 + 0x380),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x380) >> 0x10),puVar13,uVar15);
+  puVar13 = auStack_104;
+  uVar11 = *(undefined4 *)((int)DAT_1160_18f6 + 0x254);
+  uVar15 = unaff_SS;
+  FUN_1138_1d53((int)uVar11,(int)((ulong)uVar11 >> 0x10));
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar7 + 900),(int)((ulong)*(undefined4 *)(iVar7 + 900) >> 0x10)
+                ,puVar13,uVar15);
+  puVar13 = auStack_104;
+  uVar11 = *(undefined4 *)((int)DAT_1160_18f6 + 0x248);
+  uVar16 = unaff_SS;
+  FUN_1138_1d53((int)uVar11,(int)((ulong)uVar11 >> 0x10));
+  FUN_1158_184c(0x819,0x1138);
+  puVar14 = auStack_204;
+  uVar15 = unaff_SS;
+  FUN_1150_15fe(puVar14);
+  FUN_1150_1cbf((double)in_ST0);
+  FUN_1158_184c(puVar14,uVar15);
+  FUN_1158_184c(0x819,0x1158);
+  puVar14 = auStack_304;
+  FUN_1150_15fe(puVar14);
+  FUN_1150_1ce4((double)in_ST1);
+  FUN_1158_184c(puVar14,unaff_SS);
+  FUN_1158_184c(0x819,0x1158);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar7 + 0x388),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x388) >> 0x10),puVar13,uVar16);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar7 + 0x1a0),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x1a0) >> 0x10),0x1e4e,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar7 + 0x1b8),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x1b8) >> 0x10),0x1e5c,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar7 + 0x1bc),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x1bc) >> 0x10),0x1e5c,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar7 + 0x1a8),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x1a8) >> 0x10),0x1e6a,0x1160);
+  return;
+}
+
+
+
+/* ---- TFormSEDI_Print_FormClose @ 1080:0ac8  (31 octets) ---- */
+
+void __stdcall16far TFormSEDI_Print_FormClose(undefined4 param_1,undefined *param_2)
 
 {
   FUN_1158_0444();
@@ -1821,9 +1964,104 @@ void __cdecl16far FUN_1080_3d03(void)
 
 
 
-/* ---- FUN_1080_3e75 @ 1080:3e75  (35 octets) ---- */
+/* ---- TPasswordDialog_EditChange @ 1080:3d65  (1 octets) ---- */
 
-void __stdcall16far FUN_1080_3e75(undefined4 param_1)
+void TPasswordDialog_EditChange(undefined2 param_1,undefined4 param_2)
+
+{
+  byte extraout_AH;
+  uint uVar1;
+  byte extraout_AH_00;
+  int iVar2;
+  int iVar3;
+  undefined2 uVar4;
+  undefined uStack_104;
+  
+  uVar4 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar3 = (int)param_2;
+  FUN_1138_1d53((int)*(undefined4 *)(iVar3 + 0x180),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x180) >> 0x10));
+  uVar1 = (uint)extraout_AH * 0x100;
+  if (uStack_104 != '\0') {
+    uVar1 = uVar1 + 1;
+  }
+  FUN_1138_1cb8((int)*(undefined4 *)(iVar3 + 0x184),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x184) >> 0x10),uVar1);
+  FUN_1138_1cb8((int)*(undefined4 *)(iVar3 + 0x188),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x188) >> 0x10),uVar1 & 0xff);
+  if (((char)uVar1 == '\0') && (*(char *)(iVar3 + 0x198) == '\0')) {
+    iVar2 = (uint)extraout_AH_00 << 8;
+  }
+  else {
+    iVar2 = CONCAT11(extraout_AH_00,1);
+  }
+  FUN_1138_1cb8((int)*(undefined4 *)(iVar3 + 400),(int)((ulong)*(undefined4 *)(iVar3 + 400) >> 0x10)
+                ,iVar2);
+  return;
+}
+
+
+
+/* ---- TPasswordDialog_AddButtonClick @ 1080:3ddf  (1 octets) ---- */
+
+void TPasswordDialog_AddButtonClick(undefined2 param_1,undefined4 param_2)
+
+{
+  undefined2 *puVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  undefined2 uVar4;
+  undefined *puVar5;
+  undefined auStack_102 [256];
+  
+  puVar5 = auStack_102;
+  uVar4 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar3 = (int)param_2;
+  FUN_1138_1d53((int)*(undefined4 *)(iVar3 + 0x180),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x180) >> 0x10));
+  func_0x10d81797(0x1138,(int)DAT_1160_2ac6,(int)((ulong)DAT_1160_2ac6 >> 0x10),puVar5);
+  *(undefined *)(iVar3 + 0x198) = 1;
+  FUN_1120_49e3((int)*(undefined4 *)(iVar3 + 0x180),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x180) >> 0x10));
+  puVar2 = (undefined4 *)*(undefined4 *)(iVar3 + 0x180);
+  puVar1 = (undefined2 *)((int)*puVar2 + 0x78);
+  (*(code *)*puVar1)(0x1120,(undefined4 *)puVar2,(int)((ulong)puVar2 >> 0x10));
+  return;
+}
+
+
+
+/* ---- TPasswordDialog_RemoveButtonClick @ 1080:3e2d  (1 octets) ---- */
+
+void TPasswordDialog_RemoveButtonClick(undefined2 param_1,undefined4 param_2)
+
+{
+  undefined2 *puVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  undefined2 uVar4;
+  undefined *puVar5;
+  undefined auStack_102 [256];
+  
+  puVar5 = auStack_102;
+  uVar4 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar3 = (int)param_2;
+  FUN_1138_1d53((int)*(undefined4 *)(iVar3 + 0x180),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x180) >> 0x10));
+  func_0x10d81c66(0x1138,(int)DAT_1160_2ac6,(int)((ulong)DAT_1160_2ac6 >> 0x10),puVar5);
+  FUN_1120_49e3((int)*(undefined4 *)(iVar3 + 0x180),
+                (int)((ulong)*(undefined4 *)(iVar3 + 0x180) >> 0x10));
+  puVar2 = (undefined4 *)*(undefined4 *)(iVar3 + 0x180);
+  puVar1 = (undefined2 *)((int)*puVar2 + 0x78);
+  (*(code *)*puVar1)(0x1120,(undefined4 *)puVar2,(int)((ulong)puVar2 >> 0x10));
+  return;
+}
+
+
+
+/* ---- TPasswordDialog_RemoveAllButtonClick @ 1080:3e75  (35 octets) ---- */
+
+void __stdcall16far TPasswordDialog_RemoveAllButtonClick(undefined4 param_1)
 
 {
   undefined2 *puVar1;
@@ -1833,6 +2071,24 @@ void __stdcall16far FUN_1080_3e75(undefined4 param_1)
   puVar2 = (undefined4 *)*(undefined4 *)((int)param_1 + 0x180);
   puVar1 = (undefined2 *)((int)*puVar2 + 0x78);
   (*(code *)*puVar1)(0x10d8,(undefined4 *)puVar2,(int)((ulong)puVar2 >> 0x10));
+  return;
+}
+
+
+
+/* ---- TPasswordDialog_OKButtonClick @ 1080:3e98  (1 octets) ---- */
+
+void TPasswordDialog_OKButtonClick(undefined2 param_1,undefined4 param_2)
+
+{
+  undefined4 uVar1;
+  undefined *puVar2;
+  undefined auStack_102 [256];
+  
+  puVar2 = auStack_102;
+  uVar1 = *(undefined4 *)((int)param_2 + 0x180);
+  FUN_1138_1d53((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+  func_0x10d81797(0x1138,(int)DAT_1160_2ac6,(int)((ulong)DAT_1160_2ac6 >> 0x10),puVar2);
   return;
 }
 

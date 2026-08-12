@@ -1,4 +1,4 @@
-/* Simstrat (FR).EXE - segment Code4 - 13 fonctions
+/* Simstrat (FR).EXE - segment Code4 - 14 fonctions
    Decompile par Ghidra 11.2.1 (x86 16 bits, chargeur NE). */
 
 /* ---- FUN_1018_0303 @ 1018:0303  (206 octets) ---- */
@@ -301,9 +301,65 @@ void __stdcall16far FUN_1018_0749(undefined4 param_1)
 
 
 
-/* ---- FUN_1018_0aa7 @ 1018:0aa7  (37 octets) ---- */
+/* ---- TFormSJDA_Arbitrage_FormCreate @ 1018:0970  (1 octets) ---- */
 
-void __stdcall16far FUN_1018_0aa7(undefined4 param_1)
+void TFormSJDA_Arbitrage_FormCreate(undefined2 param_1,undefined4 param_2)
+
+{
+  int iVar1;
+  undefined2 uVar2;
+  undefined2 unaff_SS;
+  undefined *puVar3;
+  undefined *puVar4;
+  undefined2 uVar5;
+  undefined auStack_202 [256];
+  undefined auStack_102 [252];
+  undefined2 uStack_6;
+  
+  uStack_6 = 0x97b;
+  FUN_1158_0444();
+  puVar4 = auStack_102;
+  uVar5 = unaff_SS;
+  FUN_1158_17cd(0x960,0x1158);
+  FUN_1158_184c(0x1dfa,0x1160);
+  FUN_1158_184c(0x96c,0x1158);
+  puVar3 = auStack_202;
+  uVar2 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar1 = (int)param_2;
+  FUN_1138_1d53(iVar1,uVar2);
+  FUN_1158_184c(puVar3,unaff_SS);
+  FUN_1138_1d8c(iVar1,uVar2,puVar4,uVar5);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x1d4),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1d4) >> 0x10),0x1e08,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x17c),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x17c) >> 0x10),0x1e16,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x198),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x198) >> 0x10),0x1e24,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x180),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x180) >> 0x10),0x1e32,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x184),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x184) >> 0x10),0x1e40,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x188),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x188) >> 0x10),0x1e4e,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x18c),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x18c) >> 0x10),0x1e5c,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x1d8),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1d8) >> 0x10),0x1e6a,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 400),(int)((ulong)*(undefined4 *)(iVar1 + 400) >> 0x10)
+                ,0x1e78,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x194),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x194) >> 0x10),0x1e86,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar1 + 0x1e0),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1e0) >> 0x10),0x1e94,0x1160);
+  DAT_1160_0174 = 0;
+  return;
+}
+
+
+
+/* ---- TFormSJDA_Arbitrage_FormClose @ 1018:0aa7  (37 octets) ---- */
+
+void __stdcall16far TFormSJDA_Arbitrage_FormClose(undefined4 param_1)
 
 {
   FUN_1158_0444();
@@ -314,9 +370,10 @@ void __stdcall16far FUN_1018_0aa7(undefined4 param_1)
 
 
 
-/* ---- FUN_1018_0acc @ 1018:0acc  (21 octets) ---- */
+/* ---- TFormSJDA_Arbitrage_FormCloseQuery @ 1018:0acc  (21 octets) ---- */
 
-void __stdcall16far FUN_1018_0acc(undefined2 param_1_00,undefined2 param_2,undefined *param_1)
+void __stdcall16far
+TFormSJDA_Arbitrage_FormCloseQuery(undefined2 param_1_00,undefined2 param_2,undefined *param_1)
 
 {
   FUN_1158_0444();
@@ -326,9 +383,9 @@ void __stdcall16far FUN_1018_0acc(undefined2 param_1_00,undefined2 param_2,undef
 
 
 
-/* ---- FUN_1018_0ae1 @ 1018:0ae1  (40 octets) ---- */
+/* ---- TFormSJDA_Arbitrage_BitBtn1Click @ 1018:0ae1  (40 octets) ---- */
 
-void __stdcall16far FUN_1018_0ae1(undefined4 param_1)
+void __stdcall16far TFormSJDA_Arbitrage_BitBtn1Click(undefined4 param_1)
 
 {
   undefined2 uVar1;
@@ -445,9 +502,9 @@ void __cdecl16far FUN_1018_0b4f(undefined4 param_1,int param_2)
 
 
 
-/* ---- FUN_1018_0e0b @ 1018:0e0b  (83 octets) ---- */
+/* ---- TFormSJDA_Arbitrage_BitBtnArbitrerClick @ 1018:0e0b  (83 octets) ---- */
 
-void __stdcall16far FUN_1018_0e0b(undefined4 param_1)
+void __stdcall16far TFormSJDA_Arbitrage_BitBtnArbitrerClick(undefined4 param_1)
 
 {
   int iVar1;

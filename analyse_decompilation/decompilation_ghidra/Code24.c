@@ -2459,9 +2459,9 @@ void __stdcall16far FUN_10b8_4865(undefined4 param_1,undefined4 param_2)
 
 
 
-/* ---- FUN_10b8_516d @ 10b8:516d  (14 octets) ---- */
+/* ---- TFormSCDF_Fichiers_FormCreate @ 10b8:516d  (14 octets) ---- */
 
-void __stdcall16far FUN_10b8_516d(void)
+void __stdcall16far TFormSCDF_Fichiers_FormCreate(void)
 
 {
   FUN_1158_0444();

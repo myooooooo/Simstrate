@@ -1,4 +1,4 @@
-/* Simstrat (FR).EXE - segment Code21 - 28 fonctions
+/* Simstrat (FR).EXE - segment Code21 - 29 fonctions
    Decompile par Ghidra 11.2.1 (x86 16 bits, chargeur NE). */
 
 /* ---- FUN_10a0_064f @ 10a0:064f  (43 octets) ---- */
@@ -19,9 +19,213 @@ void __stdcall16far FUN_10a0_064f(undefined4 param_1)
 
 
 
-/* ---- FUN_10a0_0a84 @ 10a0:0a84  (31 octets) ---- */
+/* ---- TFormSCDI_Print_FormCreate @ 10a0:069c  (1 octets) ---- */
 
-void __stdcall16far FUN_10a0_0a84(undefined4 param_1,undefined *param_2)
+/* WARNING: Removing unreachable block (ram,0x10a008d2) */
+
+void TFormSCDI_Print_FormCreate(undefined2 param_1,undefined4 param_2)
+
+{
+  undefined2 *puVar1;
+  undefined4 *puVar2;
+  char cVar3;
+  int iVar4;
+  int iVar5;
+  int iVar6;
+  uint uVar7;
+  int iVar8;
+  undefined4 *puVar9;
+  undefined2 uVar10;
+  undefined2 uVar11;
+  undefined2 unaff_SS;
+  bool bVar12;
+  bool bVar13;
+  longdouble in_ST0;
+  longdouble in_ST1;
+  undefined4 uVar14;
+  long lVar15;
+  undefined *puVar16;
+  undefined *puVar17;
+  undefined2 uVar18;
+  undefined auStack_406 [256];
+  undefined auStack_306 [252];
+  undefined auStack_20a [4];
+  undefined auStack_206 [250];
+  undefined4 uStack_10c;
+  int iStack_108;
+  undefined auStack_106 [256];
+  int iStack_6;
+  int iVar19;
+  
+  iStack_6 = 0x6a7;
+  FUN_1158_0444();
+  puVar17 = auStack_206;
+  uVar18 = unaff_SS;
+  FUN_1158_17cd(0x67a,0x1158);
+  FUN_1158_184c(0x1dfa,0x1160);
+  FUN_1158_184c(0x686,0x1158);
+  puVar16 = auStack_306;
+  uVar10 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar8 = (int)param_2;
+  uVar11 = unaff_SS;
+  FUN_1138_1d53();
+  FUN_1158_184c(puVar16,uVar11);
+  FUN_1138_1d8c(iVar8,uVar10,puVar17,uVar18);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar8 + 0x188),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x188) >> 0x10),0x1dfa,0x1160);
+  puVar17 = auStack_306;
+  uVar18 = unaff_SS;
+  FUN_1158_17cd(0x68a,0x1138);
+  puVar16 = auStack_206;
+  uVar11 = unaff_SS;
+  FUN_1150_08a9();
+  FUN_1158_184c(puVar16,uVar11);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar8 + 0x248),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x248) >> 0x10),puVar17,uVar18);
+  FUN_1140_1cd0((int)*(undefined4 *)(iVar8 + 0xd8),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0xd8) >> 0x10),0);
+  FUN_1140_1cd0((int)*(undefined4 *)(iVar8 + 0xdc),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0xdc) >> 0x10),0);
+  iStack_108 = (int)((ulong)*(undefined4 *)(iVar8 + 0x1e0) >> 0x10);
+  uStack_10c._2_2_ = (undefined4 *)*(undefined4 *)(iVar8 + 0x1e0);
+  iVar19 = 0;
+  while( true ) {
+    puVar2 = (undefined4 *)*(undefined4 *)((int)uStack_10c._2_2_ + 0xd8);
+    uVar11 = (undefined2)((ulong)puVar2 >> 0x10);
+    puVar9 = (undefined4 *)puVar2;
+    puVar1 = (undefined2 *)((int)*puVar2 + 0xc);
+    (*(code *)*puVar1)();
+    FUN_1158_17e7(0xff,CONCAT42(CONCAT22(puVar9,unaff_SS),auStack_106),uVar11);
+    iStack_6 = FUN_1158_1878();
+    puVar17 = auStack_20a;
+    iVar4 = iStack_6 + 1;
+    uVar11 = unaff_SS;
+    if (SCARRY2(iStack_6,1)) {
+      iVar4 = FUN_1158_043e(0x1158);
+    }
+    FUN_1158_180b(100,iVar4);
+    iVar4 = FUN_1158_0416();
+    FUN_1158_17e7(0xff,CONCAT42(CONCAT22(puVar17,uVar10),iVar8 + iVar4 * 0x100 + 0x32c),uVar11);
+    FUN_1158_1975();
+    puVar1 = (undefined2 *)
+             ((int)*(undefined4 *)*(undefined4 *)((int)uStack_10c._2_2_ + 0xd8) + 0x18);
+    (*(code *)*puVar1)(0x1158);
+    if (iVar19 == 2) break;
+    iVar19 = iVar19 + 1;
+  }
+  uVar11 = 0x1148;
+  iVar19 = FUN_1148_527d(iVar8,uVar10);
+  iVar4 = iVar19 + -1;
+  if (SBORROW2(iVar19,1)) {
+    uVar11 = 0x1158;
+    iVar4 = FUN_1158_043e(0x1148);
+  }
+  if (-1 < iVar4) {
+    iVar19 = 0;
+    iStack_108 = iVar4;
+    while( true ) {
+      uVar14 = FUN_1148_5246(iVar8,uVar10,iVar19);
+      uVar11 = 0x1158;
+      cVar3 = FUN_1158_2255(0x399,0x1138,uVar14);
+      if (cVar3 != '\0') {
+        uVar14 = FUN_1148_5246(iVar8,uVar10,iVar19);
+        uVar11 = 0x1158;
+        uVar14 = FUN_1158_2273(0x399,0x1138,uVar14);
+        uVar18 = (undefined2)((ulong)uVar14 >> 0x10);
+        iVar4 = (int)uVar14;
+        uStack_10c = uVar14;
+        if ((*(char *)(iVar4 + 0x29) != '\0') &&
+           (*(int *)(iVar4 + 0xc) != 0 || *(int *)(iVar4 + 0xe) != 0)) {
+          iVar6 = DAT_1160_1e06 >> 0xf;
+          iVar5 = *(int *)(iVar4 + 0xc);
+          uVar7 = *(uint *)(iVar4 + 0xe);
+          bVar13 = false;
+          if ((int)uVar7 < 0) {
+            bVar12 = iVar5 != 0;
+            iVar5 = -iVar5;
+            iVar4 = ~uVar7 + 1;
+            bVar13 = SBORROW2(~uVar7,-1) != SBORROW2(iVar4,(uint)bVar12);
+            uVar7 = iVar4 - (uint)bVar12;
+          }
+          lVar15 = CONCAT22(uVar7,iVar5);
+          iVar4 = DAT_1160_1e06;
+          if (bVar13) {
+            lVar15 = FUN_1158_043e(0x1158);
+          }
+          uVar11 = 0x1138;
+          FUN_1138_1c77(uStack_10c,lVar15 <= CONCAT22(iVar6,iVar4));
+        }
+      }
+      if (iVar19 == iStack_108) break;
+      iVar19 = iVar19 + 1;
+    }
+  }
+  puVar2 = (undefined4 *)*(undefined4 *)((int)*(undefined4 *)(iVar8 + 0x1e0) + 0xd8);
+  iStack_108 = (int)((ulong)puVar2 >> 0x10);
+  uStack_10c._2_2_ = (undefined4 *)puVar2;
+  if (DAT_1160_1e06 < 3) {
+    puVar1 = (undefined2 *)((int)*puVar2 + 0x34);
+    (*(code *)*puVar1)(uVar11,uStack_10c._2_2_,iStack_108,2);
+  }
+  if (DAT_1160_1e06 < 2) {
+    puVar1 = (undefined2 *)((int)*(undefined4 *)CONCAT22(iStack_108,uStack_10c._2_2_) + 0x34);
+    (*(code *)*puVar1)(uVar11,uStack_10c._2_2_,iStack_108,1);
+  }
+  uVar11 = (undefined2)((ulong)*(undefined4 *)(iVar8 + 0x1e0) >> 0x10);
+  iVar19 = (int)*(undefined4 *)(iVar8 + 0x1e0);
+  FUN_1120_5d4d((int)*(undefined4 *)(iVar8 + 0x1e4),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x1e4) >> 0x10),*(undefined2 *)(iVar19 + 0xd8),
+                *(undefined2 *)(iVar19 + 0xda));
+  puVar17 = auStack_206;
+  uVar14 = *(undefined4 *)((int)DAT_1160_18f6 + 0x24c);
+  uVar11 = unaff_SS;
+  FUN_1138_1d53((int)uVar14,(int)((ulong)uVar14 >> 0x10));
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar8 + 0x2c4),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x2c4) >> 0x10),puVar17,uVar11);
+  puVar17 = auStack_206;
+  uVar14 = *(undefined4 *)((int)DAT_1160_18f6 + 0x250);
+  uVar11 = unaff_SS;
+  FUN_1138_1d53((int)uVar14,(int)((ulong)uVar14 >> 0x10));
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar8 + 0x2c8),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x2c8) >> 0x10),puVar17,uVar11);
+  puVar17 = auStack_206;
+  uVar14 = *(undefined4 *)((int)DAT_1160_18f6 + 0x254);
+  uVar11 = unaff_SS;
+  FUN_1138_1d53((int)uVar14,(int)((ulong)uVar14 >> 0x10));
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar8 + 0x2cc),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x2cc) >> 0x10),puVar17,uVar11);
+  puVar17 = auStack_206;
+  uVar14 = *(undefined4 *)((int)DAT_1160_18f6 + 0x248);
+  uVar18 = unaff_SS;
+  FUN_1138_1d53((int)uVar14,(int)((ulong)uVar14 >> 0x10));
+  FUN_1158_184c(0x686,0x1138);
+  puVar16 = auStack_306;
+  uVar11 = unaff_SS;
+  FUN_1150_15fe(puVar16);
+  FUN_1150_1cbf((double)in_ST0);
+  FUN_1158_184c(puVar16,uVar11);
+  FUN_1158_184c(0x686,0x1158);
+  puVar16 = auStack_406;
+  FUN_1150_15fe(puVar16);
+  FUN_1150_1ce4((double)in_ST1);
+  FUN_1158_184c(puVar16,unaff_SS);
+  FUN_1158_184c(0x686,0x1158);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar8 + 0x2d0),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x2d0) >> 0x10),puVar17,uVar18);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar8 + 0x194),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x194) >> 0x10),0x1e16,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar8 + 0x19c),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x19c) >> 0x10),0x1e24,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar8 + 0x1a4),
+                (int)((ulong)*(undefined4 *)(iVar8 + 0x1a4) >> 0x10),0x1e24,0x1160);
+  return;
+}
+
+
+
+/* ---- TFormSCDI_Print_FormClose @ 10a0:0a84  (31 octets) ---- */
+
+void __stdcall16far TFormSCDI_Print_FormClose(undefined4 param_1,undefined *param_2)
 
 {
   FUN_1158_0444();

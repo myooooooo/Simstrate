@@ -162,9 +162,9 @@ void __stdcall16far FUN_1118_19fb(undefined4 param_1,char param_2)
 
 
 
-/* ---- FUN_1118_1bbb @ 1118:1bbb  (19 octets) ---- */
+/* ---- TShape_StyleChanged @ 1118:1bbb  (19 octets) ---- */
 
-void __stdcall16far FUN_1118_1bbb(undefined4 *param_1)
+void __stdcall16far TShape_StyleChanged(undefined4 *param_1)
 
 {
   undefined2 *puVar1;

@@ -1478,9 +1478,9 @@ FUN_10f0_228a(undefined4 param_1,char param_2,undefined2 param_3,undefined2 para
 
 
 
-/* ---- FUN_10f0_22d0 @ 10f0:22d0  (54 octets) ---- */
+/* ---- TPrinterCanvas_CreateHandle @ 10f0:22d0  (54 octets) ---- */
 
-void __stdcall16far FUN_10f0_22d0(undefined4 param_1)
+void __stdcall16far TPrinterCanvas_CreateHandle(undefined4 param_1)
 
 {
   int iVar1;
@@ -1490,16 +1490,16 @@ void __stdcall16far FUN_10f0_22d0(undefined4 param_1)
   iVar1 = (int)param_1;
   FUN_10f0_241d((int)*(undefined4 *)(iVar1 + 0x2b),
                 (int)((ulong)*(undefined4 *)(iVar1 + 0x2b) >> 0x10),1);
-  FUN_10f0_2327(iVar1,uVar2);
+  TPrinterCanvas_UpdateFont(iVar1,uVar2);
   FUN_1128_225d(iVar1,uVar2,*(undefined2 *)((int)*(undefined4 *)(iVar1 + 0x2b) + 0x1b));
   return;
 }
 
 
 
-/* ---- FUN_10f0_2306 @ 10f0:2306  (33 octets) ---- */
+/* ---- TPrinterCanvas_Changing @ 10f0:2306  (33 octets) ---- */
 
-void __stdcall16far FUN_10f0_2306(undefined4 param_1)
+void __stdcall16far TPrinterCanvas_Changing(undefined4 param_1)
 
 {
   undefined4 uVar1;
@@ -1514,9 +1514,9 @@ void __stdcall16far FUN_10f0_2306(undefined4 param_1)
 
 
 
-/* ---- FUN_10f0_2327 @ 10f0:2327  (71 octets) ---- */
+/* ---- TPrinterCanvas_UpdateFont @ 10f0:2327  (71 octets) ---- */
 
-void __stdcall16far FUN_10f0_2327(undefined4 param_1)
+void __stdcall16far TPrinterCanvas_UpdateFont(undefined4 param_1)
 
 {
   undefined2 uVar1;

@@ -1,4 +1,4 @@
-/* Simstrat (FR).EXE - segment Code6 - 43 fonctions
+/* Simstrat (FR).EXE - segment Code6 - 58 fonctions
    Decompile par Ghidra 11.2.1 (x86 16 bits, chargeur NE). */
 
 /* ---- FUN_1028_0d6b @ 1028:0d6b  (107 octets) ---- */
@@ -504,10 +504,11 @@ void __stdcall16far FUN_1028_1652(void)
 
 
 
-/* ---- FUN_1028_1708 @ 1028:1708  (83 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGADClick @ 1028:1708  (83 octets) ---- */
 
 void __stdcall16far
-FUN_1028_1708(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
+TFormSJSI_DlgImprimer_CheckBoxGADClick
+          (undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
 
 {
   char cVar1;
@@ -526,10 +527,11 @@ FUN_1028_1708(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,und
 
 
 
-/* ---- FUN_1028_175b @ 1028:175b  (83 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGARTousClick @ 1028:175b  (83 octets) ---- */
 
 void __stdcall16far
-FUN_1028_175b(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
+TFormSJSI_DlgImprimer_CheckBoxGARTousClick
+          (undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
 
 {
   char cVar1;
@@ -548,10 +550,548 @@ FUN_1028_175b(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,und
 
 
 
-/* ---- FUN_1028_2247 @ 1028:2247  (83 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGEDClick @ 1028:17b6  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGEDClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e80);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e80);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGEEClick @ 1028:18c0  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGEEClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1ea0);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1ea0);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERTousClick @ 1028:19cc  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERTousClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e84);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if (cVar3 != '\0') {
+      if (0 < DAT_1160_014e) {
+        iVar7 = 1;
+        while( true ) {
+          iVar5 = FUN_1158_0416();
+          iVar5 = iVar5 * 0x24;
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e84),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e84) >> 0x10),1);
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e88),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e88) >> 0x10),1);
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e8c),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e8c) >> 0x10),1);
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e90),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e90) >> 0x10),1);
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e94),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e94) >> 0x10),1);
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e98),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e98) >> 0x10),1);
+          FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e9c),
+                        (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar5 + 0x1e9c) >> 0x10),1);
+          if (iVar7 == iVar2) break;
+          iVar7 = iVar7 + 1;
+        }
+      }
+      FUN_1120_6e11((int)*DAT_1160_1fec,(int)((ulong)*DAT_1160_1fec >> 0x10),1);
+      FUN_1120_6e11((int)*DAT_1160_1ff0,(int)((ulong)*DAT_1160_1ff0 >> 0x10),1);
+      FUN_1120_6e11((int)*DAT_1160_1ff4,(int)((ulong)*DAT_1160_1ff4 >> 0x10),1);
+      FUN_1120_6e11((int)*DAT_1160_1ff8,(int)((ulong)*DAT_1160_1ff8 >> 0x10),1);
+      FUN_1120_6e11((int)*DAT_1160_1ffc,(int)((ulong)*DAT_1160_1ffc >> 0x10),1);
+      FUN_1120_6e11((int)*DAT_1160_2000,(int)((ulong)*DAT_1160_2000 >> 0x10),1);
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERSituationClick @ 1028:1bb9  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERSituationClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e88);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e88);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        FUN_1028_1652(iVar7);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERCompteClick @ 1028:1cd2  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERCompteClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e8c);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e8c);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        FUN_1028_1652(iVar7);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERBilanClick @ 1028:1deb  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERBilanClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e90);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e90);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        FUN_1028_1652(iVar7);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERFinanceClick @ 1028:1f04  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERFinanceClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e94);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e94);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        FUN_1028_1652(iVar7);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERTresorerieClick @ 1028:201d  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERTresorerieClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e98);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e98);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        FUN_1028_1652(iVar7);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxGERSIGClick @ 1028:2136  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_CheckBoxGERSIGClick(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char cVar3;
+  byte bVar4;
+  int iVar5;
+  undefined4 uVar6;
+  undefined2 in_stack_00000008;
+  undefined2 in_stack_0000000a;
+  byte bStack_5;
+  int iVar7;
+  
+  FUN_1158_0444();
+  uVar6 = FUN_1158_2273(0x2722,0x1120,in_stack_00000008,in_stack_0000000a);
+  cVar3 = FUN_1138_6258(uVar6);
+  iVar2 = DAT_1160_014e;
+  if (cVar3 != '\0') {
+    bStack_5 = 1;
+    if (0 < DAT_1160_014e) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e9c);
+        bVar4 = FUN_1120_6dd2((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+        bStack_5 = bVar4 & bStack_5;
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    iVar2 = DAT_1160_014e;
+    if ((cVar3 != '\0') && (0 < DAT_1160_014e)) {
+      iVar7 = 1;
+      while( true ) {
+        iVar5 = FUN_1158_0416();
+        uVar1 = *(undefined4 *)*(undefined4 *)(iVar5 * 0x24 + 0x1e9c);
+        FUN_1120_6e11((int)uVar1,(int)((ulong)uVar1 >> 0x10),1);
+        FUN_1028_1652(iVar7);
+        if (iVar7 == iVar2) break;
+        iVar7 = iVar7 + 1;
+      }
+    }
+    cVar3 = FUN_1120_6dd2(uVar6);
+    if ((cVar3 == '\0' & bStack_5) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar6,1);
+    }
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_CheckBoxADClick @ 1028:2247  (83 octets) ---- */
 
 void __stdcall16far
-FUN_1028_2247(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
+TFormSJSI_DlgImprimer_CheckBoxADClick
+          (undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
 
 {
   char cVar1;
@@ -570,10 +1110,11 @@ FUN_1028_2247(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,und
 
 
 
-/* ---- FUN_1028_229a @ 1028:229a  (83 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxARTousClick @ 1028:229a  (83 octets) ---- */
 
 void __stdcall16far
-FUN_1028_229a(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
+TFormSJSI_DlgImprimer_CheckBoxARTousClick
+          (undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
 
 {
   char cVar1;
@@ -592,10 +1133,11 @@ FUN_1028_229a(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,und
 
 
 
-/* ---- FUN_1028_22ed @ 1028:22ed  (57 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxE1DClick @ 1028:22ed  (57 octets) ---- */
 
 void __stdcall16far
-FUN_1028_22ed(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
+TFormSJSI_DlgImprimer_CheckBoxE1DClick
+          (undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
 
 {
   char cVar1;
@@ -614,10 +1156,11 @@ FUN_1028_22ed(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,und
 
 
 
-/* ---- FUN_1028_2326 @ 1028:2326  (57 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxE1EClick @ 1028:2326  (57 octets) ---- */
 
 void __stdcall16far
-FUN_1028_2326(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
+TFormSJSI_DlgImprimer_CheckBoxE1EClick
+          (undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,undefined2 param_2)
 
 {
   char cVar1;
@@ -636,9 +1179,11 @@ FUN_1028_2326(undefined2 param_1_00,undefined2 param_2_00,undefined2 param_1,und
 
 
 
-/* ---- FUN_1028_235f @ 1028:235f  (96 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxE1RSituationClick @ 1028:235f  (96 octets) ---- */
 
-void __stdcall16far FUN_1028_235f(undefined4 param_1,undefined2 param_2,undefined2 param_3)
+void __stdcall16far
+TFormSJSI_DlgImprimer_CheckBoxE1RSituationClick
+          (undefined4 param_1,undefined2 param_2,undefined2 param_3)
 
 {
   int iVar1;
@@ -665,9 +1210,209 @@ void __stdcall16far FUN_1028_235f(undefined4 param_1,undefined2 param_2,undefine
 
 
 
-/* ---- FUN_1028_27e1 @ 1028:27e1  (51 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_CheckBoxE1RTousClick @ 1028:23c7  (1 octets) ---- */
 
-void __stdcall16far FUN_1028_27e1(undefined4 param_1)
+void TFormSJSI_DlgImprimer_CheckBoxE1RTousClick
+               (undefined2 param_1,undefined4 param_2,undefined2 param_3,undefined2 param_4)
+
+{
+  undefined4 uVar1;
+  char cVar2;
+  byte bVar3;
+  byte bVar4;
+  byte bVar5;
+  byte bVar6;
+  byte bVar7;
+  byte bVar8;
+  int iVar9;
+  undefined4 uVar10;
+  
+  FUN_1158_0444();
+  uVar10 = FUN_1158_2273(0x2722,0x1120,param_3,param_4);
+  cVar2 = FUN_1138_6258(uVar10);
+  if (cVar2 != '\0') {
+    uVar1 = *(undefined4 *)((int)param_2 + 0x17c);
+    if (SCARRY2(*(int *)((int)uVar1 + 0xee),1)) {
+      FUN_1158_043e(0x1138);
+    }
+    iVar9 = FUN_1158_0416();
+    iVar9 = iVar9 * 0x24;
+    bVar3 = FUN_1120_6dd2((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e9c),
+                          (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e9c) >> 0x10));
+    bVar4 = FUN_1120_6dd2((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e98),
+                          (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e98) >> 0x10));
+    bVar5 = FUN_1120_6dd2((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e94),
+                          (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e94) >> 0x10));
+    bVar6 = FUN_1120_6dd2((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e90),
+                          (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e90) >> 0x10));
+    bVar7 = FUN_1120_6dd2((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e8c),
+                          (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e8c) >> 0x10));
+    bVar8 = FUN_1120_6dd2((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e88),
+                          (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e88) >> 0x10));
+    cVar2 = FUN_1120_6dd2(uVar10);
+    if (cVar2 != '\0') {
+      iVar9 = FUN_1158_0416();
+      iVar9 = iVar9 * 0x24;
+      FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e88),
+                    (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e88) >> 0x10),1);
+      FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e8c),
+                    (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e8c) >> 0x10),1);
+      FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e90),
+                    (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e90) >> 0x10),1);
+      FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e94),
+                    (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e94) >> 0x10),1);
+      FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e98),
+                    (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e98) >> 0x10),1);
+      FUN_1120_6e11((int)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e9c),
+                    (int)((ulong)*(undefined4 *)*(undefined4 *)(iVar9 + 0x1e9c) >> 0x10),1);
+    }
+    cVar2 = FUN_1120_6dd2(uVar10);
+    if ((cVar2 == '\0' & bVar8 & bVar7 & bVar6 & bVar5 & bVar4 & bVar3) != 0) {
+      MESSAGEBEEP(0x1120,0);
+      FUN_1120_6e11(uVar10,1);
+    }
+    FUN_1028_1430();
+    FUN_1028_13a5();
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_FormCreate @ 1028:2593  (1 octets) ---- */
+
+/* WARNING: Removing unreachable block (ram,0x10282745) */
+
+void TFormSJSI_DlgImprimer_FormCreate(undefined2 param_1,undefined4 param_2)
+
+{
+  int *piVar1;
+  char cVar2;
+  int iVar3;
+  undefined extraout_AH;
+  int iVar4;
+  int iVar5;
+  uint uVar6;
+  int iVar7;
+  int iVar8;
+  undefined2 uVar9;
+  undefined2 uVar10;
+  undefined2 unaff_SS;
+  bool bVar11;
+  bool bVar12;
+  undefined4 uVar13;
+  long lVar14;
+  undefined *puVar15;
+  undefined *puVar16;
+  undefined auStack_204 [256];
+  undefined auStack_104 [250];
+  undefined4 uStack_a;
+  int iStack_6;
+  
+  iStack_6 = 0x259e;
+  FUN_1158_0444();
+  uVar9 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar7 = (int)param_2;
+  piVar1 = (int *)((int)*(undefined4 *)(iVar7 + 0x370) + 0x24);
+  iVar3 = *(int *)(iVar7 + 0x24) - *piVar1;
+  if (SBORROW2(*(int *)(iVar7 + 0x24),*piVar1)) {
+    iVar3 = FUN_1158_043e(0x1158);
+  }
+  FUN_1138_179d((int)*(undefined4 *)(iVar7 + 0x370),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x370) >> 0x10),iVar3 / 2);
+  piVar1 = (int *)((int)*(undefined4 *)(iVar7 + 0x370) + 0x1e);
+  iVar3 = *(int *)(iVar7 + 0x1e) - *piVar1;
+  if (SBORROW2(*(int *)(iVar7 + 0x1e),*piVar1)) {
+    iVar3 = FUN_1158_043e(0x1138);
+  }
+  FUN_1138_177b((int)*(undefined4 *)(iVar7 + 0x370),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x370) >> 0x10),iVar3 / 2);
+  uVar13 = *(undefined4 *)((int)DAT_1160_18f6 + 0x1b4);
+  FUN_1138_1c77((int)*(undefined4 *)(iVar7 + 0x344),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x344) >> 0x10),
+                CONCAT11(extraout_AH,*(undefined *)((int)uVar13 + 0x31)));
+  puVar16 = auStack_104;
+  uVar10 = unaff_SS;
+  FUN_1158_17cd(0x2583,0x1138);
+  FUN_1158_184c(0x1dfa,0x1160);
+  FUN_1158_184c(0x258f,0x1158);
+  puVar15 = auStack_204;
+  FUN_1138_1d53(iVar7,uVar9);
+  FUN_1158_184c(puVar15,unaff_SS);
+  FUN_1138_1d8c(iVar7,uVar9,puVar16,uVar10);
+  FUN_10a8_246f((int)*(undefined4 *)(iVar7 + 0x17c),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x17c) >> 0x10),0);
+  uVar10 = (undefined2)((ulong)*(undefined4 *)(iVar7 + 0x330) >> 0x10);
+  iVar8 = (int)*(undefined4 *)(iVar7 + 0x330);
+  iVar3 = DAT_1160_014c >> 0xf;
+  *(int *)(iVar8 + 0xf0) = DAT_1160_014c;
+  *(int *)(iVar8 + 0xf2) = iVar3;
+  if ((*(int *)(iVar8 + 0xf2) == *(int *)(iVar8 + 0xee)) &&
+     (*(int *)(iVar8 + 0xf0) == *(int *)(iVar8 + 0xec))) {
+    FUN_1138_1cb8(iVar8,uVar10,0);
+  }
+  iVar3 = FUN_1148_527d(iVar7,uVar9);
+  iVar8 = iVar3 + -1;
+  if (SBORROW2(iVar3,1)) {
+    iVar8 = FUN_1158_043e(0x1148);
+  }
+  iStack_6 = iVar8;
+  if (-1 < iVar8) {
+    iVar3 = 0;
+    while( true ) {
+      uVar13 = FUN_1148_5246(iVar7,uVar9,iVar3);
+      cVar2 = FUN_1158_2255(0x399,0x1138,uVar13);
+      if (cVar2 != '\0') {
+        uVar13 = FUN_1148_5246(iVar7,uVar9,iVar3);
+        uStack_a = FUN_1158_2273(0x399,0x1138,uVar13);
+        uVar10 = (undefined2)((ulong)uStack_a >> 0x10);
+        iVar8 = (int)uStack_a;
+        if (*(int *)(iVar8 + 0xc) != 0 || *(int *)(iVar8 + 0xe) != 0) {
+          iVar5 = DAT_1160_1e06 >> 0xf;
+          iVar4 = *(int *)(iVar8 + 0xc);
+          uVar6 = *(uint *)(iVar8 + 0xe);
+          bVar12 = false;
+          if ((int)uVar6 < 0) {
+            bVar11 = iVar4 != 0;
+            iVar4 = -iVar4;
+            iVar8 = ~uVar6 + 1;
+            bVar12 = SBORROW2(~uVar6,-1) != SBORROW2(iVar8,(uint)bVar11);
+            uVar6 = iVar8 - (uint)bVar11;
+          }
+          lVar14 = CONCAT22(uVar6,iVar4);
+          iVar8 = DAT_1160_1e06;
+          if (bVar12) {
+            lVar14 = FUN_1158_043e(0x1158);
+          }
+          FUN_1138_1c77((int)uStack_a,(int)((ulong)uStack_a >> 0x10),lVar14 <= CONCAT22(iVar5,iVar8)
+                       );
+        }
+      }
+      uVar13 = FUN_1148_5246(iVar7,uVar9,iVar3);
+      cVar2 = FUN_1158_2255(0x2722,0x1120,uVar13);
+      if (cVar2 != '\0') {
+        uVar13 = FUN_1148_5246(iVar7,uVar9,iVar3);
+        uVar13 = FUN_1158_2273(0x2722,0x1120,uVar13);
+        if (*(char *)((int)uVar13 + 0x29) == '\0') {
+          FUN_1120_6e11(uVar13,1);
+        }
+      }
+      if (iVar3 == iStack_6) break;
+      iVar3 = iVar3 + 1;
+    }
+  }
+  FUN_10e0_3017((int)*(undefined4 *)(iVar7 + 0x350),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x350) >> 0x10),0x1e32,0x1160);
+  FUN_10e0_3017((int)*(undefined4 *)(iVar7 + 0x354),
+                (int)((ulong)*(undefined4 *)(iVar7 + 0x354) >> 0x10),0x1e4e,0x1160);
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_FormShow @ 1028:27e1  (51 octets) ---- */
+
+void __stdcall16far TFormSJSI_DlgImprimer_FormShow(undefined4 param_1)
 
 {
   undefined2 uVar1;
@@ -682,14 +1427,49 @@ void __stdcall16far FUN_1028_27e1(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_2814 @ 1028:2814  (31 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_FormClose @ 1028:2814  (31 octets) ---- */
 
-void __stdcall16far FUN_1028_2814(undefined4 param_1,undefined *param_2)
+void __stdcall16far TFormSJSI_DlgImprimer_FormClose(undefined4 param_1,undefined *param_2)
 
 {
   FUN_1158_0444();
   FUN_1028_292d((int)param_1,(int)((ulong)param_1 >> 0x10));
   *param_2 = 1;
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_FormCloseQuery @ 1028:2835  (1 octets) ---- */
+
+void TFormSJSI_DlgImprimer_FormCloseQuery(undefined2 param_1,undefined4 param_2,undefined *param_3)
+
+{
+  int iVar1;
+  undefined2 uVar2;
+  undefined2 unaff_SS;
+  undefined *puVar3;
+  undefined2 uVar4;
+  undefined auStack_202 [256];
+  undefined uStack_102;
+  undefined auStack_101 [251];
+  undefined2 uStack_6;
+  
+  uStack_6 = 0x2840;
+  FUN_1158_0444();
+  *param_3 = 1;
+  uVar2 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar1 = (int)param_2;
+  if (*(int *)(iVar1 + 0x104) != 3) {
+    puVar3 = auStack_202;
+    uVar4 = unaff_SS;
+    FUN_1138_1d53(iVar1,uVar2);
+    FUN_1158_184c(0x2833,0x1138);
+    FUN_1158_17e7(0xff,&uStack_102,unaff_SS,puVar3,uVar4);
+    FUN_1138_62b9(iVar1,uVar2);
+    iVar1 = MESSAGEBOX(0x1138,4,auStack_101,unaff_SS,0x1a2,0x1160);
+    *param_3 = iVar1 == 6;
+  }
   return;
 }
 
@@ -1092,9 +1872,9 @@ void __stdcall16far FUN_1028_2d3f(undefined4 param_1,undefined param_2)
 
 
 
-/* ---- FUN_1028_2f42 @ 1028:2f42  (26 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_BitBtnToutClick @ 1028:2f42  (26 octets) ---- */
 
-void __stdcall16far FUN_1028_2f42(undefined4 param_1)
+void __stdcall16far TFormSJSI_DlgImprimer_BitBtnToutClick(undefined4 param_1)
 
 {
   FUN_1158_0444();
@@ -1104,9 +1884,9 @@ void __stdcall16far FUN_1028_2f42(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_2f5c @ 1028:2f5c  (26 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_BitBtnRienClick @ 1028:2f5c  (26 octets) ---- */
 
-void __stdcall16far FUN_1028_2f5c(undefined4 param_1)
+void __stdcall16far TFormSJSI_DlgImprimer_BitBtnRienClick(undefined4 param_1)
 
 {
   FUN_1158_0444();
@@ -1116,9 +1896,34 @@ void __stdcall16far FUN_1028_2f5c(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_2fc5 @ 1028:2fc5  (40 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_SpinEdit1Change @ 1028:2f7e  (1 octets) ---- */
 
-void __stdcall16far FUN_1028_2fc5(undefined4 param_1)
+void TFormSJSI_DlgImprimer_SpinEdit1Change
+               (undefined2 param_1,undefined4 param_2,undefined2 param_3,undefined2 param_4)
+
+{
+  undefined4 uVar1;
+  char cVar2;
+  undefined2 uVar3;
+  undefined2 uVar4;
+  
+  FUN_1158_0444();
+  cVar2 = FUN_1158_2255(0x3eb,0x10f0,param_3,param_4);
+  if (cVar2 != '\0') {
+    uVar4 = (undefined2)((ulong)param_2 >> 0x10);
+    uVar1 = *(undefined4 *)((int)param_2 + 0x330);
+    FUN_10f0_1733((int)uVar1,(int)((ulong)uVar1 >> 0x10));
+    uVar3 = FUN_1158_0416();
+    FUN_1028_2972((int)param_2,uVar4,uVar3);
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_HelpBtnClick @ 1028:2fc5  (40 octets) ---- */
+
+void __stdcall16far TFormSJSI_DlgImprimer_HelpBtnClick(undefined4 param_1)
 
 {
   undefined2 uVar1;
@@ -1132,9 +1937,9 @@ void __stdcall16far FUN_1028_2fc5(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_2fed @ 1028:2fed  (23 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_ImpRCancelBtnClick @ 1028:2fed  (23 octets) ---- */
 
-void __stdcall16far FUN_1028_2fed(undefined4 param_1)
+void __stdcall16far TFormSJSI_DlgImprimer_ImpRCancelBtnClick(undefined4 param_1)
 
 {
   FUN_1158_0444();
@@ -1144,9 +1949,10 @@ void __stdcall16far FUN_1028_2fed(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_3004 @ 1028:3004  (36 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_ImpRapideBtnClick @ 1028:3004  (36 octets) ---- */
 
-void __stdcall16far FUN_1028_3004(undefined4 param_1,undefined2 param_2,undefined2 param_3)
+void __stdcall16far
+TFormSJSI_DlgImprimer_ImpRapideBtnClick(undefined4 param_1,undefined2 param_2,undefined2 param_3)
 
 {
   undefined2 uVar1;
@@ -1160,9 +1966,10 @@ void __stdcall16far FUN_1028_3004(undefined4 param_1,undefined2 param_2,undefine
 
 
 
-/* ---- FUN_1028_3028 @ 1028:3028  (36 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_ImprimerBtnClick @ 1028:3028  (36 octets) ---- */
 
-void __stdcall16far FUN_1028_3028(undefined4 param_1,undefined2 param_2,undefined2 param_3)
+void __stdcall16far
+TFormSJSI_DlgImprimer_ImprimerBtnClick(undefined4 param_1,undefined2 param_2,undefined2 param_3)
 
 {
   undefined2 uVar1;
@@ -1601,9 +2408,47 @@ void __stdcall16far FUN_1028_3388(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_3815 @ 1028:3815  (122 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_TabbedNotebook1Change @ 1028:37a8  (1 octets) ---- */
 
-void __stdcall16far FUN_1028_3815(undefined4 param_1,undefined2 param_2,undefined2 param_3)
+void TFormSJSI_DlgImprimer_TabbedNotebook1Change(void)
+
+{
+  undefined2 uVar1;
+  undefined2 uVar2;
+  undefined2 uVar3;
+  int unaff_SS;
+  undefined *in_stack_00000008;
+  byte bVar4;
+  int iVar5;
+  byte abStack_22 [28];
+  undefined2 uStack_6;
+  
+  uStack_6 = 0x37b3;
+  FUN_1158_0444();
+  *in_stack_00000008 = 0;
+  FUN_1158_0416();
+  uVar3 = 0x20;
+  uVar1 = FUN_1158_1a99();
+  bVar4 = (byte)abStack_22;
+  iVar5 = unaff_SS;
+  FUN_1158_1a0e(0);
+  uVar2 = FUN_1158_0416();
+  func_0x11581a45(0x1158,7,uVar2);
+  if ((abStack_22[iVar5] & bVar4) == 0) {
+    *in_stack_00000008 = 1;
+  }
+  else {
+    MESSAGEBEEP(0x1158,0,uVar1,uVar3);
+  }
+  return;
+}
+
+
+
+/* ---- TFormSJSI_DlgImprimer_TestBtnClick @ 1028:3815  (122 octets) ---- */
+
+void __stdcall16far
+TFormSJSI_DlgImprimer_TestBtnClick(undefined4 param_1,undefined2 param_2,undefined2 param_3)
 
 {
   undefined2 *puVar1;
@@ -1628,9 +2473,9 @@ void __stdcall16far FUN_1028_3815(undefined4 param_1,undefined2 param_2,undefine
 
 
 
-/* ---- FUN_1028_388f @ 1028:388f  (67 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_Print1Click @ 1028:388f  (67 octets) ---- */
 
-void __stdcall16far FUN_1028_388f(undefined4 param_1)
+void __stdcall16far TFormSJSI_DlgImprimer_Print1Click(undefined4 param_1)
 
 {
   char cVar1;
@@ -1653,9 +2498,9 @@ void __stdcall16far FUN_1028_388f(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_38d2 @ 1028:38d2  (338 octets) ---- */
+/* ---- TFormSJSI_DlgImprimer_Copy1Click @ 1028:38d2  (338 octets) ---- */
 
-void __stdcall16far FUN_1028_38d2(undefined4 param_1)
+void __stdcall16far TFormSJSI_DlgImprimer_Copy1Click(undefined4 param_1)
 
 {
   undefined2 *puVar1;
@@ -1735,9 +2580,34 @@ void __stdcall16far FUN_1028_38d2(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_3ce0 @ 1028:3ce0  (41 octets) ---- */
+/* ---- TFormSMAP_APropos_FormCreate @ 1028:3c79  (1 octets) ---- */
 
-void __stdcall16far FUN_1028_3ce0(undefined4 param_1,undefined *param_2)
+void TFormSMAP_APropos_FormCreate(undefined2 param_1,undefined4 param_2)
+
+{
+  int iVar1;
+  undefined2 uVar2;
+  
+  FUN_1158_0444();
+  uVar2 = (undefined2)((ulong)param_2 >> 0x10);
+  iVar1 = (int)param_2;
+  *(undefined *)(iVar1 + 0x1e0) = 1;
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar1 + 0x1c8),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1c8) >> 0x10),0x3c78,0x1158);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar1 + 0x1c0),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1c0) >> 0x10),0x3c78,0x1138);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar1 + 0x1c4),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1c4) >> 0x10),0x3c78,0x1138);
+  FUN_1138_1d8c((int)*(undefined4 *)(iVar1 + 0x1cc),
+                (int)((ulong)*(undefined4 *)(iVar1 + 0x1cc) >> 0x10),0x3c78,0x1138);
+  return;
+}
+
+
+
+/* ---- TFormSMAP_APropos_FormClose @ 1028:3ce0  (41 octets) ---- */
+
+void __stdcall16far TFormSMAP_APropos_FormClose(undefined4 param_1,undefined *param_2)
 
 {
   FUN_1158_0444();
@@ -1752,9 +2622,9 @@ void __stdcall16far FUN_1028_3ce0(undefined4 param_1,undefined *param_2)
 
 
 
-/* ---- FUN_1028_3d09 @ 1028:3d09  (58 octets) ---- */
+/* ---- TFormSMAP_APropos_Timer1Timer @ 1028:3d09  (58 octets) ---- */
 
-void __stdcall16far FUN_1028_3d09(undefined4 param_1)
+void __stdcall16far TFormSMAP_APropos_Timer1Timer(undefined4 param_1)
 
 {
   int iVar1;
@@ -1801,9 +2671,9 @@ void __stdcall16far FUN_1028_3d43(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_3dd8 @ 1028:3dd8  (181 octets) ---- */
+/* ---- TFormSMAP_APropos_FormShow @ 1028:3dd8  (181 octets) ---- */
 
-void __stdcall16far FUN_1028_3dd8(undefined4 param_1)
+void __stdcall16far TFormSMAP_APropos_FormShow(undefined4 param_1)
 
 {
   undefined4 uVar1;
@@ -1849,9 +2719,9 @@ void __stdcall16far FUN_1028_3dd8(undefined4 param_1)
 
 
 
-/* ---- FUN_1028_3e8d @ 1028:3e8d  (24 octets) ---- */
+/* ---- TFormSMAP_APropos_Button1Click @ 1028:3e8d  (24 octets) ---- */
 
-void __stdcall16far FUN_1028_3e8d(undefined4 param_1)
+void __stdcall16far TFormSMAP_APropos_Button1Click(undefined4 param_1)
 
 {
   FUN_1158_0444();

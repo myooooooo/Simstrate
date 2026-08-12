@@ -166,10 +166,44 @@ Ce que les données démontrent :
   (en période 1 : effets 0,55 / 0,53 / 0,54 mais parts 35,56 / 31,11 / 33,33 %) —
   l'écart entre entreprises est amplifié par rapport aux effets bruts.
 
-La **forme close exacte** de `EffetGlobal → PartMarche` n'est pas récupérable
-depuis les seules données : elle est enfouie dans le code machine 16 bits de la
-routine d'arbitrage. Ce qui est établi ci-dessus l'est par vérification sur les
-données ; le reste n'est pas affirmé.
+La **forme close exacte** de `EffetGlobal → PartMarche` n'est pas établie. Ce
+qui est affirmé ci-dessus l'est par vérification sur les données et par le
+manuel ; le reste ne l'est pas.
+
+### Ce que la décompilation a permis de localiser
+
+Le point d'entrée de l'arbitrage a été retrouvé via les tables de méthodes
+publiées de Delphi (voir `decompilation_ghidra/symboles_delphi.txt`) :
+
+```
+TFormSJDA_Arbitrage.BitBtnArbitrerClick   @ 1018:0e0b
+```
+
+Ce gestionnaire est un simple pilote : il passe le curseur en sablier
+(`crHourGlass` = −11), appelle la routine d'arbitrage `1018:ab2b`, puis
+restaure le curseur. La routine d'arbitrage enchaîne trois phases de
+préparation (`10b8:3a8a`, `10b8:4436`, `10b8:47d0` — ouverture des tables,
+sans calcul flottant), puis **boucle sur les entreprises** en appelant
+`1018:7ddc` pour chacune.
+
+Le segment `10b8` (fichier `Code24.c`) est l'unité de calcul du marché : c'est
+lui qui lie les champs `EffetPrix`, `EffetPub`, `EffetFV`, `EffetCredit`,
+`EffetQualite`, `EffetGlobal`, `PartMarche`, `DemandeNonSatisfaite`,
+`VentesPrises` (`10b8:3f1c`), `VolumeMarche` (`10b8:46a0`) et les poids
+(`10b8:1bc2`).
+
+Constat notable : le programme n'utilise le x87 que dans **107 fonctions**, et
+**aucune fonction applicative ne contient de division flottante** — les seules
+`FDIV` sont dans le segment `1158`, la bibliothèque d'exécution Borland. La
+normalisation des parts de marché passe donc par une routine de la RTL, ce qui
+explique qu'elle n'apparaisse pas directement dans le code métier.
+
+Le blocage restant n'est pas l'émulateur `WIN87EM` (le binaire utilise en fait
+des instructions x87 natives : 1166 `FLD`, 1676 `FSTP`, 201 `FMUL`), mais la
+**convention d'appel** : Delphi 1 passe et retourne les `Extended` sur la pile
+du coprocesseur, ce que Ghidra ne modélise pas. Les valeurs entrantes
+apparaissent donc comme `in_ST0` … `in_ST7`, et la chaîne de calcul se perd
+d'une fonction à l'autre.
 
 ### 5.3 Ventes et stocks
 `SERP` sépare `Demande`, `Ventes`, `DemandeNonSatisfaite` et `VentesPrises`
