@@ -1,0 +1,53 @@
+				SIMSTRAT 1.20 pour Windows - 30/04/2003
+				=======================================
+
+Contenu de la disquette de distribution SIMSTRAT
+-----------------------------------------------
+
+SETUP    EXE          Programme d'installation
+SIMSTRAT EX_          Programme SIMSTRAT.EXE compressé
+SIMSTRAT HL_          Fichier d'aide SIMSTRAT.HLP compressé
+SIMSTRAT DLL          Ressources de configuration utilisées par SIMSTRAT.EXE
+TEXTES  	<REP> Informations	 
+	LISEZMOI TXT          Informations relatives à l'isntallation etc ...
+	LISTEFIC TXT          Ce fichier
+EXEMPLE      	<REP>    Répertoire d'exemple(s):      
+
+    Un sous répertoire de EXEMPLE, contenant un seul jeu, nommé "demo",
+    contiendrait 22 fichiers:
+
+	demoSACP DB        Simstrat Animateur   Création  Produits   .données
+   	demoSACP PX           "       "            "         "      .indices 
+
+   	demoSACG DB        Simstrat Animateur   Création  Générales  .données 
+   	demoSACG PX           "       "            "         "      .indices 
+
+   	demoSADG DB        Simstrat Animateur   Décisions Générales  .données
+   	demoSADG PX           "       "            "         "      .indices
+
+   	demoSADP DB        Simstrat Animateur   Décisions Produit    .données
+   	demoSADP PX           "       "            "         "      .indices
+
+   	demoSEDG DB        Simstrat Entreprises Décisions Générales  .données
+   	demoSEDG PX           "       "            "         "      .indices 
+
+   	demoSEDP DB        Simstrat Entreprises Décisions Produits   .données
+   	demoSEDP PX           "       "            "         "      .indices 
+
+   	demoSEDM DB        Simstrat Entreprises Décisions études M.  .données 
+   	demoSEDM PX           "       "            "         "      .indices 
+
+   	demoSERG DB        Simstrat Entreprises Résultats Généraux   .données
+   	demoSERG PX           "       "            "         "      .indices 
+
+   	demoSERP DB        Simstrat Entreprises Résultats Produits   .données 
+   	demoSERP PX           "       "            "         "      .indices 
+
+   	demoSMRP DB        Simstrat Marché      Résultats Produits   .données  
+   	demoSMRP PX           "       "            "         "      .indices 
+
+  	DemoSIMS DB        FICHIER PRINCIPAL DU JEU demo            .données
+   	demoSIMS PX           "       "      "   "   "              .indices 
+
+-----------------------------------------------------------------------
+                         < fin du fichier Listefic.txt >                       

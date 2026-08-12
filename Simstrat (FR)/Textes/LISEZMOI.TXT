@@ -1,0 +1,493 @@
+			Simstrat(e) 1.20 pour Windows - 30/04/2003
+			==========================================
+
+Contenu de ce fichier Lisezmoi.txt:
+
+	Installation
+           1. SIMSTRAT
+           2. BDE (BORLAND DATABASE ENGINE)
+	   3. Fin d'installation
+
+        Désinstallation
+           1. SIMSTRAT
+           2. BDE
+
+	Système minimal requis
+
+        Recommandations pour l'utilisation de SIMSTRAT
+           1. Création d'un nouveau jeu
+           2. Descriptif des fichiers associés à un jeu
+           3. Visualisation du contenu des tables de données d'un jeu
+	   4. Utilisation des données de SIMSTRAT dans un tableur
+
+	Contenu des disuettes de distribution 
+	   1. SIMSTRAT
+	   2. BDE
+
+	Informations complémentaires: BDE (utilisateurs avertis)
+
+	Qui contacter: Distributeur      
+
+=================================================================================
+Installation
+============
+
+Pour installer SIMSTRAT pour Windows, sur le disque dur, procéder comme suit:
+			              =================
+
+1. Installation de SIMSTRAT
+
+	
+   Toute installation dans un répertoire donné, se fait à la place d'une installation 
+   existante, en écrivant les fichiers de distribution SIMSTRAT ... sur les fichiers 
+   déjà installés, sans détruire d'éventuels fichiers ou répertoires privés.
+
+   En cas de nouvelle installation, sur une installation existante, il est recommandé
+   de 
+	- Sauvegarder ailleurs les fichiers et répertoires privés
+
+        - supprimer dans windows l'accès programme: Icône "SIMSTRAT' du groupe Labodidact,
+	  (sans supprimer le groupe)
+
+	- Supprimer le répertoire existant (pour repartir sur une installation vierge)
+					    -----------------------------------------
+
+	- Remarque: Ce n'est pas la peine de désinstaller le BDE (voir BDE ci-dessous)
+		    ni de le réinstaller.
+
+
+
+   Pour Windows 3.1
+   ----------------
+
+     Depuis Windows, dans le menu fichier, choisir 'Exécuter' 
+     et donner comme fichier à exécuter le programme d'installation SETUP.EXE
+     qui se trouve sur la disquette de distribution SIMSTRAT, soit (en principe):
+
+            A:\Setup.exe
+
+     Ce programme SETUP.EXE propose un répertoire d'installation par défaut:
+
+            C:\Simstrat
+	
+        L'utilisateur peut choisir d'installer SIMSTRAT dans un autre répertoire,
+        en précisant son chemin d'accès à la place de l'option par défaut.
+    
+        ---> Le chemin d'accès du répertoire d'installation doit correspondre aux 
+             spécifications DOS : 8 caractères maximun pour les noms primaires et 
+                                  3 caractères maxi pour les extentions.
+
+	Exemple: Si l'utilisateur donne comme chemin d'accès
+
+			C:\UnDossier\Commum\SimsWin
+
+	         1. le répertoire C:\UnDossier\Commun doit exister au préalable
+		 2. le répertoire SimsWin est créé si besoin comme sous répertoire
+		    de C:\UnDossier\Commun	
+ 				
+     Pour finir, choisir "Installer"
+
+	Le programme d'installation 
+          - copie le contenu de la disquette dans le répertoire d'installation
+          - crée un groupe "Labodidact" (à moins qu'il n'existe déja)
+          - crée dans ce groupe une icône d'activation de SIMSTRAT.
+	  - invite à installer le BDE (voir ci-dessous)
+
+     Passer ensuite à l'installation de BDE (voir ci-dessous)
+
+     ===>   Remarque: Après avoir installé le BDE, il faut 
+     ===>             quitter Windows puis relancer Windows pour que les paramètres 
+     ===>             d'installation du BDE soient pris en compte par Windows.
+
+     SIMSTRAT est alors opérationnel et se lance en cliquant sur son icône dans le 
+     groupe "Labodidact".
+
+     	
+   Pour Windows 95, 98, 2000, NT
+   -----------------------------	
+	
+     Même procédure que pour windows 3.1 (adaptée à Windows 95), avec 
+     la même restriction pour les noms de répertoires.
+        ----------------
+
+     Par contre, il est possible que windows crée un nouveau racourci 
+     'Labodidact' si il en existait déjà un.
+
+
+     
+2. Installation de BDE (BORLAND DATABASE ENGINE REDISTRIBUABLE)
+
+     Depuis Windows, dans le menu fichier, choisir 'Exécuter'
+     et donner comme fichier à exécuter	 le programme SETUP.EXE qui se 
+     trouve sur la disquette n° 1 (1/2) BDE.
+                   ------------------------- 
+	
+     L'installation de BDE se fait dans un seul répertoire 
+
+          par défaut C:\IDAPI , avec un sous répertoire C:\IDAPI\LANGDRV
+                     
+     et modifie Win.ini ( C:\Windows\Win.ini) en y ajoutant les entrées suivantes:
+
+         [IDAPI]
+	 DLLPATH=C:\IDAPI
+         CONFIGFILE01=C:\IDAPI\IDAPI.CFG
+ 
+	 [Borland Language Drivers]
+         LDPATH=C:\IDAPI\LANGDRV  
+
+
+     Remarque: La licence de distribution de BDE prévoit que tous les fichiers d'origine 
+               de BDE soient distribués.
+
+               En principe, vous n'utiliserez pas directement le BDE, et les 
+               ressources du BDE seront exploitées par l'intermédiaire de SIMSTRAT,
+               selon les moyens d'accès établis dans Win.ini . 
+              
+
+3. Fin d'installation
+
+     Quitter Windows puis relancer Windows, pour que les paramètres de configuration
+     de BDE décrits dans Win.ini soient pris en compte par le système.   	
+
+
+=================================================================================
+Désinstallation
+===============
+
+SIMSTRAT pour Windows ne nécessite aucune procédure de désinstallation  
+particulière.
+
+
+1. Pour désinstaller SIMSTRAT, procéder comme suit, dans l'ordre indiqué:
+
+
+   1. Préserver les fichiers et répertoires privées éventuels contenus dans
+      le répertoire de SIMSRAT (par recopie ailleurs)
+
+   2. Supprimer l'icone de SIMSTRAT dans son groupe de programme
+
+   3. Supprimer le répertoire d'installation de SIMSTRAT ainsi que son contenu    
+
+   4. Si vous n'avez pas d'autre programmes dans le groupe "Labodidact", vous 
+      pouvez aussi supprimer ce groupe.
+	
+
+2. Pour désinstaller le BDE (BORLAND DATABASE ENGINE)
+
+   Information: Le BDE est utilisé en particulier par les applications Windows
+                distribuées par LABODIDACT:
+
+                Isidore, Simstrat, Forgam ....
+                    
+   Si aucune de vos applications n'utilise le BDE, vous pouver le supprimer:
+ 
+   1. Supprimer le repertoire du BDE (en principe C:\IDAPI ) et son contenu.
+
+   2. Vous pouvez aussi supprimer les sections 
+
+         [IDAPI]
+	 [Borland Language Drivers]
+
+      et leur contenus, dans le fichier Win.ini
+
+      Remarque: Si vous hésitez à manipuler le fichier Win.ini, vous pouvez,
+                sans inconvénients, laisser ces sections ...
+
+=================================================================================
+Système matériel requis
+=======================
+
+- Micro ordinateur compatible, (386-), 486-, 
+            Pentium recommandé
+
+- Microsoft Windows 3.1 ou ultérieur (si compatible avec Windows 3.1)
+	    Windows 95, 98, 2000, NT
+
+- 4 Mo RAM (8 Mo souhaitable, 16 Mo est mieux)
+
+- 4 Mo Disque fixe disponibles au minimun 
+
+- Unité de disquette 1.44 Mo 3.5" 
+
+
+=================================================================================
+Contenu des disquettes de distribution
+======================================
+
+1. SIMSTRAT 1.20 pour Windows 
+
+      Une disquette 1.44 Mo 3.5"  (programme, installation, exemple, documentation)
+
+      Voir le fichier listefic.txt sur cette disquette pour plus de détails.
+
+
+2. BORLAND DATABASE ENGINE 
+
+      Deux disquettes 1.44 Mo 3.5"  (installation, dll, utilitaires)
+
+      Voir le fichier listefic.txt sur la première disquette pour plus de détails.
+
+
+
+=================================================================================
+Recommandations pour l'utilisation de SIMSTRAT
+==============================================
+
+1. Création d'un nouveau jeu
+
+     Chaque JEU créé par SIMSTRAT comporte plusieurs fichier de base de données
+     Paradox ( *.db ) et d'indices d'accès ( *.PX ).
+
+     Pour faciliter la maintenance de vos jeux, utilisez UN seul répertoire par JEU
+						-----------------------------------
+
+	1. Créer un tel répertoire avec le système de gestion de fichier de Windows
+           (en dehors de l'application SIMSTRAT)
+
+		par exemple: C:\Simjeux\totoJeu1
+
+	2. Sous SIMSTRAT, lors de la création d'un NOUVEAU jeu, choisir ce répertoire
+           dans la boite de création de fichier et donner ensuite un nom à votre jeu
+
+                par exemple toz1
+                pour un fichier toz1SIMS.DB     (fichier pricipal du jeu)
+
+	----->   Les lettres en MAJUSCULES sont OBLIGATOIRES 
+   	----->   Le reste représente le nom de votre jeu (dans cet exemple: toz1 )
+		 ---->	Un caractère alphabétique  ,ici t
+        	 ---->  suivi de 3 caractères      ,ici oz1 
+
+
+       3. Dans ces conditions, avec UN seul jeu par répertoire, vous pouvez aisément
+          manipuler vos jeux:
+             
+	  Par exemple, sous DOS
+
+   	   * Copie du jeu ci-dessus dans un répertoire (exemple A:\essai1 ) 
+
+                   Copy C:\Simjeux\totojeu1\*.* A:\essai1
+
+	   * Suppression complète du jeu ci-dessus	
+
+		   Deltree C:\Simjeux\totojeu1
+
+		ou Del C:\Simjeux\totojeu1\*.*  suivi de  Rd C:\Simjeux\totojeu1
+
+
+
+2. Descriptif des fichiers associés à un jeu
+
+   Un jeu se compose de plusieurs fichiers au format Paradox, 
+   dont les noms sont significatifs et suivent les règles suivantes:
+
+	Nom primaire:
+            8 lettres dont 
+                  4 réservées au type de contenu (en MAJUSCULES dans l'exemple)
+                  4 réservées au nom du jeu      (en minuscules dans l'exemple)
+        Extension:
+            2 lettres significatives DB pour les fichiers de données
+                                     PX pour les fichiers d'indices d'accès
+
+   Par exemple, dans le cas d'un jeu, nommé "demo", 22 fichiers:
+
+   demoSACP DB        Simstrat Animateur   Création  Produits   .données
+   demoSACP PX           "       "            "         "      .indices 
+
+   demoSACG DB        Simstrat Animateur   Création  Générales  .données 
+   demoSACG PX           "       "            "         "      .indices 
+
+   demoSADG DB        Simstrat Animateur   Décisions Générales  .données
+   demoSADG PX           "       "            "         "      .indices
+
+   demoSADP DB        Simstrat Animateur   Décisions Produit    .données
+   demoSADP PX           "       "            "         "      .indices
+
+   demoSEDG DB        Simstrat Entreprises Décisions Générales  .données
+   demoSEDG PX           "       "            "         "      .indices 
+
+   demoSEDP DB        Simstrat Entreprises Décisions Produits   .données
+   demoSEDP PX           "       "            "         "      .indices 
+
+   demoSEDM DB        Simstrat Entreprises Décisions études M.  .données 
+   demoSEDM PX           "       "            "         "      .indices 
+
+   demoSERG DB        Simstrat Entreprises Résultats Généraux   .données
+   demoSERG PX           "       "            "         "      .indices 
+
+   demoSERP DB        Simstrat Entreprises Résultats Produits   .données 
+   demoSERP PX           "       "            "         "      .indices 
+
+   demoSMRP DB        Simstrat Marché      Résultats Produits   .données  
+   demoSMRP PX           "       "            "         "      .indices 
+
+   DemoSIMS DB        FICHIER PRINCIPAL DU JEU demo            .données
+   demoSIMS PX           "       "      "   "   "              .indices 
+
+   TOUS ces fichiers sont obligatoires pour utiliser un jeu et ne doivent 
+   pas être protégés en écriture.
+
+   Le menu "options + Infos Jeu" de SIMSTRAT permet d'obtenir la liste des 
+   fichiers du jeu en cours, ainsi que leur interprétation et diverses 
+   informations:
+  		Le nom du jeu 
+		Le niveau de jeu
+        	Le chemin d'accès complet du jeu 
+		Le nombre d'Entreprises
+ 		La période en cours
+   	
+
+3. Visualisation du contenu des tables de données d'un jeu
+
+   Le menu "option + Voir TTable' de SIMSTRAT permet de visualiser le contenu des
+   fichiers *.DB (tables de données) d'un jeu, dans une grille d'édition:
+
+   Pour chaque table ouverte,
+	Les champs sont repérés par des noms internes au programme et significatifs
+	Chaque ligne correspond à un enregistement de la table
+
+   Le contenu de la grille peut être copié dans le presse-papier, par le 
+   menu "édition + copier' et ensuite récupéré par une autre application
+   (voir 4. ci-dessous).
+
+
+4. Utilisation des données de SIMSTRAT dans un tableur
+
+   Les données de chaque fiches peuvent être copiées dans le presse-papier
+   par le  menu "édition + copier'.
+
+   Ces données sont copiées, avec mise en page, sous forme de texte, 
+   organisé en ligne et colonnes séparés par un séparateur (en principe 
+   le caractère de tabulation)
+
+   Lors de la recopie du contenu du presse-papier dans une feuille de calcul,
+   les options de lecture des tableurs permettent de répartir les données,
+   colonne par colonne, en spécifiant le type de séparateur utilisé
+   (voir documentation du tableur).
+
+   Une fois les enregistements répartis dans les colonnes, on peut établir tout 
+   types de manipulations 
+  	-présentations
+        -liaisons entre feuilles 
+        -graphiques 
+         etc...
+
+=================================================================================
+Informations complémentaires: Distribution BDE 
+============================  (toutes applications de bases de données)
+
+	 Pour utilisateurs avertis 
+	===========================
+
+le programme d'installation de BDE installe tous les fichiers BDE et fait
+également les modifications de WIN.INI, et autres paramètres de configuration
+du système nécessaires pour que les utilisateurs puissent avoir accès au BDE en
+toutes circonstances.
+
+La licence de distribution exige l'installation de TOUS les fichiers du BDE redistri-
+buable avec l'utilitaire d'installation. Une application peut ne pas avoir besoin de 
+tous ces fichiers, et les utilisateurs peuvent souhaiter supprimer les fichiers inutiles
+afin de préserver l'espace disque. Le tableau ci-dessous décrit les fichiers du BDE 
+redistribuable et les cas où ils sont nécessaires.
+
+Par exemple, si une application n'accède qu'à des tables Paradox, et
+             si les utilisateurs n'ont aucune autre application BDE,
+                                 ----------------------------------
+               les utilisateurs peuvent supprimer en toute sécurité les fichiers 
+               seulement nécessaires aux accès à dBASE, ASCII et ODBC.
+
+NOTE : Si une application utilise des requêtes SQL locales ou hétérogènes,
+       elle doit inclure en plus le fichier de support de Paradox, IDPDX01.DLL.
+
+Assurez-vous que les utilisateurs finals d'applications BDE/IDAPI existantes
+(comme Paradox ou dBASE) ont bien conservé tous les fichiers BDE. Sinon, leurs
+applications existantes risquent de ne pas fonctionner. Pour déterminer si une
+application IDAPI a déjà été installée sur une machine, recherchez l'entrée
+[IDAPI] dans WIN.INI.
+
+NOTE: En cas de problème, on peut toujours ré-installer TOUT le BDE ...
+
+
+FICHIERS BDE REDISTRIBUABLES
+-----------------------------------------------------------------
+Nom Fichier    Nécessaire à...               Taille approximative
+-----------    --------------------------    --------------------
+IDAPI01.DLL    TOUTES LES APPLICATIONS       470 Ko total
+IDR1000C.DLL   DELPHI DE BASES DE DONNÉES
+ILD01.DLL      "           "            "
+IDAPI.CFG      "           "            "
+
+IDQRY01.DLL    Requêtes SQL                  400 Ko doit aussi
+                                             inclure IDPDX01.DLL
+IDBAT01.DLL    Requêtes SQL et               105 Ko
+               opérations BatchMove
+IDPDX01.DLL    Accès à Paradox               250 Ko
+
+IDDBAS01.DLL   Accès à dBASE                 320 Ko
+
+IDASCI01.DLL   Accès aux tables ASCII         85 Ko
+
+IDODBC01.DLL   Accès à ODBC                  515 Ko  total
+ODBC.NEW       DLL Microsoft de gestion
+               du pilote ODBC, v2.0
+ODBCINST.NEW   DLL Microsoft d'installation
+               du pilote ODBC, v2.0
+BDECFG.EXE     Utilitaire et Aide            430 Ko
+BDECFG.HLP     de configuration BDE
+               permettant de redéfinir
+               les alias (optionnel)
+-----------------------------------------------------------------
+Voici quelques tailles approximatives du BDE pour différents types
+d'applications, supposant que l'application n'effectue pas
+d'opérations SQL ni Batch :
+
+* Application utilisant uniquement des tables Paradox : 715 Ko
+* Application utilisant uniquement des tables dBASE   : 800 Ko
+* Application utilisant uniquement des tables ASCII   : 550 Ko
+* Application accédant aux sources de données ODBC    : 980 Ko
+-----------------------------------------------------------------
+
+Conseil: En général, gardez TOUT. 
+========   Vous pouvriez récuper 
+              environ 1000 Ko (ce qui est peu de nos jours)
+              et aussi quelques ennnuis en cas de mauvaise manipulation ..
+
+Exemple de configuration minimale du BDE pour l'utilisation de SIMSTRAT:
+========================================================================
+
+	C:\IDAPI
+ 		IDAPI01.DLL    		TOUTES LES APPLICATIONS       470 Ko total
+		IDR1000C.DLL   		DELPHI DE BASES DE DONNÉES
+		ILD01.DLL      		"           "            "
+		IDAPI.CFG      		"           "            "
+
+		IDPDX01.DLL    		Accès à Paradox               250 Ko
+
+		IDASCI01.DLL   		Accès aux tables ASCII         85 Ko
+
+               \LANGDRV
+			Intl.ld 	driver de langage		4 Ko
+			Ansiintl.LD	  "         "			4 Ko
+	
+	et les entrées suivantes dans C:\Windows\Win.ini
+
+        	[IDAPI]
+		DLLPATH=C:\IDAPI
+        	CONFIGFILE01=C:\IDAPI\IDAPI.CFG
+ 
+		[Borland Language Drivers]
+        	LDPATH=C:\IDAPI\LANGDRV  
+
+=================================================================================
+Qui contacter: DISTRIBUTEUR
+=============  ============
+
+	LABODIDACT
+	24 Avenue du 8 Mai 1945
+	95200 SARCELLES
+
+	tél.  01 39 92 07 69
+
+	Fax   01 39 35 83 99
+
+====================================================================================
+			<fin du fichier Lisezmoi.txt >
