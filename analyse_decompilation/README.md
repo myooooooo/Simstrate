@@ -9,14 +9,18 @@ structure de l'interface.
 
 ## Contenu
 
-- `scripts/ne_parse.py` — parseur d'en-tête NE + table de ressources
-  (segments, imports de DLL, liste des ressources embarquées).
-- `scripts/dfm_decode.py` — décodeur du format binaire DFM (Delphi 1-7)
-  vers un pseudo-code `.dfm` texte lisible (objets, propriétés, enfants).
+- **`FONCTIONNEMENT.md`** — comment le logiciel marche : modèle de données,
+  paramétrage, décisions, moteur d'arbitrage, états financiers. **Commencer
+  par là.**
+- `schema_tables.txt` — schéma complet des 11 tables Paradox d'un jeu.
 - `formulaires_decompiles/*.dfm.txt` — les 34 formulaires de l'application,
-  décodés avec succès (menus, libellés, champs, boutons...).
+  décodés (menus, libellés, champs, boutons...).
 - `exe_strings.txt` / `dll_strings.txt` — chaînes de caractères brutes
   extraites de l'EXE et de la DLL.
+- `scripts/ne_parse.py` — parseur d'en-tête NE + table de ressources.
+- `scripts/dfm_decode.py` — décodeur du format binaire DFM (Delphi 1-7).
+- `scripts/px_schema.py` — schéma d'une table Paradox.
+- `scripts/px_data.py` — lecture des enregistrements Paradox.
 
 ## Résumé fonctionnel
 
@@ -26,6 +30,10 @@ de gestion d'entreprise à visée pédagogique : plusieurs équipes
 prix, RH, finance...), un "Animateur" arbitre chaque période, et le logiciel
 calcule les résultats (Bilan, Compte de Résultat, Trésorerie, Tableau de
 Financement, S.I.G., Études de marché) et propose graphiques et impressions.
+
+Le détail du moteur — formule du volume de marché, composantes de
+l'attractivité, identités comptables vérifiées sur les données d'exemple —
+est dans `FONCTIONNEMENT.md`.
 
 ## Réutilisation
 
