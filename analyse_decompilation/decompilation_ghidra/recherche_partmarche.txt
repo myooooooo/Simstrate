@@ -1,0 +1,147 @@
+  literal PartMarche             1008:0691  -> offset segment 0x0691
+  literal PartMarche             1008:2813  -> offset segment 0x2813
+  literal PartMarche             1018:20ad  -> offset segment 0x20ad
+  literal PartMarche             1020:66dc  -> offset segment 0x66dc
+  literal PartMarche             1020:6bd0  -> offset segment 0x6bd0
+  literal PartMarche             1030:3e09  -> offset segment 0x3e09
+  literal PartMarche             1030:3ef7  -> offset segment 0x3ef7
+  literal PartMarche             1058:0cb2  -> offset segment 0x0cb2
+  literal PartMarche             1058:0ee2  -> offset segment 0x0ee2
+  literal PartMarche             1060:11eb  -> offset segment 0x11eb
+  literal PartMarche             1060:145b  -> offset segment 0x145b
+  literal PartMarche             10b8:2d90  -> offset segment 0x2d90
+  literal PartMarche             10b8:3e16  -> offset segment 0x3e16
+  literal EffetGlobal            1008:0618  -> offset segment 0x0618
+  literal EffetGlobal            1008:0b98  -> offset segment 0x0b98
+  literal EffetGlobal            1008:27fd  -> offset segment 0x27fd
+  literal EffetGlobal            1008:4a77  -> offset segment 0x4a77
+  literal EffetGlobal            1008:4a86  -> offset segment 0x4a86
+  literal EffetGlobal            1018:1f4f  -> offset segment 0x1f4f
+  literal EffetGlobal            1018:2029  -> offset segment 0x2029
+  literal EffetGlobal            1058:0c34  -> offset segment 0x0c34
+  literal EffetGlobal            1058:0e64  -> offset segment 0x0e64
+  literal EffetGlobal            1060:116d  -> offset segment 0x116d
+  literal EffetGlobal            1060:13dd  -> offset segment 0x13dd
+  literal EffetGlobal            10b8:3dd9  -> offset segment 0x3dd9
+  literal EffetPrix              1008:05c1  -> offset segment 0x05c1
+  literal EffetPrix              1008:0b31  -> offset segment 0x0b31
+  literal EffetPrix              1008:27c5  -> offset segment 0x27c5
+  literal EffetPrix              1008:4a00  -> offset segment 0x4a00
+  literal EffetPrix              1008:4a0d  -> offset segment 0x4a0d
+  literal EffetPrix              1018:1ff5  -> offset segment 0x1ff5
+  literal EffetPrix              1058:0bd9  -> offset segment 0x0bd9
+  literal EffetPrix              1058:0e09  -> offset segment 0x0e09
+  literal EffetPrix              1060:1112  -> offset segment 0x1112
+  literal EffetPrix              1060:1382  -> offset segment 0x1382
+  literal EffetPrix              10b8:3da5  -> offset segment 0x3da5
+  literal EffetPub               1008:05d7  -> offset segment 0x05d7
+  literal EffetPub               1008:0bb3  -> offset segment 0x0bb3
+  literal EffetPub               1008:27d2  -> offset segment 0x27d2
+  literal EffetPub               1008:4a17  -> offset segment 0x4a17
+  literal EffetPub               1008:4a23  -> offset segment 0x4a23
+  literal EffetPub               1018:1fff  -> offset segment 0x1fff
+  literal EffetPub               1058:0bf0  -> offset segment 0x0bf0
+  literal EffetPub               1058:0e20  -> offset segment 0x0e20
+  literal EffetPub               1060:1129  -> offset segment 0x1129
+  literal EffetPub               1060:1399  -> offset segment 0x1399
+  literal EffetPub               10b8:3daf  -> offset segment 0x3daf
+  literal EffetFV                1008:05ec  -> offset segment 0x05ec
+  literal EffetFV                1008:0b4a  -> offset segment 0x0b4a
+  literal EffetFV                1008:4a2c  -> offset segment 0x4a2c
+  literal EffetFV                1008:4a37  -> offset segment 0x4a37
+  literal EffetFV                1018:2008  -> offset segment 0x2008
+  literal EffetFV                1058:0c06  -> offset segment 0x0c06
+  literal EffetFV                1058:0e36  -> offset segment 0x0e36
+  literal EffetFV                1060:113f  -> offset segment 0x113f
+  literal EffetFV                1060:13af  -> offset segment 0x13af
+  literal EffetFV                10b8:3db8  -> offset segment 0x3db8
+  literal EffetQualite           1008:08a2  -> offset segment 0x08a2
+  literal EffetQualite           1008:0b7c  -> offset segment 0x0b7c
+  literal EffetQualite           1008:27ed  -> offset segment 0x27ed
+  literal EffetQualite           1008:4a5a  -> offset segment 0x4a5a
+  literal EffetQualite           1008:4a6a  -> offset segment 0x4a6a
+  literal EffetQualite           1018:201c  -> offset segment 0x201c
+  literal EffetQualite           10b8:3dcc  -> offset segment 0x3dcc
+  literal EffetCredit            1008:0600  -> offset segment 0x0600
+  literal EffetCredit            1008:0b61  -> offset segment 0x0b61
+  literal EffetCredit            1008:27de  -> offset segment 0x27de
+  literal EffetCredit            1008:4a3f  -> offset segment 0x4a3f
+  literal EffetCredit            1008:4a4e  -> offset segment 0x4a4e
+  literal EffetCredit            1018:2010  -> offset segment 0x2010
+  literal EffetCredit            1058:0c1b  -> offset segment 0x0c1b
+  literal EffetCredit            1058:0e4b  -> offset segment 0x0e4b
+  literal EffetCredit            1060:1154  -> offset segment 0x1154
+  literal EffetCredit            1060:13c4  -> offset segment 0x13c4
+  literal EffetCredit            10b8:3dc0  -> offset segment 0x3dc0
+  literal VolumeMarche           1018:2154  -> offset segment 0x2154
+  literal VolumeMarche           1020:5039  -> offset segment 0x5039
+  literal VolumeMarche           1030:3fb2  -> offset segment 0x3fb2
+  literal VolumeMarche           10b8:4679  -> offset segment 0x4679
+  literal PoidsPrix              1018:1e23  -> offset segment 0x1e23
+  literal PoidsPrix              1068:0b57  -> offset segment 0x0b57
+  literal PoidsPrix              1068:0cd7  -> offset segment 0x0cd7
+  literal PoidsPrix              1088:4bf2  -> offset segment 0x4bf2
+  literal PoidsPrix              10b8:1b27  -> offset segment 0x1b27
+  literal PoidsFidelisation      1018:1e65  -> offset segment 0x1e65
+  literal PoidsFidelisation      1068:0bd5  -> offset segment 0x0bd5
+  literal PoidsFidelisation      1068:0d55  -> offset segment 0x0d55
+  literal PoidsFidelisation      1088:4c48  -> offset segment 0x4c48
+  literal PoidsFidelisation      10b8:1b69  -> offset segment 0x1b69
+  literal DemandeNonSatisfaite   1008:0657  -> offset segment 0x0657
+  literal DemandeNonSatisfaite   1008:281e  -> offset segment 0x281e
+  literal DemandeNonSatisfaite   1018:2044  -> offset segment 0x2044
+  literal DemandeNonSatisfaite   1030:3ee2  -> offset segment 0x3ee2
+  literal DemandeNonSatisfaite   1058:0c76  -> offset segment 0x0c76
+  literal DemandeNonSatisfaite   1058:0ea6  -> offset segment 0x0ea6
+  literal DemandeNonSatisfaite   1060:11af  -> offset segment 0x11af
+  literal DemandeNonSatisfaite   1060:141f  -> offset segment 0x141f
+  literal DemandeNonSatisfaite   10b8:3df4  -> offset segment 0x3df4
+  literal VentesPrises           1008:0678  -> offset segment 0x0678
+  literal VentesPrises           1008:2833  -> offset segment 0x2833
+  literal VentesPrises           1018:2059  -> offset segment 0x2059
+  literal VentesPrises           1058:0c98  -> offset segment 0x0c98
+  literal VentesPrises           1058:0ec8  -> offset segment 0x0ec8
+  literal VentesPrises           1060:11d1  -> offset segment 0x11d1
+  literal VentesPrises           1060:1441  -> offset segment 0x1441
+  literal VentesPrises           10b8:3e09  -> offset segment 0x3e09
+literaux trouves dans 9 segments de code
+
+EffetPrix(pfx)               <- 1008:30bf  MOV DI,0x27c4                       FUN_1008_2858 @1008:2858
+EffetPub(pfx)                <- 1008:30f6  MOV DI,0x27d1                       FUN_1008_2858 @1008:2858
+EffetCredit(pfx)             <- 1008:312d  MOV DI,0x27dd                       FUN_1008_2858 @1008:2858
+EffetQualite(pfx)            <- 1008:3164  MOV DI,0x27ec                       FUN_1008_2858 @1008:2858
+EffetGlobal(pfx)             <- 1008:319b  MOV DI,0x27fc                       FUN_1008_2858 @1008:2858
+PartMarche(pfx)              <- 1008:320c  MOV DI,0x2812                       FUN_1008_2858 @1008:2858
+DemandeNonSatisfaite(pfx)    <- 1008:3243  MOV DI,0x281d                       FUN_1008_2858 @1008:2858
+VentesPrises(pfx)            <- 1008:327a  MOV DI,0x2832                       FUN_1008_2858 @1008:2858
+VolumeMarche(pfx)            <- 1020:5157  MOV DI,0x5038                       FUN_1020_5051 @1020:5051
+PartMarche(pfx)              <- 1020:682b  MOV DI,0x66db                       FUN_1020_66ee @1020:66ee
+PartMarche(pfx)              <- 1020:6cfe  MOV DI,0x6bcf                       FUN_1020_6be2 @1020:6be2
+DemandeNonSatisfaite(pfx)    <- 1030:4570  MOV DI,0x3ee1                       FUN_1030_3fc2 @1030:3fc2
+PartMarche(pfx)              <- 1030:4597  MOV DI,0x3ef6                       FUN_1030_3fc2 @1030:3fc2
+VolumeMarche(pfx)            <- 1030:4b31  MOV DI,0x3fb1                       FUN_1030_3fc2 @1030:3fc2
+PoidsPrix(pfx)               <- 10b8:1c61  MOV DI,0x1b26                       FUN_10b8_1bc2 @10b8:1bc2
+PoidsFidelisation(pfx)       <- 10b8:1cca  MOV DI,0x1b68                       FUN_10b8_1bc2 @10b8:1bc2
+EffetPrix(pfx)               <- 10b8:3f7c  MOV DI,0x3da4                       FUN_10b8_3f1c @10b8:3f1c
+EffetPub(pfx)                <- 10b8:3f91  MOV DI,0x3dae                       FUN_10b8_3f1c @10b8:3f1c
+EffetFV(pfx)                 <- 10b8:3fa6  MOV DI,0x3db7                       FUN_10b8_3f1c @10b8:3f1c
+EffetCredit(pfx)             <- 10b8:3fbb  MOV DI,0x3dbf                       FUN_10b8_3f1c @10b8:3f1c
+EffetQualite(pfx)            <- 10b8:3fd0  MOV DI,0x3dcb                       FUN_10b8_3f1c @10b8:3f1c
+EffetGlobal(pfx)             <- 10b8:3fe5  MOV DI,0x3dd8                       FUN_10b8_3f1c @10b8:3f1c
+DemandeNonSatisfaite(pfx)    <- 10b8:4024  MOV DI,0x3df3                       FUN_10b8_3f1c @10b8:3f1c
+VentesPrises(pfx)            <- 10b8:4039  MOV DI,0x3e08                       FUN_10b8_3f1c @10b8:3f1c
+PartMarche(pfx)              <- 10b8:404e  MOV DI,0x3e15                       FUN_10b8_3f1c @10b8:3f1c
+VolumeMarche(pfx)            <- 10b8:46eb  MOV DI,0x4678                       FUN_10b8_46a0 @10b8:46a0
+PoidsPrix(pfx)               <- 1088:5881  MOV DI,0x4bf1                       FUN_1088_4c86 @1088:4c86
+PoidsFidelisation(pfx)       <- 1088:5b9e  MOV DI,0x4c47                       FUN_1088_4c86 @1088:4c86
+
+fonctions candidates : 9
+   FUN_1008_2858 @1008:2858  (2924 octets)
+   FUN_1020_5051 @1020:5051  (616 octets)
+   FUN_1020_66ee @1020:66ee  (672 octets)
+   FUN_1020_6be2 @1020:6be2  (621 octets)
+   FUN_1030_3fc2 @1030:3fc2  (4178 octets)
+   FUN_10b8_1bc2 @10b8:1bc2  (388 octets)
+   FUN_10b8_3f1c @10b8:3f1c  (661 octets)
+   FUN_10b8_46a0 @10b8:46a0  (136 octets)
+   FUN_1088_4c86 @1088:4c86  (4906 octets)

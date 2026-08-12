@@ -19,9 +19,13 @@ structure de l'interface.
   4 captures d'écran intégrées au fichier d'aide.
 - `schema_tables.txt` — schéma complet des 11 tables Paradox d'un jeu.
 - `segments_map.txt` — carte des 45 segments de l'exécutable.
-- `disassemblage_16bits.tar.gz` — désassemblage x86 16 bits complet des
-  45 segments de l'EXE et des 3 de la DLL (380 000 lignes). Voir la mise en
-  garde ci-dessous.
+- **`decompilation_ghidra/`** — **décompilation en C** des 4272 fonctions de
+  l'exécutable, produite par Ghidra 11.2.1 (chargeur NE, x86 16 bits), un
+  fichier par segment, plus `inventaire_fonctions.txt`. Les appels aux API
+  Windows 16 bits (549 symboles) sont résolus par nom.
+- `decompilation_ghidra/recherche_partmarche.txt` et `fonctions_partmarche.c` —
+  les 9 fonctions qui manipulent les champs du modèle de marché
+  (`PartMarche`, `Effet*`, `VolumeMarche`, `Poids*`), isolées et décompilées.
 - `formulaires_decompiles/*.dfm.txt` — les 34 formulaires de l'application,
   décodés (menus, libellés, champs, boutons...).
 - `exe_strings.txt` / `dll_strings.txt` — chaînes de caractères brutes
@@ -61,21 +65,36 @@ la signature `TPF0`) ; utiliser `ne_parse.py` pour repérer offset/taille de
 chaque ressource dans l'EXE.
 
 
-## Sur le désassemblage : ce qu'il est et ce qu'il n'est pas
+## Sur la décompilation : ce qu'elle est et ce qu'elle n'est pas
 
-`disassemblage_16bits.tar.gz` contient l'assembleur x86 16 bits des 969 Ko de
-code de l'EXE. Il faut être clair sur ses limites :
+`decompilation_ghidra/` contient du **C reconstruit**, pas du Pascal d'origine :
+les noms de variables et de fonctions internes sont générés (`FUN_1030_3fc2`,
+`local_26`), et les structures Delphi n'apparaissent pas comme telles.
 
-- **Ce n'est pas du Pascal.** Aucun décompilateur ne produit du source Delphi
-  à partir de code 16 bits. Le décompilateur d'IDA (Hex-Rays) ne gère pas le
-  x86 16 bits ; celui de Ghidra le tente, avec un résultat approximatif.
-- **C'est un balayage linéaire, sans relocations.** `objdump` désassemble les
-  octets de bout en bout, sans distinguer code et données et sans appliquer la
-  table de relocation NE. Des portions sont donc désynchronisées et illisibles.
-  Un outil à analyse récursive (IDA, Ghidra) ferait nettement mieux.
-- **L'essentiel n'est pas du code Simstrat** : une large part est la
-  bibliothèque d'exécution Borland (VCL, BDE, RTL) liée statiquement.
+Ce qui fonctionne bien : le flot de contrôle, les appels aux API Windows
+(nommés), les accès mémoire, et les 549 symboles importés.
 
-Autrement dit : c'est livré par souci de complétude, mais la valeur analytique
-réelle se trouve dans `FONCTIONNEMENT.md`, `manuel_aide.txt` et
-`formulaires_decompiles/`.
+Ce qui résiste : **l'arithmétique en virgule flottante**. Le binaire utilise
+l'émulateur `WIN87EM` — les opérations flottantes sont des appels logiciels que
+Ghidra ne modélise pas. Dans les fonctions de calcul, les registres de la pile
+x87 apparaissent donc comme des entrées opaques (`in_ST0` … `in_ST7`) et les
+formules ne sont pas directement lisibles. C'est la raison pour laquelle la
+formule exacte `EffetGlobal → PartMarche` reste non établie, alors même que les
+fonctions concernées ont été localisées (voir `recherche_partmarche.txt`).
+
+Une version antérieure de ce dossier contenait un désassemblage produit par
+`objdump`. Il a été retiré : balayage linéaire sans relocations, il
+désynchronisait code et données sur de larges portions. La sortie Ghidra le
+remplace avantageusement.
+
+## Reproduire la décompilation
+
+```sh
+analyzeHeadless <projet> Simstrat -import "Simstrat (FR)/Simstrat (FR).EXE"
+analyzeHeadless <projet> Simstrat -process "Simstrat (FR).EXE" -noanalysis \
+    -scriptPath scripts/ghidra -postScript ExportAll.java <dossier_sortie>
+```
+
+Scripts Ghidra fournis dans `scripts/ghidra/` : `ExportAll.java` (export C
+complet), `ScanFields.java` (recherche des fonctions touchant un champ Paradox
+donné), `Recon.java` (inventaire), `FindArbitrage.java`.
