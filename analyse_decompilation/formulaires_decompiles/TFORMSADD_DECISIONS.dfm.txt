@@ -1,0 +1,2533 @@
+=== TFORMSADD_DECISIONS.bin: PARTIAL (consumed 39706/39936) ===
+object FormSADD_Decisions: TFormSADD_Decisions
+  Left = 180
+  Top = 138
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Animateur - Décisions'
+  ClientHeight = 401
+  ClientWidth = 591
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  KeyPreview = True
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnClose = 'FormClose'
+  OnCloseQuery = 'FormCloseQuery'
+  OnCreate = 'FormCreate'
+  OnKeyDown = 'FormKeyDown'
+  OnKeyPress = 'FormKeyPress'
+  OnShow = 'FormShow'
+  TextHeight = 16
+  object TabbedNotebook1: TTabbedNotebook
+    Left = 0
+    Top = 0
+    Width = 591
+    Height = 401
+    Align = 'alClient'
+    Font.Color = 'clBlack'
+    Font.Height = -13
+    Font.Name = 'System'
+    Font.Style = ['fsBold']
+    TabFont.Color = 'clBlue'
+    TabFont.Height = -12
+    TabFont.Name = 'System'
+    TabFont.Style = ['fsBold']
+    TabOrder = 0
+    object TTabPage
+      Left = 5
+      Top = 51
+      Caption = 'Environnement'
+      object GroupBox1: TGroupBox
+        Left = 8
+        Top = 0
+        Width = 385
+        Height = 121
+        Caption = 'Taux  ( % )'
+        TabOrder = 0
+        object Panel25: TPanel
+          Left = 16
+          Top = 16
+          Width = 201
+          Height = 24
+          HelpContext = 2111001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Emprunt'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit1: TDBEdit
+            Left = 144
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111001
+            DataField = 'TauxEmprunt'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel26: TPanel
+          Left = 16
+          Top = 40
+          Width = 201
+          Height = 24
+          HelpContext = 2111002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Découvert  non aut.'
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit31: TDBEdit
+            Left = 144
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111002
+            DataField = 'TauxDecouvertNAuto'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel27: TPanel
+          Tag = 3
+          Left = 16
+          Top = 64
+          Width = 201
+          Height = 24
+          HelpContext = 2111003
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Placements'
+          ParentColor = True
+          TabOrder = 2
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit3: TDBEdit
+            Tag = 3
+            Left = 144
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111003
+            DataField = 'TauxPlacement'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel28: TPanel
+          Tag = 4
+          Left = 16
+          Top = 88
+          Width = 201
+          Height = 24
+          HelpContext = 2111004
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Découvert autorisé'
+          ParentColor = True
+          TabOrder = 3
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit2: TDBEdit
+            Tag = 4
+            Left = 144
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111004
+            DataField = 'TauxDecouvertAuto'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel29: TPanel
+          Tag = 3
+          Left = 232
+          Top = 16
+          Width = 145
+          Height = 24
+          HelpContext = 2111005
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'T.V.A.'
+          ParentColor = True
+          TabOrder = 4
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit12: TDBEdit
+            Tag = 3
+            Left = 88
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111005
+            DataField = 'TauxTVA'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel30: TPanel
+          Tag = 3
+          Left = 232
+          Top = 40
+          Width = 145
+          Height = 24
+          HelpContext = 2111006
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'I.S.'
+          ParentColor = True
+          TabOrder = 5
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit4: TDBEdit
+            Tag = 3
+            Left = 88
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111006
+            DataField = 'TauxIS'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel31: TPanel
+          Left = 232
+          Top = 88
+          Width = 145
+          Height = 24
+          HelpContext = 2111007
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Escompte'
+          ParentColor = True
+          TabOrder = 6
+          Visible = False
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit32: TDBEdit
+            Left = 88
+            Top = 0
+            Width = 57
+            Height = 24
+            HelpContext = 2111007
+            DataField = 'TauxEscompteAchat'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            Visible = False
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 8
+        Top = 192
+        Width = 385
+        Height = 113
+        Caption = 'Marché'
+        TabOrder = 2
+        object Panel1: TPanel
+          Left = 2
+          Top = 18
+          Width = 257
+          Height = 93
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 0
+          object Label5: TLabel
+            Left = 152
+            Top = 0
+            Width = 97
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 1'
+          end
+          object DBEdit5: TDBEdit
+            Left = 152
+            Top = 16
+            Width = 97
+            Height = 24
+            HelpContext = 2113001
+            DataField = 'PrixMinimum'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit7: TDBEdit
+            Left = 152
+            Top = 40
+            Width = 97
+            Height = 24
+            HelpContext = 2113002
+            DataField = 'PrixMaximum'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 1
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit9: TDBEdit
+            Tag = 2
+            Left = 184
+            Top = 64
+            Width = 65
+            Height = 24
+            HelpContext = 2113003
+            DataField = 'IndiceConjoncturel'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 2
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object Panel34: TPanel
+            Left = 16
+            Top = 16
+            Width = 129
+            Height = 24
+            HelpContext = 2113001
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Prix minimun'
+            ParentColor = True
+            TabOrder = 3
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel35: TPanel
+            Left = 16
+            Top = 40
+            Width = 129
+            Height = 24
+            HelpContext = 2113002
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Prix Maximun'
+            ParentColor = True
+            TabOrder = 4
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel36: TPanel
+            Tag = 2
+            Left = 16
+            Top = 64
+            Width = 129
+            Height = 24
+            HelpContext = 2113003
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Indice conjoncturel'
+            ParentColor = True
+            TabOrder = 5
+            OnMouseDown = 'Panel25MouseDown'
+          end
+        end
+        object Panel5: TPanel
+          Tag = 3
+          Left = 259
+          Top = 18
+          Width = 115
+          Height = 93
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 1
+          object Label6: TLabel
+            Left = 16
+            Top = 0
+            Width = 97
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 2'
+          end
+          object DBEdit6: TDBEdit
+            Tag = 3
+            Left = 16
+            Top = 16
+            Width = 97
+            Height = 24
+            HelpContext = 2113001
+            DataField = 'PrixMinimum'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit8: TDBEdit
+            Tag = 3
+            Left = 16
+            Top = 40
+            Width = 97
+            Height = 24
+            HelpContext = 2113002
+            DataField = 'PrixMaximum'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 1
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit10: TDBEdit
+            Tag = 3
+            Left = 48
+            Top = 64
+            Width = 65
+            Height = 24
+            HelpContext = 2113003
+            DataField = 'IndiceConjoncturel'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 2
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox7: TGroupBox
+        Left = 8
+        Top = 120
+        Width = 385
+        Height = 73
+        Caption = 'Production'
+        TabOrder = 1
+        object Panel32: TPanel
+          Left = 16
+          Top = 16
+          Width = 361
+          Height = 24
+          HelpContext = 2112001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Heures par machine'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit16: TDBEdit
+            Left = 232
+            Top = 0
+            Width = 129
+            Height = 24
+            HelpContext = 2112001
+            DataField = 'HeuresParMachine'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel33: TPanel
+          Left = 16
+          Top = 40
+          Width = 361
+          Height = 24
+          HelpContext = 2112002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Heures par productif'
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit33: TDBEdit
+            Left = 232
+            Top = 0
+            Width = 129
+            Height = 24
+            HelpContext = 2112002
+            DataField = 'HeuresParProductif'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 51
+      Caption = 'Structures de coûts (1)'
+      object GroupBox4: TGroupBox
+        Left = 8
+        Top = 0
+        Width = 385
+        Height = 81
+        Caption = 'Coûts unitaires généraux'
+        TabOrder = 0
+        object Panel37: TPanel
+          Left = 16
+          Top = 24
+          Width = 193
+          Height = 24
+          HelpContext = 2121001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Machine'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit15: TDBEdit
+            Left = 72
+            Top = 0
+            Width = 121
+            Height = 24
+            HelpContext = 2121001
+            DataField = 'CoutUniteMachine'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel38: TPanel
+          Tag = 3
+          Left = 16
+          Top = 48
+          Width = 193
+          Height = 24
+          HelpContext = 2121002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Réparations'
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit49: TDBEdit
+            Tag = 3
+            Left = 88
+            Top = 0
+            Width = 105
+            Height = 24
+            HelpContext = 2121002
+            DataField = 'CoutPointReparation'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel39: TPanel
+          Left = 216
+          Top = 24
+          Width = 161
+          Height = 24
+          HelpContext = 2121003
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Stockage'
+          ParentColor = True
+          TabOrder = 2
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit14: TDBEdit
+            Left = 72
+            Top = 0
+            Width = 89
+            Height = 24
+            HelpContext = 2121003
+            DataField = 'CoutUniteStock'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox5: TGroupBox
+        Left = 8
+        Top = 88
+        Width = 385
+        Height = 73
+        Caption = 'Coûts unitaires par produits'
+        TabOrder = 1
+        object Panel6: TPanel
+          Left = 2
+          Top = 18
+          Width = 257
+          Height = 53
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 0
+          object Label17: TLabel
+            Left = 144
+            Top = 0
+            Width = 110
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 1'
+          end
+          object DBEdit17: TDBEdit
+            Left = 144
+            Top = 18
+            Width = 110
+            Height = 24
+            HelpContext = 2122001
+            DataField = 'CoutMatiere'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object Panel40: TPanel
+            Left = 16
+            Top = 18
+            Width = 121
+            Height = 24
+            HelpContext = 2122001
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Matières'
+            ParentColor = True
+            TabOrder = 1
+            OnMouseDown = 'Panel25MouseDown'
+          end
+        end
+        object Panel7: TPanel
+          Tag = 3
+          Left = 259
+          Top = 18
+          Width = 122
+          Height = 53
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 1
+          object Label18: TLabel
+            Left = 8
+            Top = 0
+            Width = 110
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 2'
+          end
+          object DBEdit19: TDBEdit
+            Tag = 3
+            Left = 8
+            Top = 18
+            Width = 110
+            Height = 24
+            HelpContext = 2122001
+            DataField = 'CoutMatiere'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox3: TGroupBox
+        Left = 8
+        Top = 172
+        Width = 385
+        Height = 109
+        Caption = 'Coûts globaux'
+        TabOrder = 2
+        object Panel41: TPanel
+          Left = 16
+          Top = 24
+          Width = 361
+          Height = 24
+          HelpContext = 2123001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Coûts fixes'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit11: TDBEdit
+            Left = 200
+            Top = 0
+            Width = 161
+            Height = 24
+            HelpContext = 2123001
+            DataField = 'CoutFixe'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel42: TPanel
+          Tag = 3
+          Left = 16
+          Top = 48
+          Width = 361
+          Height = 24
+          HelpContext = 2123002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = "Tranches d'immobilisations"
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit34: TDBEdit
+            Tag = 3
+            Left = 200
+            Top = 0
+            Width = 161
+            Height = 24
+            HelpContext = 2123002
+            DataField = 'TranchesImmob'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel43: TPanel
+          Tag = 3
+          Left = 16
+          Top = 72
+          Width = 361
+          Height = 24
+          HelpContext = 2123003
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Suppl. de coûts fixe /tranche'
+          ParentColor = True
+          TabOrder = 2
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit35: TDBEdit
+            Tag = 3
+            Left = 200
+            Top = 0
+            Width = 161
+            Height = 24
+            HelpContext = 2123003
+            DataField = 'SupplementTranche'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 51
+      Caption = 'Structure de coûts (2)'
+      object GroupBox11: TGroupBox
+        Tag = 3
+        Left = 8
+        Top = 248
+        Width = 185
+        Height = 57
+        Caption = 'Assurances'
+        TabOrder = 2
+        object Panel51: TPanel
+          Tag = 3
+          Left = 16
+          Top = 25
+          Width = 161
+          Height = 24
+          HelpContext = 2133001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Taux ( % )'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit38: TDBEdit
+            Tag = 3
+            Left = 112
+            Top = 0
+            Width = 49
+            Height = 24
+            HelpContext = 2133001
+            DataField = 'AssurancePc'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox12: TGroupBox
+        Tag = 3
+        Left = 8
+        Top = 184
+        Width = 385
+        Height = 57
+        Caption = 'Encadrement'
+        TabOrder = 1
+        object Panel50: TPanel
+          Tag = 3
+          Left = 16
+          Top = 25
+          Width = 361
+          Height = 24
+          HelpContext = 2132001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Ratio productifs / cadres'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit20: TDBEdit
+            Tag = 3
+            Left = 280
+            Top = 0
+            Width = 81
+            Height = 24
+            HelpContext = 2132001
+            DataField = 'ProductifsParCadre'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox10: TGroupBox
+        Left = 8
+        Top = 0
+        Width = 385
+        Height = 177
+        Caption = 'Salaires'
+        TabOrder = 0
+        object Panel44: TPanel
+          Left = 16
+          Top = 17
+          Width = 361
+          Height = 24
+          HelpContext = 2131001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Producteur'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit36: TDBEdit
+            Left = 216
+            Top = 0
+            Width = 145
+            Height = 24
+            HelpContext = 2131001
+            DataField = 'CoutUniteProductif'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel45: TPanel
+          Left = 16
+          Top = 41
+          Width = 361
+          Height = 24
+          HelpContext = 2131002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Vendeur'
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit13: TDBEdit
+            Left = 216
+            Top = 0
+            Width = 145
+            Height = 24
+            HelpContext = 2131002
+            DataField = 'CoutUniteVendeur'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel46: TPanel
+          Tag = 3
+          Left = 16
+          Top = 65
+          Width = 361
+          Height = 24
+          HelpContext = 2131003
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Cadre'
+          ParentColor = True
+          TabOrder = 2
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit37: TDBEdit
+            Tag = 3
+            Left = 216
+            Top = 0
+            Width = 145
+            Height = 24
+            HelpContext = 2131003
+            DataField = 'CoutUniteCadre'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel47: TPanel
+          Tag = 3
+          Left = 16
+          Top = 97
+          Width = 361
+          Height = 24
+          HelpContext = 2131004
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Coût de licenciement ( % )'
+          ParentColor = True
+          TabOrder = 3
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit40: TDBEdit
+            Tag = 3
+            Left = 280
+            Top = 0
+            Width = 81
+            Height = 24
+            HelpContext = 2131004
+            DataField = 'CoutLicenciementPc'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel48: TPanel
+          Tag = 4
+          Left = 16
+          Top = 121
+          Width = 361
+          Height = 24
+          HelpContext = 2131005
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = "Coût d'embauche  ( % )"
+          ParentColor = True
+          TabOrder = 4
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit39: TDBEdit
+            Tag = 4
+            Left = 280
+            Top = 0
+            Width = 81
+            Height = 24
+            HelpContext = 2131005
+            DataField = 'CoutEmbauchePc'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel49: TPanel
+          Tag = 4
+          Left = 16
+          Top = 145
+          Width = 361
+          Height = 24
+          HelpContext = 2131006
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Formation minimale ( % )'
+          ParentColor = True
+          TabOrder = 5
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit18: TDBEdit
+            Tag = 4
+            Left = 280
+            Top = 0
+            Width = 81
+            Height = 24
+            HelpContext = 2131006
+            DataField = 'FormationMiniPc'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 51
+      Caption = 'Variété du modèle'
+      object GroupBox6: TGroupBox
+        Left = 4
+        Top = 72
+        Width = 390
+        Height = 161
+        Caption = ' Poids ( 0 .. 1 ) '
+        TabOrder = 2
+        object Panel8: TPanel
+          Left = 2
+          Top = 18
+          Width = 311
+          Height = 141
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 0
+          object Label26: TLabel
+            Left = 240
+            Top = 0
+            Width = 65
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 1'
+          end
+          object DBEdit21: TDBEdit
+            Left = 240
+            Top = 16
+            Width = 65
+            Height = 24
+            HelpContext = 2143001
+            DataField = 'PoidsPrix'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit22: TDBEdit
+            Left = 240
+            Top = 40
+            Width = 65
+            Height = 24
+            HelpContext = 2143002
+            DataField = 'PoidsPublicite'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 1
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit23: TDBEdit
+            Left = 240
+            Top = 64
+            Width = 65
+            Height = 24
+            HelpContext = 2143003
+            DataField = 'PoidsForceVente'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 2
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit41: TDBEdit
+            Tag = 3
+            Left = 240
+            Top = 88
+            Width = 65
+            Height = 24
+            HelpContext = 2143005
+            DataField = 'PoidsQualite'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 3
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit24: TDBEdit
+            Tag = 3
+            Left = 240
+            Top = 112
+            Width = 65
+            Height = 24
+            HelpContext = 2143004
+            DataField = 'PoidsCredit'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 4
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object Panel55: TPanel
+            Left = 16
+            Top = 16
+            Width = 217
+            Height = 24
+            HelpContext = 2143001
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Prix'
+            ParentColor = True
+            TabOrder = 5
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel56: TPanel
+            Left = 16
+            Top = 40
+            Width = 217
+            Height = 24
+            HelpContext = 2143002
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Publicité'
+            ParentColor = True
+            TabOrder = 6
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel57: TPanel
+            Left = 16
+            Top = 64
+            Width = 217
+            Height = 24
+            HelpContext = 2143003
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'F.V. et action commerciale '
+            ParentColor = True
+            TabOrder = 7
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel58: TPanel
+            Tag = 3
+            Left = 16
+            Top = 88
+            Width = 217
+            Height = 24
+            HelpContext = 2143005
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Recherche de la qualité '
+            ParentColor = True
+            TabOrder = 8
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel59: TPanel
+            Tag = 3
+            Left = 16
+            Top = 112
+            Width = 217
+            Height = 24
+            HelpContext = 2143004
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Crédit Clients'
+            ParentColor = True
+            TabOrder = 9
+            OnMouseDown = 'Panel25MouseDown'
+          end
+        end
+        object Panel9: TPanel
+          Tag = 3
+          Left = 318
+          Top = 18
+          Width = 70
+          Height = 141
+          Align = 'alRight'
+          BevelOuter = 'bvNone'
+          TabOrder = 1
+          object Label27: TLabel
+            Left = 0
+            Top = 0
+            Width = 65
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 2'
+          end
+          object DBEdit26: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 16
+            Width = 65
+            Height = 24
+            HelpContext = 2143001
+            DataField = 'PoidsPrix'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit27: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 40
+            Width = 65
+            Height = 24
+            HelpContext = 2143002
+            DataField = 'PoidsPublicite'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 1
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit28: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 64
+            Width = 65
+            Height = 24
+            HelpContext = 2143003
+            DataField = 'PoidsForceVente'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 2
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit42: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 88
+            Width = 65
+            Height = 24
+            HelpContext = 2143005
+            DataField = 'PoidsQualite'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 3
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit29: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 112
+            Width = 65
+            Height = 24
+            HelpContext = 2143004
+            DataField = 'PoidsCredit'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 4
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox8: TGroupBox
+        Tag = 3
+        Left = 4
+        Top = 232
+        Width = 390
+        Height = 70
+        Caption = 'Facilités de paiement'
+        TabOrder = 3
+        object Panel60: TPanel
+          Tag = 3
+          Left = 16
+          Top = 16
+          Width = 281
+          Height = 24
+          HelpContext = 2144001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBCheckBox1: TDBCheckBox
+            Tag = 3
+            Left = 0
+            Top = 4
+            Width = 193
+            Height = 17
+            HelpContext = 2144001
+            Alignment = 'taLeftJustify'
+            Caption = 'Crédit Fournisseurs ( 60 j )'
+            DataField = 'CreditFournisseur'
+            DataSource = 'DataSourceDG'
+            TabOrder = 0
+            ValueChecked = 'Vrai'
+            ValueUnchecked = 'Faux'
+            OnExit = 'DBEdit1Exit'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel61: TPanel
+          Tag = 4
+          Left = 16
+          Top = 40
+          Width = 329
+          Height = 24
+          HelpContext = 2144002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Découvert autorisé ( % du CA )'
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit43: TDBEdit
+            Tag = 4
+            Left = 264
+            Top = 0
+            Width = 65
+            Height = 24
+            HelpContext = 2144002
+            DataField = 'DecouvertAutoPc'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox14: TGroupBox
+        Left = 4
+        Top = 0
+        Width = 176
+        Height = 73
+        Caption = 'Fidélisation'
+        TabOrder = 0
+        object Panel52: TPanel
+          Left = 16
+          Top = 17
+          Width = 153
+          Height = 24
+          HelpContext = 2141001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Produit 1'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit25: TDBEdit
+            Left = 88
+            Top = 0
+            Width = 65
+            Height = 24
+            HelpContext = 2141001
+            DataField = 'PoidsFidelisation'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel53: TPanel
+          Tag = 3
+          Left = 16
+          Top = 41
+          Width = 153
+          Height = 24
+          HelpContext = 2141001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Produit 2'
+          ParentColor = True
+          TabOrder = 1
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit30: TDBEdit
+            Tag = 3
+            Left = 88
+            Top = 0
+            Width = 65
+            Height = 24
+            HelpContext = 2141001
+            DataField = 'PoidsFidelisation'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox13: TGroupBox
+        Left = 188
+        Top = 0
+        Width = 206
+        Height = 73
+        Caption = 'Indice des prix'
+        TabOrder = 1
+        object Panel54: TPanel
+          Left = 16
+          Top = 25
+          Width = 185
+          Height = 24
+          HelpContext = 2142001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Variation (%)'
+          ParentColor = True
+          TabOrder = 0
+          OnMouseDown = 'Panel25MouseDown'
+          object DBEdit44: TDBEdit
+            Left = 116
+            Top = 0
+            Width = 65
+            Height = 24
+            HelpContext = 2142001
+            DataField = 'IndicePrix'
+            DataSource = 'DataSourceDG'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 51
+      Caption = 'Evénements exceptionnels'
+      object GroupBox9: TGroupBox
+        Tag = 3
+        Left = 8
+        Top = 0
+        Width = 385
+        Height = 97
+        Caption = "Appels d'offre"
+        TabOrder = 0
+        object Panel10: TPanel
+          Left = 2
+          Top = 18
+          Width = 247
+          Height = 77
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 0
+          object Label42: TLabel
+            Left = 128
+            Top = 0
+            Width = 113
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 1'
+          end
+          object DBEdit45: TDBEdit
+            Tag = 3
+            Left = 128
+            Top = 16
+            Width = 113
+            Height = 24
+            HelpContext = 2151000
+            DataField = 'AppelOffreQuantite'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit47: TDBEdit
+            Tag = 3
+            Left = 128
+            Top = 40
+            Width = 113
+            Height = 24
+            HelpContext = 2151000
+            DataField = 'AppelOffrePrixMax'
+            DataSource = 'DataSourceDP1'
+            MaxLength = 0
+            TabOrder = 1
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object Panel62: TPanel
+            Tag = 3
+            Left = 14
+            Top = 16
+            Width = 107
+            Height = 24
+            HelpContext = 2151000
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Quantité '
+            ParentColor = True
+            TabOrder = 2
+            OnMouseDown = 'Panel25MouseDown'
+          end
+          object Panel63: TPanel
+            Tag = 3
+            Left = 14
+            Top = 40
+            Width = 107
+            Height = 24
+            HelpContext = 2151000
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Prix maximum'
+            ParentColor = True
+            TabOrder = 3
+            OnMouseDown = 'Panel25MouseDown'
+          end
+        end
+        object Panel11: TPanel
+          Tag = 3
+          Left = 249
+          Top = 18
+          Width = 129
+          Height = 77
+          Align = 'alLeft'
+          BevelOuter = 'bvNone'
+          TabOrder = 1
+          object Label43: TLabel
+            Left = 8
+            Top = 0
+            Width = 113
+            Height = 16
+            Alignment = 'taCenter'
+            AutoSize = False
+            Caption = 'Produit 2'
+          end
+          object DBEdit46: TDBEdit
+            Tag = 3
+            Left = 8
+            Top = 16
+            Width = 113
+            Height = 24
+            HelpContext = 2151000
+            DataField = 'AppelOffreQuantite'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 0
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit48: TDBEdit
+            Tag = 3
+            Left = 8
+            Top = 40
+            Width = 113
+            Height = 24
+            HelpContext = 2151000
+            DataField = 'AppelOffrePrixMax'
+            DataSource = 'DataSourceDP2'
+            MaxLength = 0
+            TabOrder = 1
+            OnEnter = 'DBEdit1Enter'
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+      end
+      object GroupBox15: TGroupBox
+        Tag = 3
+        Left = 8
+        Top = 104
+        Width = 385
+        Height = 81
+        Caption = 'Grèves et pannes'
+        TabOrder = 1
+        object SpinEdit1: TSpinEdit
+          Tag = 3
+          Left = 216
+          Top = 24
+          Width = 65
+          Height = 26
+          HelpContext = 2152001
+          MaxValue = 100
+          MinValue = 0
+          TabOrder = 0
+          Value = 0
+          OnChange = 'SpinEdit1Change'
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object SpinEdit2: TSpinEdit
+          Tag = 3
+          Left = 216
+          Top = 48
+          Width = 65
+          Height = 26
+          HelpContext = 2152002
+          MaxValue = 100
+          MinValue = 0
+          TabOrder = 1
+          Value = 0
+          OnChange = 'SpinEdit1Change'
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel64: TPanel
+          Tag = 3
+          Left = 16
+          Top = 24
+          Width = 193
+          Height = 26
+          HelpContext = 2152001
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Jours de grève (%)'
+          ParentColor = True
+          TabOrder = 2
+          OnMouseDown = 'Panel25MouseDown'
+        end
+        object Panel65: TPanel
+          Tag = 3
+          Left = 16
+          Top = 48
+          Width = 193
+          Height = 26
+          HelpContext = 2152002
+          Alignment = 'taLeftJustify'
+          BevelOuter = 'bvNone'
+          Caption = 'Pannes (% )'
+          ParentColor = True
+          TabOrder = 3
+          OnMouseDown = 'Panel25MouseDown'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 51
+      Caption = ' '
+      object Panel12: TPanel
+        Left = 0
+        Top = 0
+        Width = 401
+        Height = 345
+        Align = 'alLeft'
+        BevelOuter = 'bvNone'
+        Color = 'clYellow'
+        TabOrder = 0
+        Visible = False
+        object Label51: TLabel
+          Left = 40
+          Top = 0
+          Width = 225
+          Height = 16
+          Caption = 'Catastrophes naturelles : DIFFERE'
+        end
+        object GroupBox17: TGroupBox
+          Left = 8
+          Top = 48
+          Width = 385
+          Height = 73
+          Caption = 'Catastrophes aléatoires'
+          TabOrder = 1
+          Visible = False
+          object Panel13: TPanel
+            Left = 16
+            Top = 16
+            Width = 361
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Taux de destruction moyen'
+            ParentColor = True
+            TabOrder = 0
+            object SpinEdit3: TSpinEdit
+              Left = 304
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel14: TPanel
+            Left = 16
+            Top = 42
+            Width = 361
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Taux de risque (par entreprise)'
+            ParentColor = True
+            TabOrder = 1
+            object SpinEdit4: TSpinEdit
+              Left = 304
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+        end
+        object GroupBox18: TGroupBox
+          Left = 8
+          Top = 128
+          Width = 385
+          Height = 137
+          Caption = 'Catastrophes ciblées: Taux de destruction'
+          TabOrder = 2
+          Visible = False
+          object Panel15: TPanel
+            Left = 16
+            Top = 32
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 1'
+            ParentColor = True
+            TabOrder = 0
+            object SpinEdit5: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel16: TPanel
+            Left = 16
+            Top = 56
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 2'
+            ParentColor = True
+            TabOrder = 1
+            object SpinEdit6: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel17: TPanel
+            Left = 16
+            Top = 80
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 3'
+            ParentColor = True
+            TabOrder = 2
+            object SpinEdit7: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel18: TPanel
+            Left = 16
+            Top = 104
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 4'
+            ParentColor = True
+            TabOrder = 3
+            object SpinEdit8: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel19: TPanel
+            Left = 208
+            Top = 32
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 5'
+            ParentColor = True
+            TabOrder = 4
+            object SpinEdit9: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel20: TPanel
+            Left = 208
+            Top = 56
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 6'
+            ParentColor = True
+            TabOrder = 5
+            object SpinEdit10: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel21: TPanel
+            Left = 208
+            Top = 80
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 7'
+            ParentColor = True
+            TabOrder = 6
+            object SpinEdit11: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+          object Panel22: TPanel
+            Left = 208
+            Top = 104
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 8'
+            ParentColor = True
+            TabOrder = 7
+            object SpinEdit12: TSpinEdit
+              Left = 112
+              Top = 0
+              Width = 49
+              Height = 26
+              AutoSize = False
+              MaxValue = 100
+              MinValue = 0
+              TabOrder = 0
+              Value = 0
+              OnChange = 'SpinEdit1Change'
+            end
+          end
+        end
+        object Panel23: TPanel
+          Left = 8
+          Top = 16
+          Width = 385
+          Height = 33
+          BevelOuter = 'bvNone'
+          ParentColor = True
+          TabOrder = 0
+          object RadioButton1: TRadioButton
+            Left = 8
+            Top = 8
+            Width = 105
+            Height = 17
+            Caption = 'Aucunes'
+            TabOrder = 0
+            OnClick = 'RadioButton1Click'
+          end
+          object RadioButton2: TRadioButton
+            Left = 112
+            Top = 8
+            Width = 89
+            Height = 17
+            Caption = 'Aléatoires'
+            Checked = True
+            TabOrder = 1
+            TabStop = True
+            OnClick = 'RadioButton2Click'
+          end
+          object RadioButton3: TRadioButton
+            Left = 216
+            Top = 8
+            Width = 65
+            Height = 17
+            Caption = 'Ciblées'
+            TabOrder = 2
+            OnClick = 'RadioButton3Click'
+          end
+        end
+      end
+    end
+  end
+  object Panel2: TPanel
+    Left = 408
+    Top = 56
+    Width = 164
+    Height = 113
+    BevelOuter = 'bvLowered'
+    BevelWidth = 2
+    TabOrder = 1
+    object LabelP1: TLabel
+      Left = 8
+      Top = 7
+      Width = 153
+      Height = 16
+      Alignment = 'taCenter'
+      AutoSize = False
+      Caption = 'Décisions'
+      Color = 'clBtnFace'
+      Font.Color = 'clRed'
+      Font.Height = -13
+      Font.Name = 'System'
+      Font.Style = ['fsUnderline']
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label28: TLabel
+      Left = 8
+      Top = 47
+      Width = 89
+      Height = 16
+      Caption = 'Animateur'
+    end
+    object Image1: TImage
+      Left = 8
+      Top = 0
+      Width = 33
+      Height = 25
+      Visible = False
+    end
+    object TestBtn: TBitBtn
+      Left = 128
+      Top = 6
+      Width = 33
+      Height = 25
+      Hint = 'Test (mise au point)'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+      TabStop = False
+      OnClick = 'TestBtnClick'
+      Glyph.Data = '<binary 380 bytes>'
+      NumGlyphs = 2
+    end
+    object Panel69: TPanel
+      Left = 6
+      Top = 72
+      Width = 150
+      Height = 32
+      Alignment = 'taLeftJustify'
+      BevelOuter = 'bvNone'
+      Caption = 'Période'
+      TabOrder = 1
+      object SpinEditP1: TSpinEdit
+        Left = 101
+        Top = 2
+        Width = 49
+        Height = 26
+        AutoSize = False
+        EditorEnabled = False
+        MaxValue = 1
+        MinValue = 1
+        TabOrder = 0
+        Value = 1
+        OnChange = 'SpinEditP1Change'
+      end
+      object EditP1: TEdit
+        Left = 117
+        Top = 2
+        Width = 33
+        Height = 26
+        Hint = 'Début de période'
+        TabStop = False
+        ParentShowHint = False
+        ReadOnly = True
+        ShowHint = True
+        TabOrder = 1
+        Text = 'EditP1'
+      end
+    end
+  end
+  object Memo1: TMemo
+    Left = 368
+    Top = 8
+    Width = 57
+    Height = 33
+    Lines.Strings = ['Memo1']
+    TabOrder = 6
+    Visible = False
+  end
+  object Panel24: TPanel
+    Left = 8
+    Top = 364
+    Width = 298
+    Height = 28
+    BevelOuter = 'bvLowered'
+    BevelWidth = 2
+    BorderWidth = 8
+    Enabled = False
+    TabOrder = 7
+    object Edit1: TEdit
+      Left = 2
+      Top = 2
+      Width = 294
+      Height = 24
+      Color = 'clAqua'
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object Panel66: TPanel
+    Left = 312
+    Top = 364
+    Width = 89
+    Height = 28
+    BevelOuter = 'bvLowered'
+    BevelWidth = 2
+    TabOrder = 8
+  end
+  object Panel67: TPanel
+    Left = 408
+    Top = 364
+    Width = 164
+    Height = 28
+    BevelOuter = 'bvLowered'
+    BevelWidth = 2
+    TabOrder = 4
+    object BasculeBtn: TBitBtn
+      Left = 2
+      Top = 2
+      Width = 159
+      Height = 25
+      Caption = 'Rappels'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      TabOrder = 0
+      OnClick = 'BasculeBtnClick'
+      Glyph.Data = '<binary 380 bytes>'
+      Layout = 'blGlyphRight'
+      NumGlyphs = 2
+    end
+  end
+  object Panel3: TPanel
+    Left = 408
+    Top = 288
+    Width = 164
+    Height = 68
+    BevelOuter = 'bvLowered'
+    BevelWidth = 2
+    TabOrder = 3
+    object EnregistrerBtn: TBitBtn
+      Left = 84
+      Top = 6
+      Width = 72
+      Height = 25
+      Hint = 'Enregistrer SANS vérifier'
+      Caption = 'Enrg'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 2
+      OnClick = 'EnregistrerBtnClick'
+      Glyph.Data = '<binary 378 bytes>'
+      NumGlyphs = 2
+    end
+    object DefautBtn: TBitBtn
+      Left = 6
+      Top = 6
+      Width = 72
+      Height = 25
+      Hint = 'Prendre les valeurs de la période précédente'
+      Caption = 'Défaut'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+      OnClick = 'DefautBtnClick'
+      Glyph.Data = '<binary 378 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+    end
+    object InitialBtn: TBitBtn
+      Left = 6
+      Top = 36
+      Width = 72
+      Height = 25
+      Hint = 'Retourner à la dernière situation enregistrée'
+      Caption = 'Initial'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+      Visible = False
+      OnClick = 'InitialBtnClick'
+      Glyph.Data = '<binary 378 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+    end
+  end
+  object Panel68: TPanel
+    Left = 408
+    Top = 176
+    Width = 164
+    Height = 105
+    BevelOuter = 'bvLowered'
+    BevelWidth = 2
+    TabOrder = 2
+    object VerifierBtn: TBitBtn
+      Left = 6
+      Top = 8
+      Width = 81
+      Height = 25
+      Hint = 'Cohérence des décisions'
+      Caption = 'Vérifier'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+      OnClick = 'VerifierBtnClick'
+      Margin = 2
+      Spacing = -1
+    end
+    object Panel4: TPanel
+      Left = 56
+      Top = 11
+      Width = 25
+      Height = 19
+      BevelOuter = 'bvNone'
+      Enabled = False
+      TabOrder = 6
+      object CheckBoxV1: TCheckBox
+        Left = 8
+        Top = 1
+        Width = 17
+        Height = 17
+        TabOrder = 0
+      end
+    end
+    object OKBtn: TBitBtn
+      Left = 6
+      Top = 39
+      Width = 80
+      Height = 25
+      Caption = 'Fermer'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ModalResult = 1
+      ParentFont = False
+      TabOrder = 1
+      OnClick = 'OKBtnClick'
+      Glyph.Data = '<binary 1730 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+      Spacing = -1
+    end
+    object HelpBtn: TBitBtn
+      Left = 92
+      Top = 8
+      Width = 65
+      Height = 25
+      HelpContext = 2100000
+      Caption = 'Aide'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      TabOrder = 3
+      OnClick = 'HelpBtnClick'
+      Kind = 'bkHelp'
+      Margin = 2
+      Spacing = -1
+    end
+    object PrintBtn: TBitBtn
+      Left = 6
+      Top = 71
+      Width = 80
+      Height = 25
+      Hint = 'Impression normale'
+      Caption = 'Imprimer'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 2
+      OnClick = 'PrintBtnClick'
+      Glyph.Data = '<binary 378 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+      Spacing = -1
+    end
+    object CopierBtn: TBitBtn
+      Left = 92
+      Top = 39
+      Width = 64
+      Height = 25
+      Hint = 'Copier dans le presse papier'
+      Caption = 'Copier'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 4
+      Visible = False
+      OnClick = 'CopierBtnClick'
+      Glyph.Data = '<binary 378 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+      Spacing = 2
+    end
+    object PrintRapideBtn1: TBitBtn
+      Left = 92
+      Top = 71
+      Width = 65
+      Height = 25
+      Hint = 'Impression Rapide'
+      Caption = 'Imp. R'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 5
+      OnClick = 'PrintRapideBtn1Click'
+      Glyph.Data = '<binary 378 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+      Spacing = -1
+    end
+  end
+  object PanelLOUPE: TPanel
+    Left = 144
+    Top = 32
+    Width = 57
+    Height = 41
+    BevelOuter = 'bvNone'
+    BorderStyle = 'bsSingle'
+    Caption = 'PanelLOUPE'
+    Color = 'clYellow'
+    Font.Color = 'clBlack'
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+  end
+  object TableDG: TTable
+    DatabaseName = 'DBEssai'
+    IndexFieldNames = 'PeriodeNo'
+    TableName = 'TESTSADG.DB'
+    Left = 413
+    Top = 3
+  end
+  object DataSourceDG: TDataSource
+    DataSet = 'TableDG'
+    Left = 437
+    Top = 3
+  end
+  object DataSourceDP1: TDataSource
+    DataSet = 'TableDP1'
+    Left = 517
+    Top = 3
+  end
+  object DataSourceDP2: TDataSource
+    DataSet = 'TableDP2'
+    Left = 421
+    Top = 75
+  end
+  object PrintDialog1: TPrintDialog
+    Left = 157
+    Top = 5
+  end
+  object TableDGBis: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSADG.DB'
+    Left = 357
+    Top = 173
+  end
+  object TableDPBis: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADP.DB'
+    Left = 413
+    Top = 125
+  end
+  object TableDP1: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADP.DB'
+    Left = 485
+    Top = 5
+  end
+  object TableDP2: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADP.DB'
+    Left = 397
+    Top = 37
+  end
+  object TableEDG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDG.DB'
+    Left = 397
+    Top = 157
+  end
+  object Timer1: TTimer
+    Interval = 300
+    OnTimer = 'Timer1Timer'
+  end
+  object PopupMenu1: TPopupMenu
+    AutoPopup = False
+    Top = 32
+    object Print1: TMenuItem
+      Caption = 'Print'
+      OnClick = 'Print1Click'
+    end
+    object Copy1: TMenuItem
+      Caption = 'Copy'
+      OnClick = 'Copy1Click'
+    end
+  end
+end
+

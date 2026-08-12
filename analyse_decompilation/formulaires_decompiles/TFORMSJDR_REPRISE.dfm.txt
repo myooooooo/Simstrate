@@ -1,0 +1,127 @@
+=== TFORMSJDR_REPRISE.bin: PARTIAL (consumed 3332/3584) ===
+object FormSJDR_Reprise: TFormSJDR_Reprise
+  Left = 260
+  Top = 99
+  HelpContext = 20200
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Reprise'
+  ClientHeight = 236
+  ClientWidth = 420
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnClose = 'FormClose'
+  OnCloseQuery = 'FormCloseQuery'
+  OnCreate = 'FormCreate'
+  TextHeight = 16
+  object Label1: TLabel
+    Left = 8
+    Top = 52
+    Width = 153
+    Height = 16
+    Caption = 'Période en cours  :'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 85
+    Width = 157
+    Height = 16
+    Caption = 'Reprendre à la période :'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 420
+    Height = 41
+    Align = 'alTop'
+    BevelOuter = 'bvNone'
+    Caption = 'Reprise de période '
+    Font.Color = 'clRed'
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = ['fsBold', 'fsUnderline']
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 264
+    Top = 48
+    Width = 49
+    Height = 24
+    TabStop = False
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 264
+    Top = 76
+    Width = 65
+    Height = 26
+    EditorEnabled = False
+    MaxValue = 1
+    MinValue = 1
+    TabOrder = 2
+    Value = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 64
+    Top = 204
+    Width = 89
+    Height = 25
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 3
+    Glyph.Data = '<binary 1730 bytes>'
+    NumGlyphs = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 168
+    Top = 204
+    Width = 89
+    Height = 25
+    TabOrder = 4
+    Kind = 'bkCancel'
+  end
+  object BitBtn3: TBitBtn
+    Left = 272
+    Top = 204
+    Width = 89
+    Height = 25
+    TabOrder = 5
+    OnClick = 'BitBtn3Click'
+    Kind = 'bkHelp'
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 8
+    Top = 116
+    Width = 401
+    Height = 77
+    Caption = 'Etat des décisions'
+    ItemIndex = 0
+    Items.Strings = ['Garder les validations', 'Invalider']
+    TabOrder = 6
+  end
+  object TableMAIN: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSIMS.DB'
+    Left = 384
+    Top = 40
+  end
+  object TableADG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADG.DB'
+    Left = 344
+    Top = 72
+  end
+  object TableEDG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDG.DB'
+    Left = 384
+    Top = 72
+  end
+end
+

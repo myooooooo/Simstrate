@@ -1,0 +1,222 @@
+=== TFORMSNEW_CREATION.bin: PARTIAL (consumed 3302/3328) ===
+object FormSNew_Creation: TFormSNew_Creation
+  Left = 202
+  Top = 98
+  HelpContext = 1000
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Simstrat - Création'
+  ClientHeight = 322
+  ClientWidth = 516
+  Font.Color = 'clBlack'
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = ['fsBold']
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnCreate = 'FormCreate'
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 249
+    Width = 516
+    Height = 73
+    Align = 'alClient'
+    BorderWidth = 5
+    TabOrder = 0
+    Visible = False
+    object Memo1: TMemo
+      Left = 6
+      Top = 6
+      Width = 504
+      Height = 61
+      Align = 'alClient'
+      Color = 'clYellow'
+      Lines.Strings = ['RECOMMANDE: Un seul jeu par répertoire !', 'Le nom du jeu (différent de SIMS) est composé de ', '    QUATRE caractères :', '        le premier caractère du nom est une lettre', '        les suivants sont des lettres ou des chiffres.', 'Les fichiers associés seront ouverts dans le répertoire spécifié.']
+      ReadOnly = True
+      ScrollBars = 'ssVertical'
+      TabOrder = 0
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 516
+    Height = 249
+    Align = 'alTop'
+    BevelOuter = 'bvNone'
+    BorderWidth = 5
+    TabOrder = 1
+    object Panel3: TPanel
+      Left = 5
+      Top = 5
+      Width = 132
+      Height = 239
+      Align = 'alLeft'
+      BevelOuter = 'bvNone'
+      BorderStyle = 'bsSingle'
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 8
+        Top = 0
+        Width = 113
+        Height = 16
+        AutoSize = False
+        Caption = 'Nom de jeu :'
+      end
+      object MaskEdit1: TMaskEdit
+        Left = 8
+        Top = 18
+        Width = 113
+        Height = 24
+        CharCase = 'ecUpperCase'
+        Color = 'clWhite'
+        EditMask = 'LAAA'
+        Font.Color = 'clBlack'
+        Font.Height = -16
+        Font.Name = 'MS Sans Serif'
+        Font.Style = ['fsBold']
+        MaxLength = 4
+        ParentFont = False
+        TabOrder = 0
+        Text = 'LAAA'
+      end
+      object RadioGroup1: TRadioGroup
+        Left = 9
+        Top = 48
+        Width = 113
+        Height = 177
+        Caption = 'Niveau'
+        Color = 'clBtnFace'
+        ItemIndex = 3
+        Items.Strings = ['1', '2', '3', '4']
+        ParentColor = False
+        TabOrder = 1
+      end
+    end
+    object Panel4: TPanel
+      Left = 137
+      Top = 5
+      Width = 374
+      Height = 239
+      Align = 'alClient'
+      BevelOuter = 'bvNone'
+      TabOrder = 1
+      object Label2: TLabel
+        Left = 18
+        Top = 0
+        Width = 185
+        Height = 16
+        AutoSize = False
+        Caption = 'Répertoire :'
+      end
+      object Label3: TLabel
+        Left = 18
+        Top = 18
+        Width = 351
+        Height = 16
+        AutoSize = False
+        Caption = 'c:\\simdelph'
+        Color = 'clWhite'
+        Font.Color = 'clBlack'
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = ['fsBold']
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label4: TLabel
+        Left = 16
+        Top = 200
+        Width = 58
+        Height = 13
+        Caption = 'Lecteurs :'
+      end
+      object Image1: TImage
+        Left = 277
+        Top = 40
+        Width = 49
+        Height = 25
+        Visible = False
+      end
+      object DirectoryListBox1: TDirectoryListBox
+        Left = 18
+        Top = 48
+        Width = 223
+        Height = 145
+        DirLabel = 'Label3'
+        ItemHeight = 16
+        TabOrder = 0
+      end
+      object DriveComboBox1: TDriveComboBox
+        Left = 18
+        Top = 216
+        Width = 223
+        Height = 19
+        DirList = 'DirectoryListBox1'
+        TabOrder = 1
+        OnChange = 'DriveComboBox1Change'
+      end
+      object Panel5: TPanel
+        Left = 274
+        Top = 88
+        Width = 95
+        Height = 105
+        BevelOuter = 'bvLowered'
+        TabOrder = 2
+        object BitBtn1: TBitBtn
+          Left = 7
+          Top = 8
+          Width = 81
+          Height = 28
+          TabOrder = 0
+          Kind = 'bkOK'
+        end
+        object BitBtn2: TBitBtn
+          Left = 7
+          Top = 40
+          Width = 81
+          Height = 28
+          TabOrder = 1
+          Kind = 'bkCancel'
+        end
+        object BitBtn3: TBitBtn
+          Left = 7
+          Top = 72
+          Width = 81
+          Height = 28
+          TabOrder = 2
+          OnClick = 'BitBtn3Click'
+          Kind = 'bkHelp'
+        end
+      end
+      object TestBtn: TBitBtn
+        Left = 333
+        Top = 38
+        Width = 33
+        Height = 25
+        Hint = 'Tests (mise au point)'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 3
+        TabStop = False
+        OnClick = 'TestBtnClick'
+        Glyph.Data = '<binary 380 bytes>'
+        NumGlyphs = 2
+      end
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    AutoPopup = False
+    Left = 392
+    object Print1: TMenuItem
+      Caption = 'Print'
+      OnClick = 'Print1Click'
+    end
+    object Copy1: TMenuItem
+      Caption = 'Copy'
+      OnClick = 'Copy1Click'
+    end
+  end
+end
+

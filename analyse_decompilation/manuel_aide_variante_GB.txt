@@ -1,0 +1,4004 @@
+
+======================================================================
+TOPIC 1 : Summary of Simstrate help
+======================================================================
+Using Simstrate 
+Decisions
+Creation decisions 
+Organizer decisions 
+Enterprise decisions 
+Public information 
+Enterprise results
+State 
+Result report 
+Balance 
+Balance sheet 
+Cash flow statement 
+Intermediary management costs (I.M.C.) 
+Market studies 
+Organizer result
+General results 
+Product results 
+Charts 
+
+======================================================================
+TOPIC 2 : Summary of Simstrate help
+======================================================================
+details 
+Using Simstrate 
+Decisions 
+Public information 
+Results 
+Charts 
+
+======================================================================
+TOPIC 3 : Aucune rubrique d'aide particulière n'est associée à cet élément.
+======================================================================
+
+======================================================================
+TOPIC 9 : Using Simstrate
+======================================================================
+Getting help 
+Common problems 
+Multiple users on same network, connected to the same game 
+Create new game 
+Game level 
+Load game 
+Take decisions 
+Public information 
+Arbitrage 
+Results after arbitrage 
+Period review 
+Decisions review 
+Copy in paper-press 
+Print 
+Multiple prints 
+Charts 
+Options
+Information about ongoing game 
+Consult tables 
+Choose font for fast print 
+
+======================================================================
+TOPIC 10 : Arbitrage
+======================================================================
+see also 
+After taking all decisions, arbitrage
+1. Simulates the course of the ongoing period, according to decisions taken at the beginning of the period.
+2. Saves the results of the ongoing course in the database.
+3. Goes to next period (which becomes the ongoing period).
+After arbitrage,
+1. The results of the last period are accessible.
+2. Take decisions (Organizer then Enterprises) concerning the new period.
+If all decisions are not taken, you cannot arbiter the period.
+Cancel arbitrage: see
+Period review 
+
+======================================================================
+TOPIC 11 : See also
+======================================================================
+Take decisions 
+Results after arbitrage 
+Period review 
+
+======================================================================
+TOPIC 12 : Period review
+======================================================================
+see also 
+Le reprise de période permet d'annuler les arbitrages pour reprendre le jeu au début d'une période antérieure.
+Vous devrez confirmer le choix de la période de reprise.
+Après reprise à une période donnée,
+1. Les données (décisions et résultats) des périodes suivantes sont perdues.
+2. The reviewed period becomes the ongoing period.
+3. The decisions of the reviewed period are saved (and can remain valid).
+4. The decisions of the reviewed period can be modified.
+5. The reviewed period should be arbitrated again..
+
+======================================================================
+TOPIC 13 : See also
+======================================================================
+Take decisions 
+Arbitrage 
+Results after arbitrage 
+
+======================================================================
+TOPIC 14 : Take decisions
+======================================================================
+see also 
+Decisions (Organizer and Enterprise) are taken at the beginning of the ongoing period and should be validated and registered to authorize 
+arbitrage 
+.
+In case of modifications, the validate and save options are automatically proposed 
+when closing the chosen file
+when changing Enterprise (when talking about Enterprise decisions)
+We can equally save decisions without verifying them.
+The 
+Enterprises decisions 
+  can be taken only after the 
+Organizer decisions 
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again all the decisions of the enterprises.
+
+======================================================================
+TOPIC 15 : See also
+======================================================================
+Arbitrage 
+Results after arbitrage 
+Period review 
+Decision review 
+Creation decisions 
+Organizer decisions 
+Enterprise decisions 
+
+======================================================================
+TOPIC 16 : Decisions 
+======================================================================
+Create decisions 
+Organizer decisions 
+Enterprise decisions 
+
+======================================================================
+TOPIC 17 : Results after arbitrage
+======================================================================
+see also 
+Les résultats d'une période sont disponibles dès la fin de l'
+arbitrage 
+ de cette période.
+Organizer results 
+Enterprise results 
+Charts 
+
+======================================================================
+TOPIC 18 : See also
+======================================================================
+Take decisions 
+Arbitrage 
+Period review 
+
+======================================================================
+TOPIC 19 : Results
+======================================================================
+Organizer results 
+Enterprise results 
+Charts 
+
+======================================================================
+TOPIC 20 : Organizer results
+======================================================================
+Après 
+arbitrage 
+ l'Animateur dispose d'informations particulières sur les résultats des entreprises.
+General results for all Enterprises 
+Products results for all Enterprises 
+Charts 
+
+======================================================================
+TOPIC 21 : Organizer results 
+======================================================================
+General results for all Enterprises 
+Products results for all Enterprises 
+Charts 
+
+======================================================================
+TOPIC 22 : Enterprises results
+======================================================================
+Les résultats obtenus par les Entreprises sont disponibles après l'
+arbitrage 
+ de la période.
+Status 
+Result report 
+Balance 
+Balance sheet 
+Cash flow statement 
+Intermediary management costs (I.M.C.) 
+Market studies 
+
+======================================================================
+TOPIC 23 : Enterprises results 
+======================================================================
+Status 
+Result report 
+Balance 
+Balance sheet 
+Cash flow statement 
+Intermediary management costs (I.M.C.) 
+Market studies 
+
+======================================================================
+TOPIC 24 : Decisions review
+======================================================================
+see also 
+When taking decisions (Organizer or Enterprise), the menu 
+Review
+ allows accessing decisions from previous periods.
+We can equally access previous decisions from the submenu 
+Review Previous Decisions
+ from the menus 
+Organizer
+ or 
+Enterprise
+ of the main file.
+
+======================================================================
+TOPIC 25 : See also
+======================================================================
+Take decisions 
+
+======================================================================
+TOPIC 26 : Load game
+======================================================================
+see also 
+The submenu 
+Open
+ from the menu 
+File
+ of the main file allows access to the dialog box 
+Load game
+, located in a directory you have to specify.
+Remarks
+Two games cannot be opened at the same time.
+Closing a game is automatic when opening or creating another game or exiting the application.
+
+======================================================================
+TOPIC 27 : See also
+======================================================================
+Create new game 
+Information about ongoing game 
+
+======================================================================
+TOPIC 28 : Copy in press-paper
+======================================================================
+The contents of each file having a menu 
+Edit Copy
+ or a key 
+Copy
+ can be copied in the print paper for eventual recovery by another application.
+The data from the file are copied in the print paper as a table with columns separated by 
+tabs
+.
+The contents of the print paper can be operated by a text or table software, with the function 
+Paste
+, specifying 
+tab
+ as the separator to be used.
+
+======================================================================
+TOPIC 29 : Copy in press-paper 
+======================================================================
+The contents of each file having a menu 
+Edit Copy
+ or a key 
+Copy
+ can be copied in the print paper for eventual recovery by another application.
+The data from the file are copied in the print paper as a table with columns separated by 
+tabs
+.
+The contents of the print paper can be operated by a text or table software, with the function 
+Paste
+, specifying 
+tab
+ as the separator to be used.
+
+======================================================================
+TOPIC 30 : Print
+======================================================================
+see also 
+Copy in the press paper 
+The decision files or results can be printed one by one, using 
+the key 
+Print 
+(Normal print)
+F Print
+(Fast print
+)
+the menu 
+File
+Print
+. 
+Fast print
+Normal print 
+: 
+print files with page setup (final view identical to view on screen).
+Fast print 
+print in draft mode, with a low page setup.
+To print once many files, use the dialog box 
+Multiple printout 
+
+======================================================================
+TOPIC 31 : Normal print (presentation mode)
+======================================================================
+Print files with page setup (final view identical to view on screen).
+L
+'
+impression peut être lente dans ce mode. See also: 
+Fast print.
+
+======================================================================
+TOPIC 32 : Normal print (presentation mode)
+======================================================================
+Print files with page setup (final view identical to view on screen)..
+L
+'
+impression peut être lente dans ce mode.
+
+======================================================================
+TOPIC 33 : Fast print (draft mode)
+======================================================================
+Impression des résultats avec alignements mais sans autres effets de présentation. Cette impression est plus rapide, mais moins élaborée, que 
+l'impression normale.
+L
+'
+impression rapide ne donne de bons résultats qu
+'
+avec des 
+polices True-type à espacement fixe
+.
+Par défaut, l
+'
+impression rapide utilise la police 
+Courrier New
+ (True-type à espacement fixe) avec le style 
+gras
+ et la taille 
+10
+. 
+Vérifiez que vous avec bien installé cette police sur votre système
+ (sinon le système utilisera une police plus ou moins proche avec des résultats plus ou moins convenables selon les imprimantes) ou choisissez une autre police du même type (voir ci-dessous).
+Le 
+menu option
+ de la fiche principale de l
+'
+application permet 
+- de choisir une autre police True-type à espacement fixe (parmi celles qui sont installées).
+- de préciser le mode (normal, gras, italique, gras italique).
+- (la précision de taille est sans effet).
+
+======================================================================
+TOPIC 34 : Function in network
+======================================================================
+When multiple users are connected to the same game, at the same time, 
+only one of the users can access the functions that modify the database:
+take decisions for Organizer
+take decisions for the Enterprise
+arbitrage
+period review
+the other users should wait that the database is free so that they can modify their decisions.
+But, once the game is open the user can consult the results and the decision reviews at all times (except for restrictions imposed by the database pilot).
+Eventual restrictions due to the database pilot:
+If your database pilot cannot make the difference between the writing control and reading control of the database, no consulting action even opening a game is possible when one of the users is accessing the functions that modify the database.
+
+======================================================================
+TOPIC 35 : Getting help
+======================================================================
+Aide globale:
+Chaque fiche comporte un écran d
+'
+aide globale, accessible par soit par menu, soit par bouton:
+menu 
+? aide + fiche
+bouton 
+? aide
+Aide contextuelle sur une donnée.
+Pour obtenir une information sur une donnée, cliquer avec le 
+bouton droit de la souris
+ sur le libellé associé.
+On peut également obtenir une information sur le champ de donnée actif, en utilisant la touche F1.
+Compléments, conseils, astuces ... 
+Pour obtenir une 
+vue agrandie du champ de donnée actif
+, appuyer sur la touche 
+Ctrl
+.
+Pour 
+redimensionner les colonnes d
+une grille de donnée, 
+Utiliser le menu 
+format + style .
+Positionner le curseur de la souris sur un séparateur de colonne (dans la zone grisée) et, avec le bouton gauche enfoncé, modifier la largeur de la colonne.
+Cliquer sur une cellule (zone non grisée) et avec le menu 
+format + égaliser
+, donner à toutes les colonnes la même largeur que celle de la cellule active.
+
+======================================================================
+TOPIC 36 : Common problems
+======================================================================
+Printing problems: 
+normal print 
+low
+Ces problèmes sont souvent dus à la configuration de Windows. Consulter l
+'
+aide de Windows:
+aide de Windows au sujet de l
+'
+impression
+aide du gestionnaire d'imprimante
+aide de la configuration des imprimantes
+Vérifier les paramètres de l'impression, du gestionnaire d
+'
+impression.
+Choisir de préférence:
+Imprimer dès après la première page
+Imprimer directement sur le port
+Si le gestionnaire d'impression est actif, dans son menu options, choisir
+Priorité de l'impression: haute
+Envoi des travaux directement sur l'imprimante réseau
+Désactiver le gestionnaire d'impression et les spoolers.
+Dans un environnement réseau, 
+Le gestionnaire d'imprimante, s'il est activé, met les impressions en attente.Utiliser de préférence une imprimante locale et désactiver le gestionnaire d
+'
+impression.
+Quelques solutions
+-
+Utiliser les 
+Impressions multiples 
+ et 
+...
+ en profiter pour faire une petite sieste pendant ce temps là 
+...
+Zzzzzzzzzzz 
+....
+ .
+-
+Utiliser 
+l'Impression rapide 
+ à la place de 
+l'Impression normale.
+Printing problems : The results are not printed normally or the pages are truncated
+Usually the printing is done using most common fonts, however they may not be installed or not recognized by your printer.
+Normally, Windows converts to the closest font but this doesnt always give the best result.
+Verify your conversion parameters (see in Windows help, printer help) and insist on converting to a font that gives good results with your printer.
+You can also choose 
+fast printing
+, the mode that uses fonts with fixed spaces.
+·
+You should install such fonts on your computer (see Windows installation) 
+·
+These very common fonts are recognized by printers.
+·
+You can activate this type of font, in the menu: 
+option + font to...
+
+======================================================================
+TOPIC 39 : Create new game
+======================================================================
+see also 
+The submenu 
+New
+ from the menu 
+Files
+ of the main sheet allows the access of the dialog box Create new game.
+The new game is created with the chosen name and the associated files will be located in the specified directory.
+After confirming creation, the dialog box 
+Décisions de création
+ pops up so that you write down your first decision.
+Once you have validated the decision created, the new game is active and replaces the former game.
+When you cancel, eventual temporary files are destroyed and the game is not created.
+Remarks
+Two games cannot be opened at the same time.
+Closing a game is automatic when opening or creating another game or exiting the application.
+Click on a zone of the dialog box below to get information.
+
+======================================================================
+TOPIC 40 : See_Also
+======================================================================
+Create decisions 
+Open a game 
+Information about ongoing game 
+Game level 
+
+======================================================================
+TOPIC 41 : Le nom du jeu est constitué de quatre caractères exactement.
+======================================================================
+Le premier caractère est obligatoirement une lettre, les autres peuvent être des lettres ou des chiffres.
+(Le nom SIMS est non autorisé).
+
+======================================================================
+TOPIC 42 : The game level is defined when a game is created and cannot be modified during the game. Simstrate allows choosing from four possible levels, starting from 1 (simple) to 4 (complete).
+======================================================================
+
+======================================================================
+TOPIC 43 : Répertoire (ou dossier) choisi pour contenir les fichiers du jeu.
+======================================================================
+
+======================================================================
+TOPIC 44 : Choix d'un répertoire (ou dossier) existant.
+======================================================================
+
+======================================================================
+TOPIC 45 : Acceptation des choix et fermeture du dialogue.
+======================================================================
+La création devra être confirmée et se continuera par la prise des décisions initiales du jeu.
+
+======================================================================
+TOPIC 46 : Abandon de la création.
+======================================================================
+
+======================================================================
+TOPIC 47 : Aide en cours.
+======================================================================
+
+======================================================================
+TOPIC 48 : Lecteur destination des fichiers du jeu.
+======================================================================
+
+======================================================================
+TOPIC 51 : Information about ongoing game
+======================================================================
+see also 
+Allows getting information about ongoing game::
+Game level, Ongoing period, number of enterprises.
+Games files and file location.
+
+======================================================================
+TOPIC 52 : See also
+======================================================================
+Acces databases 
+
+======================================================================
+TOPIC 53 : Nom du jeu, formé de 4 caractères.
+======================================================================
+
+======================================================================
+TOPIC 54 : Niveau de jeu (défini à la création).
+======================================================================
+
+======================================================================
+TOPIC 55 : Nombre d'entreprises participant au jeu (défini à la création).
+======================================================================
+
+======================================================================
+TOPIC 56 : Nom du fichier principal du jeu (constitué à partir du nom du jeu).
+======================================================================
+
+======================================================================
+TOPIC 57 : Période en cours, non encore arbitrée.
+======================================================================
+
+======================================================================
+TOPIC 58 : Répertoire des fichiers du jeu.
+======================================================================
+
+======================================================================
+TOPIC 59 : Noms de fichiers secondaires, associés au jeu 
+======================================================================
+
+======================================================================
+TOPIC 60 : Fermeture de la fiche.
+======================================================================
+
+======================================================================
+TOPIC 62 : Game level
+======================================================================
+see also
+The game level is defined when a game is created and cannot be modified during the game.
+Simstrate allows choosing from four possible levels, starting from 1 (simple) to 4 (complete).
+Level 1 
+Level 2 
+Level 3
+Level 4
+
+======================================================================
+TOPIC 63 : See_Also
+======================================================================
+Create a new game 
+Information about ongoing game 
+
+======================================================================
+TOPIC 64 : Level 1
+======================================================================
+
+======================================================================
+TOPIC 65 : Level 2
+======================================================================
+
+======================================================================
+TOPIC 66 : Level 3
+======================================================================
+
+======================================================================
+TOPIC 67 : Level 4
+======================================================================
+
+======================================================================
+TOPIC 70 : Acces databases
+======================================================================
+see also 
+Menu file. Open
+Open database file in format Paradox (*.db), to access the grid with data.
+Initial directory of the dialog is the ongoing game directory if a game is opened, otherwise the directory of the application.
+If there's an ongoing game, the database file names, associated to this game can be accessed by consulting the menu 
+Infos Jeu 
+ (or menu 
+Options +Game Info
+ from the main file of the application).
+Menu Format. Letters
+Modify the font of letters used in the file.
+
+======================================================================
+TOPIC 71 : See also
+======================================================================
+Create game 
+Load game 
+Information about ongoing game 
+
+======================================================================
+TOPIC 73 : Multiple printouts
+======================================================================
+The printouts can be globalized in one task of multiple printouts with the help of the dialog box 
+Print 
+permitting to launch the printout of multiple files at the same time.
+Global selection page: 
+To define the data for print in the same format at the same time.
+You can take out an element only in the particular selections.
+We can choose to
+Take out everything in the page
+Select all in the page
+Particular selection pages (Organizer, Enterprises): 
+Select or not, one by one various printing tasks.
+Print
+Normal print 
+(presentation mode)
+Fast print 
+Fast print 
+(draft mode)
+Click on the area of the dialog box below to get information.
+
+======================================================================
+TOPIC 74 : Utiliser les pages 
+======================================================================
+Entreprise (de 1 à ..)
+ pour définir les choix d'impressions personnalisés pour chaque Entreprise.
+Animateur
+ pour définir les choix d'impressions pour l'Animateur.
+Globale
+ pour définir en une seule fois des choix communs.
+
+======================================================================
+TOPIC 75 : Cocher cette case pour sélectionner l'impression des décisions.
+======================================================================
+
+======================================================================
+TOPIC 76 : Cocher cette case pour sélectionner l'impression des résultats d'études de marché.
+======================================================================
+
+======================================================================
+TOPIC 77 : Cocher chaque case pour sélectionner l'impression des résultats associés.
+======================================================================
+
+======================================================================
+TOPIC 78 : Cocher cette case pour sélectionner l'impression de tous les résultats.
+======================================================================
+Cette sélection globale ne peut être annulée que par l'annulation d'une au moins des coches de résultats individuels.
+
+======================================================================
+TOPIC 79 : Choix de la période pour laquelle on demande des impressions.
+======================================================================
+Les cases à cocher ne sont accessibles que si les éléments correspondants sont disponibles:
+Décisions prises et validées pour la période choisie.
+Résultats uniquement pour une période arbitrée.
+
+======================================================================
+TOPIC 80 : Fermeture de la boite de dialogue, avec confirmation.
+======================================================================
+
+======================================================================
+TOPIC 81 : Impression des sélections opérées.
+======================================================================
+
+======================================================================
+TOPIC 82 : Accès à cette aide.
+======================================================================
+
+======================================================================
+TOPIC 83 : Tout sélectionner dans la page.
+======================================================================
+Utilisable aussi pour la page des sélections globales.
+
+======================================================================
+TOPIC 84 : Annulation de toutes les sélections faites dans la page.
+======================================================================
+Pour la page des sélections globales, annulera toutes les décisions particulières dans toutes les pages.
+
+======================================================================
+TOPIC 86 : Create decisions
+======================================================================
+details 
+The Create decisions allows the Organizer to fix the values for the game parameters. Among the parameters, some are constant during the whole game, others represent initial values for parameters that change during the game, in function of the enterprise results and the market situation.
+Initial conditions are strictly the same for all enterprises.
+General decisions
+Decisions by products
+Annual contractual tax (A.C.T.)
+Options
+
+======================================================================
+TOPIC 87 : Create decisions
+======================================================================
+supprim details 
+The Create decisions allows the Organizer to fix the values for the game parameters. Among the parameters, some are constant during the whole game, others represent initial values for parameters that change during the game, in function of the enterprise results and the market situation.
+Initial conditions are strictly the same for all enterprises.
+General decisions
+Type de jeu 
+Nombre d'entreprises 
+Capital social initial 
+Machines initiales 
+Conditions d'amortissement 
+Heures supplémentaires 
+Decisions by products
+Temps de fabrication 
+Demande potentielle 
+Evolution de la demande 
+Annual contractual tax (C.C.T.)
+Calcul de l'I.F.A. 
+Seuils de Chiffre d'affaires 
+Tarif de l'I.F.A. 
+Options
+Facteur de temps de fabrication 
+
+======================================================================
+TOPIC 88 : Décisions générales de création
+======================================================================
+Type de jeu (rappel) 
+Nombre d'entreprises 
+Capital social initial 
+Machines initiales 
+Conditions d'amortissement 
+Heures supplémentaires 
+
+======================================================================
+TOPIC 89 : Type de jeu (rappel)
+======================================================================
+Indique le 
+niveau de jeu 
+ choisi lors de la création du jeu.
+
+======================================================================
+TOPIC 90 : Type de jeu (rappel)
+======================================================================
+Indique le 
+niveau de jeu 
+ choisi lors de la création du jeu.
+
+======================================================================
+TOPIC 91 : Nombre d'entreprises 
+======================================================================
+Le nombre d'entreprises, compris entre 2 et 8, défini à la création du jeu, reste constant au cours du même jeu
+.
+
+======================================================================
+TOPIC 92 : Capital social initial 
+======================================================================
+Les entreprises disposent toutes du même capital social en début de jeu.
+En cours de jeu, le capital social ne peut plus être modifié par l'Animateur, seules les entreprises, par leurs décisions, pourront en faire évoluer le montant.
+Le capital social initial est totalement affecté à l'acquisition des 
+machines initiales.
+
+======================================================================
+TOPIC 93 : Capital social initial 
+======================================================================
+Les entreprises disposent toutes du même capital social en début de jeu.
+En cours de jeu, le capital social ne peut plus être modifié par l'Animateur, seules les entreprises, par leurs décisions, pourront en faire évoluer le montant.
+Le capital social initial est totalement affecté à l'acquisition des 
+machines initiales.
+
+======================================================================
+TOPIC 94 : Machines initiales 
+======================================================================
+Les entreprises disposent toutes du même nombre de machines en début de jeu.
+Ces machines sont opérationnelles dès la première période du jeu.
+Le 
+capital social initial 
+ est totalement affecté à l'acquisition des machines initiales.
+
+======================================================================
+TOPIC 95 : Machines initiales 
+======================================================================
+Les entreprises disposent toutes du même nombre de machines en début de jeu.
+Ces machines sont opérationnelles dès la première période du jeu.
+Le 
+capital social initial 
+est totalement affecté à l'acquisition des machines initiales.
+
+======================================================================
+TOPIC 96 : Conditions d'amortissement 
+======================================================================
+L'amortissement peut être linéaire ou dégressif (selon le niveau de jeu).
+Les conditions d'amortissement et la durée de l'amortissement sont fixés à la création du jeu.
+Pour l'amortissement linéaire, une 
+durée d'amortissement 
+ nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+Pour l'amortissement dégressif, le coefficient est fixé en fonction de la durée (non nulle), par exemple :
+Interdit pour un ou deux ans 
+Pour trois et quatre ans, coefficient égal à 1,25 
+Pour cinq et six ans compris, coefficient égal à 1,75 
+Au dela, coefficient égal à 2,25
+
+======================================================================
+TOPIC 97 : Conditions d'amortissement 
+======================================================================
+L'amortissement peut être linéaire ou dégressif (selon le niveau de jeu).
+Les conditions d'amortissement et la durée de l'amortissement sont fixés à la création du jeu.
+Pour l'amortissement linéaire, une durée
+nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+Pour l'amortissement dégressif, le coefficient est fixé en fonction de la durée (non nulle), par exemple :
+Interdit pour un ou deux ans 
+Pour trois et quatre ans, coefficient égal à 1,25 
+Pour cinq et six ans compris, coefficient égal à 1,75 
+Au dela, coefficient égal à 2,25
+
+======================================================================
+TOPIC 98 : Durée d'amortissement
+======================================================================
+Définie uniquement à la création du jeu, la durée d'amortissement des machines est exprimée en nombre de périodes.
+Les 
+conditions d'amortissement 
+sont les mêmes pour toutes les entreprises.
+Pour l'amortissement linéaire, une durée
+nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+
+======================================================================
+TOPIC 99 : Durée d'amortissement
+======================================================================
+Définie uniquement à la création du jeu, la durée d'amortissement des machines est exprimée en nombre de périodes.
+Les 
+conditions d'amortissement 
+sont les mêmes pour toutes les entreprises.
+Pour l'amortissement linéaire, une durée
+durée nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+
+======================================================================
+TOPIC 100 : Contrôle des heures supplémentaires 
+======================================================================
+Les conditions d'utilisation d'heures supplémentaires affectées à la production, sont définies à la création du jeu et restent constantes au cours du jeu.
+Volume:
+pourcentage maximal autorisé.
+Surcoût:
+pourcentage du salaire.
+
+======================================================================
+TOPIC 101 : Décisions de créations: produits
+======================================================================
+Temps de fabrication 
+Demande potentielle 
+Evolution de la demande 
+
+======================================================================
+TOPIC 102 : Temps de fabrication (initial)
+======================================================================
+Pour chaque produit, temps d'utilisation (en heures) de la capacité productive nécessaire à la production d'une unité de ce produit.
+Pour chaque entreprise et pour chaque produit, le temps de fabrication évolue au cours du temps, à partir de la valeur initiale fixée à la création du jeu, selon les performances de l'entreprise et l'âge moyen des machines.
+Pour le niveau 1, le temps de fabrication restera constant.
+Pour le niveau 2, le temps de fabrication reste inchangé au début, puis évolue de manière linéaire.
+Pour les niveaux 3 et 4, le temps de fabrication  reste inchangé au début, puis évolue de manière exponentielle.
+Le facteur de temps de fabrication (défini dans les options de création à partir du niveau 2) permet de modifier l'ampleur de l'évolution de temps de fabrication. Un facteur supérieur à 100 % aggrave (en pourcentage de ce facteur) l'ampleur de l'évolution du temps de fabrication et un facteur inférieur à 100 % réduit (en pourcentage de ce facteur) cette ampleur.
+
+======================================================================
+TOPIC 103 : Facteur de temps de fabrication
+======================================================================
+Le facteur de temps de fabrication (défini à partir du niveau 2) permet de modifier l'ampleur de l'évolution de temps de fabrication. Un facteur supérieur à 100 % aggrave (en pourcentage de ce facteur) l'ampleur de l'évolution du temps de fabrication et un facteur inférieur à 100 % réduit (en pourcentage de ce facteur) cette ampleur.
+
+======================================================================
+TOPIC 104 : Demande potentielle (initiale)
+======================================================================
+Pour chaque produit, la demande potentielle, exprimée en unités de produit, est la valeur moyenne de la demande sur ce produit, par entreprise.
+La valeur initiale doit être adaptée à la capacité productive des entreprises. Une demande élevée conduit à des décisions d'investissements précoces, une demande faible entraînera un coût de sous activité.
+En cours de jeu, la demande potentielle évolue selon la situation du marché.
+
+======================================================================
+TOPIC 105 : Evolution de la demande
+======================================================================
+La demande, pour chaque produit, se fait selon trois modes de d'évolution, fixés en début de jeu.
+Chaque mode possible est contrôlé par un paramètre :
+- 
+Linéaire:
+le paramètre est un taux de linéarité (compris entre 0 et 100)
+- 
+Exponentielle:
+le paramètre est un taux (compris entre 0 et 100)
+- 
+Croissante/Décroissante:
+le paramètre est la période du maximum de demande.
+
+======================================================================
+TOPIC 106 : Décisions de création: Impôt Forfaitaire Annuel (I.F.A.)
+======================================================================
+Calcul de l'I.F.A. 
+Seuils de Chiffre d'affaires 
+Tarif de l'I.F.A. 
+
+======================================================================
+TOPIC 107 : I.F.A.  I
+======================================================================
+mpôt 
+F
+orfaitaire 
+A
+nnuel.
+
+======================================================================
+TOPIC 108 : I.F.A.  (Seuils de C.A. ) 
+======================================================================
+Seuils des tranches de Chiffre d'affaires pour l'application du tarif de l'
+I.F.A. 
+
+======================================================================
+TOPIC 109 : I.F.A.  (Seuils de C.A. ) 
+======================================================================
+Seuils des tranches de Chiffre d'affaires pour l'application du tarif de l'
+Impôt Forfaitaire Annuel.
+
+======================================================================
+TOPIC 110 : I.F.A. (Tarif)
+======================================================================
+Tarif à appliquer pour le calcul de l'
+I.F.A. 
+, selon les tranches de Chiffre d'affaires .
+
+======================================================================
+TOPIC 111 : I.F.A. (Tarif)
+======================================================================
+Tarif à appliquer pour le calcul de l'
+ Impôt Forfaitaire Annuel
+, selon les tranches de Chiffre d'affaires .
+
+======================================================================
+TOPIC 112 : Calcul de l'I.F.A.
+======================================================================
+L'
+I.F.A. 
+ est le minimum dû au titre de l'
+impôt sur les sociétés 
+ .
+Son montant est calculé par tranches de chiffre d'affaires, selon le barème défini dans les 
+décisions de création 
+.
+Les tranches de chiffre d'affaires, limitées par les 
+seuils de chiffre d'affaires 
+, indiquent le 
+tarif 
+ à appliquer.
+L'
+I.F.A.
+ payé pendant les deux années précédentes, est déductible de l'impôt sur les sociétés.
+
+======================================================================
+TOPIC 118 : Organizer decisions
+======================================================================
+details 
+The decisions of the Organizer are taken at the beginning of the period, before the 
+decisions of the enterprises.
+ are taken.
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again all the decisions of the enterprises
+Surrounding
+Rate 
+Production conditions
+Market structure
+Cost structures (1)
+Unit cost
+Global costs
+Cost structures (2)
+Salaries
+Executive staff (ratio) 
+Insurance 
+Model variety
+Extraordinary cases
+
+======================================================================
+TOPIC 119 : Organizer decisions
+======================================================================
+supprim details 
+The decisions of the Organizer are taken at the beginning of the period, before the 
+decisions of the entreprises.
+  are taken.
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again all the decisions of the enterprises.
+Surrounding
+Rate
+Loan 
+Unauthorized bank overdraft 
+Investment 
+Authorized overdraft 
+V.A.T. 
+Entreprise tax. 
+Production conditions
+Houre per machine 
+Houre per producer 
+Market structure
+Prix minimum 
+Prix maximum 
+Indice conjoncturel 
+Cost structures (1)
+Unit costs
+Machine 
+Repair 
+Stocking 
+Material 
+Global costs
+Fixed costs 
+Fixed assets bracket 
+Fixed costs supplement by fixed assets bracket 
+Cost structures (2)
+Salaries
+Worker 
+Seller 
+Staff 
+Hiring 
+Dismissal 
+Training 
+Executive staff (ratio) 
+Insurance 
+Model variety
+Price index 
+Fidélisation 
+Poids
+Prix 
+Publicité 
+F.V. et action commerciale 
+Recherche de la qualité 
+Crédit Clients 
+Easy terms
+Supplier loans 
+Authorized bank overdraft 
+Extraordinary cases
+Bid invitation 
+Jours de grèves 
+Pannes 
+
+======================================================================
+TOPIC 120 : Rate
+======================================================================
+Loan 
+Unauthorized bank overdraft 
+Investment 
+Authorized bank overdraft 
+V.A.T. 
+Enterprise tax 
+
+======================================================================
+TOPIC 121 : Conditions d'emprunt 
+======================================================================
+Les emprunts sont accordés aux entreprises, en début de période, par l'animateur.
+Le taux d'intérêt des emprunts est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global de l'emprunt en fin de période précédente au taux de la période en cours.
+Les entreprises décident du moment et du montant de remboursement des emprunts, sans pénalités.
+
+======================================================================
+TOPIC 122 : Conditions de découvert autorisé 
+======================================================================
+Le montant du découvert autorisé est fixé par l'Animateur, pour toutes les entreprises, en pourcentage du Chiffre d'affaires hors taxes, et peut être modifié au début de chaque période.
+Le taux d'intérêt du découvert autorisé est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global du découvert autorisé en fin de période précédente au taux de la période en cours.
+Au delà du découvert autorisé, le montant du découvert est soumis au 
+taux de découvert non autorisé
+.
+
+======================================================================
+TOPIC 123 : Conditions de découvert autorisé 
+======================================================================
+Le montant du découvert autorisé est fixé par l'Animateur, pour toutes les entreprises, en pourcentage du Chiffre d'affaires hors taxes, et peut être modifié au début de chaque période.
+Le taux d'intérêt du découvert autorisé est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global du découvert autorisé en fin de période précédente au taux de la période en cours.
+Au delà du découvert autorisé, le montant du découvert est soumis au 
+taux de découvert non autorisé
+.
+
+======================================================================
+TOPIC 124 : Conditions de découvert non autorisé 
+======================================================================
+Ici, le robinet est toujours ouvert; il n'y a pas de limite au montant du découvert non autorisé.
+ Mais cela coûte très cher!
+Le taux d'intérêt du découvert non autorisé est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global du découvert non autorisé en fin de période précédente, au taux de la période en cours.
+
+======================================================================
+TOPIC 125 : Escompte sur achats 
+======================================================================
+Non utilisé pour linstant
+L'Animateur peut décider que les fournisseurs accordent ou non des facilités de paiement aux entreprises, avec une durée de crédit de 60 jours.
+
+======================================================================
+TOPIC 126 : T.V.A. 
+======================================================================
+Le taux est fixé par l'Animateur au début de chaque période, mais en principe il reste constant.
+T.V.A. collectée :
+ le taux est appliqué à
+la production vendue,
+la production soldée,
+la production “Offres spéciales ”,
+le prix de cession des immobilisations.
+T.V.A. déductible :
+ le taux est appliqué à
+la consommation de matières,
+la publicité,
+l'action commerciale,
+les couts fixes de production,
+les acquisitions d'immobilisations.
+
+======================================================================
+TOPIC 127 : Impôt sur les Sociétés (I.S.) 
+======================================================================
+L'
+I
+mpôt sur les 
+S
+ociétés, appliqué au résultat comptable positif est dû au dernier jour de la période et payé à la période suivante.
+Le calcul de l'
+I.S.
+ prend en compte les déficits des quatre périodes antérieures.
+L'
+I.F.A. 
+(
+I
+mpôt 
+F
+orfaitaire 
+A
+nnuel) versé pendant les deux périodes antérieures est également déductible de l'
+I.S.
+.
+Le taux de l'
+I.S.
+ est fixé par l'Animateur au début de chaque période, mais en principe il reste constant.
+
+======================================================================
+TOPIC 128 : Conditions de placements 
+======================================================================
+La trésorerie active de fin de période précédente est rémunérée au taux de placement défini par l'Animateur au début de la période en cours.
+
+======================================================================
+TOPIC 129 : Production conditions
+======================================================================
+Hours per machine 
+Hours per producer 
+
+======================================================================
+TOPIC 130 : Heures par machine 
+======================================================================
+Capacité productive d'une machine, en heures, pour une période, modifiable par l'Animateur au début de chaque période.
+
+======================================================================
+TOPIC 131 : Heures par producteur 
+======================================================================
+Temps de travail d'un producteur, en heures, au cours d'une période, modifiable par l'Animateur au début de chaque période.
+Les heures supplémentaires ne sont pas comptées dans ce temps de travail.
+
+======================================================================
+TOPIC 132 : Structure du marché
+======================================================================
+Prix minimum 
+Prix maximum 
+Indice conjoncturel 
+
+======================================================================
+TOPIC 133 : Prix minimum 
+======================================================================
+Pour chaque produit, seuil psychologique minimum de prix, modifiable par l'Animateur au début de chaque période.
+Jusqu'à ce prix, l'effet de prix est maximal.
+Le prix minimum peut être très proche du coût variable de production.
+
+======================================================================
+TOPIC 134 : Prix maximum 
+======================================================================
+Pour chaque produit, seuil psychologique maximum de prix, modifiable par l'Animateur au début de chaque période.
+A partir de ce prix, l'effet de prix est minimal sans être nul.
+
+======================================================================
+TOPIC 135 : Indice conjoncturel 
+======================================================================
+Coefficient permettant de moduler la demande potentielle calculée par le modèle sur chacun des produits.
+Ce coefficient, compris entre -0,5 et +0,5, peut être utilisé comme coefficient "saisonnier".
+
+======================================================================
+TOPIC 136 : Unit costs
+======================================================================
+Machine 
+Repair 
+Stocking 
+Material 
+
+======================================================================
+TOPIC 137 : Prix d'une machine 
+======================================================================
+Le prix d'acquisition d'une machine supplémentaire (hors machines initiales) est fixé par l'Animateur au début de chaque période.
+Les machines peuvent être affectées à la fabrication de l'un ou l'autre des produits, mais les machines nouvelles ne sont opérationnelles qu'à partir de la période suivante.
+
+======================================================================
+TOPIC 138 : Réparations
+======================================================================
+Les pannes de machines donnent lieu à un coût de réparation. L'Animateur fixe le coût élémentaire de réparation comme une somme forfaitaire pour chaque point de pourcentage de pannes par machine pendant la période.
+
+======================================================================
+TOPIC 139 : Coût de stockage unitaire 
+======================================================================
+Le coût de stockage d'une unité de produit, fixé par l'Animateur au début de chaque période, s'applique à la quantité en stock à la fin de la période précédente.
+Ce coût est le même pour chacun des produits.
+
+======================================================================
+TOPIC 140 : Matières 
+======================================================================
+Pour un produit, coût des matières premières nécessaires à la fabrication d'une unité de ce produit.
+Seules les matières consommées sont facturées.
+
+======================================================================
+TOPIC 141 : Salaries
+======================================================================
+Worker 
+Seller 
+Staff 
+Hiring 
+Dismissal 
+Training 
+
+======================================================================
+TOPIC 142 : Rémunération d'un producteur 
+======================================================================
+La rémunération des producteurs, calculée pour une période, se compose
+du salaire de base, défini par l'Animateur en début de chaque période (modulable par les entreprises à l'aide de l'indice des salaires)
+du paiement d'heures supplémentaires (limitées en volume et calculées avec un surcoût par rapport au salaire de base modulé).
+L'embauche ou le licenciement des producteurs est traité globalement pour les entreprises, en comparaison à l'effectif global de fin de période précédente.
+Le coût d'embauche ou de licenciement, en pourcentage du salaire, est défini par l'Animateur au début de chaque période.
+Les producteurs reçoivent une formation permanente dont le coût est calculé sur un pourcentage du salaire, au moins égal au pourcentage fixé par l'Animateur en début de période.
+Les producteurs peuvent être affectés à l'un ou à l'autre des produits.
+
+======================================================================
+TOPIC 143 : Rémunération d'un Vendeur 
+======================================================================
+La rémunération des vendeurs, calculée pour une période, se compose
+d'un fixe, défini par l'Animateur en début de chaque période, modulable par les entreprises à l'aide de l'indice des salaires.
+de commissions sur les ventes, selon un pourcentage défini par les entreprises.
+L'embauche ou le licenciement des vendeurs est traité globalement, en comparaison à l'effectif global de fin de période précédente.
+Le coût d'embauche ou de licenciement, en pourcentage du salaire, est, défini par l'Animateur au début de chaque période.
+Les vendeurs reçoivent une formation permanente dont le coût est calculé sur un pourcentage du salaire, au moins égal au pourcentage fixé par l'Animateur en début de période.
+Les vendeurs peuvent être affectés à l'un ou à l'autre des produits.
+
+======================================================================
+TOPIC 144 : Rémunération d'un cadre 
+======================================================================
+La rémunération des cadres, calculée pour une période, se compose essentiellement du salaire de base, défini par l'Animateur au début de chaque période, modulable par les entreprises à l'aide de l'indice des salaires.
+L'embauche ou le licenciement des cadres est une décision de l'entreprise.
+Le coût d'embauche ou de licenciement, en pourcentage du salaire, est, défini par l'Animateur au début de chaque période.
+Les cadres reçoivent une formation permanente dont le coût est calculé sur un pourcentage du salaire, au moins égal au pourcentage fixé par l'Animateur en début de période.
+Le nombre minimal de cadres nécessaires à la bonne marche d'une entreprise est calculé d'après l'effectif global des producteurs, selon un ratio variable défini par l'animateur en début de période.
+
+======================================================================
+TOPIC 145 : Conditions d'embauche 
+======================================================================
+L'embauche donne lieu à un coût d'embauche, défini par l'Animateur, selon un pourcentage du salaire de la catégorie.
+Les entreprises décident du niveau de l'embauche, pour chaque catégorie de personnels, en début de période.
+L'embauche de producteurs, produit par produit, est libre (la capacité productive peut se trouver affectée par un effectif de production insuffisant).
+L'embauche des vendeurs est libre.
+L'effectif des cadres doit respecter un minimum qui est calculé d'après le ratio producteurs/cadres défini par l'Animateur en début de période.
+Le niveau d'embauche des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période
+
+======================================================================
+TOPIC 146 : Licenciement 
+======================================================================
+Les licenciements donnent lieu à un coût de licenciement, défini par l'Animateur en début de période, selon un pourcentage du salaire de la catégorie.
+Les entreprises décident du niveau de licenciement, pour chaque catégorie, en début de période.
+Le licenciement de producteurs, produit par produit, est libre (la capacité productive peut se trouver affectée par un effectif de production insuffisant).
+Le licenciement de vendeurs est libre.
+L'effectif des cadres ne peut pas se trouver en dessous d'un minimum, calculé selon le ratio producteurs/cadres défini par l'Animateur en début de période.
+Le niveau de licenciement des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période.
+
+======================================================================
+TOPIC 147 : Formation permanente 
+======================================================================
+Les personnels (cadres, producteurs et vendeurs) reçoivent une formation permanente.
+Le minimum de formation, en pourcentage de la masse salariale, est défini par l'Animateur au début de chaque période et les entreprises peuvent choisir de dépasser ce minimum pour accroître leur efficacité.
+
+======================================================================
+TOPIC 148 : Global costs
+======================================================================
+Fixed costs 
+Fixed assets bracket 
+Fixed costs supplement by fixed assets braket 
+
+======================================================================
+TOPIC 149 : Coûts fixes de base 
+======================================================================
+Frais généraux de base communs aux entreprises.
+
+======================================================================
+TOPIC 150 : Tranches d'immobilisations 
+======================================================================
+Montant des immobilisations nettes prises en compte pour définir la dimension structurelle des entreprises.
+A la première tranche correspond les frais fixes de base.
+Pour toute tranche supplémentaire (ou fraction de tranche) les frais fixes augmentent.
+
+======================================================================
+TOPIC 151 : Supplément de coûts fixes par tranche d'immobilisation 
+======================================================================
+Frais fixes par tranche ou fraction de tranche d'immobilisations supplémentaire.
+
+======================================================================
+TOPIC 152 : Assurances
+======================================================================
+L'assurance est une dépense obligatoire des entreprises et son taux est fixé par l'Animateur en début de période.
+Le taux de l'assurance, appliqué à la 
+valeur brute
+ des immobilisations (y compris celles acquises en cours de période), définit le montant des primes d'assurances.
+Les machines qui seront cédées en fin de période restent assurées pendant la période.
+Les réparations sont remboursées en fin de période, au prorata du montant de l'assurance souscrite.
+Les machines détruites, sont remboursées en fin de période, à la valeur nette comptable, au prorata du montant de l'assurance souscrite.
+
+======================================================================
+TOPIC 153 : Model variety
+======================================================================
+Price index 
+Fidélisation 
+Poids
+Prix 
+Publicité 
+F.V. et action commerciale 
+Recherche de la qualité 
+Crédit Clients 
+Easy terms
+Supplier loans 
+Authorized bank overdraft 
+
+======================================================================
+TOPIC 154 : Poids du prix 
+======================================================================
+Pour un poids proche de 1, le prix devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+TOPIC 155 : Poids de la publicité 
+======================================================================
+Pour un poids proche de 1, la publicité devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+TOPIC 156 : Poids de la F.V. et action commerciale 
+======================================================================
+Pour un poids proche de 1, l'effectif de la force de vente et l'action commerciale deviennent le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+TOPIC 157 : Poids du crédit Clients 
+======================================================================
+Pour un poids proche de 1, la durée du crédit accordé aux Clients devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+TOPIC 158 : Poids de la recherche de qualité 
+======================================================================
+Pour un poids proche de 1, la qualité devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+TOPIC 159 : Poids de la Fidélisation 
+======================================================================
+Un poids de fidélisation élevé ( > 0,5) tends à fermer le jeu par le maintien des situations acquises.
+Un poids de fidélisation faible ( < 0,5) limite le report des acquis et donne une plus grande importance à la qualité du plan de marchéage.
+
+======================================================================
+TOPIC 160 : Crédit Fournisseurs 
+======================================================================
+Les fournisseurs peuvent accorder un crédit d'une durée de 60 jours (ou 60/360 fraction de période) aux entreprises, pour la fourniture des matières premières.
+Seules les matières consommées sont facturées.
+
+======================================================================
+TOPIC 161 : Indice des prix, variation 
+======================================================================
+En %, prévision de variation du prix des matières et du prix d'achat des machines d'une période à la suivante.
+(prévision pour la période suivante, limitée à  50 % ).
+
+======================================================================
+TOPIC 162 : Extraordinary cases
+======================================================================
+Bid invitation 
+Jours de grèves 
+Pannes 
+
+======================================================================
+TOPIC 163 : Appels d'offre 
+======================================================================
+Les appels d'offre, par produit, portent sur une quantité et se font à un prix maximal.
+Les entreprises peuvent choisir de concourir aux appels d'offre.
+
+======================================================================
+TOPIC 164 : Encadrement (ratio)
+======================================================================
+Le ratio d'encadrement, fixé par l'Animateur en début de période, détermine le nombre minimal de cadres nécessaires à l'encadrement des producteurs.
+
+======================================================================
+TOPIC 165 : Jours de grèves
+======================================================================
+Temps moyen de grève, en pourcentage de la période.
+Pour chaque entreprise, le temps de grève sera modulé selon l'indice de satisfaction des producteurs (fonction de la comparaison entre les salaires de l'entreprise, le salaire moyen pratiqué par les autres entreprises et l'indice des prix défini par l'animateur).
+
+======================================================================
+TOPIC 166 : Pannes
+======================================================================
+Temps moyen d'immobilisation des machines pour cause de pannes, en pourcentage de la durée de la période.
+Pour chaque entreprise, le temps moyen de pannes augmentera avec l'âge des machines et diminuera en fonction des dépenses d'entretien du parc de machines.
+
+======================================================================
+TOPIC 169 : Enterprise decisions
+======================================================================
+details 
+The decisions of the Enterprises are taken at the beginning of the period, 
+after
+ the decisions of the Organizer are taken.
+Enterprises can access 
+public informations 
+ before they take their decisions.
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again 
+all
+ the decisions of the enterprises.
+General decisions
+Financial structure 
+Machine management 
+Decisions by products
+Production 
+Marketing 
+Human resources
+Salaries 
+Executive staff 
+Market studies 
+Extra decisions 
+
+======================================================================
+TOPIC 170 : Enterprise decisions
+======================================================================
+supprim details 
+The decisions of the Enterprises are taken at the beginning of the period, 
+after
+ the decisions of the Organizer are taken.
+Enterprises can access 
+public informations 
+ before they take their decisions.
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again 
+all
+ the decisions of the enterprises.
+General decisions
+Financial structure
+Variation de capital 
+Distributions 
+Variation d'emprunt 
+Subventions 
+Produits ou charges exceptionnels 
+Machine management
+Achats 
+ ou 
+Ventes 
+Entretien 
+Decisions by products
+Production
+Production 
+Machines affectées 
+Producteurs affectés 
+Recherche de la qualité 
+Marketing
+Prix 
+Publicité 
+F.V. affectée 
+Action commerciale 
+Durée du Crédit Clients 
+Human resources
+Salaries
+Indice des salaires 
+Commissions aux vendeurs 
+Budget formation 
+Executive staff
+Embauche 
+Licenciement 
+Market studies
+Politique des concurrents par produits 
+Entreprises concurrentes
+Parts de marché 
+Résultats 
+Structure financière 
+Evaluation
+Situation du marché 
+Performance de l'entreprise 
+Montant des études 
+Extra decisions
+Liquidation de stocks 
+Soumissions 
+
+======================================================================
+TOPIC 171 : Décisions des entreprises: Structure financière
+======================================================================
+Variation de capital 
+Distributions 
+Variation demprunt 
+Subventions 
+Produits ou charges exceptionnels 
+
+======================================================================
+TOPIC 172 : Variation de capital
+======================================================================
+En diminution ou en augmentation.
+En cas de variation de capital, le montant des réserves est automatiquement affecté au capital.
+
+======================================================================
+TOPIC 173 : Distributions de dividendes
+======================================================================
+Limitées à 95% du résultat net positif, augmenté de la part des réserves dépassant 10% du capital social
+(la limitation sera effectuée automatiquement en fonction des résultats).
+
+======================================================================
+TOPIC 174 : Variation d'emprunt
+======================================================================
+Emprunt (+) ou remboursement (-).
+Voir aussi 
+Conditions d'emprunt 
+
+======================================================================
+TOPIC 175 : Variation d'emprunt
+======================================================================
+Emprunt (+) ou remboursement (-).
+
+======================================================================
+TOPIC 176 : Subventions
+======================================================================
+Accordées par l'animateur pour limiter l'endettement des entreprises.
+
+======================================================================
+TOPIC 177 : Produits ou charges exceptionnels
+======================================================================
+Primes ou pénalités variables accordées par l'Animateur (interprétations diverses possibles).
+
+======================================================================
+TOPIC 178 : Gestion du parc machines
+======================================================================
+Achats 
+Ventes 
+Entretien 
+
+======================================================================
+TOPIC 179 : Achats de machines
+======================================================================
+Les machines nouvelles sont achetées au prix fixé par l'Animateur et ne sont opérationnelles qu'à la période suivante.
+
+======================================================================
+TOPIC 180 : Cessions, ventes de machines
+======================================================================
+Les machines sont cédées à leur valeur nette comptable, les machines les plus anciennes étant cédées en premier.
+Les cessions ne sont effectives qu'à la période suivante.
+
+======================================================================
+TOPIC 181 : Entretien des machines
+======================================================================
+Le taux d'entretien (en pourcentage), appliqué à la 
+valeur brute
+ des immobilisations de début de période, définit le montant des dépenses d'entretien des machines.
+Une politique d'entretien régulière permet de réduire le taux de pannes et le coût des réparations qui en résultent.
+Le taux de pannes augmentant avec l'âge des machines, les frais d'entretien devront être de plus en plus importants si le renouvellement des machines est insuffisant.
+
+======================================================================
+TOPIC 182 : Décisions de fabrication
+======================================================================
+Production 
+Machines affectées 
+Producteurs affectés 
+Recherche de la qualité 
+
+======================================================================
+TOPIC 183 : Production prévue
+======================================================================
+La production est limitée à la capacité productive, liée au nombre de machines et de producteurs affectés au produit, ainsi que par le temps de fabrication.
+Le temps de fabrication varie légèrement avec l'âge des machines: expérience, maturité puis vieillissement.
+En cas de grèves ou de pannes pendant la période, la production réelle pourra être inférieure à la production prévue.
+Seules les matières premières utilisées seront facturées.
+Les produits fabriqués sont immédiatement disponibles à la vente.
+
+======================================================================
+TOPIC 184 : Machines affectées
+======================================================================
+Toutes les machines disponibles sont affectées à l'un ou à l'autre des produits.
+
+======================================================================
+TOPIC 185 : Producteurs affectés
+======================================================================
+Non limité. Les producteurs sont immédiatement disponibles.
+L'effectif global des producteurs affectés, comparé à celui de fin de période précédente, définit le niveau d'embauche ou de licenciement.
+L'embauche ou le licenciement se fait aux coûts fixés par l'Animateur et les producteurs reçoivent une formation permanente.
+
+======================================================================
+TOPIC 186 : Recherche de la qualité 
+======================================================================
+Le budget d'obtention de la qualité est un budget spécifique pour chaque produit.
+L'amélioration de la qualité, fonction de ce budget, entraîne un effet positif sur le volume des ventes.
+
+======================================================================
+TOPIC 187 : Décisions de commercialisation
+======================================================================
+Prix 
+Publicité 
+F.V. affectée 
+Action commerciale 
+Durée du Crédit Clients 
+
+======================================================================
+TOPIC 188 : Prix
+======================================================================
+Prix de vente normal par produit.
+Le prix pratiqué doit être normalement compris entre le prix minimum et le prix maximum fixés par l'Animateur pour ce produit.
+
+======================================================================
+TOPIC 189 : Publicité
+======================================================================
+Budget de publicité, par produit, sans rémanence d'une période sur l'autre.
+
+======================================================================
+TOPIC 190 : Action commerciale
+======================================================================
+Budget d'action commerciale, par produit, sans rémanence d'une période sur l'autre.
+
+======================================================================
+TOPIC 191 : Vendeurs affectés (Force de Vente affectée)
+======================================================================
+Non limité. Les vendeurs sont immédiatement disponibles.
+L'effectif global des vendeurs affectés, comparé à celui de fin de période précédente, définit le niveau d'embauche ou de licenciement.
+L'embauche ou le licenciement se fait aux coûts fixés par l'Animateur et les vendeurs reçoivent une formation permanente.
+
+======================================================================
+TOPIC 192 : Crédit accordé aux Clients  (en jours)
+======================================================================
+Les entreprises peuvent accorder, à leurs Clients, un délai de paiement jusqu'à 120 jours (ou 120/360 unité de période), sur l'un ou l'autre des produits.
+
+======================================================================
+TOPIC 193 : Encadrement
+======================================================================
+Embauche 
+Licenciement 
+
+======================================================================
+TOPIC 194 : Embauche de cadres
+======================================================================
+Les entreprises doivent entretenir un nombre minimal de cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+L'embauche se fait aux coûts fixés par l'Animateur et les cadres reçoivent une formation permanente.
+
+======================================================================
+TOPIC 195 : Licenciement de cadres
+======================================================================
+Le licenciement se fait aux coûts fixés par l'Animateur.
+Les entreprises doivent entretenir un nombre minimal de Cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+
+======================================================================
+TOPIC 196 : Rémunérations
+======================================================================
+Indice des salaires 
+Commissions aux vendeurs 
+Budget formation 
+
+======================================================================
+TOPIC 197 : Indice des salaires
+======================================================================
+Les entreprises peuvent ainsi moduler les salaires de référence définis par l'Animateur.
+Par défaut cet indice est à la valeur 100 (100% des salaires de référence).
+Des salaires trop faibles, comparés à ceux des autres entreprises et à l'indice des prix, peuvent entraîner des grèves et une limitation de la capacité productive.
+
+======================================================================
+TOPIC 198 : Commissions aux vendeurs
+======================================================================
+En pourcentage des ventes normales (hors soldes et appels d'offre éventuels).
+Les vendeurs ne peuvent pas prétendre à une commission supérieure à 15% des ventes qu'ils réalisent.
+
+======================================================================
+TOPIC 199 : Budget formation
+======================================================================
+Défini par un pourcentage de la masse salariale, au moins égal au pourcentage minimum imposé par l'Animateur.
+
+======================================================================
+TOPIC 200 : Etudes de marché
+======================================================================
+Politique des concurrents par produits 
+Entreprises concurrentes
+Parts de marché 
+Résultats 
+Structure financière 
+Evaluation
+Situation du marché 
+Performance de l'entreprise 
+Montant des études 
+
+======================================================================
+TOPIC 201 : Politique des concurrents par produits
+======================================================================
+Parts de marché des concurrents par produits
+Résultats des concurrents
+Structure financière des concurrents
+Situation du marché
+Performance de l'entreprise
+Montant des études
+Shere.rtf
+
+======================================================================
+TOPIC 202 : Décisions exceptionnelles
+======================================================================
+Liquidation de stocks 
+Soumissions 
+
+======================================================================
+TOPIC 203 : Liquidation de stocks
+======================================================================
+Les entreprises peuvent liquider tout ou partie de leur stock de l'un ou l'autre des produits.
+La liquidation se fait au prix minimal défini par l'Animateur pour le produit.
+Les ventes sont réalisées dans l'ordre
+1.
+Soumissions
+2.
+Liquidation de stocks
+3.
+Ventes normales
+
+======================================================================
+TOPIC 204 : Soumissions
+======================================================================
+Les entreprises peuvent concourir pour les appels d'offre lancés par l'Animateur, sur l'un ou l'autre des produits, en proposant une quantité et un prix.
+L'attribution des marchés se fait au “ mieux disant ” et, à prix égal, c'est la qualité globale de l'entreprise qui permet de départager les concurrents.
+Un même marché peut être partagé entre plusieurs entreprises, selon la règle ci dessus et, un appel d'offre peut être improductif si les candidats dépassent le prix annoncé par l'Animateur.
+Les ventes sont réalisées dans l'ordre
+1.
+Soumissions
+2.
+Liquidation de stocks
+3.
+Ventes normales
+
+======================================================================
+TOPIC 206 : Public information
+======================================================================
+details 
+Extract of 
+Organizer decisions.
+This information is communicated to Enterprises before they take their decisions.
+The decisions of the Organizer are taken at the beginning of the period, before the 
+decisions of the Enterprises.
+ are taken.
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again all the decisions of the enterprises.
+Surrounding
+Rate 
+Production conditions
+Market (average price) 
+Cost structures (1)
+Unit costs
+Global costs
+Cost structures (2)
+Salaries
+Executive staff (ratio) 
+Insurance 
+Model variety
+Bid invitation 
+see also 
+
+======================================================================
+TOPIC 207 : Public information
+======================================================================
+supprim details 
+Extract of 
+Organizer decisions.
+This information is communicated to Enterprises before they take their decisions.
+The decisions of the Organizer are taken at the beginning of the period, before the 
+decisions of the Entreprises.
+ are taken.
+If the decisions of the Organizer are modified after the decisions of the enterprises are taken, you have to validate again all the decisions of the enterprises.
+Surrounding
+Rate
+Loan 
+Unauthorized bank overdraft 
+Investment 
+Authorized bank overdraft 
+V.A.T. 
+Enterprise tax 
+Production conditions 
+Houres per machine 
+Hours per producer 
+Market
+average price 
+Cost sructures (1)
+Unit costs
+Machine 
+Repair 
+Stocking 
+Material 
+Global costs
+Fixed costs 
+Fixed assets bracket 
+Fixed costs supplement by fixed assets bracket 
+Costs structures (2)
+Salaries
+Worker 
+Seller 
+Staff 
+Hiring 
+Dismissal 
+Training 
+Executive staff (ratio) 
+Insurance 
+Model variety
+Price index 
+Easy terms
+Supplier loans 
+Authorized bank overdraft 
+Bid invitation 
+
+======================================================================
+TOPIC 208 : See also
+======================================================================
+Decisions 
+Organizer decisions 
+Enterprises decisions 
+
+======================================================================
+TOPIC 209 : Salaries
+======================================================================
+Worker 
+Seller 
+Staff 
+Hiring 
+Dismissal 
+Training 
+
+======================================================================
+TOPIC 210 : Model variety
+======================================================================
+Price index 
+Easy terms
+Supplier loans 
+Authorized bank overdraft 
+
+======================================================================
+TOPIC 211 : Prix moyen
+======================================================================
+Indication: Ordre de grandeur du prix praticable sur le marché, situé entre les prix minimum et maximum définis par l'Animateur.
+
+======================================================================
+TOPIC 214 : Balance
+======================================================================
+details 
+Assets
+Tangible assets 
+Current assets 
+Passive
+Equity 
+Borrowed resources 
+
+======================================================================
+TOPIC 215 : Balance
+======================================================================
+supprim details 
+Assets
+Tangible assets
+Outillage 
+Amortissement 
+Current assets
+Stock de produits finis 
+Créances Clients 
+Banque 
+Passive
+Equity
+Capital social 
+Réserves, report 
+Résultat de l'exercice 
+Borrowed resources
+Emprunts 
+Fournisseurs 
+Dettes fiscales 
+Concours bancaires 
+
+======================================================================
+TOPIC 216 : Actif
+======================================================================
+Actif immobilisé
+Outillage 
+Amortissement 
+Actif circulant
+Stock de produits finis 
+Créances Clients 
+Banque 
+
+======================================================================
+TOPIC 217 : Actif
+======================================================================
+Actif immobilisé
+Outillage
+Amortissement
+Actif circulant
+Stock de produits finis
+Créances Clients
+Banque
+
+======================================================================
+TOPIC 218 : Actif immobilisé
+======================================================================
+Outillage 
+Amortissement 
+
+======================================================================
+TOPIC 219 : Actif immobilisé
+======================================================================
+Outillage
+Amortissement
+
+======================================================================
+TOPIC 220 : Outillage
+======================================================================
+Valeur brute des machines détenues en fin de période.
+Voir aussi
+Cessions de machines 
+Achats de machines 
+
+======================================================================
+TOPIC 221 : Outillage
+======================================================================
+Valeur brute des machines détenues en fin de période.
+
+======================================================================
+TOPIC 222 : Amortissement
+======================================================================
+Total des dotations aux amortissements des machines détenues en fin de période.
+Voir aussi 
+conditions d'amortissement 
+
+======================================================================
+TOPIC 223 : Amortissement
+======================================================================
+Total des dotations aux amortissements des machines détenues en fin de période.
+
+======================================================================
+TOPIC 224 : Actif circulant
+======================================================================
+Stock de produits finis 
+Créances Clients 
+Banque 
+
+======================================================================
+TOPIC 225 : Actif circulant
+======================================================================
+Stock de produits finis
+Créances Clients
+Banque
+
+======================================================================
+TOPIC 226 : Stock de produits finis (stock en valeur)
+======================================================================
+
+======================================================================
+TOPIC 227 : Banque
+======================================================================
+Trésorerie active de fin de période.
+Voir aussi 
+placements 
+
+======================================================================
+TOPIC 228 : Banque
+======================================================================
+Trésorerie active de fin de période.
+
+======================================================================
+TOPIC 229 : Créances Clients
+======================================================================
+Ventes normales non encore encaissées.
+Le montant des créances Clients varie en fonction de la 
+durée du crédit accordé aux Clients 
+ .
+
+======================================================================
+TOPIC 230 : Créances Clients
+======================================================================
+Ventes normales non encore encaissées.
+Le montant des créances Clients varie en fonction de la 
+durée du crédit accordé aux Clients
+.
+
+======================================================================
+TOPIC 231 : Passif
+======================================================================
+Ressources propres
+Capital social 
+Réserves, report 
+Résultat de l'exercice 
+Ressources empruntées
+Emprunts 
+Fournisseurs 
+Dettes fiscales 
+Concours bancaires 
+
+======================================================================
+TOPIC 232 : Passif
+======================================================================
+Ressources propres
+Capital social
+Réserves, report
+Résultat de l'exercice
+Ressources empruntées
+Emprunts
+Fournisseurs
+Dettes fiscales
+Concours bancaires
+
+======================================================================
+TOPIC 233 : Ressources propres
+======================================================================
+Capital social 
+Réserves, report 
+Résultat de l'exercice 
+
+======================================================================
+TOPIC 234 : Ressources propres
+======================================================================
+Capital social
+Réserves, report
+Résultat de l'exercice
+
+======================================================================
+TOPIC 235 : Situation nette = = Ressources propres
+======================================================================
+
+======================================================================
+TOPIC 236 : Capital social
+======================================================================
+Capital social détenu en fin de période.
+Lors des variations de capital, le montant des réserves détenues en début de période est automatiquement affecté au capital.
+
+======================================================================
+TOPIC 237 : Réserves, report
+======================================================================
+Le résultat net (profit ou perte) est porté automatiquement en réserves après déduction des distributions de dividendes.
+
+======================================================================
+TOPIC 238 : Résultat de l'exercice
+======================================================================
+Résultat net de la période.
+
+======================================================================
+TOPIC 239 : Ressources empruntées
+======================================================================
+Emprunts 
+Fournisseurs 
+Dettes fiscales 
+Concours bancaires 
+
+======================================================================
+TOPIC 240 : Ressources empruntées
+======================================================================
+Emprunts
+Fournisseurs
+Dettes fiscales
+Concours bancaires
+
+======================================================================
+TOPIC 241 : Emprunts
+======================================================================
+Montant des emprunts restant à rembourser en fin de période.
+Voir aussi 
+conditions d'emprunt 
+
+======================================================================
+TOPIC 242 : Emprunts
+======================================================================
+Montant des emprunts restant à rembourser en fin de période.
+
+======================================================================
+TOPIC 243 : Concours bancaires
+======================================================================
+Trésorerie passive de fin de période.
+Voir aussi
+découvert autorisé 
+découvert non autorisé 
+
+======================================================================
+TOPIC 244 : Concours bancaires
+======================================================================
+Trésorerie passive de fin de période.
+
+======================================================================
+TOPIC 245 : Fournisseurs
+======================================================================
+Montant du 
+crédit accordé par les fournisseurs 
+
+======================================================================
+TOPIC 246 : Fournisseurs
+======================================================================
+Montant du 
+crédit accordé par les fournisseurs 
+.
+
+======================================================================
+TOPIC 247 : Dettes fiscales
+======================================================================
+L'
+Impôt sur les sociétés 
+ , du en fin de période, n'est payé qu'à la période suivante.
+En l'absence d'un système d'acomptes, cet impôt apparaît en dettes fiscales de fin de période.
+
+======================================================================
+TOPIC 248 : Dettes fiscales
+======================================================================
+L'
+Impôt sur les sociétés
+, du en fin de période, n'est payé qu'à la période suivante.
+En l'absence d'un système d'acomptes, cet impôt apparaît en dettes fiscales de fin de période.
+
+======================================================================
+TOPIC 251 : Result report
+======================================================================
+details 
+Operating products 
+Operating costs 
+Financial results
+Results
+
+======================================================================
+TOPIC 252 : Result report
+======================================================================
+supprim details 
+Operating products
+by products
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+Subventions 
+Operating costs
+by products
+Consommation matières 
+Main d'oeuvre directe 
+Coût d'obtention de la qualité 
+Publicité et action commerciale 
+Rémunération de la force de vente 
+Coût de stockage 
+Dotation aux amortissements 
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de la formation 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+Financial results
+Produits financiers 
+Charges financières 
+Résults
+Résultat d'exploitation 
+Résultat financier 
+Résultat exceptionnel (produits ou charges) 
+Remboursements des assurances 
+Résultat avant impôt 
+Impôt 
+Résultat net 
+
+======================================================================
+TOPIC 253 : Produits d'exploitation 
+======================================================================
+par produits
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+Subventions 
+
+======================================================================
+TOPIC 254 : Produits d'exploitation 
+======================================================================
+par produits
+Production vendue
+Production soldée
+Production offre spéciales
+Production stockée
+Subventions
+
+======================================================================
+TOPIC 255 : Production vendue
+======================================================================
+Chiffre d'affaires des ventes normales (réalisées au prix public normal).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+TOPIC 256 : Production soldée
+======================================================================
+Chiffre d'affaires des ventes soldées (réalisées au prix minimal défini par l'Animateur).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+TOPIC 257 : Production offre spéciales
+======================================================================
+Chiffre d'affaires des ventes réalisées par soumission (au prix de soumission).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+TOPIC 258 : Production stockée
+======================================================================
+Les stocks sont valorisés au coût moyen unitaire pondéré calculé pour la période et par produits:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+
+======================================================================
+TOPIC 259 : Subventions
+======================================================================
+
+======================================================================
+TOPIC 260 : Charges d'exploitation
+======================================================================
+par produits
+Consommation matières 
+Main d'oeuvre directe 
+Coût d'obtention de la qualité 
+Dotation aux amortissements 
+Publicité et action commerciale 
+Rémunération de la force de vente 
+C
+oût de stockage 
+générales
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de la formation 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+
+======================================================================
+TOPIC 261 : Charges d'exploitation
+======================================================================
+par produits
+Consommation matières
+Main d'oeuvre directe
+Coût d'obtention de la qualité
+Dotation aux amortissements
+Publicité et action commerciale
+Rémunération de la force de vente
+Coût de stockage
+générales
+Rémunération de l'encadrement
+Coût d'embauche
+Coût de licenciement
+Coût de la formation
+Coûts fixes de production
+Coût des réparations
+Coût d'entretien des machines
+Primes d'assurances
+Coût des études de marché
+
+======================================================================
+TOPIC 262 : Coût de production
+======================================================================
+Consommation matières
+Main d'oeuvre directe
+Coût d'obtention de la qualité
+Dotation aux amortissements
+
+======================================================================
+TOPIC 263 : Charges par produit
+======================================================================
+Consommation matières
+Main d'oeuvre directe
+Coût d'obtention de la qualité
+Dotation aux amortissements
+Publicité et action commerciale
+Rémunération de la force de vente
+Coût de stockage
+
+======================================================================
+TOPIC 264 : Consommation matières
+======================================================================
+Coût des matières premières utilisées pour la production.
+Seules les matières consommées sont facturées.
+Le prix des matières premières évolue de période en période, selon l'indice des prix ou selon les décisions de l'Animateur.
+
+======================================================================
+TOPIC 265 : Main d'oeuvre directe
+======================================================================
+Salaires des producteurs affectés, y compris les heures supplémentaires éventuelles.
+Le salaire fixe de base est modulable par les entreprises, à l'aide de l'indice des salaires, à partir du salaire de base défini par l'Animateur au début de chaque période.
+
+======================================================================
+TOPIC 266 : Coût d'obtention de la qualité
+======================================================================
+
+======================================================================
+TOPIC 267 : Publicité et action commerciale
+======================================================================
+Total des budgets de publicité et d'action commerciale.
+Ces budgets, affectés par produits, sont sans rémanence d'une période sur l'autre.
+
+======================================================================
+TOPIC 268 : Rémunération de la force de vente
+======================================================================
+Coût d'entretien de la Force de Vente affectée (salaires fixes et commissions sur les ventes normales).
+Le salaire fixe de base est modulable par les entreprises, à l'aide de l'indice des salaires, à partir du salaire de base défini par l'Animateur au début de chaque période.
+
+======================================================================
+TOPIC 269 : Frais ou Coût de stockage
+======================================================================
+Calculé sur la quantité en stock à la fin de la période précédente.
+Le coût de stockage d'une unité de produit, identique pour tous les produits, est fixé par l'Animateur au début de chaque période.
+
+======================================================================
+TOPIC 270 : Dotation aux amortissements
+======================================================================
+Calculé sur les machines affectées à la fabrication.
+Toutes les machines opérationnelles sont affectées à l'un ou l'autre des produits.
+Voir aussi 
+Conditions d'amortissement
+
+======================================================================
+TOPIC 271 : Dotation aux amortissements
+======================================================================
+Calculé sur les machines affectées à la fabrication.
+Toutes les machines opérationnelles sont affectées à l'un ou l'autre des produits.
+
+======================================================================
+TOPIC 272 : Rémunération des Cadres
+======================================================================
+La rémunération des cadres, calculée pour une période, se compose essentiellement du salaire de base.
+Le salaire de base est modulable par les entreprises, à l'aide de l'indice des salaires, à partir du salaire de base défini par l'Animateur au début de chaque période.
+Les entreprises doivent entretenir un nombre minimal de cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+
+======================================================================
+TOPIC 273 : Coût d'embauche
+======================================================================
+Le coût d'embauche, en pourcentage des salaires de base, est défini par l'Animateur au début de chaque période.
+Le niveau d'embauche des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période
+
+======================================================================
+TOPIC 274 : Coût de licenciement
+======================================================================
+Le coût de licenciement, en pourcentage des salaires de base, est défini par l'Animateur au début de chaque période.
+Le niveau de licenciement des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période
+
+======================================================================
+TOPIC 275 : Coût de la formation
+======================================================================
+Coûts de formation permanente de l'ensemble des personnels (cadres, producteurs et vendeurs).
+Le minimum de formation, en pourcentage de la masse salariale, est défini par l'Animateur au début de chaque période et les entreprises peuvent choisir de dépasser ce minimum pour accroître leur efficacité.
+
+======================================================================
+TOPIC 276 : Coûts fixes de production
+======================================================================
+Constitués
+des frais fixes de bases (communs aux entreprises).
+des suppléments de frais fixes par tranche ou fraction de 
+tranche d'immobilisations 
+  supplémentaire, calculés sur la 
+valeur brute
+ des immobilisations en début de période.
+Les frais fixes de bases et les tranches d'immobilisation évoluent de période en période, selon l'indice des prix ou selon les décisions de l'Animateur.
+
+======================================================================
+TOPIC 277 : Coûts fixes de production
+======================================================================
+Constitués
+des frais fixes de bases (communs aux entreprises).
+des suppléments de frais fixes par tranche ou fraction de 
+tranche d'immobilisations 
+supplémentaire, calculés sur la 
+valeur brute
+ des immobilisations en début de période.
+Les frais fixes de bases et les tranches d'immobilisation évoluent de période en période, selon l'indice des prix ou selon les décisions de l'Animateur.
+
+======================================================================
+TOPIC 278 : Coût des réparations
+======================================================================
+Calculé sur le pourcentages de pannes pendant la période et fonction du nombre de machines opérationnelles en début de période.
+Le coût élémentaire de réparation, fixé par l'Animateur, est une somme forfaitaire pour chaque point de pourcentage de pannes par machine pendant la période.
+La durée des pannes augmente avec l'âge des machines et diminue en fonction des dépenses d'entretien du parc de machines.
+
+======================================================================
+TOPIC 279 : Coût d'entretien des machines
+======================================================================
+Les dépenses d'entretien des machines, décisions libres des entreprises, en pourcentage de la 
+valeur brute
+ des immobilisations en début de période, permettent de réduire le taux de pannes et le coût des réparations qui en résultent.
+Le taux de pannes augmentant avec l'âge des machines, les frais d'entretien devront être de plus en plus importants si le renouvellement des machines est insuffisant.
+
+======================================================================
+TOPIC 280 : Primes d'assurance
+======================================================================
+
+======================================================================
+TOPIC 281 : Coût des études de marché
+======================================================================
+
+======================================================================
+TOPIC 282 : Résultat financier
+======================================================================
+Produits financiers 
+, diminués des 
+charges financières 
+.
+
+======================================================================
+TOPIC 283 : Résultat financier
+======================================================================
+Produits financiers
+, diminués des 
+charges financières
+.
+
+======================================================================
+TOPIC 284 : Produits financiers
+======================================================================
+Intérêts perçus sur la trésorerie active de fin de période précédente, au taux fixé par l'Animateur.
+Voir aussi
+Placements 
+
+======================================================================
+TOPIC 285 : Produits financiers
+======================================================================
+Intérêts perçus sur la trésorerie active de fin de période précédente, au taux fixé par l'Animateur.
+
+======================================================================
+TOPIC 286 : Frais ou Charges financières
+======================================================================
+Intérêts perçus sur les emprunts et la trésorerie passive de fin de période précédente, aux taux fixés par l'Animateur.
+Voir aussi
+Emprunt 
+Découvert non autorisé 
+Découvert autorisé 
+
+======================================================================
+TOPIC 287 : Frais ou Charges financières
+======================================================================
+Intérêts perçus sur les emprunts et la trésorerie passive de fin de période précédente, aux taux fixés par l'Animateur.
+
+======================================================================
+TOPIC 288 : Résultats (globalisés)
+======================================================================
+Résultat d'exploitation 
+Résultat financier 
+Résultat exceptionnel (produits ou charges) 
+Remboursements assurances 
+Résultat avant impôt 
+Impôt 
+Résultat net 
+
+======================================================================
+TOPIC 289 : Résultat d'exploitation
+======================================================================
+Produits d'exploitation
+, diminués des 
+charges d'exploitations
+.
+
+======================================================================
+TOPIC 290 : Résultat d'exploitation
+======================================================================
+Produits d'exploitation
+, diminués des 
+charges d'exploitations
+.
+
+======================================================================
+TOPIC 291 : Résultat exceptionnel (produit ou charges)
+======================================================================
+
+======================================================================
+TOPIC 292 : Remboursements des assurances
+======================================================================
+Les réparations sont remboursées en fin de période, au prorata du montant de l'assurance souscrite.
+Les machines détruites, sont remboursées en fin de période, à la valeur nette comptable, au prorata du montant de l'assurance souscrite.
+Voir aussi
+Conditions d'assurance 
+
+======================================================================
+TOPIC 293 : Remboursements des assurances
+======================================================================
+Les réparations sont remboursées en fin de période, au prorata du montant de l'assurance souscrite.
+Les machines détruites, sont remboursées en fin de période, à la valeur nette comptable, au prorata du montant de l'assurance souscrite.
+
+======================================================================
+TOPIC 294 : Résultat avant impôt
+======================================================================
+Somme des
+Résultat d'exploitation 
+Résultat financier 
+Résultat exceptionnel (produits ou charges) 
+Remboursements assurances 
+
+======================================================================
+TOPIC 295 : Résultat avant impôt
+======================================================================
+Somme des
+Résultat d'exploitation
+Résultat financier
+Résultat exceptionnel (produits ou charges)
+Remboursements assurances
+
+======================================================================
+TOPIC 296 : Impôt
+======================================================================
+
+======================================================================
+TOPIC 297 : Résultat net
+======================================================================
+Résultat après impôts.
+
+======================================================================
+TOPIC 299 : Status
+======================================================================
+details 
+Enterprise structure
+Operating decisions
+Results by product
+
+======================================================================
+TOPIC 300 : Status
+======================================================================
+supprim details 
+Enterprise structure
+Capacité productive (en heures) 
+Nombre de produits 
+Stock en valeur 
+Effectifs
+Producteurs 
+Force de vente 
+Cadres 
+Créances Clients 
+Heures perdues (%)
+pannes 
+grèves 
+Operating decisions
+machines affectées
+qté 
+ % 
+Producteurs affectés 
+Production prévue 
+Temps de fabrication (début) 
+Dépenses de qualité 
+Prix 
+Publicité 
+Force de vente affectée 
+Action commerciale 
+Crédit clients (jours) 
+Results by product
+Production réelle 
+Taux d'utilisation machines 
+Heures supplémentaires (%) 
+Ventes (en qté) 
+Ventes normales 
+Ventes soldées 
+Ventes spéciales 
+Chiffre d'affaires 
+Parts de marché 
+Stock
+en qté 
+en valeur 
+Temps de fabrication futur 
+
+======================================================================
+TOPIC 301 : Enterprise structure
+======================================================================
+Capacité productive (en heures) 
+Nombre de produits 
+Stock en valeur 
+Effectifs
+Producteurs 
+Force de vente 
+Cadres 
+Créances Clients 
+Heures perdues (%)
+pannes 
+grèves 
+
+======================================================================
+TOPIC 302 : Capacité productive (en heures)
+======================================================================
+Temps de production théorique offert par l'ensemble des machines disponibles (les achats ou cessions décidés en début de période ne sont effectifs qu'à la période suivante)..
+
+======================================================================
+TOPIC 303 : Nombre de produits
+======================================================================
+Les entreprises peuvent travailler avec un ou deux produits.
+(Un produit n'existe que si son prix est non nul).
+
+======================================================================
+TOPIC 304 : Effectif des Producteurs
+======================================================================
+Les producteurs peuvent être affectés à l'un ou l'autre des produits.
+
+======================================================================
+TOPIC 305 : Effectif de la Force de vente
+======================================================================
+Les vendeurs peuvent être affectés à l'un ou l'autre des produits.
+
+======================================================================
+TOPIC 306 : Effectif des Cadres
+======================================================================
+Les entreprises doivent entretenir un nombre minimal de cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+
+======================================================================
+TOPIC 307 : Stock en valeur (stock de produits finis)
+======================================================================
+Les stocks sont valorisés au coût moyen unitaire pondéré:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+
+======================================================================
+TOPIC 308 : Créances Clients
+======================================================================
+
+======================================================================
+TOPIC 309 : Heures perdues: pannes (%)
+======================================================================
+Temps perdu, en pourcentage de la durée d'une période, pour causes de pannes.
+La durée des pannes augmente avec l'âge des machines et diminue en fonction des dépenses d'entretien du parc de machines.
+Les pannes donnent lieu à des coûts de réparations.
+Les heures perdues peuvent entraîner une limitation de la production et un surcoût d'heures supplémentaires (rattrapage du temps perdu).
+
+======================================================================
+TOPIC 310 : Heures perdues: Grèves (%)
+======================================================================
+Temps perdu, en pourcentage de la durée d'une période, pour causes de grèves.
+Les grèves et leur durée dépendent de l'indice de satisfaction des producteurs (fonction de la comparaison entre les salaires de l'entreprise, le salaire moyen pratiqué par les autres entreprises et l'indice des prix défini par l'animateur).
+Les producteurs ne sont pas rémunérés pendant les grèves.
+Les heures perdues peuvent entraîner une limitation de la production et un surcoût d'heures supplémentaires (rattrapage du temps perdu).
+
+======================================================================
+TOPIC 311 : Operating decisions
+======================================================================
+machines affectées
+qté 
+ % 
+Producteurs affectés 
+Production prévue 
+Temps de fabrication (début) 
+Dépenses de qualité 
+Prix 
+Publicité 
+Force de vente affectée 
+Action commerciale 
+Crédit clients (jours) 
+
+======================================================================
+TOPIC 312 : Machines affectées (en qté)
+======================================================================
+
+======================================================================
+TOPIC 313 : Machines affectées %
+======================================================================
+Pourcentage des machines affectées au produit.
+
+======================================================================
+TOPIC 314 : Producteurs affectés
+======================================================================
+Production prévue
+
+======================================================================
+TOPIC 315 : Temps de fabrication (début de période)
+======================================================================
+Temps nécessaire à la fabrication d'une unité de produits, fonction de la courbe d'expérience et de l'âge moyen des machines opérationnelles en début de période.
+Le temps de fabrication peut être modulé par le facteur de temps de fabrication (constante du jeu), autour de sa valeur normale (100 %).
+Les machines achetées en début de période ne sont opérationnelles qu'à la période suivante.
+Les cessions de machines, décidées en début de période, ne sont effectives qu'à la période suivante.
+
+======================================================================
+TOPIC 316 : Dépenses de qualité
+======================================================================
+Prix
+Publicité
+Vendeurs affectés
+Action commerciale
+Crédit clients (jours)
+
+======================================================================
+TOPIC 317 : Results by product
+======================================================================
+Production réelle 
+Taux d'utilisation machines 
+Heures supplémentaires (%) 
+Ventes (en qté) 
+Ventes normales 
+Ventes soldées 
+Ventes spéciales 
+Chiffre d'affaires 
+Parts de marché 
+Stock
+en qté 
+en valeur 
+Temps de fabrication futur 
+
+======================================================================
+TOPIC 318 : Production réelle
+======================================================================
+Eventuellement inférieure à la production prévue.
+Les heures perdues (pannes, grèves) peuvent entraîner une limitation de la production et un surcoût d'heures supplémentaires utilisées pour le rattrapage du temps perdu.
+Seules les matières premières consommées sont facturées.
+
+======================================================================
+TOPIC 319 : Taux d'utilisation machines
+======================================================================
+Rapport de la quantité produite à la capacité de production affectée au produit.
+
+======================================================================
+TOPIC 320 : Heures supplémentaires (%)
+======================================================================
+Pourcentage d'heures supplémentaires utilisées pour la production, pendant la période.
+Les heures supplémentaires sont limitées en volume et donnent lieu à un surcoût qui est fonction des salaires.
+
+======================================================================
+TOPIC 321 : Ventes normales (en qté)
+======================================================================
+Ventes réalisées au prix public normal.
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+TOPIC 322 : Ventes soldées (en qté)
+======================================================================
+Ventes réalisées au prix minimal (fixé par l'Animateur).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+TOPIC 323 : Ventes spéciales (en qté)
+======================================================================
+Ventes réalisées au prix de soumission fixé par l'Animateur pour les appels d'offre sur le produit.
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+TOPIC 324 : Chiffre d'affaires
+======================================================================
+Toute catégories de ventes confondues (ventes normales, soldes, soumissions).
+
+======================================================================
+TOPIC 325 : Parts de marché
+======================================================================
+Rapport des ventes normales en quantité, à la demande effective sur le produit.
+
+======================================================================
+TOPIC 326 : Stock en qté
+======================================================================
+Ventes non réalisées.
+
+======================================================================
+TOPIC 327 : Stock en valeur (voir définition globale)
+======================================================================
+
+======================================================================
+TOPIC 328 : Temps de fabrication (futur)
+======================================================================
+Temps nécessaire à la fabrication d'une unité de produits, pour la période suivante.
+
+======================================================================
+TOPIC 331 : Cash-flow statement
+======================================================================
+details 
+Expenses  
+Bills 
+Cash-flow study
+
+======================================================================
+TOPIC 332 : Cash-flow statement
+======================================================================
+supprim details 
+Expenses
+Paiements aux fournisseurs 
+Obtention de la qualité 
+Publicité et action commerciale 
+Coût des études 
+Charges de personnel 
+Coût de stockage 
+Coûts fixes de production 
+ .
+Autres charges de production 
+Primes d'assurances 
+Charges financières 
+Charges exceptionnelles 
+Impôt sur les sociétés 
+T.V.A. à décaisser 
+Réduction du capital 
+Remboursement des emprunts 
+Investissements 
+Distribution de dividendes 
+Bills
+Réglements des clients 
+Subventions 
+Produits financiers 
+Produits exceptionnels 
+Remboursements des assurances 
+Augmentation du capital 
+Nouveaux emprunts accordés 
+Cessions d'immobilisations 
+Cash-flow study
+Variation de trésorerie 
+Solde antérieur de trésorerie 
+Situation de trésorerie 
+
+======================================================================
+TOPIC 333 : Expenses
+======================================================================
+Paiements aux fournisseurs 
+Obtention de la qualité 
+Publicité et action commerciale 
+Coût des études 
+Charges de personnel 
+Coût de stockage 
+Coûts fixes de production 
+ .
+Autres charges de production 
+Primes d'assurances 
+Charges financières 
+Charges exceptionnelles 
+Impôt sur les sociétés 
+T.V.A. à décaisser 
+Réduction du capital 
+Remboursement des emprunts 
+Investissements 
+Distribution de dividendes 
+
+======================================================================
+TOPIC 334 : Expenses
+======================================================================
+Paiements aux fournisseurs
+Obtention de la qualité
+Publicité et action commerciale
+Coût des études
+Charges de personnel
+Coût de stockage
+Coûts fixes de production
+Autres charges de production 
+Primes d'assurances
+Charges financières
+Charges exceptionnelles
+Impôt sur les sociétés
+T.V.A. à décaisser
+Réduction du capital
+Remboursement des emprunts
+Investissements
+Distribution de dividendes
+
+======================================================================
+TOPIC 335 : Bills
+======================================================================
+Réglements des clients 
+Subventions 
+Produits financiers 
+Produits exceptionnels 
+Remboursements des assurances 
+Augmentation du capital 
+Nouveaux emprunts accordés 
+Cessions d'immobilisations 
+
+======================================================================
+TOPIC 336 : Bills
+======================================================================
+Réglements des clients
+Subventions
+Produits financiers
+Produits exceptionnels
+Remboursements des assurances
+Augmentation du capital
+Nouveaux emprunts accordés
+Cessions d'immobilisations
+
+======================================================================
+TOPIC 337 : Réglements des clients
+======================================================================
+Chiffre d'affaires 
+Variations des comptes clients 
+
+======================================================================
+TOPIC 338 : Réglements des clients
+======================================================================
+Chiffre d'affaires
+Variations des comptes clients
+
+======================================================================
+TOPIC 339 : Chiffre d'affaires
+======================================================================
+Toute catégories de ventes confondues (ventes normales, soldes, soumissions).
+
+======================================================================
+TOPIC 340 : Variations des comptes Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation
+Voir aussi 
+Durée du crédit accordé aux Clients 
+
+======================================================================
+TOPIC 341 : Variations des comptes Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation 
+
+======================================================================
+TOPIC 342 : Subventions
+======================================================================
+
+======================================================================
+TOPIC 343 : Produits financiers
+======================================================================
+
+======================================================================
+TOPIC 344 : Produits exceptionnels
+======================================================================
+
+======================================================================
+TOPIC 345 : Remboursements des assurances 
+======================================================================
+
+======================================================================
+TOPIC 346 : Paiements aux fournisseurs
+======================================================================
+Achats de matières 
+Variations des comptes fournisseurs 
+
+======================================================================
+TOPIC 347 : Paiements aux fournisseurs
+======================================================================
+Achats de matières
+Variations des comptes fournisseurs
+
+======================================================================
+TOPIC 348 : Achats de matières
+======================================================================
+
+======================================================================
+TOPIC 349 : Variations des comptes fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+Voir aussi 
+Durée du crédit Fournisseurs 
+
+======================================================================
+TOPIC 350 : Variations des comptes fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+
+======================================================================
+TOPIC 351 : Obtention de la qualité
+======================================================================
+Total, pour tous les produits, des budgets d'obtention de la qualité.
+
+======================================================================
+TOPIC 352 : Publicité et action commerciale
+======================================================================
+
+======================================================================
+TOPIC 353 : Etudes
+======================================================================
+
+======================================================================
+TOPIC 354 : Charges de personnels
+======================================================================
+Ensemble des salaires versés pendant la période, toutes catégories de personnels confondues:
+Salaires de base
+Salaires des producteurs affectés, y compris les heures supplémentaires éventuelles
+Coût d'entretien de la Force de Vente affectée (salaires fixes et commissions sur les ventes normales)
+Rémunération des cadres
+Indemnités de licenciement
+Frais d'embauche
+Frais de formation.
+
+======================================================================
+TOPIC 355 : Coûts de stockage
+======================================================================
+
+======================================================================
+TOPIC 356 : Coûts fixes de production
+======================================================================
+
+======================================================================
+TOPIC 357 : Autres charges de production
+======================================================================
+Dépenses d'entretien des machines 
+ .
+Réparation de machines 
+ .
+
+======================================================================
+TOPIC 358 : Autres charges de production
+======================================================================
+Dépenses d'entretien des machines 
+Réparation de machines 
+
+======================================================================
+TOPIC 359 : Primes d'assurances
+======================================================================
+
+======================================================================
+TOPIC 360 : Charges financières
+======================================================================
+
+======================================================================
+TOPIC 361 : Charges Exceptionnelles
+======================================================================
+
+======================================================================
+TOPIC 362 : Impôt sur les sociétés
+======================================================================
+L'Impôt sur les sociétés est calculé sur le résultat de la période précédente.
+Voir aussi 
+Conditions d'imposition 
+
+======================================================================
+TOPIC 363 : Impôt sur les sociétés
+======================================================================
+L'Impôt sur les sociétés est calculé sur le résultat de la période précédente.
+
+======================================================================
+TOPIC 364 : T.V.A. à décaisser
+======================================================================
+T.V.A.
+ collectée diminuée de la 
+T.V.A.
+ déductible
+T.V.A. collectée :
+ le taux est appliqué à
+la production vendue,
+la production soldée,
+la production Offres spéciales ,
+le prix de cession des immobilisations.
+T.V.A. déductible :
+ le taux est appliqué à
+la consommation de matières,
+la publicité,
+l'action commerciale,
+les couts fixes de production,
+les acquisitions d'immobilisations.
+
+======================================================================
+TOPIC 365 : Variation du capital
+======================================================================
+En augmentation:
+ressources propres appelées et versées.
+En diminutiion:
+restructurations.
+En cas de variation de capital, le montant des réserves détenues en début de période est automatiquement affecté au capital.
+
+======================================================================
+TOPIC 366 : Variation des emprunts
+======================================================================
+Nouveaux emprunts:
+ressource étrangère encaissée.
+Remboursements:
+amortissements d'emprunts contractés.
+Voir aussi 
+conditions d'emprunt 
+
+======================================================================
+TOPIC 367 : Variation des emprunts
+======================================================================
+Nouveaux emprunts:
+ressource étrangère encaissée.
+Remboursements:
+amortissements d'emprunts contractés.
+
+======================================================================
+TOPIC 368 : Investissements
+======================================================================
+Achat de machines nouvelles (réglées au comptant), au prix fixé par l'Animateur.
+
+======================================================================
+TOPIC 369 : Cessions d'immobilisations
+======================================================================
+Ressources encaissées par cessions de droits (cessions de machines à leur valeur nette comptable).
+
+======================================================================
+TOPIC 370 : Distribution de dividendes
+======================================================================
+Si vous persistez à ne rien distribuer à vos actionnaires, vous risquez un refus d'augmentation de capital et quelques difficultés pour réaliser vos investissements.
+
+======================================================================
+TOPIC 371 : Variation des dettes fiscales
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emploi:
+diminution des dettes.
+Voir aussi 
+Impôt sur les sociétés 
+
+======================================================================
+TOPIC 372 : Variation des dettes fiscales
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emploi:
+diminution des dettes.
+
+======================================================================
+TOPIC 374 : Totaux
+======================================================================
+
+======================================================================
+TOPIC 375 : Cash-flow study
+======================================================================
+Variation de trésorerie 
+Solde antérieur de trésorerie 
+Situation de trésorerie 
+
+======================================================================
+TOPIC 376 : Variation de trésorerie
+======================================================================
+Différence entre les flux entrants (
+ressources ou recettes
+) et sortants (
+emplois ou dépenses
+)
+
+======================================================================
+TOPIC 377 : Solde antérieur de trésorerie
+======================================================================
+Solde de trésorerie active ou passive en fin de période précédente.
+
+======================================================================
+TOPIC 378 : Solde final de trésorerie
+======================================================================
+Trésorerie active ou passive de fin de période.
+
+======================================================================
+TOPIC 380 : Balance sheet
+======================================================================
+details 
+Working capital variation 
+Current assets variation 
+
+======================================================================
+TOPIC 381 : Balance sheet
+======================================================================
+supprim details 
+Working capital variation
+Variation du capital 
+Capacité brute d'autofinancement 
+Variation des emprunts 
+Variation des investissements 
+Current assets variation
+Variation du stock du produit1 
+Variation du stock du produit2 
+Variation du crédit Fournisseurs 
+Variation du crédit Clients 
+Variation des dettes fiscales 
+Variation de trésorerie 
+
+======================================================================
+TOPIC 382 : Working capital variation
+======================================================================
+Variation du capital 
+Capacité brute d'autofinancement 
+Variation des emprunts 
+Variation des investissements 
+
+======================================================================
+TOPIC 383 : Working capital variation
+======================================================================
+Variation du capital
+Capacité brute d'autofinancement
+Variation des emprunts
+Variation des investissements
+
+======================================================================
+TOPIC 384 : Variation du capital
+======================================================================
+Augmentation ou diminution du capital (y compris les distributions de dividendes).
+
+======================================================================
+TOPIC 385 : Capacité brute d'autofinancement
+======================================================================
+Somme des dotations aux 
+amortissements 
+  constituées et du résultat net.
+
+======================================================================
+TOPIC 386 : Capacité brute d'autofinancement
+======================================================================
+Somme des dotations aux 
+amortissements 
+constituées et du résultat net.
+
+======================================================================
+TOPIC 387 : Variation des emprunts
+======================================================================
+
+======================================================================
+TOPIC 388 : Variation des investissements
+======================================================================
+Les achats de machines sont faits au prix fixé par l'Animateur.
+Les cessions de machines se font à la valeur nette comptable.
+
+======================================================================
+TOPIC 389 : Current assets variation
+======================================================================
+Variation du stock du produit1 
+Variation du stock du produit2 
+Variation du crédit Fournisseurs 
+Variation du crédit Clients 
+Variation des dettes fiscales 
+Variation de trésorerie 
+
+======================================================================
+TOPIC 390 : Current assets variation
+======================================================================
+Variation du stock du produit1
+Variation du stock du produit2
+Variation du crédit Fournisseurs
+Variation du crédit Clients
+Variation des dettes fiscales
+Variation de trésorerie
+
+======================================================================
+TOPIC 391 : Variation du stock de produits finis
+======================================================================
+Exprimée en coûts de production par produits.
+Les stocks sont valorisés au coût moyen unitaire pondéré calculé pour la période et par produits:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+Une variation négative correspond à un accroissements des stocks, donc à un besoin de financement.
+
+======================================================================
+TOPIC 392 : Variation du stock du produit 1
+======================================================================
+Variation du stock du produit 1
+Globalisés ci-dessus
+
+======================================================================
+TOPIC 393 : Variation du crédit fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+Voir aussi 
+Durée du crédit Fournisseurs 
+
+======================================================================
+TOPIC 394 : Variation du crédit fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+
+======================================================================
+TOPIC 395 : Variation du crédit Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation
+Voir aussi 
+Durée du crédit accordé aux Clients 
+
+======================================================================
+TOPIC 396 : Variation du crédit Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation
+
+======================================================================
+TOPIC 397 : Variation des dettes fiscales
+======================================================================
+
+======================================================================
+TOPIC 398 : Variation de trésorerie
+======================================================================
+
+======================================================================
+TOPIC 400 : Intermediary management costs (I.M.C.)
+======================================================================
+details 
+Operating
+Exercice production 
+Third party consumption 
+Value add (V.A.)
+Earning before interets, taxe, depreciation and amortization (E.B.I.T.D.A.) 
+Results
+Operating income 
+Current result 
+Net income 
+
+======================================================================
+TOPIC 401 : Intermediary management costs (I.M.C.)
+======================================================================
+supprim details 
+Operating
+Exercice production
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+Third party consumption
+Consommation matières 
+Coût d'obtention de la qualité 
+Publicité et action commerciale 
+Coût de stockage 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+Value add (V.A.)
+Subventions 
+Charges de personnel 
+Main d'oeuvre directe 
+Rémunération des vendeurs 
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de formation 
+Earning before interes, taxes, depreciation and amortization (E.B.I.T.D.A.) 
+Dotation aux amortissements 
+Results
+Operating income 
+Produits financiers 
+Charges financières 
+Current result 
+Produits exceptionnels 
+Remboursements des assurances 
+Charges exceptionnelles 
+Impôt sur les sociétés 
+Net income 
+
+======================================================================
+TOPIC 402 : Exercice production
+======================================================================
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+
+======================================================================
+TOPIC 403 : Exercice production
+======================================================================
+Production vendue
+Production soldée
+Production offre spéciales
+Production stockée
+
+======================================================================
+TOPIC 404 : Production vendue
+======================================================================
+
+======================================================================
+TOPIC 405 : Production soldée
+======================================================================
+
+======================================================================
+TOPIC 406 : Production offre spéciales
+======================================================================
+
+======================================================================
+TOPIC 407 : Production stockée
+======================================================================
+
+======================================================================
+TOPIC 408 : Third party consumption
+======================================================================
+Consommation matières 
+Coût d'obtention de la qualité 
+Publicité et action commerciale 
+Coût de stockage 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+
+======================================================================
+TOPIC 409 : Third party consumption
+======================================================================
+Consommation matières
+Coût d'obtention de la qualité
+Publicité et action commerciale
+Coût de stockage
+Coûts fixes de production
+Coût des réparations
+Coût d'entretien des machines
+Primes d'assurances
+Coût des études de marché
+
+======================================================================
+TOPIC 410 : Valeur ajoutée (V.A)
+======================================================================
+
+======================================================================
+TOPIC 411 : Subventions
+======================================================================
+
+======================================================================
+TOPIC 412 : Charges de personnel
+======================================================================
+Main d'oeuvre directe 
+Rémunération des vendeurs 
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de formation 
+
+======================================================================
+TOPIC 413 : Charges de personnel
+======================================================================
+Main d'oeuvre directe
+Rémunération des vendeurs
+Rémunération de l'encadrement
+Coût d'embauche
+Coût de licenciement
+Coût de formation
+
+======================================================================
+TOPIC 414 : Excédent brut d'exploitation (E.B.E.)
+======================================================================
+
+======================================================================
+TOPIC 415 : Dotation aux amortissements
+======================================================================
+
+======================================================================
+TOPIC 416 : Résultat d'exploitation
+======================================================================
+
+======================================================================
+TOPIC 417 : Produits financiers
+======================================================================
+
+======================================================================
+TOPIC 418 : Produits financiers
+======================================================================
+
+======================================================================
+TOPIC 419 : Frais ou Charges financières
+======================================================================
+
+======================================================================
+TOPIC 420 : Frais ou Charges financières
+======================================================================
+
+======================================================================
+TOPIC 421 : Résultat courant
+======================================================================
+
+======================================================================
+TOPIC 422 : Produits exceptionnels
+======================================================================
+
+======================================================================
+TOPIC 423 : Remboursements des assurances
+======================================================================
+
+======================================================================
+TOPIC 424 : Remboursements assurances
+======================================================================
+
+======================================================================
+TOPIC 425 : Charges exceptionnelles
+======================================================================
+
+======================================================================
+TOPIC 426 : Impôt sur les sociétés
+======================================================================
+
+======================================================================
+TOPIC 427 : Résultat net
+======================================================================
+
+======================================================================
+TOPIC 429 : Consommation matières
+======================================================================
+
+======================================================================
+TOPIC 430 : Coût d'obtention de la qualité
+======================================================================
+
+======================================================================
+TOPIC 431 : Publicité et action commerciale
+======================================================================
+
+======================================================================
+TOPIC 432 : Frais ou Coût de stockage
+======================================================================
+
+======================================================================
+TOPIC 433 : Coûts fixes de production
+======================================================================
+
+======================================================================
+TOPIC 434 : Coûts fixes de production
+======================================================================
+
+======================================================================
+TOPIC 435 : Coût des réparations
+======================================================================
+
+======================================================================
+TOPIC 436 : Coût d'entretien des machines
+======================================================================
+
+======================================================================
+TOPIC 437 : Primes d'assurance
+======================================================================
+
+======================================================================
+TOPIC 438 : Coût des études de marché
+======================================================================
+
+======================================================================
+TOPIC 440 : Main d'oeuvre directe
+======================================================================
+
+======================================================================
+TOPIC 441 : Rémunération de la force de vente
+======================================================================
+
+======================================================================
+TOPIC 442 : Rémunération de l'encadrement
+======================================================================
+
+======================================================================
+TOPIC 443 : Coût d'embauche
+======================================================================
+
+======================================================================
+TOPIC 444 : Coût de licenciement
+======================================================================
+
+======================================================================
+TOPIC 445 : Coût de formation
+======================================================================
+
+======================================================================
+TOPIC 447 : Market studies
+======================================================================
+The Enterprises decide, at the beginning of the period about the nature of market studies they want to have.
+Le coût de ces études est défini par l'Animateur, selon un barème libre (non calculé par le modèle) et la dépense correspondante est inscrite dans les décisions générales de l'Entreprise.
+Les études commandées sont disponibles en fin de période, après arbitrage (voir le menu 
+résultats
+ des Entreprises).
+Détails des diverses études proposées
+Politique des concurrents sur un produit 
+Parts de marché des concurrents 
+Résultats des concurrents 
+Structure des entreprises concurrentes 
+Market situation 
+Enterprise performance 
+Total cost of market studies 
+
+======================================================================
+TOPIC 448 : Politique des concurrents sur un produit
+======================================================================
+Sur le produit spécifié, et pour toutes les entreprises,
+Prix pratiqué
+Budget de Publicité
+Effectif de la Force de Vente
+Durée du crédit Clients.
+
+======================================================================
+TOPIC 449 : Parts de marché des concurrents
+======================================================================
+Sur chacun des deux produits, et pour toutes les entreprises.
+
+======================================================================
+TOPIC 450 : Résultats des concurrents
+======================================================================
+Pour toutes les entreprises, 
+Chiffre d'affaires pour chaque produit,
+Résultat fiscal
+Résultat net
+
+======================================================================
+TOPIC 451 : Structure des entreprises concurrentes
+======================================================================
+Pour toutes les entreprises,
+Capital propre
+Immobilisations
+Valeur du stock
+Endettement, en %
+Découvert
+Heures supplémentaires (en %)
+
+======================================================================
+TOPIC 452 : Situation du marché
+======================================================================
+Pour chacun des produits,
+Demande potentielle
+Demande effective
+Demande non satisfaite
+Variation de la demande effective (en %)
+
+======================================================================
+TOPIC 453 : Performance de l'entreprise
+======================================================================
+Pour chacun des deux produits,
+Prix par rapport à la moyenne
+% de Publicité par rapport à la moyenne
+F.V. par rapport à la moyenne
+Durée du crédit Clients par rapport à la moyenne
+
+======================================================================
+TOPIC 454 : Montant des études
+======================================================================
+Coût global des achats d'études de marché commandées, selon un barème défini par l'Animateur.
+
+======================================================================
+TOPIC 456 : General results (for Organizer)
+======================================================================
+see also 
+Results for all Enterprises, presented as a table
+Cash assets or passive 
+Debit (%) 
+Value Added 
+E.B.I.T.D.A. 
+Cash flow 
+Accounting result 
+Net income 
+Equity return rate 
+Assets rotation 
+Leverage 
+Average life (machines) 
+
+======================================================================
+TOPIC 457 : See also
+======================================================================
+Results by product 
+Enterprise results 
+
+======================================================================
+TOPIC 458 : Trésorerie (active ou passive)
+======================================================================
+Solde de trésorerie active ou passive, en fin de période..
+
+======================================================================
+TOPIC 459 : Endettement (%)
+======================================================================
+Rapport des capitaux étrangers (emprunts, concours Bancaires, Fournisseurs, dettes fiscales) au Passif de l'entreprise.
+
+======================================================================
+TOPIC 460 : Valeur ajoutée
+======================================================================
+Chiffre d'affaires, diminué des charges externes.
+
+======================================================================
+TOPIC 461 : Earning before interests, taxes, depreciation and amortization (E.B.I.T.D.A.) 
+======================================================================
+
+======================================================================
+TOPIC 462 : Capacité d'Auto Financement (C.A.F.)
+======================================================================
+
+======================================================================
+TOPIC 463 : Résultat avant impôt
+======================================================================
+
+======================================================================
+TOPIC 464 : Résultat net
+======================================================================
+
+======================================================================
+TOPIC 465 : Rentabilité /Cp
+======================================================================
+Rapport du résultat net de la période au montant des Capitaux propres 
+
+======================================================================
+TOPIC 466 : Rotation Actif
+======================================================================
+Rapport du chiffre d'affaires au total des actifs.
+
+======================================================================
+TOPIC 467 : Effet de levier
+======================================================================
+Rapport des ressources investies aux capitaux propres.
+
+======================================================================
+TOPIC 468 : Age moyen des machines opérationnelles pour la prochaine période.
+======================================================================
+La capacité productive et le nombre de pannes dépendent de l'âge moyen des machines.
+Les achats et cessions, décidés en début de période, ne sont effectifs que pour la période suivante.
+
+======================================================================
+TOPIC 470 : Results by product (for Organizer)
+======================================================================
+details 
+Results by product of all Enterprises, presented as a table.
+Production 
+Marketing 
+Effects 
+Regular sales 
+Global results 
+see also
+General results 
+Enterprise results 
+
+======================================================================
+TOPIC 471 : Résultats par produits (pour l'Animateur)
+======================================================================
+supprim details 
+Results by product of all Enterprises, presented as a table.
+Production
+Machines affectées 
+Capacité productive (%) 
+Utilisation de la capacité productive (%) 
+Coût de production unitaire 
+Heures supplémentaires (%) 
+Production réelle 
+Marketing
+Prix 
+Prix, % par rapport à la moyenne 
+Publicité 
+Publicité, % C.A. théorique 
+Publicité, % C.A. réel 
+Publicité, % par rapport à la moyenne 
+Vendeurs affectés 
+Vendeurs affectés, productivité 
+Vendeurs affectés, % par rapport à la moyenne 
+Crédit Clients (jours) 
+Crédit Clients, durée en % par rapport à la moyenne 
+Effects 
+Regular sales
+Quantité vendue 
+Parts de marché 
+Rupture de stock 
+Ventes prises 
+Global results
+Chiffre d'Affaires 
+Marge sur coût direct 
+Marge, % par rapport au C.A. 
+
+======================================================================
+TOPIC 472 : See also
+======================================================================
+General results 
+Enterprise results 
+
+======================================================================
+TOPIC 473 : Conditions de production
+======================================================================
+Machines affectées 
+Capacité productive (%) 
+Utilisation de la capacité productive (%) 
+Coût de production unitaire 
+Heures supplémentaires (%) 
+Production réelle 
+
+======================================================================
+TOPIC 474 : Machines affectées
+======================================================================
+
+======================================================================
+TOPIC 475 : Capacité productive (%)
+======================================================================
+Part de la capacité productive globale affectée à cette fabrication.
+
+======================================================================
+TOPIC 476 : Utilisation de la capacité productive (%)
+======================================================================
+Part de la capacité productive affectée à cette fabrication et effectivement utilisée.
+
+======================================================================
+TOPIC 477 : Coût de production unitaire
+======================================================================
+Les stocks sont valorisés au coût moyen unitaire pondéré:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+
+======================================================================
+TOPIC 478 : Heures supplémentaires (%)
+======================================================================
+
+======================================================================
+TOPIC 479 : Production réelle
+======================================================================
+
+======================================================================
+TOPIC 480 : Commercialisation
+======================================================================
+Prix 
+Prix, % par rapport à la moyenne 
+Publicité 
+Publicité, % C.A. théorique 
+Publicité, % C.A. réel 
+Publicité, % par rapport à la moyenne 
+Vendeurs affectés 
+Vendeurs affectés, productivité 
+Vendeurs affectés, % par rapport à la moyenne 
+Crédit Clients (jours) 
+Crédit Clients, durée en % par rapport à la moyenne 
+
+======================================================================
+TOPIC 481 : Prix
+======================================================================
+
+======================================================================
+TOPIC 482 : Prix, % par rapport à la moyenne des prix pratiqués sur le marché.
+======================================================================
+
+======================================================================
+TOPIC 483 : Publicité
+======================================================================
+
+======================================================================
+TOPIC 484 : Publicité, % C.A. théorique
+======================================================================
+Rapport des dépenses de publicité au chiffre d'affaires maximal possible.
+
+======================================================================
+TOPIC 485 : Publicité, % C.A. réel
+======================================================================
+Rapport des dépenses de publicité au chiffre d'affaires réalisé en ventes normales.
+
+======================================================================
+TOPIC 486 : Publicité, % par rapport à la moyenne des dépenses de publicité sur ce marché.
+======================================================================
+
+======================================================================
+TOPIC 487 : Vendeurs affectés
+======================================================================
+
+======================================================================
+TOPIC 488 : Vendeurs affectés, productivité
+======================================================================
+Chiffre d'affaires moyen réalisé par Vendeur.
+
+======================================================================
+TOPIC 489 : Vendeurs affectes, % par rapport à la moyenne des vendeurs sur ce marché.
+======================================================================
+
+======================================================================
+TOPIC 490 : Crédit Clients, durée
+======================================================================
+
+======================================================================
+TOPIC 491 : Crédit Clients, durée en % par rapport à la moyenne pratiquée sur ce marché.
+======================================================================
+
+======================================================================
+TOPIC 492 : Effets
+======================================================================
+Les effets 
+Prix
+, 
+Publicité
+, 
+Crédit Clients
+ et 
+Qualités
+ sont pondérés par les différents poids affectés par l'Animateur lors des décisions de début de période.
+L'effet global
+ prend en compte ces quatre effets ainsi que le taux de fidélisation défini par l'animateur.
+C'est 
+l'effet global 
+qui détermine l'effet mercatique du produit.
+
+======================================================================
+TOPIC 493 : Effet Prix
+======================================================================
+Effet Publicité
+Effet Crédit Clients
+Effet Qualité
+Effet Global
+
+======================================================================
+TOPIC 494 : Ventes normales
+======================================================================
+Quantité vendue 
+Parts de marché 
+Rupture de stock 
+Ventes prises 
+
+======================================================================
+TOPIC 495 : Quantité vendue au prix normal. 
+======================================================================
+
+======================================================================
+TOPIC 496 : Parts de marché
+======================================================================
+
+======================================================================
+TOPIC 497 : Rupture de stock: 
+======================================================================
+ventes perdues par faute de disponibilité.
+
+======================================================================
+TOPIC 498 : Ventes prises: 
+======================================================================
+ventes réalisées au détriment de la conncurrence.
+(Rupture de stock de la concurrence). 
+
+======================================================================
+TOPIC 499 : Résultats globaux par produits
+======================================================================
+Chiffre d'Affaires 
+Marge sur coût direct 
+Marge, % par rapport au C.A. 
+
+======================================================================
+TOPIC 500 : Chiffre d'Affaires (par produits)
+======================================================================
+Chiffre d'affaires, toutes ventes confondues (ventes normales, ventes soldées, soumissions).
+
+======================================================================
+TOPIC 501 : Marge sur coût direct
+======================================================================
+Chiffre d'affaires total du produit, diminué des charges affectables à ce produit.
+
+======================================================================
+TOPIC 502 : Marge, % par rapport au C.A. 
+======================================================================
+Pourcentage de marge sur coûts direct par rapport au chiffre d'affaires total réalisé sur le produit.
+
+======================================================================
+TOPIC 504 : Charts
+======================================================================
+The charts concern 
+an object
+one or many groups of topics
+value series
+The object of the chart.
+This object is chosen in the menu "select".
+The mode of selection is marked by ticks.
+Chart topics.
+The topics are chosen in the menus located between the characters [[ and ]] .
+In each group of topics, we can only choose one subject.
+(by default, in each topic group, the first element is ticked)
+Chart series. 
+The series are chosen in the menus placed between the characters << and >>).
+The different value series are summed in the same chart.
+(by default, all elements of the series are ticked).
+Historical chart 
+Evolution series of the same value type (decision or result), from the first to the last arbitrated period.
+The values can be accessed in a chart format or a value table.
+Charts:
+Scale:
+ When the chart concerns one or many topics, the scale is automatically adapted in function of the topics, if not "blocked":
+Blocking the scale allows to save the same value amplitudes when the topics change.
+Unblocking the scale automatically adjusts the scale to the ongoing topics.
+Position information: 
+By clicking and moving the mouse, the position and identification information appears at the bottom of the chart.
+Table:
+The columns can be individually adjusted or evenly distributed to selected width.
+Charts by period
+Description of relative values of specific periods (by default, the last arbitrated period).
+Clusters: 
+Two clusters, charts and values are adjustable by moving the cursor of cluster at the bottom of the screen.
+Copy, print
+Copy in the print paper:
+ Copy in the print paper: copy chart data in table format.
+Print: 
+print screen only (partial table or chart).

@@ -1,0 +1,78 @@
+=== TFORMSJGP_GETPERIODE.bin: PARTIAL (consumed 921/1024) ===
+object FormSJGP_GetPeriode: TFormSJGP_GetPeriode
+  Left = 198
+  Top = 97
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Période'
+  ClientHeight = 149
+  ClientWidth = 281
+  Color = 'clBtnShadow'
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  OnClose = 'FormClose'
+  OnCreate = 'FormCreate'
+  OnShow = 'FormShow'
+  TextHeight = 16
+  object Label1: TLabel
+    Left = 8
+    Top = 9
+    Width = 171
+    Height = 16
+    Caption = 'Dernière période arbitrée: '
+  end
+  object Label2: TLabel
+    Left = 216
+    Top = 8
+    Width = 41
+    Height = 16
+    Alignment = 'taCenter'
+    Caption = 'Label2'
+  end
+  object BitBtn1: TBitBtn
+    Left = 152
+    Top = 116
+    Width = 89
+    Height = 25
+    TabOrder = 2
+    Kind = 'bkCancel'
+  end
+  object Panel1: TPanel
+    Left = 8
+    Top = 40
+    Width = 265
+    Height = 65
+    BevelInner = 'bvLowered'
+    BevelOuter = 'bvNone'
+    TabOrder = 0
+    object Label3: TLabel
+      Left = 8
+      Top = 25
+      Width = 168
+      Height = 16
+      Caption = 'Résultats pour la période:'
+    end
+    object SpinEdit1: TSpinEdit
+      Left = 208
+      Top = 20
+      Width = 41
+      Height = 26
+      MaxValue = 2
+      MinValue = 1
+      TabOrder = 0
+      Value = 1
+    end
+  end
+  object BitBtn2: TBitBtn
+    Left = 40
+    Top = 116
+    Width = 89
+    Height = 25
+    TabOrder = 1
+    Kind = 'bkOK'
+  end
+end
+

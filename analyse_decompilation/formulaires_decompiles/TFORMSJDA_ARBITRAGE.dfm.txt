@@ -1,0 +1,249 @@
+=== TFORMSJDA_ARBITRAGE.bin: PARTIAL (consumed 3192/3328) ===
+object FormSJDA_Arbitrage: TFormSJDA_Arbitrage
+  Left = 197
+  Top = 98
+  HelpContext = 20100
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'ARBITRAGE'
+  ClientHeight = 313
+  ClientWidth = 439
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnClose = 'FormClose'
+  OnCloseQuery = 'FormCloseQuery'
+  OnCreate = 'FormCreate'
+  TextHeight = 16
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 56
+    Width = 217
+    Height = 249
+    Caption = ' Décisions validées '
+    Enabled = False
+    TabOrder = 0
+    object CheckBoxA: TCheckBox
+      Left = 24
+      Top = 24
+      Width = 145
+      Height = 17
+      Alignment = 'taLeftJustify'
+      Caption = 'Animateur'
+      TabOrder = 0
+    end
+    object CheckBoxE1: TCheckBox
+      Left = 24
+      Top = 56
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 1'
+      TabOrder = 1
+    end
+    object CheckBoxE2: TCheckBox
+      Left = 24
+      Top = 80
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 2'
+      TabOrder = 2
+    end
+    object CheckBoxE3: TCheckBox
+      Left = 24
+      Top = 104
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 3'
+      TabOrder = 3
+    end
+    object CheckBoxE4: TCheckBox
+      Left = 24
+      Top = 128
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 4'
+      TabOrder = 4
+    end
+    object CheckBoxE5: TCheckBox
+      Left = 24
+      Top = 152
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 5'
+      TabOrder = 5
+    end
+    object CheckBoxE6: TCheckBox
+      Left = 24
+      Top = 176
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 6'
+      TabOrder = 6
+    end
+    object CheckBoxE7: TCheckBox
+      Left = 24
+      Top = 200
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 7'
+      TabOrder = 7
+    end
+    object CheckBoxE8: TCheckBox
+      Left = 24
+      Top = 224
+      Width = 145
+      Height = 17
+      Caption = 'Entreprise 8'
+      TabOrder = 8
+    end
+  end
+  object BitBtnArbitrer: TBitBtn
+    Left = 240
+    Top = 64
+    Width = 185
+    Height = 25
+    Caption = '&Arbitrer maintenant'
+    TabOrder = 1
+    OnClick = 'BitBtnArbitrerClick'
+    Kind = 'bkYes'
+    Margin = 4
+    Spacing = 8
+  end
+  object BitBtn2: TBitBtn
+    Left = 240
+    Top = 96
+    Width = 89
+    Height = 25
+    Caption = '&Quitter'
+    TabOrder = 2
+    Kind = 'bkNo'
+    Margin = 4
+  end
+  object Memo1: TMemo
+    Left = 240
+    Top = 176
+    Width = 185
+    Height = 129
+    Color = 'clYellow'
+    Enabled = False
+    Font.Color = 'clBlack'
+    Font.Height = -16
+    Font.Name = 'System'
+    Font.Style = ['fsBold']
+    Lines.Strings = ['Les décisions ne sont ', 'pas toutes validées !']
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 439
+    Height = 49
+    Align = 'alTop'
+    BevelOuter = 'bvNone'
+    Caption = 'Arbitrage de la période'
+    Font.Color = 'clRed'
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = ['fsBold', 'fsUnderline']
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Panel2: TPanel
+    Left = 240
+    Top = 136
+    Width = 185
+    Height = 41
+    BevelInner = 'bvLowered'
+    BevelOuter = 'bvNone'
+    Caption = 'Calculs en cours ....'
+    Color = 'clWindow'
+    Font.Color = 'clRed'
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    Visible = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 336
+    Top = 96
+    Width = 89
+    Height = 25
+    TabOrder = 3
+    OnClick = 'BitBtn1Click'
+    Kind = 'bkHelp'
+  end
+  object TableACG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSACG.DB'
+    Left = 160
+    Top = 72
+  end
+  object TableADG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADG.DB'
+    Left = 160
+    Top = 104
+  end
+  object TableADP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADP.DB'
+    Left = 192
+    Top = 104
+  end
+  object TableEDG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDG.DB'
+    Left = 160
+    Top = 144
+  end
+  object TableEDP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDP.DB'
+    Left = 192
+    Top = 144
+  end
+  object TableERG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSERG.DB'
+    Left = 160
+    Top = 208
+  end
+  object TableERP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSERP.DB'
+    Left = 192
+    Top = 208
+  end
+  object TableACP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSACP.DB'
+    Left = 192
+    Top = 72
+  end
+  object TableMAIN: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSIMS.DB'
+    Left = 176
+    Top = 40
+  end
+  object TableEDM: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDM.DB'
+    Left = 176
+    Top = 176
+  end
+  object TableMRP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSMRP.DB'
+    Left = 176
+    Top = 256
+  end
+end
+

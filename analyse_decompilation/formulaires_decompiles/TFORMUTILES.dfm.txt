@@ -1,0 +1,15 @@
+=== TFORMUTILES.bin: PARTIAL (consumed 180/256) ===
+object FormUtiles: TFormUtiles
+  Left = 199
+  Top = 98
+  Width = 435
+  Height = 113
+  Caption = 'FormUtiles'
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  TextHeight = 16
+end
+

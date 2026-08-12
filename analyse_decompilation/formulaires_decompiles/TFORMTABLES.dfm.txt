@@ -1,0 +1,259 @@
+=== TFORMTABLES.bin: PARTIAL (consumed 3723/3840) ===
+object FormTables: TFormTables
+  Left = 165
+  Top = 106
+  Width = 598
+  Height = 402
+  HelpContext = 4000
+  ActiveControl = 'Panel1'
+  BorderIcons = ['biSystemMenu', 'biMaximize']
+  Caption = 'Visualisation des tables de données'
+  Font.Color = 'clBlack'
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = 'MainMenu1'
+  PixelsPerInch = 96
+  WindowState = 'wsMaximized'
+  OnClose = 'FormClose'
+  OnCreate = 'FormCreate'
+  OnShow = 'FormShow'
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 590
+    Height = 63
+    Align = 'alTop'
+    BevelInner = 'bvLowered'
+    BorderWidth = 4
+    TabOrder = 0
+    object StringGrid1: TStringGrid
+      Left = 270
+      Top = 6
+      Width = 275
+      Height = 51
+      TabStop = False
+      Ctl3D = True
+      Enabled = False
+      FixedCols = 0
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goAlwaysShowEditor']
+      ParentCtl3D = False
+      ParentFont = False
+      RowCount = 2
+      ScrollBars = 'ssNone'
+      TabOrder = 0
+      Visible = False
+      OnClick = 'StringGrid1Click'
+      OnExit = 'StringGrid1Exit'
+      OnKeyDown = 'StringGrid1KeyDown'
+      OnKeyUp = 'StringGrid1KeyUp'
+      ColWidths = [64, 65, 64, 64, 64]
+    end
+    object Panel5: TPanel
+      Left = 6
+      Top = 6
+      Width = 259
+      Height = 51
+      Align = 'alLeft'
+      BevelOuter = 'bvNone'
+      TabOrder = 1
+      object DBNavigator: TDBNavigator
+        Left = 0
+        Top = 0
+        Width = 259
+        Height = 26
+        DataSource = 'DataSource1'
+        Align = 'alTop'
+        Ctl3D = False
+        ParentCtl3D = False
+        TabOrder = 0
+      end
+      object Panel6: TPanel
+        Left = 0
+        Top = 26
+        Width = 259
+        Height = 25
+        Align = 'alClient'
+        BevelOuter = 'bvNone'
+        TabOrder = 1
+        OnResize = 'Panel6Resize'
+        object Edit1: TEdit
+          Left = 0
+          Top = 0
+          Width = 115
+          Height = 20
+          AutoSize = False
+          Font.Color = 'clBlack'
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 63
+    Width = 590
+    Height = 293
+    Align = 'alClient'
+    BevelInner = 'bvLowered'
+    BorderWidth = 4
+    TabOrder = 1
+    object DBGrid1: TDBGrid
+      Left = 6
+      Top = 6
+      Width = 578
+      Height = 281
+      Align = 'alClient'
+      BorderStyle = 'bsNone'
+      DataSource = 'DataSource1'
+      Options = ['dgTitles', 'dgIndicator', 'dgColumnResize', 'dgColLines', 'dgRowLines', 'dgTabs', 'dgConfirmDelete', 'dgCancelOnExit']
+      ReadOnly = True
+      TabOrder = 0
+      TitleFont.Color = 'clBlack'
+      TitleFont.Height = -11
+      TitleFont.Name = 'MS Sans Serif'
+      TitleFont.Style = []
+      Visible = False
+      OnColEnter = 'DBGrid1ColEnter'
+      OnKeyDown = 'StringGrid1KeyDown'
+      OnKeyUp = 'StringGrid1KeyUp'
+    end
+    object Memo1: TMemo
+      Left = 56
+      Top = 104
+      Width = 521
+      Height = 89
+      Lines.Strings = ['Memo1']
+      ScrollBars = 'ssBoth'
+      TabOrder = 1
+      Visible = False
+      WordWrap = False
+    end
+  end
+  object PanelLOUPE: TPanel
+    Left = 197
+    Top = 112
+    Width = 241
+    Height = 41
+    BevelOuter = 'bvNone'
+    BorderStyle = 'bsSingle'
+    Caption = 'PanelLOUPE'
+    Color = 'clYellow'
+    Font.Color = 'clBlack'
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    Visible = False
+  end
+  object DataSource1: TDataSource
+    AutoEdit = False
+    DataSet = 'Table1'
+    OnDataChange = 'DataSource1DataChange'
+    Left = 439
+    Top = 81
+  end
+  object Table1: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTFEDP.DB'
+    Left = 412
+    Top = 81
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = 'db'
+    Filter = 'Paradox (*.db)|*.db'
+    Options = ['ofPathMustExist', 'ofFileMustExist']
+    Left = 168
+    Top = 80
+  end
+  object MainMenu1: TMainMenu
+    Left = 136
+    Top = 81
+    object Fichier1: TMenuItem
+      Caption = '&Fichier'
+      object Ouvrir1: TMenuItem
+        Caption = '&Ouvrir table...'
+        OnClick = 'Ouvrir1Click'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Fermer1: TMenuItem
+        Caption = '&Fermer fiche'
+        OnClick = 'Fermer1Click'
+      end
+    end
+    object Edition1: TMenuItem
+      Caption = '&Edition'
+      Visible = False
+      object Copier1: TMenuItem
+        Caption = 'Co&pier'
+        Enabled = False
+        OnClick = 'Copier1Click'
+        ShortCutText = 'Ctrl+C'
+      end
+    end
+    object Format1: TMenuItem
+      Caption = 'Forma&t'
+      object Caracteres1: TMenuItem
+        Caption = '&Caractères...'
+        OnClick = 'Caracteres1Click'
+      end
+    end
+    object InfosJeu1: TMenuItem
+      Caption = '&Infos Jeu'
+      OnClick = 'InfosJeu1Click'
+    end
+    object Aide1: TMenuItem
+      Caption = '&Aide'
+      object Fiche1: TMenuItem
+        Caption = '&Fiche'
+        OnClick = 'Fiche1Click'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Index1: TMenuItem
+        Caption = '&Sommaire'
+        OnClick = 'Index1Click'
+      end
+      object Rechercher1: TMenuItem
+        Caption = '&Rechercher'
+        OnClick = 'Rechercher1Click'
+      end
+      object Utiliserlaide1: TMenuItem
+        Caption = "&Utiliser l'aide"
+        OnClick = 'Utiliserlaide1Click'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Apropos1: TMenuItem
+        Caption = '&A propos...'
+        OnClick = 'Apropos1Click'
+      end
+    end
+  end
+  object FontDialog1: TFontDialog
+    Font.Color = 'clWindowText'
+    Font.Height = -13
+    Font.Name = 'System'
+    Font.Style = []
+    MinFontSize = 0
+    MaxFontSize = 0
+    Left = 200
+    Top = 81
+  end
+end
+

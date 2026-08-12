@@ -1,0 +1,15 @@
+=== TFORMSMAD_AUTODOC.bin: PARTIAL (consumed 206/256) ===
+object FormSMAD_AutoDoc: TFormSMAD_AutoDoc
+  Left = 200
+  Top = 99
+  Width = 435
+  Height = 300
+  Caption = 'Form SimStrat Auto-Doc '
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  TextHeight = 16
+end
+

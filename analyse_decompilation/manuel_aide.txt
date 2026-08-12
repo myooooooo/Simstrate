@@ -1,0 +1,4012 @@
+
+======================================================================
+RUBRIQUE 1 : Sommaire de l'aide de Simstrate
+======================================================================
+Utilisation de Simstrate 
+Décisions
+Décisions de création 
+Décisions de l'Animateur 
+Décisions des entreprises 
+Informations publiques 
+Résultats des Entreprises
+Situation 
+Compte de résultats 
+Bilan 
+Tableau de Financement 
+Tableau de Trésorerie 
+Soldes intermédiaires de gestion (S.I.G.) 
+Etudes de marché 
+Résultats pour l'Animateur
+Résultats généraux 
+Résultats par produits 
+Graphes 
+
+======================================================================
+RUBRIQUE 2 : Sommaire de l'aide de Simstrate
+======================================================================
+détails 
+Utilisation de Simstrate 
+Décisions 
+Informations publiques 
+Résultats 
+Graphes 
+
+======================================================================
+RUBRIQUE 3 : Aucune rubrique d'aide particulière n'est associée à cet élément.
+======================================================================
+
+======================================================================
+RUBRIQUE 9 : Utilisation de Simstrate
+======================================================================
+Obtenir de l'aide 
+Problèmes courants 
+Plusieurs utilisateurs sur un réseau, connectés au même jeu 
+Création d'un nouveau jeu 
+Niveau de jeu 
+Ouverture d'un jeu existant
+Prise des décisions 
+Informations publiques 
+Arbitrage 
+Résultats après arbitrage 
+Reprise de période 
+Rappels de décisions 
+Copier dans le presse-papiers 
+Imprimer 
+Impressions multiples 
+Graphes 
+Options
+Informations sur le jeu en cours 
+Consultation de tables 
+Choix de la police pour l'impression rapide 
+
+======================================================================
+RUBRIQUE 10 : Arbitrage
+======================================================================
+voir aussi 
+Après la prise de toutes les décisions , l'arbitrage
+1. Simule le déroulement de la période en cours, selon les décisions prises en début de période
+2. Enregistre les résultats de la période en cours dans la base de donnée
+3. Fait passer en début de la période suivante (qui devient la période en cours)
+Après arbitrage,
+1. Les résultats de la dernière période sont disponibles en consultation.
+2. La prise de décisions (Animateur puis Entreprises) concerne le début de la nouvelle période.
+Si toutes les décisions ne sont pas prises, il n'est pas possible d'arbitrer la période.
+Annulation de l'arbitrage: 
+voir 
+Reprise de période 
+
+======================================================================
+RUBRIQUE 11 : Voir aussi
+======================================================================
+Prise des décisions 
+Résultats après arbitrage 
+Reprise de période 
+
+======================================================================
+RUBRIQUE 12 : Reprise de période
+======================================================================
+voir aussi 
+Le reprise de période permet d'annuler les arbitrages pour reprendre le jeu au début d'une période antérieure.
+Vous devrez confirmer le choix de la période de reprise.
+Après reprise à une période donnée,
+1. Les données (décisions et résultats) des périodes suivantes sont perdues.
+2. La période de reprise devient la période en cours.
+3. Les décisions de début de la période de reprise sont conservées (et peuvent rester valides).
+4. Les décisions de la période de reprise peuvent être modifiées.
+5. La période de reprise doit être arbitrée à nouveau.
+
+======================================================================
+RUBRIQUE 13 : Voir aussi
+======================================================================
+Prise des décisions 
+Arbitrage 
+Résultats après arbitrage 
+
+======================================================================
+RUBRIQUE 14 : Prise des décisions
+======================================================================
+voir aussi 
+Les décisions (Animateur et Entreprises) se prennent en début de la période en cours et doivent être validées et enregistrées pour autoriser l'
+arbitrage 
+.
+En cas de modification, la validation et l'enregistrement sont automatiquement proposés 
+à la fermeture de la fiche de saisie
+au changement d'Entreprise (dans le cas des décisions d'Entreprises)
+On peut également enregistrer les décisions sans les vérifier.
+Les 
+décisions des Entreprises 
+ ne peuvent être prises qu'après validation des 
+décisions de l'Animateur 
+Toute modification des décisions de l'Animateur entraîne l'annulation de la validation des décisions des Entreprises.
+
+======================================================================
+RUBRIQUE 15 : Voir aussi
+======================================================================
+Arbitrage 
+Résultats après arbitrage 
+Reprise de période 
+Rappels de décisions 
+Décisions de création 
+Décisions de l'Animateur 
+Décisions des Entreprises 
+
+======================================================================
+RUBRIQUE 16 : Décisions 
+======================================================================
+Décisions de création 
+Décisions de l'Animateur 
+Décisions des Entreprises 
+
+======================================================================
+RUBRIQUE 17 : Résultats après arbitrage
+======================================================================
+voir aussi 
+Les résultats d'une période sont disponibles dès la fin de l'
+arbitrage 
+ de cette période.
+Résultats pour l'Animateur 
+Résultats des Entreprises 
+Graphes 
+
+======================================================================
+RUBRIQUE 18 : Voir aussi
+======================================================================
+Prise des décisions 
+Arbitrage 
+Reprise de période 
+
+======================================================================
+RUBRIQUE 19 : Résultats
+======================================================================
+Résultats pour l'Animateur 
+Résultats des Entreprises 
+Graphes 
+
+======================================================================
+RUBRIQUE 20 : Résultats pour l'Animateur
+======================================================================
+Après 
+arbitrage 
+ l'Animateur dispose d'informations particulières sur les résultats des entreprises.
+Résultats généraux pour toutes les Entreprises 
+Résultats par produits pour toutes les Entreprises 
+Graphes 
+
+======================================================================
+RUBRIQUE 21 : Résultats pour l'Animateur 
+======================================================================
+Résultats généraux pour toutes les Entreprises 
+Résultats par produits pour toutes les Entreprises 
+Graphes 
+
+======================================================================
+RUBRIQUE 22 : Résultats pour chaque Entreprise
+======================================================================
+Les résultats obtenus par les entreprises sont disponibles après l'
+arbitrage 
+ de la période.
+Situation de fin de période 
+Compte de résultat 
+Bilan 
+Tableau de financements 
+Tableau de trésorerie 
+Soldes intermédiaires de gestion (S.I.G.) 
+Etudes de marché 
+
+======================================================================
+RUBRIQUE 23 : Résultats des Entreprises 
+======================================================================
+Situation de fin de période 
+Compte de résultat 
+Bilan 
+Tableau de financements 
+Tableau de trésorerie 
+Soldes intermédiaires de gestion (S.I.G.) 
+Etudes de marché 
+
+======================================================================
+RUBRIQUE 24 : Rappels de décisions
+======================================================================
+voir aussi 
+Lors de la prise de décisions (Animateur ou Entreprises), le bouton 
+Rappels
+ permet de consulter les décisions prises aux période précédentes.
+On peut également consulter les décisions antérieures à l'aide des sous-menus 
+Rappel décisions
+ des menus 
+Animateur
+ ou 
+Entreprises
+ de la fiche principale.
+
+======================================================================
+RUBRIQUE 25 : Voir aussi
+======================================================================
+Prise des décisions 
+
+======================================================================
+RUBRIQUE 26 : Ouverture d'un jeu existant
+======================================================================
+voir aussi 
+Le sous menu 
+Ouvrir
+ du menu 
+Fichiers
+ de la fiche principale permet d'accéder à la boite de dialogue d'ouverture d'un jeu existant, situé dans un répertoire à préciser.
+Remarques
+Un seul jeu peut être ouvert à la fois.
+La fermeture d'un jeu est automatique lors de l'ouverture ou de la création d'un autre jeu ou lors de la sortie de l'application.
+
+======================================================================
+RUBRIQUE 27 : Voir Aussi
+======================================================================
+Création d'un nouveau jeu 
+Informations sur le jeu en cours 
+
+======================================================================
+RUBRIQUE 28 : Copier dans le presse papier
+======================================================================
+Le contenu de chaque fiche possédant un menu 
+Edition Copier
+ ou un bouton 
+Copier
+, peut être copié dans le presse papier pour une récupération éventuelle par une autre application.
+Les données de la fiche sont copiées dans le presse-papiers sous un format de tableau dont les colonnes sont séparées par le caractère 
+tabulation
+.
+Le contenu du presse papier peut être récupéré par un traitement de texte ou un tableur, par sa fonction 
+Coller
+, en spécifiant 
+tabulation
+ comme type de séparateur utilisé.
+
+======================================================================
+RUBRIQUE 29 : Copier dans le presse papier 
+======================================================================
+Le contenu de chaque fiche possédant un menu 
+Edition Copier
+ ou un bouton 
+Copier
+, peut être copié dans le presse papier pour une récupération éventuelle par une autre application.
+Les données de la fiche sont copiées dans le presse-papiers sous un format de tableau dont les colonnes sont séparées par le caractère 
+tabulation
+.
+Le contenu du presse papier peut être récupéré par un traitement de texte ou un tableur, par sa fonction 
+Coller
+, en spécifiant 
+tabulation
+ comme type de séparateur utilisé.
+
+======================================================================
+RUBRIQUE 30 : Imprimer
+======================================================================
+voir aussi 
+Copier dans le presse-papiers 
+Les fiches de décisions ou de résultats peuvent être imprimées une à une, en utilisant 
+le bouton 
+Imprimer 
+(Impression normale)
+Impr. R
+(
+Impression Rapide)
+le menu 
+Fichier
+Imprimer
+. 
+Impression Rapide
+Impression normale 
+: 
+impression des fiches avec mise en page (aspect final identique à l'aspect à l'écran).
+Impression rapide 
+impressions en mode brouillon, avec une mise en page peu élaborée .
+Pour imprimer en une seule fois plusieurs fiches, utiliser la boite de dialogue 
+Impressions multiples. 
+
+======================================================================
+RUBRIQUE 31 : Impression normale (mode présentation)
+======================================================================
+Impression des résultats sous un aspect identique à celui obtenu à l
+'
+écran.
+L
+'
+impression peut être lente dans ce mode. Voir aussi: 
+Impression Rapide.
+
+======================================================================
+RUBRIQUE 32 : Impression normale (mode présentation)
+======================================================================
+Impression des résultats sous un aspect identique à celui obtenu à l
+'
+écran.
+L
+'
+impression peut être lente dans ce mode.
+
+======================================================================
+RUBRIQUE 33 : Impression Rapide (mode brouillon)
+======================================================================
+Impression des résultats avec alignements mais sans autres effets de présentation. Cette impression est plus rapide, mais moins élaborée, que 
+l'impression normale.
+L
+'
+impression rapide ne donne de bons résultats qu
+'
+avec des 
+polices True-type à espacement fixe
+.
+Par défaut, l
+'
+impression rapide utilise la police 
+Courrier New
+ (True-type à espacement fixe) avec le style 
+gras
+ et la taille 
+10
+. 
+Vérifiez que vous avec bien installé cette police sur votre système
+ (sinon le système utilisera une police plus ou moins proche avec des résultats plus ou moins convenables selon les imprimantes) ou choisissez une autre police du même type (voir ci-dessous).
+Le 
+menu option
+ de la fiche principale de l
+'
+application permet 
+- de choisir une autre police True-type à espacement fixe (parmi celles qui sont installées).
+- de préciser le mode (normal, gras, italique, gras italique).
+- (la précision de taille est sans effet).
+
+======================================================================
+RUBRIQUE 34 : Fonctionnement en réseau
+======================================================================
+Lorsque plusieurs utilisateurs sont connectés à un même jeu, à un instant, 
+un seul d
+'
+entre eux peut accéder à aux fonctions qui modifient la base de données :
+prise de décisions pour l'Animateur
+prise de décisions d'Entreprise
+arbitrage
+reprise de période
+les autres utilisateurs devront attendre la libération de la base de données avant de ouvoir saisir leurs décisions.
+Mais une fois le jeu ouvert, un utilisateur peut consulter les résultats et les rappels de décisions en toutes circonstances (sauf restrictions dues au pilote de bases de données).
+Restrictions éventuelles dues au pilote de base de données
+:
+Si votre pilote de base de donnée ne permet pas de faire la différence entre le contrôle en écriture et le contrôle en lecture sur les bases de données, aucune action de consultation et même d'ouverture du jeu ne sera possible pendant qu'un utilisateur accède aux fonctions qui modifient la base de données.
+
+======================================================================
+RUBRIQUE 35 : Obtenir de l
+======================================================================
+'
+aide
+Aide globale:
+Chaque fiche comporte un écran d
+'
+aide globale, accessible par soit par menu, soit par bouton:
+menu 
+? aide + fiche
+bouton 
+? aide
+Aide contextuelle sur une donnée.
+Pour obtenir une information sur une donnée, cliquer avec le 
+bouton droit de la souris
+ sur le libellé associé.
+On peut également obtenir une information sur le champ de donnée actif, en utilisant la touche F1.
+Compléments, conseils, astuces ... 
+Pour obtenir une 
+vue agrandie du champ de donnée actif
+, appuyer sur la touche 
+Ctrl
+.
+Pour 
+redimensionner les colonnes d
+une grille de donnée, 
+Utiliser le menu 
+format + style .
+Positionner le curseur de la souris sur un séparateur de colonne (dans la zone grisée) et, avec le bouton gauche enfoncé, modifier la largeur de la colonne.
+Cliquer sur une cellule (zone non grisée) et avec le menu 
+format + égaliser
+, donner à toutes les colonnes la même largeur que celle de la cellule active.
+
+======================================================================
+RUBRIQUE 36 : Problèmes courants
+======================================================================
+Problèmes d'impression: 
+impression normale 
+lente
+Ces problèmes sont souvent dus à la configuration de Windows. Consulter l
+'
+aide de Windows:
+aide de Windows au sujet de l
+'
+impression
+aide du gestionnaire d'imprimante
+aide de la configuration des imprimantes
+Vérifier les paramètres de l'impression, du gestionnaire d
+'
+impression.
+Choisir de préférence:
+Imprimer dès après la première page
+Imprimer directement sur le port
+Si le gestionnaire d'impression est actif, dans son menu options, choisir
+Priorité de l'impression: haute
+Envoi des travaux directement sur l'imprimante réseau
+Désactiver le gestionnaire d'impression et les spoolers.
+Dans un environnement réseau, 
+Le gestionnaire d'imprimante, s'il est activé, met les impressions en attente.Utiliser de préférence une imprimante locale et désactiver le gestionnaire d
+'
+impression.
+Quelques solutions
+-
+Utiliser les 
+Impressions multiples 
+ et 
+...
+ en profiter pour faire une petite sieste pendant ce temps là 
+...
+Zzzzzzzzzzz 
+....
+ .
+-
+Utiliser 
+l'Impression rapide 
+ à la place de 
+l'Impression normale.
+Problème d'impression : Les résultats ne s'impriment pas en impression normale ou les pages sont tronquées
+En principe, l'impression se fait avec les polices de caractères les plus courantes, mais il se peut que ces polices ne soient pas installées ou ne soit pas reconnues par votre imprimante.
+Windows utilise normalement une conversion vers la police la plus proche, mais cela ne donne pas toujours un bon résultat.
+Vérifier les paramètres de conversion (voir l
+'
+aide de Windows, de votre imprimante) et forcez la conversion vers une police qui donne de bons résultats sur l
+'
+imprimante.
+Vous pouvez aussi choisir 
+l'impression rapide
+, qui utilise des polices à espacement fixe.
+·
+Il faut installer de telles polices sur votre ordinateur (voir installation de Windows) 
+·
+Ces polices, très courantes, sont reconnues par les imprimantes.
+·
+Vous pouvez activer une telle police, dans le menu : 
+option + police pour ...
+
+======================================================================
+RUBRIQUE 39 : Création d'un nouveau jeu
+======================================================================
+voir aussi 
+Le sous menu 
+Nouveau
+ du menu 
+Fichiers
+ de la fiche principale permet d'accéder à la boite de dialogue de création d'un nouveau jeu.
+Le nouveau jeu est créé avec le nom choisi et les fichiers associés seront placés dans le répertoire spécifié.
+Après confirmation de la création, la fiche de dialogue 
+Décisions de création
+ s'ouvre pour la saisie des décisions initiales.
+Une fois les décisions de création validées, le nouveau jeu est actif et remplace le jeu précédent.
+En cas d'annulation, les fichiers temporaires éventuels sont détruits et le jeu n'est pas créé.
+Remarques
+Un seul jeu peut être ouvert à la fois.
+La fermeture d'un jeu est automatique lors de l'ouverture ou de la création d'un autre jeu ou lors de la sortie de l'application.
+Cliquer sur une zone de la boite de dialogue ci-dessous pour obtenir des informations.
+
+======================================================================
+RUBRIQUE 40 : Voir_Aussi
+======================================================================
+Décisions de création 
+Ouverture d'un jeu existant 
+Informations sur le jeu en cours 
+Niveau de jeu 
+
+======================================================================
+RUBRIQUE 41 : Le nom du jeu est constitué de quatre caractères exactement.
+======================================================================
+Le premier caractère est obligatoirement une lettre, les autres peuvent être des lettres ou des chiffres.
+(Le nom SIMS est non autorisé).
+
+======================================================================
+RUBRIQUE 42 : Le niveau de jeu est compris entre 1 (simple) et 4 (complet) et ne peut pas être changé en cours de jeu.
+======================================================================
+
+======================================================================
+RUBRIQUE 43 : Répertoire (ou dossier) choisi pour contenir les fichiers du jeu.
+======================================================================
+
+======================================================================
+RUBRIQUE 44 : Choix d'un répertoire (ou dossier) existant.
+======================================================================
+
+======================================================================
+RUBRIQUE 45 : Acceptation des choix et fermeture du dialogue.
+======================================================================
+La création devra être confirmée et se continuera par la prise des décisions initiales du jeu.
+
+======================================================================
+RUBRIQUE 46 : Abandon de la création.
+======================================================================
+
+======================================================================
+RUBRIQUE 47 : Aide en cours.
+======================================================================
+
+======================================================================
+RUBRIQUE 48 : Lecteur destination des fichiers du jeu.
+======================================================================
+
+======================================================================
+RUBRIQUE 51 : Informations sur le jeu en cours
+======================================================================
+voir aussi 
+Permet d'obtenir des informations relatives au jeu en cours:
+Niveau du jeu, Période en cours, nombre d'entreprises.
+Fichiers et emplacement des fichiers du jeu.
+
+======================================================================
+RUBRIQUE 52 : Voir aussi
+======================================================================
+Consultation de tables 
+
+======================================================================
+RUBRIQUE 53 : Nom du jeu, formé de 4 caractères.
+======================================================================
+
+======================================================================
+RUBRIQUE 54 : Niveau de jeu (défini à la création).
+======================================================================
+
+======================================================================
+RUBRIQUE 55 : Nombre d'entreprises participant au jeu (défini à la création).
+======================================================================
+
+======================================================================
+RUBRIQUE 56 : Nom du fichier principal du jeu (constitué à partir du nom du jeu).
+======================================================================
+
+======================================================================
+RUBRIQUE 57 : Période en cours, non encore arbitrée.
+======================================================================
+
+======================================================================
+RUBRIQUE 58 : Répertoire des fichiers du jeu.
+======================================================================
+
+======================================================================
+RUBRIQUE 59 : Noms de fichiers secondaires, associés au jeu 
+======================================================================
+
+======================================================================
+RUBRIQUE 60 : Fermeture de la fiche.
+======================================================================
+
+======================================================================
+RUBRIQUE 62 : Niveau de jeu
+======================================================================
+voir aussi
+Le niveau de jeu est défini à la création du jeu et ne peut-être modifié en cours de jeu.
+Simstrate permet de choisir quatre niveaux possibles, numérotés de 1 (simple) à 4 (complet).
+Niveau 1 
+Niveau 2 
+Niveau 3
+Niveau 4
+
+======================================================================
+RUBRIQUE 63 : Voir_Aussi
+======================================================================
+Création d'un nouveau jeu 
+Informations sur le jeu en cours 
+
+======================================================================
+RUBRIQUE 64 : Niveau 1
+======================================================================
+
+======================================================================
+RUBRIQUE 65 : Niveau 2
+======================================================================
+
+======================================================================
+RUBRIQUE 66 : Niveau 3
+======================================================================
+
+======================================================================
+RUBRIQUE 67 : Niveau 4
+======================================================================
+
+======================================================================
+RUBRIQUE 70 : Consultation des tables de données
+======================================================================
+voir aussi 
+Menu fichier. Ouvrir
+Ouverture d'un fichier de base de données au format Paradox (*.db), pour consultation dans la grille de données.
+Le répertoire initial du dialogue est le répertoire du jeu en cours si un jeu est ouvert, le répertoire de l'application sinon.
+Si un jeu est en cours, les noms des fichiers de base de donnée, associés à ce jeu, peuvent être obtenus par consultation du menu 
+Infos Jeu 
+(ou du menu 
+Options + Infos Jeu 
+de la fiche principale de l'application). 
+Menu Format. Caractères
+Modification de la police de caractères utilisée dans la fiche.
+
+======================================================================
+RUBRIQUE 71 : Voir aussi
+======================================================================
+Création d'un nouveau jeu 
+Ouverture d'un jeu existant 
+Informations sur le jeu en cours 
+
+======================================================================
+RUBRIQUE 73 : Impressions Multiples
+======================================================================
+Les impressions peuvent être globalisées en une seule tâche, d'impressions multiples, à l'aide de la boite de dialogue 
+impressions 
+qui permet de lancer l'impression de plusieurs fiches en une seule fois.
+Page de sélections globales: 
+Pour définir les données à imprimer, de façon commune, en une seule fois
+Le retrait d'un élément ne peut se faire que par le retrait de cet élément dans les sélections particulières.
+On peut aussi choisir de
+Tout retirer dans la page
+Tout sélectionner dans la page
+Pages de sélections particulières (Animateur, Entreprises): 
+Sélection ou non, une à une, des diverses tâches d`impression.
+Imprimer
+Impression normale 
+(mode présentation)
+Impr. Rapide
+Impression Rapide 
+(mode brouillon)
+Cliquer sur une zone de la boite de dialogue ci-dessous pour obtenir des informations.
+
+======================================================================
+RUBRIQUE 74 : Utiliser les pages 
+======================================================================
+Entreprise (de 1 à ..)
+ pour définir les choix d'impressions personnalisés pour chaque Entreprise.
+Animateur
+ pour définir les choix d'impressions pour l'Animateur.
+Globale
+ pour définir en une seule fois des choix communs.
+
+======================================================================
+RUBRIQUE 75 : Cocher cette case pour sélectionner l'impression des décisions.
+======================================================================
+
+======================================================================
+RUBRIQUE 76 : Cocher cette case pour sélectionner l'impression des résultats d'études de marché.
+======================================================================
+
+======================================================================
+RUBRIQUE 77 : Cocher chaque case pour sélectionner l'impression des résultats associés.
+======================================================================
+
+======================================================================
+RUBRIQUE 78 : Cocher cette case pour sélectionner l'impression de tous les résultats.
+======================================================================
+Cette sélection globale ne peut être annulée que par l'annulation d'une au moins des coches de résultats individuels.
+
+======================================================================
+RUBRIQUE 79 : Choix de la période pour laquelle on demande des impressions.
+======================================================================
+Les cases à cocher ne sont accessibles que si les éléments correspondants sont disponibles:
+Décisions prises et validées pour la période choisie.
+Résultats uniquement pour une période arbitrée.
+
+======================================================================
+RUBRIQUE 80 : Fermeture de la boite de dialogue, avec confirmation.
+======================================================================
+
+======================================================================
+RUBRIQUE 81 : Impression des sélections opérées.
+======================================================================
+
+======================================================================
+RUBRIQUE 82 : Accès à cette aide.
+======================================================================
+
+======================================================================
+RUBRIQUE 83 : Tout sélectionner dans la page.
+======================================================================
+Utilisable aussi pour la page des sélections globales.
+
+======================================================================
+RUBRIQUE 84 : Annulation de toutes les sélections faites dans la page.
+======================================================================
+Pour la page des sélections globales, annulera toutes les décisions particulières dans toutes les pages.
+
+======================================================================
+RUBRIQUE 86 : Décisions de création
+======================================================================
+détails 
+Les décisions de création permettent à l'animateur de fixer les valeurs pour les paramètres du jeu. Parmi ces paramètres, certains sont des constantes du jeu, d'autres représentent des valeurs initiales pour des paramètres qui varieront au cours du jeu, en fonction des résultats des entreprises ou de la situation du marché.
+Les conditions initiales sont rigoureusement les mêmes pour toutes les entreprises.
+Décisions générales
+Décisions par produits
+Impôt Forfaitaire Annuel (I.F.A.)
+Options
+
+======================================================================
+RUBRIQUE 87 : Décisions de création
+======================================================================
+supprimer détails 
+Les décisions de création permettent à l'animateur de fixer les valeurs pour les paramètres du jeu. Parmi ces paramètres, certains sont des constantes du jeu, d'autres représentent des valeurs initiales pour des paramètres qui varieront au cours du jeu, en fonction des résultats des entreprises ou de la situation du marché.
+Les conditions initiales sont rigoureusement les mêmes pour toutes les entreprises.
+Décisions générales
+Type de jeu 
+Nombre d'entreprises 
+Capital social initial 
+Machines initiales 
+Conditions d'amortissement 
+Heures supplémentaires 
+Décisions par produits
+Temps de fabrication 
+Demande potentielle 
+Evolution de la demande 
+Impôt Forfaitaire Annuel (I.F.A.)
+Calcul de l'I.F.A. 
+Seuils de Chiffre d'affaires 
+Tarif de l'I.F.A. 
+Options
+Facteur de temps de fabrication 
+
+======================================================================
+RUBRIQUE 88 : Décisions générales de création
+======================================================================
+Type de jeu (rappel) 
+Nombre d'entreprises 
+Capital social initial 
+Machines initiales 
+Conditions d'amortissement 
+Heures supplémentaires 
+
+======================================================================
+RUBRIQUE 89 : Type de jeu (rappel)
+======================================================================
+Indique le 
+niveau de jeu 
+ choisi lors de la création du jeu.
+
+======================================================================
+RUBRIQUE 90 : Type de jeu (rappel)
+======================================================================
+Indique le 
+niveau de jeu 
+ choisi lors de la création du jeu.
+
+======================================================================
+RUBRIQUE 91 : Nombre d'entreprises 
+======================================================================
+Le nombre d'entreprises, compris entre 2 et 8, défini à la création du jeu, reste constant au cours du même jeu
+.
+
+======================================================================
+RUBRIQUE 92 : Capital social initial 
+======================================================================
+Les entreprises disposent toutes du même capital social en début de jeu.
+En cours de jeu, le capital social ne peut plus être modifié par l'Animateur, seules les entreprises, par leurs décisions, pourront en faire évoluer le montant.
+Le capital social initial est totalement affecté à l'acquisition des 
+machines initiales.
+
+======================================================================
+RUBRIQUE 93 : Capital social initial 
+======================================================================
+Les entreprises disposent toutes du même capital social en début de jeu.
+En cours de jeu, le capital social ne peut plus être modifié par l'Animateur, seules les entreprises, par leurs décisions, pourront en faire évoluer le montant.
+Le capital social initial est totalement affecté à l'acquisition des 
+machines initiales.
+
+======================================================================
+RUBRIQUE 94 : Machines initiales 
+======================================================================
+Les entreprises disposent toutes du même nombre de machines en début de jeu.
+Ces machines sont opérationnelles dès la première période du jeu.
+Le 
+capital social initial 
+ est totalement affecté à l'acquisition des machines initiales.
+
+======================================================================
+RUBRIQUE 95 : Machines initiales 
+======================================================================
+Les entreprises disposent toutes du même nombre de machines en début de jeu.
+Ces machines sont opérationnelles dès la première période du jeu.
+Le 
+capital social initial 
+est totalement affecté à l'acquisition des machines initiales.
+
+======================================================================
+RUBRIQUE 96 : Conditions d'amortissement 
+======================================================================
+L'amortissement peut être linéaire ou dégressif (selon le niveau de jeu).
+Les conditions d'amortissement et la durée de l'amortissement sont fixés à la création du jeu.
+Pour l'amortissement linéaire, une 
+durée d'amortissement 
+ nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+Pour l'amortissement dégressif, le coefficient est fixé en fonction de la durée (non nulle), par exemple :
+Interdit pour un ou deux ans 
+Pour trois et quatre ans, coefficient égal à 1,25 
+Pour cinq et six ans compris, coefficient égal à 1,75 
+Au dela, coefficient égal à 2,25
+
+======================================================================
+RUBRIQUE 97 : Conditions d'amortissement 
+======================================================================
+L'amortissement peut être linéaire ou dégressif (selon le niveau de jeu).
+Les conditions d'amortissement et la durée de l'amortissement sont fixés à la création du jeu.
+Pour l'amortissement linéaire, une durée
+nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+Pour l'amortissement dégressif, le coefficient est fixé en fonction de la durée (non nulle), par exemple :
+Interdit pour un ou deux ans 
+Pour trois et quatre ans, coefficient égal à 1,25 
+Pour cinq et six ans compris, coefficient égal à 1,75 
+Au dela, coefficient égal à 2,25
+
+======================================================================
+RUBRIQUE 98 : Durée d'amortissement
+======================================================================
+Définie uniquement à la création du jeu, la durée d'amortissement des machines est exprimée en nombre de périodes.
+Les 
+conditions d'amortissement 
+sont les mêmes pour toutes les entreprises.
+Pour l'amortissement linéaire, une durée
+nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+
+======================================================================
+RUBRIQUE 99 : Durée d'amortissement
+======================================================================
+Définie uniquement à la création du jeu, la durée d'amortissement des machines est exprimée en nombre de périodes.
+Les 
+conditions d'amortissement 
+sont les mêmes pour toutes les entreprises.
+Pour l'amortissement linéaire, une durée
+durée nulle indique une dépréciation nulle, avec des dotations aux amortissements nulles à chaque période.
+
+======================================================================
+RUBRIQUE 100 : Contrôle des heures supplémentaires 
+======================================================================
+Les conditions d'utilisation d'heures supplémentaires affectées à la production, sont définies à la création du jeu et restent constantes au cours du jeu.
+Volume:
+pourcentage maximal autorisé.
+Surcoût:
+pourcentage du salaire.
+
+======================================================================
+RUBRIQUE 101 : Décisions de créations: produits
+======================================================================
+Temps de fabrication 
+Demande potentielle 
+Evolution de la demande 
+
+======================================================================
+RUBRIQUE 102 : Temps de fabrication (initial)
+======================================================================
+Pour chaque produit, temps d'utilisation (en heures) de la capacité productive nécessaire à la production d'une unité de ce produit.
+Pour chaque entreprise et pour chaque produit, le temps de fabrication évolue au cours du temps, à partir de la valeur initiale fixée à la création du jeu, selon les performances de l'entreprise et l'âge moyen des machines.
+Pour le niveau 1, le temps de fabrication restera constant.
+Pour le niveau 2, le temps de fabrication reste inchangé au début, puis évolue de manière linéaire.
+Pour les niveaux 3 et 4, le temps de fabrication  reste inchangé au début, puis évolue de manière exponentielle.
+Le facteur de temps de fabrication (défini dans les options de création à partir du niveau 2) permet de modifier l'ampleur de l'évolution de temps de fabrication. Un facteur supérieur à 100 % aggrave (en pourcentage de ce facteur) l'ampleur de l'évolution du temps de fabrication et un facteur inférieur à 100 % réduit (en pourcentage de ce facteur) cette ampleur.
+
+======================================================================
+RUBRIQUE 103 : Facteur de temps de fabrication
+======================================================================
+Le facteur de temps de fabrication (défini à partir du niveau 2) permet de modifier l'ampleur de l'évolution de temps de fabrication. Un facteur supérieur à 100 % aggrave (en pourcentage de ce facteur) l'ampleur de l'évolution du temps de fabrication et un facteur inférieur à 100 % réduit (en pourcentage de ce facteur) cette ampleur.
+
+======================================================================
+RUBRIQUE 104 : Demande potentielle (initiale)
+======================================================================
+Pour chaque produit, la demande potentielle, exprimée en unités de produit, est la valeur moyenne de la demande sur ce produit, par entreprise.
+La valeur initiale doit être adaptée à la capacité productive des entreprises. Une demande élevée conduit à des décisions d'investissements précoces, une demande faible entraînera un coût de sous activité.
+En cours de jeu, la demande potentielle évolue selon la situation du marché.
+
+======================================================================
+RUBRIQUE 105 : Evolution de la demande
+======================================================================
+La demande, pour chaque produit, se fait selon trois modes de d'évolution, fixés en début de jeu.
+Chaque mode possible est contrôlé par un paramètre :
+- 
+Linéaire:
+le paramètre est un taux de linéarité (compris entre 0 et 100)
+- 
+Exponentielle:
+le paramètre est un taux (compris entre 0 et 100)
+- 
+Croissante/Décroissante:
+le paramètre est la période du maximum de demande.
+
+======================================================================
+RUBRIQUE 106 : Décisions de création: Impôt Forfaitaire Annuel (I.F.A.)
+======================================================================
+Calcul de l'I.F.A. 
+Seuils de Chiffre d'affaires 
+Tarif de l'I.F.A. 
+
+======================================================================
+RUBRIQUE 107 : I.F.A.  I
+======================================================================
+mpôt 
+F
+orfaitaire 
+A
+nnuel.
+
+======================================================================
+RUBRIQUE 108 : I.F.A.  (Seuils de C.A. ) 
+======================================================================
+Seuils des tranches de Chiffre d'affaires pour l'application du tarif de l'
+I.F.A. 
+
+======================================================================
+RUBRIQUE 109 : I.F.A.  (Seuils de C.A. ) 
+======================================================================
+Seuils des tranches de Chiffre d'affaires pour l'application du tarif de l'
+Impôt Forfaitaire Annuel.
+
+======================================================================
+RUBRIQUE 110 : I.F.A. (Tarif)
+======================================================================
+Tarif à appliquer pour le calcul de l'
+I.F.A. 
+, selon les tranches de Chiffre d'affaires .
+
+======================================================================
+RUBRIQUE 111 : I.F.A. (Tarif)
+======================================================================
+Tarif à appliquer pour le calcul de l'
+ Impôt Forfaitaire Annuel
+, selon les tranches de Chiffre d'affaires .
+
+======================================================================
+RUBRIQUE 112 : Calcul de l'I.F.A.
+======================================================================
+L'
+I.F.A. 
+ est le minimum dû au titre de l'
+impôt sur les sociétés 
+ .
+Son montant est calculé par tranches de chiffre d'affaires, selon le barème défini dans les 
+décisions de création 
+.
+Les tranches de chiffre d'affaires, limitées par les 
+seuils de chiffre d'affaires 
+, indiquent le 
+tarif 
+ à appliquer.
+L'
+I.F.A.
+ payé pendant les deux années précédentes, est déductible de l'impôt sur les sociétés.
+
+======================================================================
+RUBRIQUE 118 : Décisions de l'Animateur
+======================================================================
+détails 
+Les décisions de l'Animateur sont prises en début de période, avant les 
+décisions des entreprises.
+Si les décisions de l'Animateurs sont modifiées après les décisions des entreprises, il faudra valider à nouveau les décisions de toutes les entreprises.
+Environnement
+Taux 
+Conditions de production
+Structure du marché
+Structures de coût (1)
+Coûts unitaires
+Coûts globaux
+Structures de coût (2)
+Salaires
+Encadrement (ratio) 
+Assurances 
+Variété du modèle
+Evénements exceptionnels
+
+======================================================================
+RUBRIQUE 119 : Décisions de l'Animateur
+======================================================================
+supprimer détails 
+Les décisions de l'Animateur sont prises en début de période, avant les 
+décisions des entreprises.
+Si les décisions de l'Animateurs sont modifiées après les décisions des entreprises, il faut valider à nouveau les décisions de toutes les entreprises.
+Environnement
+Taux
+Emprunt 
+Découvert non autorisé 
+Placements 
+Découvert autorisé 
+T.V.A. 
+I.S. 
+Conditions de production
+Heures par machine 
+Heures par producteur 
+Structure du marché
+Prix minimum 
+Prix maximum 
+Indice conjoncturel 
+Structures de coût (1)
+Coûts unitaires
+Machine 
+Réparations 
+Stockage 
+Matières 
+Coûts globaux
+Coûts fixes de base 
+Tranches d'immobilisations 
+Supplément de coûts fixes par tranche d'immobilisation 
+Structures de coût (2)
+Salaires
+Producteur 
+Vendeur 
+Cadre 
+Embauche 
+Licenciement 
+Formation 
+Encadrement (ratio) 
+Assurances 
+Variété du modèle
+Indice des prix 
+Fidélisation 
+Poids
+Prix 
+Publicité 
+F.V. et action commerciale 
+Recherche de la qualité 
+Crédit Clients 
+Facilités de paiement
+Crédit Fournisseurs 
+Découvert autorisé 
+Evénements exceptionnels
+Appels d'offre 
+Jours de grèves 
+Pannes 
+
+======================================================================
+RUBRIQUE 120 : Taux
+======================================================================
+Emprunt 
+Découvert non autorisé 
+Placements 
+Découvert autorisé 
+T.V.A. 
+I.S. 
+
+======================================================================
+RUBRIQUE 121 : Conditions d'emprunt 
+======================================================================
+Les emprunts sont accordés aux entreprises, en début de période, par l'animateur.
+Le taux d'intérêt des emprunts est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global de l'emprunt en fin de période précédente au taux de la période en cours.
+Les entreprises décident du moment et du montant de remboursement des emprunts, sans pénalités.
+
+======================================================================
+RUBRIQUE 122 : Conditions de découvert autorisé 
+======================================================================
+Le montant du découvert autorisé est fixé par l'Animateur, pour toutes les entreprises, en pourcentage du Chiffre d'affaires hors taxes, et peut être modifié au début de chaque période.
+Le taux d'intérêt du découvert autorisé est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global du découvert autorisé en fin de période précédente au taux de la période en cours.
+Au delà du découvert autorisé, le montant du découvert est soumis au 
+taux de découvert non autorisé
+.
+
+======================================================================
+RUBRIQUE 123 : Conditions de découvert autorisé 
+======================================================================
+Le montant du découvert autorisé est fixé par l'Animateur, pour toutes les entreprises, en pourcentage du Chiffre d'affaires hors taxes, et peut être modifié au début de chaque période.
+Le taux d'intérêt du découvert autorisé est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global du découvert autorisé en fin de période précédente au taux de la période en cours.
+Au delà du découvert autorisé, le montant du découvert est soumis au 
+taux de découvert non autorisé
+.
+
+======================================================================
+RUBRIQUE 124 : Conditions de découvert non autorisé 
+======================================================================
+Ici, le robinet est toujours ouvert; il n'y a pas de limite au montant du découvert non autorisé.
+ Mais cela coûte très cher!
+Le taux d'intérêt du découvert non autorisé est modifiable par l'Animateur au début de chaque période.
+Les intérêts sont calculés sur le montant global du découvert non autorisé en fin de période précédente, au taux de la période en cours.
+
+======================================================================
+RUBRIQUE 125 : Escompte sur achats 
+======================================================================
+Non utilisé pour linstant
+L'Animateur peut décider que les fournisseurs accordent ou non des facilités de paiement aux entreprises, avec une durée de crédit de 60 jours.
+
+======================================================================
+RUBRIQUE 126 : T.V.A. 
+======================================================================
+Le taux est fixé par l'Animateur au début de chaque période, mais en principe il reste constant.
+T.V.A. collectée :
+ le taux est appliqué à
+la production vendue,
+la production soldée,
+la production “Offres spéciales ”,
+le prix de cession des immobilisations.
+T.V.A. déductible :
+ le taux est appliqué à
+la consommation de matières,
+la publicité,
+l'action commerciale,
+les couts fixes de production,
+les acquisitions d'immobilisations.
+
+======================================================================
+RUBRIQUE 127 : Impôt sur les Sociétés (I.S.) 
+======================================================================
+L'
+I
+mpôt sur les 
+S
+ociétés, appliqué au résultat comptable positif est dû au dernier jour de la période et payé à la période suivante.
+Le calcul de l'
+I.S.
+ prend en compte les déficits des quatre périodes antérieures.
+L'
+I.F.A. 
+(
+I
+mpôt 
+F
+orfaitaire 
+A
+nnuel) versé pendant les deux périodes antérieures est également déductible de l'
+I.S.
+.
+Le taux de l'
+I.S.
+ est fixé par l'Animateur au début de chaque période, mais en principe il reste constant.
+
+======================================================================
+RUBRIQUE 128 : Conditions de placements 
+======================================================================
+La trésorerie active de fin de période précédente est rémunérée au taux de placement défini par l'Animateur au début de la période en cours.
+
+======================================================================
+RUBRIQUE 129 : Environnement de production
+======================================================================
+Heures par machine 
+Heures par producteur 
+
+======================================================================
+RUBRIQUE 130 : Heures par machine 
+======================================================================
+Capacité productive d'une machine, en heures, pour une période, modifiable par l'Animateur au début de chaque période.
+
+======================================================================
+RUBRIQUE 131 : Heures par producteur 
+======================================================================
+Temps de travail d'un producteur, en heures, au cours d'une période, modifiable par l'Animateur au début de chaque période.
+Les heures supplémentaires ne sont pas comptées dans ce temps de travail.
+
+======================================================================
+RUBRIQUE 132 : Structure du marché
+======================================================================
+Prix minimum 
+Prix maximum 
+Indice conjoncturel 
+
+======================================================================
+RUBRIQUE 133 : Prix minimum 
+======================================================================
+Pour chaque produit, seuil psychologique minimum de prix, modifiable par l'Animateur au début de chaque période.
+Jusqu'à ce prix, l'effet de prix est maximal.
+Le prix minimum peut être très proche du coût variable de production.
+
+======================================================================
+RUBRIQUE 134 : Prix maximum 
+======================================================================
+Pour chaque produit, seuil psychologique maximum de prix, modifiable par l'Animateur au début de chaque période.
+A partir de ce prix, l'effet de prix est minimal sans être nul.
+
+======================================================================
+RUBRIQUE 135 : Indice conjoncturel 
+======================================================================
+Coefficient permettant de moduler la demande potentielle calculée par le modèle sur chacun des produits.
+Ce coefficient, compris entre -0,5 et +0,5, peut être utilisé comme coefficient "saisonnier".
+
+======================================================================
+RUBRIQUE 136 : Coûts unitaires
+======================================================================
+Machine 
+Réparations 
+Stockage 
+Matières 
+
+======================================================================
+RUBRIQUE 137 : Prix d'une machine 
+======================================================================
+Le prix d'acquisition d'une machine supplémentaire (hors machines initiales) est fixé par l'Animateur au début de chaque période.
+Les machines peuvent être affectées à la fabrication de l'un ou l'autre des produits, mais les machines nouvelles ne sont opérationnelles qu'à partir de la période suivante.
+
+======================================================================
+RUBRIQUE 138 : Réparations
+======================================================================
+Les pannes de machines donnent lieu à un coût de réparation. L'Animateur fixe le coût élémentaire de réparation comme une somme forfaitaire pour chaque point de pourcentage de pannes par machine pendant la période.
+
+======================================================================
+RUBRIQUE 139 : Coût de stockage unitaire 
+======================================================================
+Le coût de stockage d'une unité de produit, fixé par l'Animateur au début de chaque période, s'applique à la quantité en stock à la fin de la période précédente.
+Ce coût est le même pour chacun des produits.
+
+======================================================================
+RUBRIQUE 140 : Matières 
+======================================================================
+Pour un produit, coût des matières premières nécessaires à la fabrication d'une unité de ce produit.
+Seules les matières consommées sont facturées.
+
+======================================================================
+RUBRIQUE 141 : Salaires
+======================================================================
+Producteur 
+Vendeur 
+Cadre 
+Embauche 
+Licenciement 
+Formation 
+
+======================================================================
+RUBRIQUE 142 : Rémunération d'un producteur 
+======================================================================
+La rémunération des producteurs, calculée pour une période, se compose
+du salaire de base, défini par l'Animateur en début de chaque période (modulable par les entreprises à l'aide de l'indice des salaires)
+du paiement d'heures supplémentaires (limitées en volume et calculées avec un surcoût par rapport au salaire de base modulé).
+L'embauche ou le licenciement des producteurs est traité globalement pour les entreprises, en comparaison à l'effectif global de fin de période précédente.
+Le coût d'embauche ou de licenciement, en pourcentage du salaire, est défini par l'Animateur au début de chaque période.
+Les producteurs reçoivent une formation permanente dont le coût est calculé sur un pourcentage du salaire, au moins égal au pourcentage fixé par l'Animateur en début de période.
+Les producteurs peuvent être affectés à l'un ou à l'autre des produits.
+
+======================================================================
+RUBRIQUE 143 : Rémunération d'un Vendeur 
+======================================================================
+La rémunération des vendeurs, calculée pour une période, se compose
+d'un fixe, défini par l'Animateur en début de chaque période, modulable par les entreprises à l'aide de l'indice des salaires.
+de commissions sur les ventes, selon un pourcentage défini par les entreprises.
+L'embauche ou le licenciement des vendeurs est traité globalement, en comparaison à l'effectif global de fin de période précédente.
+Le coût d'embauche ou de licenciement, en pourcentage du salaire, est, défini par l'Animateur au début de chaque période.
+Les vendeurs reçoivent une formation permanente dont le coût est calculé sur un pourcentage du salaire, au moins égal au pourcentage fixé par l'Animateur en début de période.
+Les vendeurs peuvent être affectés à l'un ou à l'autre des produits.
+
+======================================================================
+RUBRIQUE 144 : Rémunération d'un cadre 
+======================================================================
+La rémunération des cadres, calculée pour une période, se compose essentiellement du salaire de base, défini par l'Animateur au début de chaque période, modulable par les entreprises à l'aide de l'indice des salaires.
+L'embauche ou le licenciement des cadres est une décision de l'entreprise.
+Le coût d'embauche ou de licenciement, en pourcentage du salaire, est, défini par l'Animateur au début de chaque période.
+Les cadres reçoivent une formation permanente dont le coût est calculé sur un pourcentage du salaire, au moins égal au pourcentage fixé par l'Animateur en début de période.
+Le nombre minimal de cadres nécessaires à la bonne marche d'une entreprise est calculé d'après l'effectif global des producteurs, selon un ratio variable défini par l'animateur en début de période.
+
+======================================================================
+RUBRIQUE 145 : Conditions d'embauche 
+======================================================================
+L'embauche donne lieu à un coût d'embauche, défini par l'Animateur, selon un pourcentage du salaire de la catégorie.
+Les entreprises décident du niveau de l'embauche, pour chaque catégorie de personnels, en début de période.
+L'embauche de producteurs, produit par produit, est libre (la capacité productive peut se trouver affectée par un effectif de production insuffisant).
+L'embauche des vendeurs est libre.
+L'effectif des cadres doit respecter un minimum qui est calculé d'après le ratio producteurs/cadres défini par l'Animateur en début de période.
+Le niveau d'embauche des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période
+
+======================================================================
+RUBRIQUE 146 : Licenciement 
+======================================================================
+Les licenciements donnent lieu à un coût de licenciement, défini par l'Animateur en début de période, selon un pourcentage du salaire de la catégorie.
+Les entreprises décident du niveau de licenciement, pour chaque catégorie, en début de période.
+Le licenciement de producteurs, produit par produit, est libre (la capacité productive peut se trouver affectée par un effectif de production insuffisant).
+Le licenciement de vendeurs est libre.
+L'effectif des cadres ne peut pas se trouver en dessous d'un minimum, calculé selon le ratio producteurs/cadres défini par l'Animateur en début de période.
+Le niveau de licenciement des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période.
+
+======================================================================
+RUBRIQUE 147 : Formation permanente 
+======================================================================
+Les personnels (cadres, producteurs et vendeurs) reçoivent une formation permanente.
+Le minimum de formation, en pourcentage de la masse salariale, est défini par l'Animateur au début de chaque période et les entreprises peuvent choisir de dépasser ce minimum pour accroître leur efficacité.
+
+======================================================================
+RUBRIQUE 148 : Coûts globaux
+======================================================================
+Coûts fixes de base 
+Tranches d'immobilisations 
+Supplément de coûts fixes par tranche d'immobilisation 
+
+======================================================================
+RUBRIQUE 149 : Coûts fixes de base 
+======================================================================
+Frais généraux de base communs aux entreprises.
+
+======================================================================
+RUBRIQUE 150 : Tranches d'immobilisations 
+======================================================================
+Montant des immobilisations nettes prises en compte pour définir la dimension structurelle des entreprises.
+A la première tranche correspond les frais fixes de base.
+Pour toute tranche supplémentaire (ou fraction de tranche) les frais fixes augmentent.
+
+======================================================================
+RUBRIQUE 151 : Supplément de coûts fixes par tranche d'immobilisation 
+======================================================================
+Frais fixes par tranche ou fraction de tranche d'immobilisations supplémentaire.
+
+======================================================================
+RUBRIQUE 152 : Assurances
+======================================================================
+L'assurance est une dépense obligatoire des entreprises et son taux est fixé par l'Animateur en début de période.
+Le taux de l'assurance, appliqué à la 
+valeur brute
+ des immobilisations (y compris celles acquises en cours de période), définit le montant des primes d'assurances.
+Les machines qui seront cédées en fin de période restent assurées pendant la période.
+Les réparations sont remboursées en fin de période, au prorata du montant de l'assurance souscrite.
+Les machines détruites, sont remboursées en fin de période, à la valeur nette comptable, au prorata du montant de l'assurance souscrite.
+
+======================================================================
+RUBRIQUE 153 : Variété
+======================================================================
+Indice des prix 
+Fidélisation 
+Poids
+Prix 
+Publicité 
+F.V. et action commerciale 
+Recherche de la qualité 
+Crédit Clients 
+Facilités de paiement
+Crédit Fournisseurs 
+Découvert autorisé 
+
+======================================================================
+RUBRIQUE 154 : Poids du prix 
+======================================================================
+Pour un poids proche de 1, le prix devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+RUBRIQUE 155 : Poids de la publicité 
+======================================================================
+Pour un poids proche de 1, la publicité devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+RUBRIQUE 156 : Poids de la F.V. et action commerciale 
+======================================================================
+Pour un poids proche de 1, l'effectif de la force de vente et l'action commerciale deviennent le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+RUBRIQUE 157 : Poids du crédit Clients 
+======================================================================
+Pour un poids proche de 1, la durée du crédit accordé aux Clients devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+RUBRIQUE 158 : Poids de la recherche de qualité 
+======================================================================
+Pour un poids proche de 1, la qualité devient le facteur essentiel dans la formation de la demande.
+Le total des cinq poids (hors fidélisation) doit être égal à 1.
+
+======================================================================
+RUBRIQUE 159 : Poids de la Fidélisation 
+======================================================================
+Un poids de fidélisation élevé ( > 0,5) tends à fermer le jeu par le maintien des situations acquises.
+Un poids de fidélisation faible ( < 0,5) limite le report des acquis et donne une plus grande importance à la qualité du plan de marchéage.
+
+======================================================================
+RUBRIQUE 160 : Crédit Fournisseurs 
+======================================================================
+Les fournisseurs peuvent accorder un crédit d'une durée de 60 jours (ou 60/360 fraction de période) aux entreprises, pour la fourniture des matières premières.
+Seules les matières consommées sont facturées.
+
+======================================================================
+RUBRIQUE 161 : Indice des prix, variation 
+======================================================================
+En %, prévision de variation du prix des matières et du prix d'achat des machines d'une période à la suivante.
+(prévision pour la période suivante, limitée à  50 % ).
+
+======================================================================
+RUBRIQUE 162 : Evénements exceptionnels
+======================================================================
+Appels d'offre 
+Jours de grèves 
+Pannes 
+
+======================================================================
+RUBRIQUE 163 : Appels d'offre 
+======================================================================
+Les appels d'offre, par produit, portent sur une quantité et se font à un prix maximal.
+Les entreprises peuvent choisir de concourir aux appels d'offre.
+
+======================================================================
+RUBRIQUE 164 : Encadrement (ratio)
+======================================================================
+Le ratio d'encadrement, fixé par l'Animateur en début de période, détermine le nombre minimal de cadres nécessaires à l'encadrement des producteurs.
+
+======================================================================
+RUBRIQUE 165 : Jours de grèves
+======================================================================
+Temps moyen de grève, en pourcentage de la période.
+Pour chaque entreprise, le temps de grève sera modulé selon l'indice de satisfaction des producteurs (fonction de la comparaison entre les salaires de l'entreprise, le salaire moyen pratiqué par les autres entreprises et l'indice des prix défini par l'animateur).
+
+======================================================================
+RUBRIQUE 166 : Pannes
+======================================================================
+Temps moyen d'immobilisation des machines pour cause de pannes, en pourcentage de la durée de la période.
+Pour chaque entreprise, le temps moyen de pannes augmentera avec l'âge des machines et diminuera en fonction des dépenses d'entretien du parc de machines.
+
+======================================================================
+RUBRIQUE 169 : Décisions des entreprises
+======================================================================
+détails 
+Les décisions des entreprises sont prises en début de période, 
+après
+ les décisions de l'Animateur.
+Les entreprises pourront consulter les 
+informations publiques 
+ avant de prendre leurs décisions.
+Si les décisions de l'Animateurs sont modifiées il faut valider à nouveau les décisions de 
+toutes
+ les entreprises.
+Décisions générales
+Structure financière 
+Gestion du parc machines 
+Décisions par produits
+Fabrication 
+Commercialisation 
+Ressources humaines
+Rémunérations 
+Encadrement 
+Etudes de marché 
+Décisions exceptionnelles 
+
+======================================================================
+RUBRIQUE 170 : Décisions des entreprises
+======================================================================
+supprimer détails 
+Les décisions des entreprises sont prises en début de période, 
+après
+ les décisions de l'Animateur.
+Les entreprises pourront consulter les 
+informations publiques
+ avant de prendre leurs décisions.
+Si les décisions animateurs sont modifiées il faut valider à nouveau les décisions de 
+toutes
+ les entreprises.
+Décisions générales
+Structure financière
+Variation de capital 
+Distributions 
+Variation d'emprunt 
+Subventions 
+Produits ou charges exceptionnels 
+Machines 
+Achats 
+ ou 
+Ventes 
+Entretien 
+Décisions par produits
+Fabrication
+Production 
+Machines affectées 
+Producteurs affectés 
+Recherche de la qualité 
+Commercialisation
+Prix 
+Publicité 
+F.V. affectée 
+Action commerciale 
+Durée du Crédit Clients 
+Ressources humaines
+Rémunérations
+Indice des salaires 
+Commissions aux vendeurs 
+Budget formation 
+Encadrement
+Embauche 
+Licenciement 
+Etudes de marché
+Politique des concurrents par produits 
+Entreprises concurrentes
+Parts de marché 
+Résultats 
+Structure financière 
+Evaluation
+Situation du marché 
+Performance de l'entreprise 
+Montant des études 
+Décisions exceptionnelles
+Liquidation de stocks 
+Soumissions 
+
+======================================================================
+RUBRIQUE 171 : Décisions des entreprises: Structure financière
+======================================================================
+Variation de capital 
+Distributions 
+Variation demprunt 
+Subventions 
+Produits ou charges exceptionnels 
+
+======================================================================
+RUBRIQUE 172 : Variation de capital
+======================================================================
+En diminution ou en augmentation.
+En cas de variation de capital, le montant des réserves est automatiquement affecté au capital.
+
+======================================================================
+RUBRIQUE 173 : Distributions de dividendes
+======================================================================
+Limitées à 95% du résultat net positif, augmenté de la part des réserves dépassant 10% du capital social
+(la limitation sera effectuée automatiquement en fonction des résultats).
+
+======================================================================
+RUBRIQUE 174 : Variation d'emprunt
+======================================================================
+Emprunt (+) ou remboursement (-).
+Voir aussi 
+Conditions d'emprunt 
+
+======================================================================
+RUBRIQUE 175 : Variation d'emprunt
+======================================================================
+Emprunt (+) ou remboursement (-).
+
+======================================================================
+RUBRIQUE 176 : Subventions
+======================================================================
+Accordées par l'animateur pour limiter l'endettement des entreprises.
+
+======================================================================
+RUBRIQUE 177 : Produits ou charges exceptionnels
+======================================================================
+Primes ou pénalités variables accordées par l'Animateur (interprétations diverses possibles).
+
+======================================================================
+RUBRIQUE 178 : Gestion du parc machines
+======================================================================
+Achats 
+Ventes 
+Entretien 
+
+======================================================================
+RUBRIQUE 179 : Achats de machines
+======================================================================
+Les machines nouvelles sont achetées au prix fixé par l'Animateur et ne sont opérationnelles qu'à la période suivante.
+
+======================================================================
+RUBRIQUE 180 : Cessions, ventes de machines
+======================================================================
+Les machines sont cédées à leur valeur nette comptable, les machines les plus anciennes étant cédées en premier.
+Les cessions ne sont effectives qu'à la période suivante.
+
+======================================================================
+RUBRIQUE 181 : Entretien des machines
+======================================================================
+Le taux d'entretien (en pourcentage), appliqué à la 
+valeur brute
+ des immobilisations de début de période, définit le montant des dépenses d'entretien des machines.
+Une politique d'entretien régulière permet de réduire le taux de pannes et le coût des réparations qui en résultent.
+Le taux de pannes augmentant avec l'âge des machines, les frais d'entretien devront être de plus en plus importants si le renouvellement des machines est insuffisant.
+
+======================================================================
+RUBRIQUE 182 : Décisions de fabrication
+======================================================================
+Production 
+Machines affectées 
+Producteurs affectés 
+Recherche de la qualité 
+
+======================================================================
+RUBRIQUE 183 : Production prévue
+======================================================================
+La production est limitée à la capacité productive, liée au nombre de machines et de producteurs affectés au produit, ainsi que par le temps de fabrication.
+Le temps de fabrication varie légèrement avec l'âge des machines: expérience, maturité puis vieillissement.
+En cas de grèves ou de pannes pendant la période, la production réelle pourra être inférieure à la production prévue.
+Seules les matières premières utilisées seront facturées.
+Les produits fabriqués sont immédiatement disponibles à la vente.
+
+======================================================================
+RUBRIQUE 184 : Machines affectées
+======================================================================
+Toutes les machines disponibles sont affectées à l'un ou à l'autre des produits.
+
+======================================================================
+RUBRIQUE 185 : Producteurs affectés
+======================================================================
+Non limité. Les producteurs sont immédiatement disponibles.
+L'effectif global des producteurs affectés, comparé à celui de fin de période précédente, définit le niveau d'embauche ou de licenciement.
+L'embauche ou le licenciement se fait aux coûts fixés par l'Animateur et les producteurs reçoivent une formation permanente.
+
+======================================================================
+RUBRIQUE 186 : Recherche de la qualité 
+======================================================================
+Le budget d'obtention de la qualité est un budget spécifique pour chaque produit.
+L'amélioration de la qualité, fonction de ce budget, entraîne un effet positif sur le volume des ventes.
+
+======================================================================
+RUBRIQUE 187 : Décisions de commercialisation
+======================================================================
+Prix 
+Publicité 
+F.V. affectée 
+Action commerciale 
+Durée du Crédit Clients 
+
+======================================================================
+RUBRIQUE 188 : Prix
+======================================================================
+Prix de vente normal par produit.
+Le prix pratiqué doit être normalement compris entre le prix minimum et le prix maximum fixés par l'Animateur pour ce produit.
+
+======================================================================
+RUBRIQUE 189 : Publicité
+======================================================================
+Budget de publicité, par produit, sans rémanence d'une période sur l'autre.
+
+======================================================================
+RUBRIQUE 190 : Action commerciale
+======================================================================
+Budget d'action commerciale, par produit, sans rémanence d'une période sur l'autre.
+
+======================================================================
+RUBRIQUE 191 : Vendeurs affectés (Force de Vente affectée)
+======================================================================
+Non limité. Les vendeurs sont immédiatement disponibles.
+L'effectif global des vendeurs affectés, comparé à celui de fin de période précédente, définit le niveau d'embauche ou de licenciement.
+L'embauche ou le licenciement se fait aux coûts fixés par l'Animateur et les vendeurs reçoivent une formation permanente.
+
+======================================================================
+RUBRIQUE 192 : Crédit accordé aux Clients  (en jours)
+======================================================================
+Les entreprises peuvent accorder, à leurs Clients, un délai de paiement jusqu'à 120 jours (ou 120/360 unité de période), sur l'un ou l'autre des produits.
+
+======================================================================
+RUBRIQUE 193 : Encadrement
+======================================================================
+Embauche 
+Licenciement 
+
+======================================================================
+RUBRIQUE 194 : Embauche de cadres
+======================================================================
+Les entreprises doivent entretenir un nombre minimal de cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+L'embauche se fait aux coûts fixés par l'Animateur et les cadres reçoivent une formation permanente.
+
+======================================================================
+RUBRIQUE 195 : Licenciement de cadres
+======================================================================
+Le licenciement se fait aux coûts fixés par l'Animateur.
+Les entreprises doivent entretenir un nombre minimal de Cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+
+======================================================================
+RUBRIQUE 196 : Rémunérations
+======================================================================
+Indice des salaires 
+Commissions aux vendeurs 
+Budget formation 
+
+======================================================================
+RUBRIQUE 197 : Indice des salaires
+======================================================================
+Les entreprises peuvent ainsi moduler les salaires de référence définis par l'Animateur.
+Par défaut cet indice est à la valeur 100 (100% des salaires de référence).
+Des salaires trop faibles, comparés à ceux des autres entreprises et à l'indice des prix, peuvent entraîner des grèves et une limitation de la capacité productive.
+
+======================================================================
+RUBRIQUE 198 : Commissions aux vendeurs
+======================================================================
+En pourcentage des ventes normales (hors soldes et appels d'offre éventuels).
+Les vendeurs ne peuvent pas prétendre à une commission supérieure à 15% des ventes qu'ils réalisent.
+
+======================================================================
+RUBRIQUE 199 : Budget formation
+======================================================================
+Défini par un pourcentage de la masse salariale, au moins égal au pourcentage minimum imposé par l'Animateur.
+
+======================================================================
+RUBRIQUE 200 : Etudes de marché
+======================================================================
+Politique des concurrents par produits 
+Entreprises concurrentes
+Parts de marché 
+Résultats 
+Structure financière 
+Evaluation
+Situation du marché 
+Performance de l'entreprise 
+Montant des études 
+
+======================================================================
+RUBRIQUE 201 : Politique des concurrents par produits
+======================================================================
+Parts de marché des concurrents par produits
+Résultats des concurrents
+Structure financière des concurrents
+Situation du marché
+Performance de l'entreprise
+Montant des études
+Shere.rtf
+
+======================================================================
+RUBRIQUE 202 : Décisions exceptionnelles
+======================================================================
+Liquidation de stocks 
+Soumissions 
+
+======================================================================
+RUBRIQUE 203 : Liquidation de stocks
+======================================================================
+Les entreprises peuvent liquider tout ou partie de leur stock de l'un ou l'autre des produits.
+La liquidation se fait au prix minimal défini par l'Animateur pour le produit.
+Les ventes sont réalisées dans l'ordre
+1.
+Soumissions
+2.
+Liquidation de stocks
+3.
+Ventes normales
+
+======================================================================
+RUBRIQUE 204 : Soumissions
+======================================================================
+Les entreprises peuvent concourir pour les appels d'offre lancés par l'Animateur, sur l'un ou l'autre des produits, en proposant une quantité et un prix.
+L'attribution des marchés se fait au “ mieux disant ” et, à prix égal, c'est la qualité globale de l'entreprise qui permet de départager les concurrents.
+Un même marché peut être partagé entre plusieurs entreprises, selon la règle ci dessus et, un appel d'offre peut être improductif si les candidats dépassent le prix annoncé par l'Animateur.
+Les ventes sont réalisées dans l'ordre
+1.
+Soumissions
+2.
+Liquidation de stocks
+3.
+Ventes normales
+
+======================================================================
+RUBRIQUE 206 : Informations publiques
+======================================================================
+détails 
+Extrait des 
+décisions de l'Animateur.
+Ces informations sont communiquées aux Entreprises avant leurs prises de décisions.
+Les décisions de l'Animateur sont prises en début de période, avant les 
+décisions des entreprises.
+Si les décisions de l'Animateurs sont modifiées après les décisions des entreprises, il faudra valider à nouveau les décisions de toutes les entreprises.
+Environnement
+Taux 
+Conditions de production
+Marché (prix moyens) 
+Structures de coût (1)
+Coûts unitaires
+Coûts globaux
+Structures de coût (2)
+Salaires
+Encadrement (ratio) 
+Assurances 
+Variété du modèle
+Appels d'offre 
+voir aussi 
+
+======================================================================
+RUBRIQUE 207 : Informations publiques
+======================================================================
+supprimer détails 
+Extrait des 
+décisions de l'Animateur.
+Ces informations sont communiquées aux Entreprises avant leurs prises de décisions.
+Les décisions de l'Animateur sont prises en début de période, avant les 
+décisions des entreprises.
+Si les décisions de l'Animateurs sont modifiées après les décisions des entreprises, il faudra valider à nouveau les décisions de toutes les entreprises.
+Environnement
+Taux
+Emprunt 
+Découvert non autorisé 
+Placements 
+Découvert autorisé 
+T.V.A. 
+I.S. 
+Conditions de production
+Heures par machine 
+Heures par producteur 
+Marché 
+Prix moyen 
+Structures de coût (1)
+Coûts unitaires
+Machine 
+Réparations 
+Stockage 
+Matières 
+Coûts globaux
+Coûts fixes 
+Tranches d'immobilisations 
+Supplément de coûts fixes par tranche d'immobilisation 
+Structures de coût (2)
+Salaires
+Producteur 
+Vendeur 
+Cadre 
+Embauche 
+Licenciement 
+Formation 
+Encadrement (ratio) 
+Assurances 
+Variété du modèle
+Indice des prix 
+Facilités de paiement
+Crédit Fournisseurs 
+Découvert autorisé 
+Appels d'offre 
+
+======================================================================
+RUBRIQUE 208 : Voir Aussi
+======================================================================
+Prise des décisions 
+Décisions de l'Animateur 
+Décisions des Entreprises 
+
+======================================================================
+RUBRIQUE 209 : Salaires
+======================================================================
+Producteur 
+Vendeur 
+Cadre 
+Embauche 
+Licenciement 
+Formation 
+
+======================================================================
+RUBRIQUE 210 : Variété
+======================================================================
+Indice des prix 
+Facilités de paiement
+Crédit Fournisseurs 
+Découvert autorisé 
+
+======================================================================
+RUBRIQUE 211 : Prix moyen
+======================================================================
+Indication: Ordre de grandeur du prix praticable sur le marché, situé entre les prix minimum et maximum définis par l'Animateur.
+
+======================================================================
+RUBRIQUE 214 : Bilan
+======================================================================
+détails 
+Actif
+Actif immobilisé 
+Actif circulant 
+Passif
+Ressources propres 
+Ressources empruntées 
+
+======================================================================
+RUBRIQUE 215 : Bilan
+======================================================================
+supprimer détails 
+Actif
+Actif immobilisé
+Outillage 
+Amortissement 
+Actif circulant
+Stock de produits finis 
+Créances Clients 
+Banque 
+Passif
+Ressources propres
+Capital social 
+Réserves, report 
+Résultat de l'exercice 
+Ressources empruntées
+Emprunts 
+Fournisseurs 
+Dettes fiscales 
+Concours bancaires 
+
+======================================================================
+RUBRIQUE 216 : Actif
+======================================================================
+Actif immobilisé
+Outillage 
+Amortissement 
+Actif circulant
+Stock de produits finis 
+Créances Clients 
+Banque 
+
+======================================================================
+RUBRIQUE 217 : Actif
+======================================================================
+Actif immobilisé
+Outillage
+Amortissement
+Actif circulant
+Stock de produits finis
+Créances Clients
+Banque
+
+======================================================================
+RUBRIQUE 218 : Actif immobilisé
+======================================================================
+Outillage 
+Amortissement 
+
+======================================================================
+RUBRIQUE 219 : Actif immobilisé
+======================================================================
+Outillage
+Amortissement
+
+======================================================================
+RUBRIQUE 220 : Outillage
+======================================================================
+Valeur brute des machines détenues en fin de période.
+Voir aussi
+Cessions de machines 
+Achats de machines 
+
+======================================================================
+RUBRIQUE 221 : Outillage
+======================================================================
+Valeur brute des machines détenues en fin de période.
+
+======================================================================
+RUBRIQUE 222 : Amortissement
+======================================================================
+Total des dotations aux amortissements des machines détenues en fin de période.
+Voir aussi 
+conditions d'amortissement 
+
+======================================================================
+RUBRIQUE 223 : Amortissement
+======================================================================
+Total des dotations aux amortissements des machines détenues en fin de période.
+
+======================================================================
+RUBRIQUE 224 : Actif circulant
+======================================================================
+Stock de produits finis 
+Créances Clients 
+Banque 
+
+======================================================================
+RUBRIQUE 225 : Actif circulant
+======================================================================
+Stock de produits finis
+Créances Clients
+Banque
+
+======================================================================
+RUBRIQUE 226 : Stock de produits finis (stock en valeur)
+======================================================================
+
+======================================================================
+RUBRIQUE 227 : Banque
+======================================================================
+Trésorerie active de fin de période.
+Voir aussi 
+placements 
+
+======================================================================
+RUBRIQUE 228 : Banque
+======================================================================
+Trésorerie active de fin de période.
+
+======================================================================
+RUBRIQUE 229 : Créances Clients
+======================================================================
+Ventes normales non encore encaissées.
+Le montant des créances Clients varie en fonction de la 
+durée du crédit accordé aux Clients 
+ .
+
+======================================================================
+RUBRIQUE 230 : Créances Clients
+======================================================================
+Ventes normales non encore encaissées.
+Le montant des créances Clients varie en fonction de la 
+durée du crédit accordé aux Clients
+.
+
+======================================================================
+RUBRIQUE 231 : Passif
+======================================================================
+Ressources propres
+Capital social 
+Réserves, report 
+Résultat de l'exercice 
+Ressources empruntées
+Emprunts 
+Fournisseurs 
+Dettes fiscales 
+Concours bancaires 
+
+======================================================================
+RUBRIQUE 232 : Passif
+======================================================================
+Ressources propres
+Capital social
+Réserves, report
+Résultat de l'exercice
+Ressources empruntées
+Emprunts
+Fournisseurs
+Dettes fiscales
+Concours bancaires
+
+======================================================================
+RUBRIQUE 233 : Ressources propres
+======================================================================
+Capital social 
+Réserves, report 
+Résultat de l'exercice 
+
+======================================================================
+RUBRIQUE 234 : Ressources propres
+======================================================================
+Capital social
+Réserves, report
+Résultat de l'exercice
+
+======================================================================
+RUBRIQUE 235 : Situation nette = = Ressources propres
+======================================================================
+
+======================================================================
+RUBRIQUE 236 : Capital social
+======================================================================
+Capital social détenu en fin de période.
+Lors des variations de capital, le montant des réserves détenues en début de période est automatiquement affecté au capital.
+
+======================================================================
+RUBRIQUE 237 : Réserves, report
+======================================================================
+Le résultat net (profit ou perte) est porté automatiquement en réserves après déduction des distributions de dividendes.
+
+======================================================================
+RUBRIQUE 238 : Résultat de l'exercice
+======================================================================
+Résultat net de la période.
+
+======================================================================
+RUBRIQUE 239 : Ressources empruntées
+======================================================================
+Emprunts 
+Fournisseurs 
+Dettes fiscales 
+Concours bancaires 
+
+======================================================================
+RUBRIQUE 240 : Ressources empruntées
+======================================================================
+Emprunts
+Fournisseurs
+Dettes fiscales
+Concours bancaires
+
+======================================================================
+RUBRIQUE 241 : Emprunts
+======================================================================
+Montant des emprunts restant à rembourser en fin de période.
+Voir aussi 
+conditions d'emprunt 
+
+======================================================================
+RUBRIQUE 242 : Emprunts
+======================================================================
+Montant des emprunts restant à rembourser en fin de période.
+
+======================================================================
+RUBRIQUE 243 : Concours bancaires
+======================================================================
+Trésorerie passive de fin de période.
+Voir aussi
+découvert autorisé 
+découvert non autorisé 
+
+======================================================================
+RUBRIQUE 244 : Concours bancaires
+======================================================================
+Trésorerie passive de fin de période.
+
+======================================================================
+RUBRIQUE 245 : Fournisseurs
+======================================================================
+Montant du 
+crédit accordé par les fournisseurs 
+
+======================================================================
+RUBRIQUE 246 : Fournisseurs
+======================================================================
+Montant du 
+crédit accordé par les fournisseurs 
+.
+
+======================================================================
+RUBRIQUE 247 : Dettes fiscales
+======================================================================
+L'
+Impôt sur les sociétés 
+ , du en fin de période, n'est payé qu'à la période suivante.
+En l'absence d'un système d'acomptes, cet impôt apparaît en dettes fiscales de fin de période.
+
+======================================================================
+RUBRIQUE 248 : Dettes fiscales
+======================================================================
+L'
+Impôt sur les sociétés
+, du en fin de période, n'est payé qu'à la période suivante.
+En l'absence d'un système d'acomptes, cet impôt apparaît en dettes fiscales de fin de période.
+
+======================================================================
+RUBRIQUE 251 : Compte de résultats
+======================================================================
+Détails 
+Produits d'exploitation 
+Charges d'exploitation 
+Résultats financiers
+Résultats
+
+======================================================================
+RUBRIQUE 252 : Compte de résultats
+======================================================================
+supprimer détails 
+Produits d'exploitation
+par produits
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+Subventions 
+Charges d'exploitation
+par produits
+Consommation matières 
+Main d'oeuvre directe 
+Coût d'obtention de la qualité 
+Publicité et action commerciale 
+Rémunération de la force de vente 
+Coût de stockage 
+Dotation aux amortissements 
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de la formation 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+Résultats financiers
+Produits financiers 
+Charges financières 
+Résultats
+Résultat d'exploitation 
+Résultat financier 
+Résultat exceptionnel (produits ou charges) 
+Remboursements des assurances 
+Résultat avant impôt 
+Impôt 
+Résultat net 
+
+======================================================================
+RUBRIQUE 253 : Produits d'exploitation 
+======================================================================
+par produits
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+Subventions 
+
+======================================================================
+RUBRIQUE 254 : Produits d'exploitation 
+======================================================================
+par produits
+Production vendue
+Production soldée
+Production offre spéciales
+Production stockée
+Subventions
+
+======================================================================
+RUBRIQUE 255 : Production vendue
+======================================================================
+Chiffre d'affaires des ventes normales (réalisées au prix public normal).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+RUBRIQUE 256 : Production soldée
+======================================================================
+Chiffre d'affaires des ventes soldées (réalisées au prix minimal défini par l'Animateur).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+RUBRIQUE 257 : Production offre spéciales
+======================================================================
+Chiffre d'affaires des ventes réalisées par soumission (au prix de soumission).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+RUBRIQUE 258 : Production stockée
+======================================================================
+Les stocks sont valorisés au coût moyen unitaire pondéré calculé pour la période et par produits:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+
+======================================================================
+RUBRIQUE 259 : Subventions
+======================================================================
+
+======================================================================
+RUBRIQUE 260 : Charges d'exploitation
+======================================================================
+par produits
+Consommation matières 
+Main d'oeuvre directe 
+Coût d'obtention de la qualité 
+Dotation aux amortissements 
+Publicité et action commerciale 
+Rémunération de la force de vente 
+C
+oût de stockage 
+générales
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de la formation 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+
+======================================================================
+RUBRIQUE 261 : Charges d'exploitation
+======================================================================
+par produits
+Consommation matières
+Main d'oeuvre directe
+Coût d'obtention de la qualité
+Dotation aux amortissements
+Publicité et action commerciale
+Rémunération de la force de vente
+Coût de stockage
+générales
+Rémunération de l'encadrement
+Coût d'embauche
+Coût de licenciement
+Coût de la formation
+Coûts fixes de production
+Coût des réparations
+Coût d'entretien des machines
+Primes d'assurances
+Coût des études de marché
+
+======================================================================
+RUBRIQUE 262 : Coût de production
+======================================================================
+Consommation matières
+Main d'oeuvre directe
+Coût d'obtention de la qualité
+Dotation aux amortissements
+
+======================================================================
+RUBRIQUE 263 : Charges par produit
+======================================================================
+Consommation matières
+Main d'oeuvre directe
+Coût d'obtention de la qualité
+Dotation aux amortissements
+Publicité et action commerciale
+Rémunération de la force de vente
+Coût de stockage
+
+======================================================================
+RUBRIQUE 264 : Consommation matières
+======================================================================
+Coût des matières premières utilisées pour la production.
+Seules les matières consommées sont facturées.
+Le prix des matières premières évolue de période en période, selon l'indice des prix ou selon les décisions de l'Animateur.
+
+======================================================================
+RUBRIQUE 265 : Main d'oeuvre directe
+======================================================================
+Salaires des producteurs affectés, y compris les heures supplémentaires éventuelles.
+Le salaire fixe de base est modulable par les entreprises, à l'aide de l'indice des salaires, à partir du salaire de base défini par l'Animateur au début de chaque période.
+
+======================================================================
+RUBRIQUE 266 : Coût d'obtention de la qualité
+======================================================================
+
+======================================================================
+RUBRIQUE 267 : Publicité et action commerciale
+======================================================================
+Total des budgets de publicité et d'action commerciale.
+Ces budgets, affectés par produits, sont sans rémanence d'une période sur l'autre.
+
+======================================================================
+RUBRIQUE 268 : Rémunération de la force de vente
+======================================================================
+Coût d'entretien de la Force de Vente affectée (salaires fixes et commissions sur les ventes normales).
+Le salaire fixe de base est modulable par les entreprises, à l'aide de l'indice des salaires, à partir du salaire de base défini par l'Animateur au début de chaque période.
+
+======================================================================
+RUBRIQUE 269 : Frais ou Coût de stockage
+======================================================================
+Calculé sur la quantité en stock à la fin de la période précédente.
+Le coût de stockage d'une unité de produit, identique pour tous les produits, est fixé par l'Animateur au début de chaque période.
+
+======================================================================
+RUBRIQUE 270 : Dotation aux amortissements
+======================================================================
+Calculé sur les machines affectées à la fabrication.
+Toutes les machines opérationnelles sont affectées à l'un ou l'autre des produits.
+Voir aussi 
+Conditions d'amortissement
+
+======================================================================
+RUBRIQUE 271 : Dotation aux amortissements
+======================================================================
+Calculé sur les machines affectées à la fabrication.
+Toutes les machines opérationnelles sont affectées à l'un ou l'autre des produits.
+
+======================================================================
+RUBRIQUE 272 : Rémunération des Cadres
+======================================================================
+La rémunération des cadres, calculée pour une période, se compose essentiellement du salaire de base.
+Le salaire de base est modulable par les entreprises, à l'aide de l'indice des salaires, à partir du salaire de base défini par l'Animateur au début de chaque période.
+Les entreprises doivent entretenir un nombre minimal de cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+
+======================================================================
+RUBRIQUE 273 : Coût d'embauche
+======================================================================
+Le coût d'embauche, en pourcentage des salaires de base, est défini par l'Animateur au début de chaque période.
+Le niveau d'embauche des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période
+
+======================================================================
+RUBRIQUE 274 : Coût de licenciement
+======================================================================
+Le coût de licenciement, en pourcentage des salaires de base, est défini par l'Animateur au début de chaque période.
+Le niveau de licenciement des producteurs et des vendeurs se calcule par comparaison entre les effectifs globaux de fin de période précédente et de début de période
+
+======================================================================
+RUBRIQUE 275 : Coût de la formation
+======================================================================
+Coûts de formation permanente de l'ensemble des personnels (cadres, producteurs et vendeurs).
+Le minimum de formation, en pourcentage de la masse salariale, est défini par l'Animateur au début de chaque période et les entreprises peuvent choisir de dépasser ce minimum pour accroître leur efficacité.
+
+======================================================================
+RUBRIQUE 276 : Coûts fixes de production
+======================================================================
+Constitués
+des frais fixes de bases (communs aux entreprises).
+des suppléments de frais fixes par tranche ou fraction de 
+tranche d'immobilisations 
+  supplémentaire, calculés sur la 
+valeur brute
+ des immobilisations en début de période.
+Les frais fixes de bases et les tranches d'immobilisation évoluent de période en période, selon l'indice des prix ou selon les décisions de l'Animateur.
+
+======================================================================
+RUBRIQUE 277 : Coûts fixes de production
+======================================================================
+Constitués
+des frais fixes de bases (communs aux entreprises).
+des suppléments de frais fixes par tranche ou fraction de 
+tranche d'immobilisations 
+supplémentaire, calculés sur la 
+valeur brute
+ des immobilisations en début de période.
+Les frais fixes de bases et les tranches d'immobilisation évoluent de période en période, selon l'indice des prix ou selon les décisions de l'Animateur.
+
+======================================================================
+RUBRIQUE 278 : Coût des réparations
+======================================================================
+Calculé sur le pourcentages de pannes pendant la période et fonction du nombre de machines opérationnelles en début de période.
+Le coût élémentaire de réparation, fixé par l'Animateur, est une somme forfaitaire pour chaque point de pourcentage de pannes par machine pendant la période.
+La durée des pannes augmente avec l'âge des machines et diminue en fonction des dépenses d'entretien du parc de machines.
+
+======================================================================
+RUBRIQUE 279 : Coût d'entretien des machines
+======================================================================
+Les dépenses d'entretien des machines, décisions libres des entreprises, en pourcentage de la 
+valeur brute
+ des immobilisations en début de période, permettent de réduire le taux de pannes et le coût des réparations qui en résultent.
+Le taux de pannes augmentant avec l'âge des machines, les frais d'entretien devront être de plus en plus importants si le renouvellement des machines est insuffisant.
+
+======================================================================
+RUBRIQUE 280 : Primes d'assurance
+======================================================================
+
+======================================================================
+RUBRIQUE 281 : Coût des études de marché
+======================================================================
+
+======================================================================
+RUBRIQUE 282 : Résultat financier
+======================================================================
+Produits financiers 
+, diminués des 
+charges financières 
+.
+
+======================================================================
+RUBRIQUE 283 : Résultat financier
+======================================================================
+Produits financiers
+, diminués des 
+charges financières
+.
+
+======================================================================
+RUBRIQUE 284 : Produits financiers
+======================================================================
+Intérêts perçus sur la trésorerie active de fin de période précédente, au taux fixé par l'Animateur.
+Voir aussi
+Placements 
+
+======================================================================
+RUBRIQUE 285 : Produits financiers
+======================================================================
+Intérêts perçus sur la trésorerie active de fin de période précédente, au taux fixé par l'Animateur.
+
+======================================================================
+RUBRIQUE 286 : Frais ou Charges financières
+======================================================================
+Intérêts perçus sur les emprunts et la trésorerie passive de fin de période précédente, aux taux fixés par l'Animateur.
+Voir aussi
+Emprunt 
+Découvert non autorisé 
+Découvert autorisé 
+
+======================================================================
+RUBRIQUE 287 : Frais ou Charges financières
+======================================================================
+Intérêts perçus sur les emprunts et la trésorerie passive de fin de période précédente, aux taux fixés par l'Animateur.
+
+======================================================================
+RUBRIQUE 288 : Résultats (globalisés)
+======================================================================
+Résultat d'exploitation 
+Résultat financier 
+Résultat exceptionnel (produits ou charges) 
+Remboursements assurances 
+Résultat avant impôt 
+Impôt 
+Résultat net 
+
+======================================================================
+RUBRIQUE 289 : Résultat d'exploitation
+======================================================================
+Produits d'exploitation
+, diminués des 
+charges d'exploitations
+.
+
+======================================================================
+RUBRIQUE 290 : Résultat d'exploitation
+======================================================================
+Produits d'exploitation
+, diminués des 
+charges d'exploitations
+.
+
+======================================================================
+RUBRIQUE 291 : Résultat exceptionnel (produit ou charges)
+======================================================================
+
+======================================================================
+RUBRIQUE 292 : Remboursements des assurances
+======================================================================
+Les réparations sont remboursées en fin de période, au prorata du montant de l'assurance souscrite.
+Les machines détruites, sont remboursées en fin de période, à la valeur nette comptable, au prorata du montant de l'assurance souscrite.
+Voir aussi
+Conditions d'assurance 
+
+======================================================================
+RUBRIQUE 293 : Remboursements des assurances
+======================================================================
+Les réparations sont remboursées en fin de période, au prorata du montant de l'assurance souscrite.
+Les machines détruites, sont remboursées en fin de période, à la valeur nette comptable, au prorata du montant de l'assurance souscrite.
+
+======================================================================
+RUBRIQUE 294 : Résultat avant impôt
+======================================================================
+Somme des
+Résultat d'exploitation 
+Résultat financier 
+Résultat exceptionnel (produits ou charges) 
+Remboursements assurances 
+
+======================================================================
+RUBRIQUE 295 : Résultat avant impôt
+======================================================================
+Somme des
+Résultat d'exploitation
+Résultat financier
+Résultat exceptionnel (produits ou charges)
+Remboursements assurances
+
+======================================================================
+RUBRIQUE 296 : Impôt
+======================================================================
+
+======================================================================
+RUBRIQUE 297 : Résultat net
+======================================================================
+Résultat après impôts.
+
+======================================================================
+RUBRIQUE 299 : Situation
+======================================================================
+détails 
+Structure de l'entreprise
+Décisions d'exploitation
+Résultats par produit
+
+======================================================================
+RUBRIQUE 300 : Situation
+======================================================================
+supprimer détails 
+Structure de l'entreprise
+Capacité productive (en heures) 
+Nombre de produits 
+Stock en valeur 
+Effectifs
+Producteurs 
+Force de vente 
+Cadres 
+Créances Clients 
+Heures perdues (%)
+pannes 
+grèves 
+Décisions d'exploitation
+machines affectées
+qté 
+ % 
+Producteurs affectés 
+Production prévue 
+Temps de fabrication (début) 
+Dépenses de qualité 
+Prix 
+Publicité 
+Force de vente affectée 
+Action commerciale 
+Crédit clients (jours) 
+Résultats par produit
+Production réelle 
+Taux d'utilisation machines 
+Heures supplémentaires (%) 
+Ventes (en qté) 
+Ventes normales 
+Ventes soldées 
+Ventes spéciales 
+Chiffre d'affaires 
+Parts de marché 
+Stock
+en qté 
+en valeur 
+Temps de fabrication futur 
+
+======================================================================
+RUBRIQUE 301 : Structure de l'entreprise
+======================================================================
+Capacité productive (en heures) 
+Nombre de produits 
+Stock en valeur 
+Effectifs
+Producteurs 
+Force de vente 
+Cadres 
+Créances Clients 
+Heures perdues (%)
+pannes 
+grèves 
+
+======================================================================
+RUBRIQUE 302 : Capacité productive (en heures)
+======================================================================
+Temps de production théorique offert par l'ensemble des machines disponibles (les achats ou cessions décidés en début de période ne sont effectifs qu'à la période suivante)..
+
+======================================================================
+RUBRIQUE 303 : Nombre de produits
+======================================================================
+Les entreprises peuvent travailler avec un ou deux produits.
+(Un produit n'existe que si son prix est non nul).
+
+======================================================================
+RUBRIQUE 304 : Effectif des Producteurs
+======================================================================
+Les producteurs peuvent être affectés à l'un ou l'autre des produits.
+
+======================================================================
+RUBRIQUE 305 : Effectif de la Force de vente
+======================================================================
+Les vendeurs peuvent être affectés à l'un ou l'autre des produits.
+
+======================================================================
+RUBRIQUE 306 : Effectif des Cadres
+======================================================================
+Les entreprises doivent entretenir un nombre minimal de cadres, selon le ratio Cadres/Producteurs défini par l'Animateur.
+
+======================================================================
+RUBRIQUE 307 : Stock en valeur (stock de produits finis)
+======================================================================
+Les stocks sont valorisés au coût moyen unitaire pondéré:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+
+======================================================================
+RUBRIQUE 308 : Créances Clients
+======================================================================
+
+======================================================================
+RUBRIQUE 309 : Heures perdues: pannes (%)
+======================================================================
+Temps perdu, en pourcentage de la durée d'une période, pour causes de pannes.
+La durée des pannes augmente avec l'âge des machines et diminue en fonction des dépenses d'entretien du parc de machines.
+Les pannes donnent lieu à des coûts de réparations.
+Les heures perdues peuvent entraîner une limitation de la production et un surcoût d'heures supplémentaires (rattrapage du temps perdu).
+
+======================================================================
+RUBRIQUE 310 : Heures perdues: Grèves (%)
+======================================================================
+Temps perdu, en pourcentage de la durée d'une période, pour causes de grèves.
+Les grèves et leur durée dépendent de l'indice de satisfaction des producteurs (fonction de la comparaison entre les salaires de l'entreprise, le salaire moyen pratiqué par les autres entreprises et l'indice des prix défini par l'animateur).
+Les producteurs ne sont pas rémunérés pendant les grèves.
+Les heures perdues peuvent entraîner une limitation de la production et un surcoût d'heures supplémentaires (rattrapage du temps perdu).
+
+======================================================================
+RUBRIQUE 311 : Décisions d'exploitation
+======================================================================
+machines affectées
+qté 
+ % 
+Producteurs affectés 
+Production prévue 
+Temps de fabrication (début) 
+Dépenses de qualité 
+Prix 
+Publicité 
+Force de vente affectée 
+Action commerciale 
+Crédit clients (jours) 
+
+======================================================================
+RUBRIQUE 312 : Machines affectées (en qté)
+======================================================================
+
+======================================================================
+RUBRIQUE 313 : Machines affectées %
+======================================================================
+Pourcentage des machines affectées au produit.
+
+======================================================================
+RUBRIQUE 314 : Producteurs affectés
+======================================================================
+Production prévue
+
+======================================================================
+RUBRIQUE 315 : Temps de fabrication (début de période)
+======================================================================
+Temps nécessaire à la fabrication d'une unité de produits, fonction de la courbe d'expérience et de l'âge moyen des machines opérationnelles en début de période.
+Le temps de fabrication peut être modulé par le facteur de temps de fabrication (constante du jeu), autour de sa valeur normale (100 %).
+Les machines achetées en début de période ne sont opérationnelles qu'à la période suivante.
+Les cessions de machines, décidées en début de période, ne sont effectives qu'à la période suivante.
+
+======================================================================
+RUBRIQUE 316 : Dépenses de qualité
+======================================================================
+Prix
+Publicité
+Vendeurs affectés
+Action commerciale
+Crédit clients (jours)
+
+======================================================================
+RUBRIQUE 317 : Résultats par produit
+======================================================================
+Production réelle 
+Taux d'utilisation machines 
+Heures supplémentaires (%) 
+Ventes (en qté) 
+Ventes normales 
+Ventes soldées 
+Ventes spéciales 
+Chiffre d'affaires 
+Parts de marché 
+Stock
+en qté 
+en valeur 
+Temps de fabrication futur 
+
+======================================================================
+RUBRIQUE 318 : Production réelle
+======================================================================
+Eventuellement inférieure à la production prévue.
+Les heures perdues (pannes, grèves) peuvent entraîner une limitation de la production et un surcoût d'heures supplémentaires utilisées pour le rattrapage du temps perdu.
+Seules les matières premières consommées sont facturées.
+
+======================================================================
+RUBRIQUE 319 : Taux d'utilisation machines
+======================================================================
+Rapport de la quantité produite à la capacité de production affectée au produit.
+
+======================================================================
+RUBRIQUE 320 : Heures supplémentaires (%)
+======================================================================
+Pourcentage d'heures supplémentaires utilisées pour la production, pendant la période.
+Les heures supplémentaires sont limitées en volume et donnent lieu à un surcoût qui est fonction des salaires.
+
+======================================================================
+RUBRIQUE 321 : Ventes normales (en qté)
+======================================================================
+Ventes réalisées au prix public normal.
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+RUBRIQUE 322 : Ventes soldées (en qté)
+======================================================================
+Ventes réalisées au prix minimal (fixé par l'Animateur).
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+RUBRIQUE 323 : Ventes spéciales (en qté)
+======================================================================
+Ventes réalisées au prix de soumission fixé par l'Animateur pour les appels d'offre sur le produit.
+La priorité des ventes est donnée, dans l'ordre
+1.
+aux liquidation de stocks
+2.
+aux soumissions
+3.
+aux ventes normales
+
+======================================================================
+RUBRIQUE 324 : Chiffre d'affaires
+======================================================================
+Toute catégories de ventes confondues (ventes normales, soldes, soumissions).
+
+======================================================================
+RUBRIQUE 325 : Parts de marché
+======================================================================
+Rapport des ventes normales en quantité, à la demande effective sur le produit.
+
+======================================================================
+RUBRIQUE 326 : Stock en qté
+======================================================================
+Ventes non réalisées.
+
+======================================================================
+RUBRIQUE 327 : Stock en valeur (voir définition globale)
+======================================================================
+
+======================================================================
+RUBRIQUE 328 : Temps de fabrication (futur)
+======================================================================
+Temps nécessaire à la fabrication d'une unité de produits, pour la période suivante.
+
+======================================================================
+RUBRIQUE 331 : Tableau de Trésorerie
+======================================================================
+détails 
+Dépenses  
+Recettes 
+Etude de trésorerie
+
+======================================================================
+RUBRIQUE 332 : Tableau de Trésorerie
+======================================================================
+supprimer détails 
+Dépenses
+Paiements aux fournisseurs 
+Obtention de la qualité 
+Publicité et action commerciale 
+Coût des études 
+Charges de personnel 
+Coût de stockage 
+Coûts fixes de production 
+ .
+Autres charges de production 
+Primes d'assurances 
+Charges financières 
+Charges exceptionnelles 
+Impôt sur les sociétés 
+T.V.A. à décaisser 
+Réduction du capital 
+Remboursement des emprunts 
+Investissements 
+Distribution de dividendes 
+Recettes
+Réglements des clients 
+Subventions 
+Produits financiers 
+Produits exceptionnels 
+Remboursements des assurances 
+Augmentation du capital 
+Nouveaux emprunts accordés 
+Cessions d'immobilisations 
+Trésorerie
+Variation de trésorerie 
+Solde antérieur de trésorerie 
+Situation de trésorerie 
+
+======================================================================
+RUBRIQUE 333 : Dépenses
+======================================================================
+Paiements aux fournisseurs 
+Obtention de la qualité 
+Publicité et action commerciale 
+Coût des études 
+Charges de personnel 
+Coût de stockage 
+Coûts fixes de production 
+ .
+Autres charges de production 
+Primes d'assurances 
+Charges financières 
+Charges exceptionnelles 
+Impôt sur les sociétés 
+T.V.A. à décaisser 
+Réduction du capital 
+Remboursement des emprunts 
+Investissements 
+Distribution de dividendes 
+
+======================================================================
+RUBRIQUE 334 : Dépenses
+======================================================================
+Paiements aux fournisseurs
+Obtention de la qualité
+Publicité et action commerciale
+Coût des études
+Charges de personnel
+Coût de stockage
+Coûts fixes de production
+Autres charges de production 
+Primes d'assurances
+Charges financières
+Charges exceptionnelles
+Impôt sur les sociétés
+T.V.A. à décaisser
+Réduction du capital
+Remboursement des emprunts
+Investissements
+Distribution de dividendes
+
+======================================================================
+RUBRIQUE 335 : Recettes
+======================================================================
+Réglements des clients 
+Subventions 
+Produits financiers 
+Produits exceptionnels 
+Remboursements des assurances 
+Augmentation du capital 
+Nouveaux emprunts accordés 
+Cessions d'immobilisations 
+
+======================================================================
+RUBRIQUE 336 : Recettes
+======================================================================
+Réglements des clients
+Subventions
+Produits financiers
+Produits exceptionnels
+Remboursements des assurances
+Augmentation du capital
+Nouveaux emprunts accordés
+Cessions d'immobilisations
+
+======================================================================
+RUBRIQUE 337 : Réglements des clients
+======================================================================
+Chiffre d'affaires 
+Variations des comptes clients 
+
+======================================================================
+RUBRIQUE 338 : Réglements des clients
+======================================================================
+Chiffre d'affaires
+Variations des comptes clients
+
+======================================================================
+RUBRIQUE 339 : Chiffre d'affaires
+======================================================================
+Toute catégories de ventes confondues (ventes normales, soldes, soumissions).
+
+======================================================================
+RUBRIQUE 340 : Variations des comptes Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation
+Voir aussi 
+Durée du crédit accordé aux Clients 
+
+======================================================================
+RUBRIQUE 341 : Variations des comptes Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation 
+
+======================================================================
+RUBRIQUE 342 : Subventions
+======================================================================
+
+======================================================================
+RUBRIQUE 343 : Produits financiers
+======================================================================
+
+======================================================================
+RUBRIQUE 344 : Produits exceptionnels
+======================================================================
+
+======================================================================
+RUBRIQUE 345 : Remboursements des assurances 
+======================================================================
+
+======================================================================
+RUBRIQUE 346 : Paiements aux fournisseurs
+======================================================================
+Achats de matières 
+Variations des comptes fournisseurs 
+
+======================================================================
+RUBRIQUE 347 : Paiements aux fournisseurs
+======================================================================
+Achats de matières
+Variations des comptes fournisseurs
+
+======================================================================
+RUBRIQUE 348 : Achats de matières
+======================================================================
+
+======================================================================
+RUBRIQUE 349 : Variations des comptes fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+Voir aussi 
+Durée du crédit Fournisseurs 
+
+======================================================================
+RUBRIQUE 350 : Variations des comptes fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+
+======================================================================
+RUBRIQUE 351 : Obtention de la qualité
+======================================================================
+Total, pour tous les produits, des budgets d'obtention de la qualité.
+
+======================================================================
+RUBRIQUE 352 : Publicité et action commerciale
+======================================================================
+
+======================================================================
+RUBRIQUE 353 : Etudes
+======================================================================
+
+======================================================================
+RUBRIQUE 354 : Charges de personnels
+======================================================================
+Ensemble des salaires versés pendant la période, toutes catégories de personnels confondues:
+Salaires de base
+Salaires des producteurs affectés, y compris les heures supplémentaires éventuelles
+Coût d'entretien de la Force de Vente affectée (salaires fixes et commissions sur les ventes normales)
+Rémunération des cadres
+Indemnités de licenciement
+Frais d'embauche
+Frais de formation.
+
+======================================================================
+RUBRIQUE 355 : Coûts de stockage
+======================================================================
+
+======================================================================
+RUBRIQUE 356 : Coûts fixes de production
+======================================================================
+
+======================================================================
+RUBRIQUE 357 : Autres charges de production
+======================================================================
+Dépenses d'entretien des machines 
+ .
+Réparation de machines 
+ .
+
+======================================================================
+RUBRIQUE 358 : Autres charges de production
+======================================================================
+Dépenses d'entretien des machines 
+Réparation de machines 
+
+======================================================================
+RUBRIQUE 359 : Primes d'assurances
+======================================================================
+
+======================================================================
+RUBRIQUE 360 : Charges financières
+======================================================================
+
+======================================================================
+RUBRIQUE 361 : Charges Exceptionnelles
+======================================================================
+
+======================================================================
+RUBRIQUE 362 : Impôt sur les sociétés
+======================================================================
+L'Impôt sur les sociétés est calculé sur le résultat de la période précédente.
+Voir aussi 
+Conditions d'imposition 
+
+======================================================================
+RUBRIQUE 363 : Impôt sur les sociétés
+======================================================================
+L'Impôt sur les sociétés est calculé sur le résultat de la période précédente.
+
+======================================================================
+RUBRIQUE 364 : T.V.A. à décaisser
+======================================================================
+T.V.A.
+ collectée diminuée de la 
+T.V.A.
+ déductible
+T.V.A. collectée :
+ le taux est appliqué à
+la production vendue,
+la production soldée,
+la production Offres spéciales ,
+le prix de cession des immobilisations.
+T.V.A. déductible :
+ le taux est appliqué à
+la consommation de matières,
+la publicité,
+l'action commerciale,
+les couts fixes de production,
+les acquisitions d'immobilisations.
+
+======================================================================
+RUBRIQUE 365 : Variation du capital
+======================================================================
+En augmentation:
+ressources propres appelées et versées.
+En diminutiion:
+restructurations.
+En cas de variation de capital, le montant des réserves détenues en début de période est automatiquement affecté au capital.
+
+======================================================================
+RUBRIQUE 366 : Variation des emprunts
+======================================================================
+Nouveaux emprunts:
+ressource étrangère encaissée.
+Remboursements:
+amortissements d'emprunts contractés.
+Voir aussi 
+conditions d'emprunt 
+
+======================================================================
+RUBRIQUE 367 : Variation des emprunts
+======================================================================
+Nouveaux emprunts:
+ressource étrangère encaissée.
+Remboursements:
+amortissements d'emprunts contractés.
+
+======================================================================
+RUBRIQUE 368 : Investissements
+======================================================================
+Achat de machines nouvelles (réglées au comptant), au prix fixé par l'Animateur.
+
+======================================================================
+RUBRIQUE 369 : Cessions d'immobilisations
+======================================================================
+Ressources encaissées par cessions de droits (cessions de machines à leur valeur nette comptable).
+
+======================================================================
+RUBRIQUE 370 : Distribution de dividendes
+======================================================================
+Si vous persistez à ne rien distribuer à vos actionnaires, vous risquez un refus d'augmentation de capital et quelques difficultés pour réaliser vos investissements.
+
+======================================================================
+RUBRIQUE 371 : Variation des dettes fiscales
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emploi:
+diminution des dettes.
+Voir aussi 
+Impôt sur les sociétés 
+
+======================================================================
+RUBRIQUE 372 : Variation des dettes fiscales
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emploi:
+diminution des dettes.
+
+======================================================================
+RUBRIQUE 374 : Totaux
+======================================================================
+
+======================================================================
+RUBRIQUE 375 : Etude de trésorerie
+======================================================================
+Variation de trésorerie 
+Solde antérieur de trésorerie 
+Situation de trésorerie 
+
+======================================================================
+RUBRIQUE 376 : Variation de trésorerie
+======================================================================
+Différence entre les flux entrants (
+ressources ou recettes
+) et sortants (
+emplois ou dépenses
+)
+
+======================================================================
+RUBRIQUE 377 : Solde antérieur de trésorerie
+======================================================================
+Solde de trésorerie active ou passive en fin de période précédente.
+
+======================================================================
+RUBRIQUE 378 : Solde final de trésorerie
+======================================================================
+Trésorerie active ou passive de fin de période.
+
+======================================================================
+RUBRIQUE 380 : Tableau de Financement
+======================================================================
+Détails 
+Variation du fonds de roulement 
+Variation de l'actif circulant 
+
+======================================================================
+RUBRIQUE 381 : Tableau de Financement
+======================================================================
+Sans détails 
+Variation du fonds de roulement
+Variation du capital 
+Capacité brute d'autofinancement 
+Variation des emprunts 
+Variation des investissements 
+Variation de l'actif circulant
+Variation du stock du produit1 
+Variation du stock du produit2 
+Variation du crédit Fournisseurs 
+Variation du crédit Clients 
+Variation des dettes fiscales 
+Variation de trésorerie 
+
+======================================================================
+RUBRIQUE 382 : Variation du fonds de roulement
+======================================================================
+Variation du capital 
+Capacité brute d'autofinancement 
+Variation des emprunts 
+Variation des investissements 
+
+======================================================================
+RUBRIQUE 383 : Variation du fonds de roulement
+======================================================================
+Variation du capital
+Capacité brute d'autofinancement
+Variation des emprunts
+Variation des investissements
+
+======================================================================
+RUBRIQUE 384 : Variation du capital
+======================================================================
+Augmentation ou diminution du capital (y compris les distributions de dividendes).
+
+======================================================================
+RUBRIQUE 385 : Capacité brute d'autofinancement
+======================================================================
+Somme des dotations aux 
+amortissements 
+  constituées et du résultat net.
+
+======================================================================
+RUBRIQUE 386 : Capacité brute d'autofinancement
+======================================================================
+Somme des dotations aux 
+amortissements 
+constituées et du résultat net.
+
+======================================================================
+RUBRIQUE 387 : Variation des emprunts
+======================================================================
+
+======================================================================
+RUBRIQUE 388 : Variation des investissements
+======================================================================
+Les achats de machines sont faits au prix fixé par l'Animateur.
+Les cessions de machines se font à la valeur nette comptable.
+
+======================================================================
+RUBRIQUE 389 : Variation de l'actif circulant
+======================================================================
+Variation du stock du produit1 
+Variation du stock du produit2 
+Variation du crédit Fournisseurs 
+Variation du crédit Clients 
+Variation des dettes fiscales 
+Variation de trésorerie 
+
+======================================================================
+RUBRIQUE 390 : Variation de l'actif circulant
+======================================================================
+Variation du stock du produit1
+Variation du stock du produit2
+Variation du crédit Fournisseurs
+Variation du crédit Clients
+Variation des dettes fiscales
+Variation de trésorerie
+
+======================================================================
+RUBRIQUE 391 : Variation du stock de produits finis
+======================================================================
+Exprimée en coûts de production par produits.
+Les stocks sont valorisés au coût moyen unitaire pondéré calculé pour la période et par produits:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+Une variation négative correspond à un accroissements des stocks, donc à un besoin de financement.
+
+======================================================================
+RUBRIQUE 392 : Variation du stock du produit 1
+======================================================================
+Variation du stock du produit 1
+Globalisés ci-dessus
+
+======================================================================
+RUBRIQUE 393 : Variation du crédit fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+Voir aussi 
+Durée du crédit Fournisseurs 
+
+======================================================================
+RUBRIQUE 394 : Variation du crédit fournisseurs
+======================================================================
+En ressources:
+ressource nouvelle par accroissement de dettes d'exploitation.
+En emplois:
+diminution des dettes.
+
+======================================================================
+RUBRIQUE 395 : Variation du crédit Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation
+Voir aussi 
+Durée du crédit accordé aux Clients 
+
+======================================================================
+RUBRIQUE 396 : Variation du crédit Clients
+======================================================================
+En ressources:
+ressources nouvelles par diminution des droits de créances.
+En emplois:
+financement de nouvelles créances d'exploitation
+
+======================================================================
+RUBRIQUE 397 : Variation des dettes fiscales
+======================================================================
+
+======================================================================
+RUBRIQUE 398 : Variation de trésorerie
+======================================================================
+
+======================================================================
+RUBRIQUE 400 : Soldes intermédiaires de gestion (S.I.G.)
+======================================================================
+Détails 
+Exploitation
+Production de l'exercice 
+Consommations en provenance des tiers 
+Valeur ajoutée (V.A.)
+Excédent brut d'exploitation (E.B.E.) 
+Résultats
+Résultat d'exploitation 
+Résultat courant 
+Résultat net 
+
+======================================================================
+RUBRIQUE 401 : Soldes intermédiaires de gestion (S.I.G.)
+======================================================================
+supprimer détails 
+Exploitation
+Production de l'exercice
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+Consommations en provenance des tiers
+Consommation matières 
+Coût d'obtention de la qualité 
+Publicité et action commerciale 
+Coût de stockage 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+Valeur ajoutée (V.A.)
+Subventions 
+Charges de personnel 
+Main d'oeuvre directe 
+Rémunération des vendeurs 
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de formation 
+Excédent brut d'exploitation (E.B.E.) 
+Dotation aux amortissements 
+Résultats
+Résultat d'exploitation 
+Produits financiers 
+Charges financières 
+Résultat courant 
+Produits exceptionnels 
+Remboursements des assurances 
+Charges exceptionnelles 
+Impôt sur les sociétés 
+Résultat net 
+
+======================================================================
+RUBRIQUE 402 : Production de l'exercice 
+======================================================================
+Production vendue 
+Production soldée 
+Production offre spéciales 
+Production stockée 
+
+======================================================================
+RUBRIQUE 403 : Production de l'exercice 
+======================================================================
+Production vendue
+Production soldée
+Production offre spéciales
+Production stockée
+
+======================================================================
+RUBRIQUE 404 : Production vendue
+======================================================================
+
+======================================================================
+RUBRIQUE 405 : Production soldée
+======================================================================
+
+======================================================================
+RUBRIQUE 406 : Production offre spéciales
+======================================================================
+
+======================================================================
+RUBRIQUE 407 : Production stockée
+======================================================================
+
+======================================================================
+RUBRIQUE 408 : Consommations en provenance des tiers
+======================================================================
+Consommation matières 
+Coût d'obtention de la qualité 
+Publicité et action commerciale 
+Coût de stockage 
+Coûts fixes de production 
+Coût des réparations 
+Coût d'entretien des machines 
+Primes d'assurances 
+Coût des études de marché 
+
+======================================================================
+RUBRIQUE 409 : Consommations en provenance des tiers
+======================================================================
+Consommation matières
+Coût d'obtention de la qualité
+Publicité et action commerciale
+Coût de stockage
+Coûts fixes de production
+Coût des réparations
+Coût d'entretien des machines
+Primes d'assurances
+Coût des études de marché
+
+======================================================================
+RUBRIQUE 410 : Valeur ajoutée (V.A)
+======================================================================
+
+======================================================================
+RUBRIQUE 411 : Subventions
+======================================================================
+
+======================================================================
+RUBRIQUE 412 : Charges de personnel
+======================================================================
+Main d'oeuvre directe 
+Rémunération des vendeurs 
+Rémunération de l'encadrement 
+Coût d'embauche 
+Coût de licenciement 
+Coût de formation 
+
+======================================================================
+RUBRIQUE 413 : Charges de personnel
+======================================================================
+Main d'oeuvre directe
+Rémunération des vendeurs
+Rémunération de l'encadrement
+Coût d'embauche
+Coût de licenciement
+Coût de formation
+
+======================================================================
+RUBRIQUE 414 : Excédent brut d'exploitation (E.B.E.)
+======================================================================
+
+======================================================================
+RUBRIQUE 415 : Dotation aux amortissements
+======================================================================
+
+======================================================================
+RUBRIQUE 416 : Résultat d'exploitation
+======================================================================
+
+======================================================================
+RUBRIQUE 417 : Produits financiers
+======================================================================
+
+======================================================================
+RUBRIQUE 418 : Produits financiers
+======================================================================
+
+======================================================================
+RUBRIQUE 419 : Frais ou Charges financières
+======================================================================
+
+======================================================================
+RUBRIQUE 420 : Frais ou Charges financières
+======================================================================
+
+======================================================================
+RUBRIQUE 421 : Résultat courant
+======================================================================
+
+======================================================================
+RUBRIQUE 422 : Produits exceptionnels
+======================================================================
+
+======================================================================
+RUBRIQUE 423 : Remboursements des assurances
+======================================================================
+
+======================================================================
+RUBRIQUE 424 : Remboursements assurances
+======================================================================
+
+======================================================================
+RUBRIQUE 425 : Charges exceptionnelles
+======================================================================
+
+======================================================================
+RUBRIQUE 426 : Impôt sur les sociétés
+======================================================================
+
+======================================================================
+RUBRIQUE 427 : Résultat net
+======================================================================
+
+======================================================================
+RUBRIQUE 429 : Consommation matières
+======================================================================
+
+======================================================================
+RUBRIQUE 430 : Coût d'obtention de la qualité
+======================================================================
+
+======================================================================
+RUBRIQUE 431 : Publicité et action commerciale
+======================================================================
+
+======================================================================
+RUBRIQUE 432 : Frais ou Coût de stockage
+======================================================================
+
+======================================================================
+RUBRIQUE 433 : Coûts fixes de production
+======================================================================
+
+======================================================================
+RUBRIQUE 434 : Coûts fixes de production
+======================================================================
+
+======================================================================
+RUBRIQUE 435 : Coût des réparations
+======================================================================
+
+======================================================================
+RUBRIQUE 436 : Coût d'entretien des machines
+======================================================================
+
+======================================================================
+RUBRIQUE 437 : Primes d'assurance
+======================================================================
+
+======================================================================
+RUBRIQUE 438 : Coût des études de marché
+======================================================================
+
+======================================================================
+RUBRIQUE 440 : Main d'oeuvre directe
+======================================================================
+
+======================================================================
+RUBRIQUE 441 : Rémunération de la force de vente
+======================================================================
+
+======================================================================
+RUBRIQUE 442 : Rémunération de l'encadrement
+======================================================================
+
+======================================================================
+RUBRIQUE 443 : Coût d'embauche
+======================================================================
+
+======================================================================
+RUBRIQUE 444 : Coût de licenciement
+======================================================================
+
+======================================================================
+RUBRIQUE 445 : Coût de formation
+======================================================================
+
+======================================================================
+RUBRIQUE 447 : Etudes de marché
+======================================================================
+Les entreprises décident, en début de période, de la nature des études de marché dont elles souhaitent disposer en fin de période.
+Le coût de ces études est défini par l'Animateur, selon un barème libre (non calculé par le modèle) et la dépense correspondante est inscrite dans les décisions générales de l'Entreprise.
+Les études commandées sont disponibles en fin de période, après arbitrage (voir le menu 
+résultats
+ des Entreprises).
+Détails des diverses études proposées
+Politique des concurrents sur un produit 
+Parts de marché des concurrents 
+Résultats des concurrents 
+Structure des entreprises concurrentes 
+Situation du marché 
+Performance de l'entreprise 
+Montant des études de marché 
+
+======================================================================
+RUBRIQUE 448 : Politique des concurrents sur un produit
+======================================================================
+Sur le produit spécifié, et pour toutes les entreprises,
+Prix pratiqué
+Budget de Publicité
+Effectif de la Force de Vente
+Durée du crédit Clients.
+
+======================================================================
+RUBRIQUE 449 : Parts de marché des concurrents
+======================================================================
+Sur chacun des deux produits, et pour toutes les entreprises.
+
+======================================================================
+RUBRIQUE 450 : Résultats des concurrents
+======================================================================
+Pour toutes les entreprises, 
+Chiffre d'affaires pour chaque produit,
+Résultat fiscal
+Résultat net
+
+======================================================================
+RUBRIQUE 451 : Structure des entreprises concurrentes
+======================================================================
+Pour toutes les entreprises,
+Capital propre
+Immobilisations
+Valeur du stock
+Endettement, en %
+Découvert
+Heures supplémentaires (en %)
+
+======================================================================
+RUBRIQUE 452 : Situation du marché
+======================================================================
+Pour chacun des produits,
+Demande potentielle
+Demande effective
+Demande non satisfaite
+Variation de la demande effective (en %)
+
+======================================================================
+RUBRIQUE 453 : Performance de l'entreprise
+======================================================================
+Pour chacun des deux produits,
+Prix par rapport à la moyenne
+% de Publicité par rapport à la moyenne
+F.V. par rapport à la moyenne
+Durée du crédit Clients par rapport à la moyenne
+
+======================================================================
+RUBRIQUE 454 : Montant des études
+======================================================================
+Coût global des achats d'études de marché commandées, selon un barème défini par l'Animateur.
+
+======================================================================
+RUBRIQUE 456 : Résultats généraux (pour l'Animateur)
+======================================================================
+voir aussi 
+Résultats pour toutes les Entreprises, présenté sous forme de tableau.
+Trésorerie active ou passive 
+Endettement (%) 
+Valeur ajoutée 
+E.B.E. 
+C.A.F. 
+Résultat comptable 
+Résultat net 
+Rentabilité /Cp 
+Rotation Actif 
+Effet de levier 
+Age moyen (machines) 
+
+======================================================================
+RUBRIQUE 457 : Voir aussi
+======================================================================
+Résultats par produits 
+Résultats des entreprises 
+
+======================================================================
+RUBRIQUE 458 : Trésorerie (active ou passive)
+======================================================================
+Solde de trésorerie active ou passive, en fin de période..
+
+======================================================================
+RUBRIQUE 459 : Endettement (%)
+======================================================================
+Rapport des capitaux étrangers (emprunts, concours Bancaires, Fournisseurs, dettes fiscales) au Passif de l'entreprise.
+
+======================================================================
+RUBRIQUE 460 : Valeur ajoutée
+======================================================================
+Chiffre d'affaires, diminué des charges externes.
+
+======================================================================
+RUBRIQUE 461 : Excédent Brut d'Exploitation (E.B.E.) 
+======================================================================
+
+======================================================================
+RUBRIQUE 462 : Capacité d'Auto Financement (C.A.F.)
+======================================================================
+
+======================================================================
+RUBRIQUE 463 : Résultat avant impôt
+======================================================================
+
+======================================================================
+RUBRIQUE 464 : Résultat net
+======================================================================
+
+======================================================================
+RUBRIQUE 465 : Rentabilité /Cp
+======================================================================
+Rapport du résultat net de la période au montant des Capitaux propres 
+
+======================================================================
+RUBRIQUE 466 : Rotation Actif
+======================================================================
+Rapport du chiffre d'affaires au total des actifs.
+
+======================================================================
+RUBRIQUE 467 : Effet de levier
+======================================================================
+Rapport des ressources investies aux capitaux propres.
+
+======================================================================
+RUBRIQUE 468 : Age moyen des machines opérationnelles pour la prochaine période.
+======================================================================
+La capacité productive et le nombre de pannes dépendent de l'âge moyen des machines.
+Les achats et cessions, décidés en début de période, ne sont effectifs que pour la période suivante.
+
+======================================================================
+RUBRIQUE 470 : Résultats par produits (pour l'Animateur)
+======================================================================
+détails 
+Résultats, par produits, de toutes les Entreprises, présenté sous forme de tableau.
+Production 
+Commercialisation 
+Effets 
+Ventes normales 
+Résultats globaux 
+voir aussi
+Résultats généraux 
+Résultats des Entreprises 
+
+======================================================================
+RUBRIQUE 471 : Résultats par produits (pour l'Animateur)
+======================================================================
+supprimer détails 
+Résultats, par produits, de toutes les Entreprises, présenté sous forme de tableau.
+Production
+Machines affectées 
+Capacité productive (%) 
+Utilisation de la capacité productive (%) 
+Coût de production unitaire 
+Heures supplémentaires (%) 
+Production réelle 
+Commercialisation
+Prix 
+Prix, % par rapport à la moyenne 
+Publicité 
+Publicité, % C.A. théorique 
+Publicité, % C.A. réel 
+Publicité, % par rapport à la moyenne 
+Vendeurs affectés 
+Vendeurs affectés, productivité 
+Vendeurs affectés, % par rapport à la moyenne 
+Crédit Clients (jours) 
+Crédit Clients, durée en % par rapport à la moyenne 
+Effets 
+Ventes normales
+Quantité vendue 
+Parts de marché 
+Rupture de stock 
+Ventes prises 
+Résultats globaux
+Chiffre d'Affaires 
+Marge sur coût direct 
+Marge, % par rapport au C.A. 
+
+======================================================================
+RUBRIQUE 472 : Voir aussi
+======================================================================
+Résultats généraux 
+Résultats des Entreprises 
+
+======================================================================
+RUBRIQUE 473 : Conditions de production
+======================================================================
+Machines affectées 
+Capacité productive (%) 
+Utilisation de la capacité productive (%) 
+Coût de production unitaire 
+Heures supplémentaires (%) 
+Production réelle 
+
+======================================================================
+RUBRIQUE 474 : Machines affectées
+======================================================================
+
+======================================================================
+RUBRIQUE 475 : Capacité productive (%)
+======================================================================
+Part de la capacité productive globale affectée à cette fabrication.
+
+======================================================================
+RUBRIQUE 476 : Utilisation de la capacité productive (%)
+======================================================================
+Part de la capacité productive affectée à cette fabrication et effectivement utilisée.
+
+======================================================================
+RUBRIQUE 477 : Coût de production unitaire
+======================================================================
+Les stocks sont valorisés au coût moyen unitaire pondéré:
+matières premières
+main d'oeuvre directe
+dotations aux amortissements des machines affectées
+
+======================================================================
+RUBRIQUE 478 : Heures supplémentaires (%)
+======================================================================
+
+======================================================================
+RUBRIQUE 479 : Production réelle
+======================================================================
+
+======================================================================
+RUBRIQUE 480 : Commercialisation
+======================================================================
+Prix 
+Prix, % par rapport à la moyenne 
+Publicité 
+Publicité, % C.A. théorique 
+Publicité, % C.A. réel 
+Publicité, % par rapport à la moyenne 
+Vendeurs affectés 
+Vendeurs affectés, productivité 
+Vendeurs affectés, % par rapport à la moyenne 
+Crédit Clients (jours) 
+Crédit Clients, durée en % par rapport à la moyenne 
+
+======================================================================
+RUBRIQUE 481 : Prix
+======================================================================
+
+======================================================================
+RUBRIQUE 482 : Prix, % par rapport à la moyenne des prix pratiqués sur le marché.
+======================================================================
+
+======================================================================
+RUBRIQUE 483 : Publicité
+======================================================================
+
+======================================================================
+RUBRIQUE 484 : Publicité, % C.A. théorique
+======================================================================
+Rapport des dépenses de publicité au chiffre d'affaires maximal possible.
+
+======================================================================
+RUBRIQUE 485 : Publicité, % C.A. réel
+======================================================================
+Rapport des dépenses de publicité au chiffre d'affaires réalisé en ventes normales.
+
+======================================================================
+RUBRIQUE 486 : Publicité, % par rapport à la moyenne des dépenses de publicité sur ce marché.
+======================================================================
+
+======================================================================
+RUBRIQUE 487 : Vendeurs affectés
+======================================================================
+
+======================================================================
+RUBRIQUE 488 : Vendeurs affectés, productivité
+======================================================================
+Chiffre d'affaires moyen réalisé par Vendeur.
+
+======================================================================
+RUBRIQUE 489 : Vendeurs affectes, % par rapport à la moyenne des vendeurs sur ce marché.
+======================================================================
+
+======================================================================
+RUBRIQUE 490 : Crédit Clients, durée
+======================================================================
+
+======================================================================
+RUBRIQUE 491 : Crédit Clients, durée en % par rapport à la moyenne pratiquée sur ce marché.
+======================================================================
+
+======================================================================
+RUBRIQUE 492 : Effets
+======================================================================
+Les effets 
+Prix
+, 
+Publicité
+, 
+Crédit Clients
+ et 
+Qualités
+ sont pondérés par les différents poids affectés par l'Animateur lors des décisions de début de période.
+L'effet global
+ prend en compte ces quatre effets ainsi que le taux de fidélisation défini par l'animateur.
+C'est 
+l'effet global 
+qui détermine l'effet mercatique du produit.
+
+======================================================================
+RUBRIQUE 493 : Effet Prix
+======================================================================
+Effet Publicité
+Effet Crédit Clients
+Effet Qualité
+Effet Global
+
+======================================================================
+RUBRIQUE 494 : Ventes normales
+======================================================================
+Quantité vendue 
+Parts de marché 
+Rupture de stock 
+Ventes prises 
+
+======================================================================
+RUBRIQUE 495 : Quantité vendue au prix normal. 
+======================================================================
+
+======================================================================
+RUBRIQUE 496 : Parts de marché
+======================================================================
+
+======================================================================
+RUBRIQUE 497 : Rupture de stock: 
+======================================================================
+ventes perdues par faute de disponibilité.
+
+======================================================================
+RUBRIQUE 498 : Ventes prises: 
+======================================================================
+ventes réalisées au détriment de la conncurrence.
+(Rupture de stock de la concurrence). 
+
+======================================================================
+RUBRIQUE 499 : Résultats globaux par produits
+======================================================================
+Chiffre d'Affaires 
+Marge sur coût direct 
+Marge, % par rapport au C.A. 
+
+======================================================================
+RUBRIQUE 500 : Chiffre d'Affaires (par produits)
+======================================================================
+Chiffre d'affaires, toutes ventes confondues (ventes normales, ventes soldées, soumissions).
+
+======================================================================
+RUBRIQUE 501 : Marge sur coût direct
+======================================================================
+Chiffre d'affaires total du produit, diminué des charges affectables à ce produit.
+
+======================================================================
+RUBRIQUE 502 : Marge, % par rapport au C.A. 
+======================================================================
+Pourcentage de marge sur coûts direct par rapport au chiffre d'affaires total réalisé sur le produit.
+
+======================================================================
+RUBRIQUE 504 : Graphes
+======================================================================
+Les graphes concernent 
+un objet
+un ou plusieurs groupe de sujets
+une série de valeurs
+L'objet du graphe.
+Cet objet est choisi dans le menu "sélection".
+Le chemin de la sélection en cours est marqué par des coches.
+Sujet(s) du graphe.
+Les sujets sont choisis dans les menus placés entre les signes [[ et ]]
+Dans chaque groupe de sujets, on ne peut choisir qu'un sujet au plus.
+(Par défaut, dans chaque groupe de sujets, le premier élément est coché)
+Séries du graphe. 
+Les séries sont choisies dans les menus placés entre les signes << et >>)
+Les différentes séries de valeurs sont cumulables sur le même graphe.
+(par défaut, tous les éléments des séries sont cochés).
+Graphes historiques 
+Evolution de séries d'un même type de valeur (décision ou résultat), de la première période à la dernière période arbitrée.
+Les valeurs peuvent être consultées sous forme de graphe ou dans un tableau de valeurs
+Graphe:
+Echelle:
+ Lorsque le graphe concerne un ou plusieurs sujets, l'échelle s'adapte automatiquement en fonction des sujets, à moins qu'elle ne soit "bloquée":
+Le blocage de l'échelle permet de conserver les mêmes amplitudes de valeurs lorsque les sujets changent..
+Le déblocage de l'échelle entraîne l'adaptation automatique de l'échelle aux sujets en cours.
+Informations de position: 
+En cliquant et en déplaçant la souris, les informations de positions et didentification s'affichent en bas du graphe.
+Tableau:
+Les colonnes peuvent être dimensionnées individuellement ou égalisées à la largeur de la colonne sélectionnée.
+Graphes par période
+Description de valeurs relative à une période déterminée (par défaut, la dernière période arbitrée).
+Volets: 
+Les deux volets, graphes et valeurs, sont dimensionnables en déplaçant le séparateur de volets en bas de l'écran.
+Copier, imprimer
+Copie dans le presse papier:
+ copie des données du graphe, sous forme de tableau.
+Imprimer: 
+impression uniquement de ce qui apparaît à l'écran (tableau partiel ou graphe).

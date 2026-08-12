@@ -1,0 +1,125 @@
+=== TFORMSEDD_AUTOCORR.bin: PARTIAL (consumed 1611/1792) ===
+object FormSEDD_AutoCorr: TFormSEDD_AutoCorr
+  Left = 200
+  Top = 99
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Vérification des décisions'
+  ClientHeight = 167
+  ClientWidth = 433
+  Color = 'clWhite'
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnClose = 'FormClose'
+  TextHeight = 16
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 433
+    Height = 167
+    Align = 'alClient'
+    BevelOuter = 'bvNone'
+    BorderWidth = 10
+    ParentColor = True
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 10
+      Top = 10
+      Width = 413
+      Height = 102
+      Align = 'alClient'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 0
+      object Label6: TLabel
+        Left = 0
+        Top = 0
+        Width = 65
+        Height = 102
+        Align = 'alLeft'
+        Alignment = 'taCenter'
+        Caption = '!'
+        Color = 'clYellow'
+        Font.Color = 'clBlack'
+        Font.Height = -96
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label1: TLabel
+        Left = 80
+        Top = 0
+        Width = 167
+        Height = 24
+        Caption = 'Erreurs détectées !'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 80
+        Top = 48
+        Width = 313
+        Height = 16
+        Caption = 'Certaines valeurs peuvent être auto-corrigées ...'
+      end
+      object Label3: TLabel
+        Left = 80
+        Top = 76
+        Width = 64
+        Height = 16
+        Caption = 'Corriger ?'
+      end
+      object BitBtn1: TBitBtn
+        Left = 160
+        Top = 72
+        Width = 65
+        Height = 25
+        TabOrder = 0
+        Kind = 'bkYes'
+      end
+      object BitBtn2: TBitBtn
+        Left = 240
+        Top = 72
+        Width = 65
+        Height = 25
+        TabOrder = 1
+        Kind = 'bkNo'
+      end
+    end
+    object Panel3: TPanel
+      Left = 10
+      Top = 112
+      Width = 413
+      Height = 45
+      Align = 'alBottom'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 1
+      object Label4: TLabel
+        Left = 0
+        Top = 13
+        Width = 413
+        Height = 16
+        Align = 'alBottom'
+        Caption = 'Les valeurs corrigées apparaitront sur fond jaune.'
+      end
+      object Label5: TLabel
+        Left = 0
+        Top = 29
+        Width = 413
+        Height = 16
+        Align = 'alBottom'
+        Caption = 'Les valeurs non corrigées apparaitront sur fond rouge.'
+      end
+    end
+  end
+end
+

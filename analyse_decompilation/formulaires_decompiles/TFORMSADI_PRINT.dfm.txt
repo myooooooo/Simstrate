@@ -1,0 +1,2068 @@
+=== TFORMSADI_PRINT.bin: PARTIAL (consumed 25936/26112) ===
+object FormSADI_Print: TFormSADI_Print
+  Left = 192
+  Top = 86
+  Width = 575
+  Height = 401
+  Caption = 'Animateur - Décisions Période #'
+  Color = 'clWhite'
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  PrintScale = 'poPrintToFit'
+  OnClose = 'FormClose'
+  OnCreate = 'FormCreate'
+  TextHeight = 16
+  object Panel0: TPanel
+    Left = 0
+    Top = 0
+    Width = 780
+    Height = 1220
+    BevelOuter = 'bvNone'
+    BorderWidth = 12
+    ParentColor = True
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 12
+      Top = 12
+      Width = 756
+      Height = 45
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      Font.Color = 'clWindowText'
+      Font.Height = -13
+      Font.Name = 'System'
+      Font.Style = []
+      ParentColor = True
+      ParentFont = False
+      TabOrder = 0
+      object Panel5: TPanel
+        Left = 0
+        Top = 8
+        Width = 137
+        Height = 25
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        Enabled = False
+        Caption = 'Jeu'
+        Font.Color = 'clBlack'
+        Font.Height = -13
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 0
+        object Panel3: TPanel
+          Left = 40
+          Top = 0
+          Width = 80
+          Height = 24
+          Caption = 'Panel3'
+          TabOrder = 0
+        end
+      end
+      object Panel6: TPanel
+        Left = 152
+        Top = 0
+        Width = 113
+        Height = 42
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        DragMode = 'dmAutomatic'
+        Caption = 'Animateur'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 1
+      end
+      object Panel8: TPanel
+        Left = 576
+        Top = 0
+        Width = 176
+        Height = 42
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        Caption = ' Période'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 2
+        object Panel37: TPanel
+          Left = 112
+          Top = 0
+          Width = 64
+          Height = 42
+          Caption = '1'
+          Font.Color = 'clBlack'
+          Font.Height = -27
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object Panel38: TPanel
+        Left = 304
+        Top = 0
+        Width = 193
+        Height = 42
+        BevelOuter = 'bvNone'
+        Caption = 'Décisions'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 3
+      end
+    end
+    object Panel4: TPanel
+      Left = 12
+      Top = 57
+      Width = 756
+      Height = 226
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 1
+      object GroupBox1: TGroupBox
+        Left = 1
+        Top = 1
+        Width = 753
+        Height = 216
+        Caption = ' Environnement '
+        Font.Color = 'clBlack'
+        Font.Height = -16
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentFont = False
+        TabOrder = 0
+        object GroupBox4: TGroupBox
+          Left = 8
+          Top = 24
+          Width = 385
+          Height = 129
+          Caption = 'Taux  ( % )'
+          TabOrder = 0
+          object Label1: TLabel
+            Left = 16
+            Top = 27
+            Width = 57
+            Height = 19
+            Caption = 'Emprunt'
+          end
+          object Label4: TLabel
+            Tag = 3
+            Left = 232
+            Top = 51
+            Width = 23
+            Height = 19
+            Caption = 'I.S.'
+          end
+          object Label10: TLabel
+            Tag = 3
+            Left = 232
+            Top = 27
+            Width = 44
+            Height = 19
+            Caption = 'T.V.A.'
+          end
+          object Label30: TLabel
+            Left = 232
+            Top = 99
+            Width = 65
+            Height = 19
+            Caption = 'Escompte'
+            Visible = False
+          end
+          object Label2: TLabel
+            Tag = 4
+            Left = 16
+            Top = 99
+            Width = 128
+            Height = 19
+            Caption = 'Découvert autorisé'
+          end
+          object Label16: TLabel
+            Left = 16
+            Top = 51
+            Width = 114
+            Height = 19
+            Caption = 'Découvert non a.'
+          end
+          object Label3: TLabel
+            Tag = 3
+            Left = 16
+            Top = 75
+            Width = 76
+            Height = 19
+            Caption = 'Placements'
+          end
+          object DBEdit1: TDBEdit
+            Left = 160
+            Top = 24
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxEmprunt'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit4: TDBEdit
+            Tag = 3
+            Left = 320
+            Top = 48
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxIS'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+          object DBEdit12: TDBEdit
+            Tag = 3
+            Left = 320
+            Top = 24
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxTVA'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 2
+          end
+          object DBEdit32: TDBEdit
+            Left = 320
+            Top = 96
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxEscompteAchat'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 3
+            Visible = False
+          end
+          object DBEdit2: TDBEdit
+            Tag = 4
+            Left = 160
+            Top = 96
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxDecouvertAuto'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 4
+          end
+          object DBEdit31: TDBEdit
+            Left = 160
+            Top = 48
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxDecouvertNAuto'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 5
+          end
+          object DBEdit3: TDBEdit
+            Tag = 3
+            Left = 160
+            Top = 72
+            Width = 57
+            Height = 24
+            AutoSize = False
+            DataField = 'TauxPlacement'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 6
+          end
+        end
+        object GroupBox7: TGroupBox
+          Left = 8
+          Top = 152
+          Width = 737
+          Height = 57
+          Caption = 'Production'
+          TabOrder = 1
+          object Label14: TLabel
+            Left = 16
+            Top = 23
+            Width = 134
+            Height = 19
+            Caption = 'Heures par machine'
+          end
+          object Label31: TLabel
+            Left = 416
+            Top = 23
+            Width = 138
+            Height = 19
+            Caption = 'Heures par productif'
+          end
+          object DBEdit16: TDBEdit
+            Left = 192
+            Top = 20
+            Width = 129
+            Height = 24
+            AutoSize = False
+            DataField = 'HeuresParMachine'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit33: TDBEdit
+            Left = 600
+            Top = 20
+            Width = 129
+            Height = 24
+            AutoSize = False
+            DataField = 'HeuresParProductif'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+        object GroupBox5: TGroupBox
+          Left = 400
+          Top = 24
+          Width = 345
+          Height = 129
+          Caption = 'Marché'
+          TabOrder = 2
+          object Panel7: TPanel
+            Left = 2
+            Top = 21
+            Width = 238
+            Height = 106
+            Align = 'alLeft'
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 0
+            object Label5: TLabel
+              Left = 142
+              Top = 4
+              Width = 97
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 1'
+            end
+            object Label9: TLabel
+              Tag = 2
+              Left = 8
+              Top = 79
+              Width = 126
+              Height = 19
+              Caption = 'Indice conjoncturel'
+            end
+            object Label8: TLabel
+              Left = 8
+              Top = 51
+              Width = 95
+              Height = 19
+              Caption = 'Prix Maximun'
+            end
+            object Label7: TLabel
+              Left = 8
+              Top = 27
+              Width = 87
+              Height = 19
+              Caption = 'Prix minimun'
+            end
+            object DBEdit5: TDBEdit
+              Left = 141
+              Top = 24
+              Width = 97
+              Height = 24
+              AutoSize = False
+              DataField = 'PrixMinimum'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBEdit7: TDBEdit
+              Left = 141
+              Top = 48
+              Width = 97
+              Height = 24
+              AutoSize = False
+              DataField = 'PrixMaximum'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 1
+            end
+            object DBEdit9: TDBEdit
+              Tag = 2
+              Left = 173
+              Top = 76
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'IndiceConjoncturel'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 2
+            end
+          end
+          object Panel15: TPanel
+            Tag = 3
+            Left = 240
+            Top = 21
+            Width = 100
+            Height = 106
+            Align = 'alLeft'
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 1
+            object Label6: TLabel
+              Left = 0
+              Top = 4
+              Width = 97
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 2'
+            end
+            object DBEdit6: TDBEdit
+              Left = 0
+              Top = 24
+              Width = 97
+              Height = 24
+              AutoSize = False
+              DataField = 'PrixMinimum'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBEdit8: TDBEdit
+              Left = 0
+              Top = 48
+              Width = 97
+              Height = 24
+              AutoSize = False
+              DataField = 'PrixMaximum'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 1
+            end
+            object DBEdit10: TDBEdit
+              Tag = 2
+              Left = 32
+              Top = 76
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'IndiceConjoncturel'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 2
+            end
+          end
+        end
+      end
+    end
+    object Panel9: TPanel
+      Left = 12
+      Top = 283
+      Width = 756
+      Height = 346
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 2
+      object GroupBox2: TGroupBox
+        Left = 0
+        Top = 0
+        Width = 753
+        Height = 337
+        Caption = ' Structure de coûts '
+        Font.Color = 'clBlack'
+        Font.Height = -16
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentFont = False
+        TabOrder = 0
+        object GroupBox6: TGroupBox
+          Left = 8
+          Top = 24
+          Width = 385
+          Height = 105
+          Caption = 'Coûts unitaires généraux'
+          TabOrder = 0
+          object Label12: TLabel
+            Left = 216
+            Top = 35
+            Width = 62
+            Height = 19
+            Caption = 'Stockage'
+          end
+          object Label13: TLabel
+            Left = 16
+            Top = 35
+            Width = 59
+            Height = 19
+            Caption = 'Machine'
+          end
+          object Label48: TLabel
+            Tag = 3
+            Left = 16
+            Top = 67
+            Width = 82
+            Height = 19
+            Caption = 'Réparations'
+          end
+          object DBEdit14: TDBEdit
+            Left = 296
+            Top = 32
+            Width = 81
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutUniteStock'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit15: TDBEdit
+            Left = 88
+            Top = 32
+            Width = 121
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutUniteMachine'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+          object DBEdit49: TDBEdit
+            Tag = 3
+            Left = 112
+            Top = 64
+            Width = 97
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutPointReparation'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 2
+          end
+        end
+        object GroupBox8: TGroupBox
+          Left = 8
+          Top = 132
+          Width = 385
+          Height = 85
+          Caption = 'Coûts unitaires par produits'
+          TabOrder = 1
+          object Panel10: TPanel
+            Left = 2
+            Top = 20
+            Width = 249
+            Height = 47
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 0
+            object Label17: TLabel
+              Left = 152
+              Top = 4
+              Width = 97
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 1'
+            end
+            object Label19: TLabel
+              Left = 16
+              Top = 27
+              Width = 62
+              Height = 19
+              Caption = 'Matières'
+            end
+            object DBEdit17: TDBEdit
+              Left = 152
+              Top = 22
+              Width = 97
+              Height = 24
+              AutoSize = False
+              DataField = 'CoutMatiere'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel16: TPanel
+            Tag = 3
+            Left = 264
+            Top = 20
+            Width = 116
+            Height = 47
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 1
+            object Label18: TLabel
+              Left = 16
+              Top = 4
+              Width = 97
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 2'
+            end
+            object DBEdit19: TDBEdit
+              Left = 16
+              Top = 22
+              Width = 97
+              Height = 24
+              AutoSize = False
+              DataField = 'CoutMatiere'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+        end
+        object GroupBox10: TGroupBox
+          Left = 400
+          Top = 24
+          Width = 345
+          Height = 193
+          Caption = 'Salaires'
+          TabOrder = 2
+          object Label34: TLabel
+            Left = 16
+            Top = 27
+            Width = 73
+            Height = 19
+            Caption = 'Producteur'
+          end
+          object Label11: TLabel
+            Left = 16
+            Top = 51
+            Width = 57
+            Height = 19
+            Caption = 'Vendeur'
+          end
+          object Label35: TLabel
+            Tag = 3
+            Left = 16
+            Top = 75
+            Width = 41
+            Height = 19
+            Caption = 'Cadre'
+          end
+          object Label37: TLabel
+            Tag = 4
+            Left = 16
+            Top = 139
+            Width = 157
+            Height = 19
+            Caption = "Coût d'embauche  ( % )"
+          end
+          object Label20: TLabel
+            Tag = 4
+            Left = 16
+            Top = 163
+            Width = 170
+            Height = 19
+            Caption = 'Formation minimale ( % )'
+          end
+          object Label38: TLabel
+            Tag = 3
+            Left = 16
+            Top = 115
+            Width = 177
+            Height = 19
+            Caption = 'Coût de licenciement ( % )'
+          end
+          object DBEdit36: TDBEdit
+            Left = 144
+            Top = 24
+            Width = 193
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutUniteProductif'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit13: TDBEdit
+            Left = 144
+            Top = 48
+            Width = 193
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutUniteVendeur'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+          object DBEdit37: TDBEdit
+            Tag = 3
+            Left = 144
+            Top = 72
+            Width = 193
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutUniteCadre'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 2
+          end
+          object DBEdit39: TDBEdit
+            Tag = 4
+            Left = 256
+            Top = 136
+            Width = 81
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutEmbauchePc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 3
+          end
+          object DBEdit18: TDBEdit
+            Tag = 4
+            Left = 256
+            Top = 160
+            Width = 81
+            Height = 24
+            AutoSize = False
+            DataField = 'FormationMiniPc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 4
+          end
+          object DBEdit40: TDBEdit
+            Tag = 3
+            Left = 256
+            Top = 112
+            Width = 81
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutLicenciementPc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 5
+          end
+        end
+        object GroupBox9: TGroupBox
+          Left = 8
+          Top = 220
+          Width = 385
+          Height = 105
+          Caption = 'Coûts globaux'
+          TabOrder = 3
+          object Label15: TLabel
+            Left = 16
+            Top = 27
+            Width = 75
+            Height = 19
+            Caption = 'Coûts fixes'
+          end
+          object Label32: TLabel
+            Tag = 3
+            Left = 16
+            Top = 51
+            Width = 181
+            Height = 19
+            Caption = "Tranches d'immobilisations"
+          end
+          object Label33: TLabel
+            Tag = 3
+            Left = 16
+            Top = 75
+            Width = 187
+            Height = 19
+            Caption = 'Suppl. de coûts fixe /tranche'
+          end
+          object DBEdit11: TDBEdit
+            Left = 224
+            Top = 24
+            Width = 153
+            Height = 24
+            AutoSize = False
+            DataField = 'CoutFixe'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit34: TDBEdit
+            Tag = 3
+            Left = 224
+            Top = 48
+            Width = 153
+            Height = 24
+            AutoSize = False
+            DataField = 'TranchesImmob'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+          object DBEdit35: TDBEdit
+            Tag = 3
+            Left = 224
+            Top = 72
+            Width = 153
+            Height = 24
+            AutoSize = False
+            DataField = 'SupplementTranche'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 2
+          end
+        end
+        object GroupBox12: TGroupBox
+          Tag = 3
+          Left = 400
+          Top = 220
+          Width = 345
+          Height = 53
+          Caption = 'Encadrement'
+          TabOrder = 4
+          object Label46: TLabel
+            Left = 16
+            Top = 23
+            Width = 206
+            Height = 19
+            Caption = 'Ratio productifs /administratifs'
+          end
+          object DBEdit20: TDBEdit
+            Left = 264
+            Top = 20
+            Width = 73
+            Height = 24
+            AutoSize = False
+            DataField = 'ProductifsParCadre'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+        end
+        object GroupBox11: TGroupBox
+          Tag = 3
+          Left = 400
+          Top = 272
+          Width = 345
+          Height = 53
+          Caption = 'Assurances'
+          TabOrder = 5
+          object Label36: TLabel
+            Left = 16
+            Top = 23
+            Width = 72
+            Height = 19
+            Caption = 'Taux ( % )'
+          end
+          object DBEdit38: TDBEdit
+            Left = 272
+            Top = 20
+            Width = 65
+            Height = 24
+            AutoSize = False
+            DataField = 'AssurancePc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+        end
+      end
+    end
+    object Panel11: TPanel
+      Left = 12
+      Top = 629
+      Width = 756
+      Height = 200
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 3
+      object GroupBox3: TGroupBox
+        Left = 0
+        Top = 0
+        Width = 753
+        Height = 193
+        Caption = ' Variété du modèle '
+        TabOrder = 0
+        object GroupBox13: TGroupBox
+          Left = 8
+          Top = 24
+          Width = 385
+          Height = 160
+          Caption = ' Poids ( 0 .. 1 ) '
+          TabOrder = 0
+          object Panel12: TPanel
+            Left = 2
+            Top = 18
+            Width = 289
+            Height = 140
+            Align = 'alLeft'
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 0
+            object Label26: TLabel
+              Left = 214
+              Top = 0
+              Width = 67
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 1'
+            end
+            object Label39: TLabel
+              Tag = 3
+              Left = 16
+              Top = 92
+              Width = 157
+              Height = 16
+              Caption = 'Recherche de la qualité '
+            end
+            object Label23: TLabel
+              Left = 16
+              Top = 68
+              Width = 201
+              Height = 16
+              AutoSize = False
+              Caption = 'F.V. et action commerciale '
+            end
+            object Label22: TLabel
+              Left = 16
+              Top = 44
+              Width = 145
+              Height = 16
+              AutoSize = False
+              Caption = 'Publicité'
+            end
+            object Label21: TLabel
+              Left = 16
+              Top = 20
+              Width = 49
+              Height = 16
+              AutoSize = False
+              Caption = 'Prix'
+            end
+            object Label24: TLabel
+              Tag = 3
+              Left = 16
+              Top = 116
+              Width = 121
+              Height = 16
+              AutoSize = False
+              Caption = 'Crédit Clients'
+            end
+            object DBEdit21: TDBEdit
+              Left = 216
+              Top = 16
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsPrix'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBEdit22: TDBEdit
+              Left = 216
+              Top = 40
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsPublicite'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 1
+            end
+            object DBEdit23: TDBEdit
+              Left = 216
+              Top = 64
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsForceVente'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 2
+            end
+            object DBEdit41: TDBEdit
+              Tag = 3
+              Left = 216
+              Top = 88
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsQualite'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 3
+            end
+            object DBEdit24: TDBEdit
+              Tag = 3
+              Left = 216
+              Top = 112
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsCredit'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 4
+            end
+          end
+          object Panel17: TPanel
+            Tag = 3
+            Left = 291
+            Top = 18
+            Width = 81
+            Height = 140
+            Align = 'alLeft'
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 1
+            object Label27: TLabel
+              Left = 6
+              Top = 0
+              Width = 67
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 2'
+            end
+            object DBEdit26: TDBEdit
+              Left = 8
+              Top = 16
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsPrix'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBEdit27: TDBEdit
+              Left = 8
+              Top = 40
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsPublicite'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 1
+            end
+            object DBEdit28: TDBEdit
+              Left = 8
+              Top = 64
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsForceVente'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 2
+            end
+            object DBEdit42: TDBEdit
+              Tag = 3
+              Left = 8
+              Top = 88
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsQualite'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 3
+            end
+            object DBEdit29: TDBEdit
+              Tag = 3
+              Left = 8
+              Top = 112
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'PoidsCredit'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 4
+            end
+          end
+        end
+        object GroupBox15: TGroupBox
+          Tag = 3
+          Left = 400
+          Top = 104
+          Width = 345
+          Height = 80
+          Caption = 'Facilités de paiement'
+          TabOrder = 1
+          object Label40: TLabel
+            Tag = 4
+            Left = 16
+            Top = 52
+            Width = 195
+            Height = 16
+            Caption = 'Découvert autorisé ( % du CA )'
+          end
+          object DBCheckBox1: TDBCheckBox
+            Tag = 3
+            Left = 16
+            Top = 24
+            Width = 193
+            Height = 17
+            Alignment = 'taLeftJustify'
+            Caption = 'Crédit Fournisseurs ( 60 j )'
+            DataField = 'CreditFournisseur'
+            DataSource = 'DataSourceDG'
+            TabOrder = 0
+            ValueChecked = 'Vrai'
+            ValueUnchecked = 'Faux'
+          end
+          object DBEdit43: TDBEdit
+            Tag = 4
+            Left = 272
+            Top = 48
+            Width = 65
+            Height = 24
+            AutoSize = False
+            DataField = 'DecouvertAutoPc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+        object GroupBox17: TGroupBox
+          Left = 400
+          Top = 24
+          Width = 163
+          Height = 73
+          Caption = 'Fidélisation'
+          TabOrder = 2
+          object Label25: TLabel
+            Left = 16
+            Top = 21
+            Width = 58
+            Height = 16
+            Caption = 'Produit 1'
+          end
+          object Label28: TLabel
+            Tag = 3
+            Left = 16
+            Top = 45
+            Width = 58
+            Height = 16
+            Caption = 'Produit 2'
+          end
+          object DBEdit25: TDBEdit
+            Left = 96
+            Top = 17
+            Width = 59
+            Height = 24
+            AutoSize = False
+            DataField = 'PoidsFidelisation'
+            DataSource = 'DataSourceDP1'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit30: TDBEdit
+            Tag = 3
+            Left = 96
+            Top = 41
+            Width = 59
+            Height = 24
+            AutoSize = False
+            DataField = 'PoidsFidelisation'
+            DataSource = 'DataSourceDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+        object GroupBox16: TGroupBox
+          Left = 568
+          Top = 24
+          Width = 177
+          Height = 73
+          Caption = 'Indice des prix'
+          TabOrder = 3
+          object Label41: TLabel
+            Left = 13
+            Top = 24
+            Width = 80
+            Height = 16
+            Caption = 'Variation (%)'
+          end
+          object DBEdit44: TDBEdit
+            Left = 114
+            Top = 21
+            Width = 55
+            Height = 24
+            AutoSize = False
+            DataField = 'IndicePrix'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+        end
+      end
+    end
+    object Panel13: TPanel
+      Left = 12
+      Top = 829
+      Width = 756
+      Height = 136
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 4
+      object GroupBox14: TGroupBox
+        Tag = 3
+        Left = 0
+        Top = 0
+        Width = 753
+        Height = 129
+        Caption = 'Evénements exceptionnels'
+        TabOrder = 0
+        object GroupBox18: TGroupBox
+          Tag = 3
+          Left = 8
+          Top = 24
+          Width = 385
+          Height = 100
+          Caption = "Appels d'offre"
+          TabOrder = 0
+          object Panel14: TPanel
+            Left = 2
+            Top = 18
+            Width = 268
+            Height = 80
+            Align = 'alLeft'
+            BevelOuter = 'bvNone'
+            ParentColor = True
+            TabOrder = 0
+            object Label42: TLabel
+              Left = 152
+              Top = 4
+              Width = 105
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 1'
+            end
+            object Label45: TLabel
+              Left = 16
+              Top = 52
+              Width = 94
+              Height = 16
+              Caption = 'Prix maximum'
+            end
+            object Label44: TLabel
+              Left = 16
+              Top = 28
+              Width = 58
+              Height = 16
+              Caption = 'Quantité '
+            end
+            object DBEdit45: TDBEdit
+              Left = 152
+              Top = 24
+              Width = 105
+              Height = 24
+              AutoSize = False
+              DataField = 'AppelOffreQuantite'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBEdit47: TDBEdit
+              Left = 152
+              Top = 48
+              Width = 105
+              Height = 24
+              AutoSize = False
+              DataField = 'AppelOffrePrixMax'
+              DataSource = 'DataSourceDP1'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 1
+            end
+          end
+          object Panel18: TPanel
+            Tag = 3
+            Left = 270
+            Top = 18
+            Width = 112
+            Height = 80
+            Align = 'alLeft'
+            BevelOuter = 'bvNone'
+            BorderWidth = 2
+            ParentColor = True
+            TabOrder = 1
+            object Label43: TLabel
+              Left = 2
+              Top = 4
+              Width = 105
+              Height = 16
+              Alignment = 'taCenter'
+              AutoSize = False
+              Caption = 'Produit 2'
+            end
+            object DBEdit46: TDBEdit
+              Left = 2
+              Top = 24
+              Width = 105
+              Height = 24
+              AutoSize = False
+              DataField = 'AppelOffreQuantite'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+            object DBEdit48: TDBEdit
+              Left = 2
+              Top = 48
+              Width = 105
+              Height = 24
+              AutoSize = False
+              DataField = 'AppelOffrePrixMax'
+              DataSource = 'DataSourceDP2'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 1
+            end
+          end
+        end
+        object GroupBox19: TGroupBox
+          Tag = 3
+          Left = 400
+          Top = 24
+          Width = 345
+          Height = 100
+          Caption = 'Grèves et pannes'
+          TabOrder = 1
+          object Label49: TLabel
+            Left = 16
+            Top = 46
+            Width = 120
+            Height = 16
+            Caption = 'Jours de grève (%)'
+          end
+          object Label50: TLabel
+            Left = 16
+            Top = 70
+            Width = 76
+            Height = 16
+            Caption = 'Pannes (% )'
+          end
+          object DBEdit50: TDBEdit
+            Left = 264
+            Top = 42
+            Width = 73
+            Height = 24
+            AutoSize = False
+            DataField = 'GrevesPc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit51: TDBEdit
+            Left = 264
+            Top = 66
+            Width = 73
+            Height = 24
+            AutoSize = False
+            DataField = 'PannesPc'
+            DataSource = 'DataSourceDG'
+            Font.Color = 'clBlack'
+            Font.Height = -15
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+      end
+    end
+    object Panel44: TPanel
+      Left = 12
+      Top = 1132
+      Width = 756
+      Height = 76
+      Align = 'alBottom'
+      BevelOuter = 'bvNone'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold']
+      ParentColor = True
+      ParentFont = False
+      TabOrder = 5
+      object LabelU0: TLabel
+        Left = 0
+        Top = 20
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU0'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU1: TLabel
+        Left = 0
+        Top = 34
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU1'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU2: TLabel
+        Left = 0
+        Top = 48
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU2'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU3: TLabel
+        Left = 0
+        Top = 62
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU3'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object Panel28: TPanel
+      Left = 12
+      Top = 965
+      Width = 756
+      Height = 167
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 6
+      object GroupBox20: TGroupBox
+        Left = 0
+        Top = 0
+        Width = 756
+        Height = 164
+        Caption = 'Catastrophes naturelles'
+        TabOrder = 0
+        Visible = False
+        object GroupBox21: TGroupBox
+          Left = 8
+          Top = 21
+          Width = 385
+          Height = 137
+          Caption = 'Catastrophes ciblées: Taux de destruction'
+          TabOrder = 0
+          object Panel20: TPanel
+            Left = 16
+            Top = 32
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 1'
+            ParentColor = True
+            TabOrder = 0
+            object DBEdit52: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt1Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel21: TPanel
+            Left = 16
+            Top = 56
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 2'
+            ParentColor = True
+            TabOrder = 1
+            object DBEdit53: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt2Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel22: TPanel
+            Left = 16
+            Top = 80
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 3'
+            ParentColor = True
+            TabOrder = 2
+            object DBEdit54: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt3Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel23: TPanel
+            Left = 16
+            Top = 104
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 4'
+            ParentColor = True
+            TabOrder = 3
+            object DBEdit55: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt4Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel24: TPanel
+            Left = 200
+            Top = 32
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 5'
+            ParentColor = True
+            TabOrder = 4
+            object DBEdit56: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt5Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel25: TPanel
+            Left = 200
+            Top = 56
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 6'
+            ParentColor = True
+            TabOrder = 5
+            object DBEdit57: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt6Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel26: TPanel
+            Left = 200
+            Top = 80
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 7'
+            ParentColor = True
+            TabOrder = 6
+            object DBEdit58: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt7Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel27: TPanel
+            Left = 200
+            Top = 104
+            Width = 169
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Entreprise 8'
+            ParentColor = True
+            TabOrder = 7
+            object DBEdit59: TDBEdit
+              Left = 96
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrEnt8Pc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+        end
+        object GroupBox22: TGroupBox
+          Left = 403
+          Top = 21
+          Width = 345
+          Height = 111
+          Caption = 'Catastrophes aléatoires'
+          TabOrder = 1
+          object Panel1: TPanel
+            Left = 16
+            Top = 32
+            Width = 326
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Taux de destruction moyen'
+            ParentColor = True
+            TabOrder = 0
+            object DBEdit60: TDBEdit
+              Left = 256
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataDestrMoyPc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+          object Panel19: TPanel
+            Left = 16
+            Top = 56
+            Width = 326
+            Height = 26
+            Alignment = 'taLeftJustify'
+            BevelOuter = 'bvNone'
+            Caption = 'Taux de risque (par entreprise)'
+            ParentColor = True
+            TabOrder = 1
+            object DBEdit61: TDBEdit
+              Left = 256
+              Top = 0
+              Width = 65
+              Height = 24
+              AutoSize = False
+              DataField = 'CataProbaPc'
+              DataSource = 'DataSourceDG'
+              Font.Color = 'clBlack'
+              Font.Height = -15
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              MaxLength = 0
+              ParentFont = False
+              TabOrder = 0
+            end
+          end
+        end
+      end
+    end
+  end
+  object Memo1: TMemo
+    Left = 280
+    Top = 0
+    Width = 57
+    Height = 89
+    Font.Color = 'clBlack'
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    Lines.Strings = ['Memo1']
+    ParentFont = False
+    TabOrder = 1
+    Visible = False
+    WordWrap = False
+  end
+  object TableDG: TTable
+    DatabaseName = 'DBEssai'
+    IndexFieldNames = 'PeriodeNo'
+    ReadOnly = True
+    TableName = 'TESTSADG.DB'
+    Left = 96
+  end
+  object DataSourceDG: TDataSource
+    DataSet = 'TableDG'
+    Left = 128
+  end
+  object DataSourceDP1: TDataSource
+    DataSet = 'TableDP1'
+    Left = 224
+  end
+  object DataSourceDP2: TDataSource
+    DataSet = 'TableDP2'
+    Left = 296
+  end
+  object TableDP1: TTable
+    DatabaseName = 'DBEssai'
+    IndexFieldNames = 'PeriodeNo;ProduitNo'
+    ReadOnly = True
+    TableName = 'TESTSADP.DB'
+    Left = 192
+  end
+  object TableDP2: TTable
+    DatabaseName = 'DBEssai'
+    IndexFieldNames = 'PeriodeNo;ProduitNo'
+    ReadOnly = True
+    TableName = 'TESTSADP.DB'
+    Left = 264
+  end
+end
+
