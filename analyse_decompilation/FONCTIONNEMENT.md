@@ -128,19 +128,41 @@ l'écran ARBITRAGE quelles entreprises ont validé avant de lancer le calcul.
 
 ## 5. Le moteur d'arbitrage
 
-### 5.1 Taille du marché — vérifié
+### 5.1 Taille du marché — formule établie et vérifiée exactement
+
 Le volume du marché est **proportionnel au nombre d'entreprises**, ce qui
-neutralise l'effet du nombre de joueurs :
+neutralise l'effet du nombre de joueurs. La formule complète est :
 
 ```
-VolumeMarche(t) = DemandePotEnt × NombreEntreprises × (1 − DemandeParametre% × t)
+VolumeMarche(t) = DemandePotEnt × NombreEntreprises
+                  × Evolution(t)
+                  × (1 + IndiceConjoncturel(t))
 ```
 
-Vérifié sur les données de l'exemple 1 :
-- produit 1 : `DemandePotEnt`=750, 3 entreprises, `DemandeParametre`=0
-  → 2250 constant sur 6 périodes ✔
-- produit 2 : `DemandePotEnt`=100, 3 entreprises, `DemandeParametre`=1
-  → 297, 294, 291, 288, 285, 282 (−1 %/période) ✔
+avec, selon `DemandeEvolution` (mode fixé par produit à la création) :
+
+| mode | loi | Evolution(t) |
+|---|---|---|
+| 0 | linéaire | `1 + DemandeParametre/100 × t` |
+| 2 | exponentielle | `(1 + DemandeParametre/100)^t` |
+| 1 | croissante/décroissante | non observé (aucun exemple ne l'utilise) |
+
+`DemandeParametre` porte son signe : négatif pour un marché qui se contracte.
+`IndiceConjoncturel` est le coefficient conjoncturel/saisonnier de `SADP`,
+réglable par l'animateur à chaque période (borné à ±0,5 selon le manuel).
+
+**Vérification** : la formule reproduit *exactement* les 41 volumes des six
+jeux d'exemple, sur toutes leurs périodes, y compris des valeurs à neuf
+chiffres significatifs comme 1 368 569,05 (ORDIS, produit 1, t=8) ou
+821 240,71 (CIMES, produit 1, t=5). Aucun écart.
+
+Exemples :
+- FETES produit 1 : mode 0, param 0 → 2250 constant ✔
+- FETES produit 2 : mode 0, param −1 → 297, 294, 291, 288, 285, 282 ✔
+- ORDIS produit 2 : mode 0, param +10, avec `IndiceConjoncturel` −0,10 puis
+  −0,15 en périodes 4 et 5 → 79 200, 86 400, 93 600, 90 720, 91 800 ✔
+- CIMES produit 1 : mode 2, param +4 → 1,04^t, soit 780 000, 811 200,
+  843 648, 877 393,92 ✔
 
 ### 5.2 Attractivité et part de marché
 Pour chaque entreprise × produit, `SERP` stocke les composantes calculées :
@@ -149,11 +171,21 @@ Pour chaque entreprise × produit, `SERP` stocke les composantes calculées :
 
 Ce que les données démontrent :
 
-- **`EffetPrix` ne dépend que du prix de l'entreprise** (pas des concurrents) :
-  le même prix donne le même effet à toutes les périodes (14,0 → 0,09 en
-  périodes 1, 3, 4 et 6). Il décroît de façon quasi linéaire entre
-  `PrixMinimum` et `PrixMaximum`, à raison d'environ −0,018 par unité de prix
-  dans l'exemple, plafonné par `PoidsPrix`.
+- **`EffetPrix` ne dépend que du prix de l'entreprise, jamais des
+  concurrents.** Vérifié sur les six jeux : parmi les 148 observations, il
+  n'existe *aucun* cas où deux entreprises pratiquant le même prix avec les
+  mêmes paramètres obtiennent un effet différent, quelles que soient les
+  périodes et les prix pratiqués autour d'elles.
+- Pour un produit donné, `EffetPrix` est **linéaire** en la position
+  normalisée du prix `u = (PrixMax − Prix) / (PrixMax − PrixMin)` :
+  l'ajustement par produit laisse un résidu maximal de 0,011, sur des plages
+  de prix allant de 5–20 à 1400–2500.
+- En revanche la pente n'est **pas** simplement `PoidsPrix` : elle vaut
+  0,50 × `PoidsPrix` pour FETES et SUPES, 0,62 pour CIMES produit 2, 0,78 à
+  0,82 pour ORDIS produit 2 et TELCS, 0,87 pour CIMES produit 1, 1,00 pour
+  ORDIS produit 1. Aucun paramètre de `SACP` ou `SADP` examiné n'explique ce
+  facteur, et la précision des données (`EffetPrix` n'est stocké qu'à deux
+  décimales) empêche d'aller plus loin par cette voie.
 - **`EffetPub` et `EffetFV` sont relatifs aux concurrents** : une même dépense
   publicitaire de 500 vaut 0,20 en période 1 mais 0,17 en période 3, parce que
   les concurrents ont augmenté leurs budgets. C'est une course à l'armement.

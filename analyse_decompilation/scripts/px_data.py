@@ -18,9 +18,11 @@ def dec_double(b):
     if b == b"\x00" * 8:
         return None
     if b[0] & 0x80:
+        # positive: the sign bit was set on storage, clear it to get the IEEE bits
         return struct.unpack(">d", bytes([b[0] & 0x7F]) + b[1:])[0]
-    inv = bytes(x ^ 0xFF for x in b)
-    return -struct.unpack(">d", inv)[0]
+    # negative: every bit was inverted on storage; undoing that restores the
+    # original IEEE double, sign bit included — so do NOT negate again.
+    return struct.unpack(">d", bytes(x ^ 0xFF for x in b))[0]
 
 def dec_date(b):
     v = dec_long(b)
