@@ -1,0 +1,102 @@
+classes a localiser : 33
+
+== TTheMainForm   table 1000:0155   (48 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSEDD_AutoCorr   table 1000:3b93   (1 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSJGP_GetPeriode   table 1000:3d5a   (3 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSARP_Produits   table 1008:009e   (29 methodes publiees)
+   aucun pointeur trouve
+
+== TFormTables   table 1010:009e   (20 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSJDR_Reprise   table 1010:0fbe   (4 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSNew_Creation   table 1010:1824   (6 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSJSD_DocInfo   table 1010:1dd2   (7 methodes publiees)
+   aucun pointeur trouve
+
+== TFormImprimer   table 1010:2630   (5 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSMSM_MessageAutoClose   table 1010:340f   (4 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSJDA_Arbitrage   table 1018:009e   (5 methodes publiees)
+   aucun pointeur trouve
+
+== TFormGraphe2   table 1020:009e   (74 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSJSI_DlgImprimer   table 1028:009e   (32 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSMAP_APropos   table 1028:3ac0   (5 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERE_Etudes   table 1030:009e   (21 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERG_SIG   table 1038:009e   (32 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERU_Tresorerie   table 1040:009e   (32 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERF_Finance   table 1048:009e   (32 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERB_Bilan   table 1050:009e   (32 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERC_Compte   table 1058:009e   (34 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSERS_Situation   table 1060:009e   (37 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSPUB   table 1068:009e   (23 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSARG_Generaux   table 1070:009e   (30 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSEDD_Decisions   table 1078:009e   (28 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSEDI_Print   table 1080:009e   (2 methodes publiees)
+   aucun pointeur trouve
+
+== TPasswordDialog   table 1080:3be5   (5 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSADD_Decisions   table 1088:009e   (31 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSADI_Print   table 1090:009e   (2 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSCDD_Decisions   table 1098:009e   (27 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSCDI_Print   table 10a0:009e   (2 methodes publiees)
+   aucun pointeur trouve
+
+== TFormSCDF_Fichiers   table 10b8:009e   (1 methodes publiees)
+   aucun pointeur trouve
+
+== TPrinterCanvas   table 10f0:2211   (3 methodes publiees)
+   aucun pointeur trouve
+
+== TShape   table 1118:00d5   (1 methodes publiees)
+   aucun pointeur trouve
+
+classes localisees : 0/33

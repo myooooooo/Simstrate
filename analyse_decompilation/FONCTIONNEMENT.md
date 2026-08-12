@@ -350,3 +350,66 @@ le calcul soit absent : Delphi dispatche massivement par **tables de méthodes
 virtuelles**, et ces appels indirects (`(*(code *)*puVar1)(...)`) ne sont pas
 résolus statiquement. Le graphe est donc tronqué, et retrouver le calcul
 demanderait une analyse des VMT — piste non explorée à ce jour.
+
+---
+
+## 9. Le moteur de simulation est absent de ce binaire
+
+C'est la conclusion de l'analyse, et elle est mesurée, pas supposée.
+
+### Chaque fonction de calcul flottant appartient à un formulaire
+
+En rapprochant les segments des classes Delphi
+(`decompilation_ghidra/classes_par_segment.txt`), toutes les fonctions riches
+en x87 se révèlent être des écrans de saisie ou d'affichage :
+
+| Fonction | x87 | Segment | Classe | Rôle |
+|---|---|---|---|---|
+| `FUN_1088_4c86` | 220 dont 57 comparaisons | 1088 | `TFormSADD_Decisions` | saisie animateur, contrôle de bornes |
+| `FUN_1030_3fc2` | 110 | 1030 | `TFormSERE_Etudes` | affichage des études de marché |
+| `FUN_1098_38db` | 65 | 1098 | `TFormSCDD_Decisions` | saisie |
+| `FUN_1020_3e65` | 54 | 1020 | `TFormGraphe2` | tracé de graphiques |
+| `FUN_1008_161f` | 41 | 1008 | `TFormSARP_Produits` | affichage de résultats |
+
+Aucune n'est un moteur de calcul.
+
+### Le décompte d'instructions rend la chose impossible
+
+Sur **l'intégralité** du programme : 1141 instructions x87, dont seulement
+**102 d'arithmétique réelle** — 39 `FMUL`, **4 `FDIV`**, 49 `FADD`, 10 `FSUB`.
+Les 91 % restants sont des chargements, rangements et comparaisons.
+
+Or le moteur devrait calculer, par période : l'attractivité pondérée sur cinq
+facteurs pour jusqu'à 8 entreprises × plusieurs produits, la normalisation des
+parts de marché, la répartition de la demande et le report en cas de rupture,
+puis les 44 postes du bilan et du compte de résultat — amortissements, IS,
+IFA, TVA, intérêts sur trois types de dette, masse salariale.
+
+**Quatre divisions dans tout le binaire.** On ne calcule ni une part de marché,
+ni un ratio, ni une moyenne, ni un amortissement, ni un pourcentage sans
+division. `Simstra1.dll` ne contient rien de plus (11 opérations
+arithmétiques, de quoi valider une clé).
+
+### Ce que cela signifie
+
+La version de démonstration n'est pas une version complète bridée : c'est un
+binaire **évidé**. Le garde `DAT_1160_0042` décrit au chapitre 8 ne masque pas
+un moteur dormant — il occupe la place où l'appel se trouvait.
+
+Conséquence pratique : **aucune manipulation de ce binaire ne le fera arbitrer.**
+La question n'est pas juridique, elle est matérielle : le code n'existe pas ici.
+
+Conséquence pour la préservation : le moteur de Simstrat ne subsiste que dans
+une **installation complète sous licence**. Les copies de démonstration
+diffusées publiquement — y compris la variante anglaise — n'en contiennent
+aucune trace.
+
+### Limite de l'analyse
+
+Ce raisonnement repose sur une analyse statique. Le graphe d'appel est tronqué
+par le dispatch virtuel de Delphi, et la tentative de reconstruction des VMT a
+échoué : dans l'image NE, les pointeurs lointains contiennent des maillons de
+chaîne de relocation et non des adresses (voir
+`decompilation_ghidra/tentative_vmt.txt`). Mais l'argument du décompte
+d'instructions ne dépend pas du graphe d'appel : ces instructions
+n'existent nulle part dans le fichier, atteignables ou non.
