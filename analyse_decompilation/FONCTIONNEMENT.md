@@ -445,3 +445,54 @@ chaîne de relocation et non des adresses (voir
 `decompilation_ghidra/tentative_vmt.txt`). Mais l'argument du décompte
 d'instructions ne dépend pas du graphe d'appel : ces instructions
 n'existent nulle part dans le fichier, atteignables ou non.
+
+---
+
+## 10. Exécution réelle sous Wine — vérification empirique
+
+Le logiciel a été **effectivement exécuté** sous Wine 9.0 (Linux, 32 bits avec
+support Win16), avec le BDE 16 bits installé. Captures dans
+`captures_execution/`.
+
+### Mise en œuvre
+
+```sh
+dpkg --add-architecture i386 && apt install wine wine32:i386 xvfb openbox
+export WINEPREFIX=~/simstrat WINEARCH=win32
+wine wineboot --init
+wine SETUP.EXE -s          # installateur BDE 16 bits, mode silencieux
+wine "Simstrat (FR).EXE"
+```
+
+Wine fournit tous les modules 16 bits dont l'exécutable a besoin —
+`krnl386.exe16`, `user.exe16`, `gdi.exe16`, `commdlg.dll16`, `toolhelp.dll16` —
+ce qui correspond exactement à la table d'imports du binaire.
+
+### Observations
+
+1. **Sans le BDE** : l'application démarre puis échoue avec
+   `Exception EDatabaseError … erreur $2108` à l'initialisation du Borland
+   Database Engine. C'est le symptôme exact d'un `IDAPI01.DLL` absent.
+2. **Avec le BDE** installé dans `C:\IDAPI` (l'installateur écrit lui-même les
+   sections `[IDAPI]` et `[Borland Language Drivers]` dans `WIN.INI`),
+   l'application démarre normalement.
+3. **Mode démonstration** : un filigrane rouge « Démonstration » barre l'écran
+   principal, et les menus Animateur, Public, Entreprises, Impressions et
+   Graphes sont grisés.
+4. **Le garde de la version limitée est confirmé** : le menu `Fichier` propose
+   « Nouveau jeu… » en apparence actif, mais le clic produit la boîte
+   « **Non disponible en version limitée** » — exactement la chaîne localisée
+   par décompilation à l'adresse `1010:352b`, appelée depuis
+   `TTheMainForm.Nouveau1Click`.
+
+Le point 4 valide la chaîne complète décompilation → prédiction → exécution :
+le mécanisme décrit au chapitre 8 n'est plus une inférence, il est observé.
+
+### Ce que cela implique
+
+Faire tourner Simstrat sur une machine moderne ne demande **pas** de machine
+virtuelle Windows : Wine suffit, sous Linux comme sous macOS. Sous Windows 11,
+l'équivalent est otvdm/winevdm, qui réutilise le même code Win16 issu de Wine.
+
+Le BDE reste la pièce indispensable, et son installateur d'origine
+(InstallShield 3, 1996) s'exécute correctement sous Wine.
