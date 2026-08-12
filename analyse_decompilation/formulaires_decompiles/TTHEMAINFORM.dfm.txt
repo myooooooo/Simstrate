@@ -1,0 +1,490 @@
+=== TTHEMAINFORM.bin: PARTIAL (consumed 7562/7680) ===
+object TheMainForm: TTheMainForm
+  Left = 219
+  Top = 162
+  Width = 556
+  Height = 342
+  Cursor = 'crArrow'
+  Caption = 'Simstrat'
+  Color = 'clWhite'
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  FormStyle = 'fsMDIForm'
+  Menu = 'MainMenu1'
+  PixelsPerInch = 96
+  WindowState = 'wsMaximized'
+  OnClose = 'FormClose'
+  OnCloseQuery = 'FormCloseQuery'
+  OnCreate = 'FormCreate'
+  OnShow = 'FormShow'
+  TextHeight = 16
+  object Label3: TLabel
+    Left = 8
+    Top = 48
+    Width = 44
+    Height = 16
+    Caption = 'Label3'
+  end
+  object Panel0: TPanel
+    Left = 0
+    Top = 0
+    Width = 548
+    Height = 296
+    Align = 'alClient'
+    Caption = 'simulateur'
+    Font.Color = 'clPurple'
+    Font.Height = -96
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentColor = True
+    ParentFont = False
+    TabOrder = 0
+    object LabelU3: TLabel
+      Left = 1
+      Top = 279
+      Width = 546
+      Height = 16
+      Align = 'alBottom'
+      AutoSize = False
+      Caption = 'LabelU3'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold', 'fsItalic']
+      ParentFont = False
+    end
+    object LabelU0: TLabel
+      Left = 1
+      Top = 231
+      Width = 546
+      Height = 16
+      Align = 'alBottom'
+      Caption = 'LabelU0'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold', 'fsItalic']
+      ParentFont = False
+    end
+    object LabelU1: TLabel
+      Left = 1
+      Top = 247
+      Width = 546
+      Height = 16
+      Align = 'alBottom'
+      Caption = 'LabelU1'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold', 'fsItalic']
+      ParentFont = False
+    end
+    object LabelU2: TLabel
+      Left = 1
+      Top = 263
+      Width = 546
+      Height = 16
+      Align = 'alBottom'
+      Caption = 'LabelU2'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold', 'fsItalic']
+      ParentFont = False
+    end
+    object PaintBox1: TPaintBox
+      Left = 1
+      Top = 1
+      Width = 546
+      Height = 198
+      Cursor = 'crArrow'
+      Align = 'alClient'
+      Font.Color = 'clRed'
+      Font.Height = -37
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      OnPaint = 'PaintBox1Paint'
+    end
+    object Panel2: TPanel
+      Left = 1
+      Top = 199
+      Width = 546
+      Height = 32
+      Align = 'alBottom'
+      BevelOuter = 'bvNone'
+      BorderWidth = 4
+      BorderStyle = 'bsSingle'
+      Font.Color = 'clPurple'
+      Font.Height = -15
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 4
+        Top = 7
+        Width = 181
+        Height = 17
+        AutoSize = False
+        Caption = 'SIMSTRATE version 1.21 '
+      end
+      object Label2: TLabel
+        Left = 184
+        Top = 7
+        Width = 319
+        Height = 17
+        Caption = 'Version de démonstration. Non utilisable en formation.'
+      end
+    end
+    object MemoImpRap: TMemo
+      Left = 336
+      Top = 16
+      Width = 145
+      Height = 33
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Courier New'
+      Font.Pitch = 'fpFixed'
+      Font.Style = ['fsBold']
+      Lines.Strings = ['MemoImpRap']
+      ParentFont = False
+      TabOrder = 1
+      Visible = False
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 1
+    Top = 33
+    object Fichier1: TMenuItem
+      Caption = '&Fichier'
+      object Nouveau1: TMenuItem
+        Caption = '&Nouveau jeu...'
+        OnClick = 'Nouveau1Click'
+      end
+      object Ouvrir1: TMenuItem
+        Caption = '&Ouvrir jeu...'
+        OnClick = 'Ouvrir1Click'
+      end
+      object Fermer1: TMenuItem
+        Caption = '&Fermer jeu'
+        Enabled = False
+        OnClick = 'Fermer1Click'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Quitter1: TMenuItem
+        Caption = '&Quitter'
+        OnClick = 'Quitter1Click'
+      end
+    end
+    object Animateur1: TMenuItem
+      Caption = '&Animateur'
+      Enabled = False
+      object Decisions1: TMenuItem
+        Caption = 'Prise de &décisions'
+        object DecisionsAnimateur: TMenuItem
+          Caption = '&Animateur'
+          OnClick = 'DecisionsAnimateurClick'
+        end
+        object N9: TMenuItem
+          Caption = '-'
+        end
+        object DAEnt1: TMenuItem
+          Caption = 'Entreprise &1'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt2: TMenuItem
+          Caption = 'Entreprise &2'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt3: TMenuItem
+          Caption = 'Entreprise &3'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt4: TMenuItem
+          Caption = 'Entreprise &4'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt5: TMenuItem
+          Caption = 'Entreprise &5'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt6: TMenuItem
+          Caption = 'Entreprise &6'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt7: TMenuItem
+          Caption = 'Entreprise &7'
+          OnClick = 'DAEnt1Click'
+        end
+        object DAEnt8: TMenuItem
+          Caption = 'Entreprise &8'
+          OnClick = 'DAEnt1Click'
+        end
+      end
+      object ArbitrageA1: TMenuItem
+        Caption = '&Arbitrage...'
+        OnClick = 'ArbitrageA1Click'
+      end
+      object ResultatsA1: TMenuItem
+        Caption = '&Résultats'
+        object ParProduits1: TMenuItem
+          Caption = 'Par &Produits...'
+          OnClick = 'ParProduits1Click'
+        end
+        object Generaux1: TMenuItem
+          Caption = '&Généraux...'
+          OnClick = 'Generaux1Click'
+        end
+      end
+      object RepriseA1: TMenuItem
+        Caption = 'Reprise de &Période...'
+        OnClick = 'RepriseA1Click'
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+      object RappelsA1: TMenuItem
+        Caption = 'Rapp&els décisions'
+        object DecisionsA2: TMenuItem
+          Caption = '&Animateur...'
+          OnClick = 'DecisionsA2Click'
+        end
+        object EntreprisesA2: TMenuItem
+          Caption = '&Entreprises...'
+          OnClick = 'EntreprisesA2Click'
+        end
+        object CreationA2: TMenuItem
+          Caption = '&Création...'
+          OnClick = 'CreationA2Click'
+        end
+      end
+    end
+    object Public1: TMenuItem
+      Caption = '&Public'
+      Enabled = False
+      OnClick = 'Public1Click'
+    end
+    object Entreprises1: TMenuItem
+      Caption = '&Entreprises'
+      Enabled = False
+      object DecisionsE1: TMenuItem
+        Caption = 'Prise de &décisions...'
+        OnClick = 'DecisionsE1Click'
+      end
+      object ResultatsE2: TMenuItem
+        Caption = '&Résultats'
+        object Situation1: TMenuItem
+          Caption = '&Situation...'
+          OnClick = 'Situation1Click'
+        end
+        object ComptedeResultats1: TMenuItem
+          Caption = '&Compte de Résultat...'
+          OnClick = 'ComptedeResultats1Click'
+        end
+        object Bilan1: TMenuItem
+          Caption = '&Bilan...'
+          OnClick = 'Bilan1Click'
+        end
+        object TableaudeFinancement1: TMenuItem
+          Caption = 'Tableau de &Financement...'
+          OnClick = 'TableaudeFinancement1Click'
+        end
+        object TableaudeTresorerie1: TMenuItem
+          Caption = 'Tableau de &Trésorerie...'
+          OnClick = 'TableaudeTresorerie1Click'
+        end
+        object SIG1: TMenuItem
+          Caption = 'S.I.G. ...'
+          OnClick = 'SIG1Click'
+        end
+        object N6: TMenuItem
+          Caption = '-'
+        end
+        object EtudesdeMarche1: TMenuItem
+          Caption = '&Etudes de Marché...'
+          OnClick = 'EtudesdeMarche1Click'
+        end
+      end
+      object N7: TMenuItem
+        Caption = '-'
+      end
+      object RappelsE1: TMenuItem
+        Caption = 'Rapp&els Décisions...'
+        OnClick = 'RappelsE1Click'
+      end
+    end
+    object Impressions1: TMenuItem
+      Caption = '&Impressions'
+      Enabled = False
+      OnClick = 'Impressions1Click'
+    end
+    object Graphes1: TMenuItem
+      Caption = '&Graphes'
+      Enabled = False
+      OnClick = 'Graphes1Click'
+    end
+    object Options1: TMenuItem
+      Caption = '&Options'
+      object InfosJEU1: TMenuItem
+        Caption = '&Infos JEU... '
+        Enabled = False
+        OnClick = 'InfosJEU1Click'
+      end
+      object VoirTTABLE1: TMenuItem
+        Caption = '&Voir TABLES...'
+        OnClick = 'VoirTTABLE1Click'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Polices1: TMenuItem
+        Caption = '&Polices pour'
+        object Impressionrapide1: TMenuItem
+          Caption = 'Impression &rapide...'
+          OnClick = 'Impressionrapide1Click'
+        end
+      end
+    end
+    object Aide1: TMenuItem
+      Caption = '&?'
+      object Index1: TMenuItem
+        Caption = '&Sommaire'
+        OnClick = 'Index1Click'
+      end
+      object Rechercher1: TMenuItem
+        Caption = '&Rechercher'
+        OnClick = 'Rechercher1Click'
+      end
+      object Utiliserlaide1: TMenuItem
+        Caption = "&Utiliser l'aide"
+        OnClick = 'Utiliserlaide1Click'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Apropos1: TMenuItem
+        Caption = '&A propos...'
+        OnClick = 'Apropos1Click'
+      end
+    end
+    object MiseAuPoint: TMenuItem
+      Caption = '&Mise au point'
+      Visible = False
+      object Memoire1: TMenuItem
+        Caption = 'Mémoire'
+        OnClick = 'Memoire1Click'
+      end
+      object Essai1: TMenuItem
+        Caption = 'Essai'
+        OnClick = 'Essai1Click'
+      end
+      object MAPDecisions1: TMenuItem
+        Caption = 'Décisions'
+        object creation1: TMenuItem
+          Caption = 'création'
+          OnClick = 'Creation1Click'
+        end
+        object animateur2: TMenuItem
+          Caption = 'animateur'
+          OnClick = 'animateur2Click'
+        end
+        object entreprises2: TMenuItem
+          Caption = 'entreprises'
+          OnClick = 'entreprises2Click'
+        end
+      end
+      object Modifieniveau1: TMenuItem
+        Caption = 'Modifie niveau'
+        Enabled = False
+        object niv11: TMenuItem
+          Caption = 'niv 1'
+          OnClick = 'niv11Click'
+        end
+        object niv21: TMenuItem
+          Caption = 'niv 2'
+          OnClick = 'niv21Click'
+        end
+        object niv31: TMenuItem
+          Caption = 'niv 3'
+          OnClick = 'niv31Click'
+        end
+        object niv41: TMenuItem
+          Caption = 'niv 4'
+          OnClick = 'niv41Click'
+        end
+      end
+      object Timer1Info1: TMenuItem
+        Caption = 'Timer1Info'
+        OnClick = 'Timer1Info1Click'
+      end
+    end
+  end
+  object OpenFileDialog: TOpenDialog
+    Filter = 'Jeu Simstrat  (????Sims.db)|????Sims.db'
+    Options = ['ofHideReadOnly', 'ofPathMustExist', 'ofFileMustExist', 'ofNoReadOnlyReturn']
+    Title = 'Simstrat - Ouvrir'
+    Top = 64
+  end
+  object Database1: TDatabase
+    Connected = True
+    DatabaseName = 'DBEssai'
+    DriverName = 'STANDARD'
+    Params.Strings = ['PATH=C:\\SIMDELPH\\DBEssai']
+    Left = 144
+    Top = 8
+  end
+  object MainTableMAIN: TTable
+    DatabaseName = 'DBEssai'
+    IndexFieldNames = 'CleUnique'
+    TableName = 'TESTSIMS.DB'
+    Left = 184
+    Top = 8
+  end
+  object MainTableACG: TTable
+    DatabaseName = 'DBEssai'
+    IndexFieldNames = 'CleUnique'
+    TableName = 'TESTSACG.DB'
+    Left = 216
+    Top = 8
+  end
+  object MainTableADG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADG.DB'
+    Left = 248
+    Top = 8
+  end
+  object MainTableEDG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDG.DB'
+    Left = 280
+    Top = 8
+  end
+  object Timer1: TTimer
+    Interval = 0
+    OnTimer = 'Timer1Timer'
+    Left = 32
+    Top = 64
+  end
+  object PrinterSetupDialog1: TPrinterSetupDialog
+    Top = 96
+  end
+  object FontDialog1: TFontDialog
+    HelpContext = 20001
+    Font.Color = 'clBlack'
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = 'fpFixed'
+    Font.Style = ['fsBold']
+    MinFontSize = 6
+    MaxFontSize = 14
+    Options = ['fdAnsiOnly', 'fdTrueTypeOnly', 'fdFixedPitchOnly', 'fdForceFontExist', 'fdShowHelp', 'fdLimitSize']
+    Left = 440
+    Top = 16
+  end
+end
+

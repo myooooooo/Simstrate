@@ -1,0 +1,767 @@
+=== TFORMSERE_ETUDES.bin: PARTIAL (consumed 11195/11264) ===
+object FormSERE_Etudes: TFormSERE_Etudes
+  Left = 194
+  Top = 77
+  Width = 577
+  Height = 409
+  BorderIcons = ['biSystemMenu', 'biMaximize']
+  Caption = 'Période # - Entreprise #  - Etudes'
+  Color = 'clWhite'
+  Font.Color = 'clBlack'
+  Font.Height = -16
+  Font.Name = 'Times New Roman'
+  Font.Style = ['fsBold']
+  KeyPreview = True
+  Menu = 'MainMenu1'
+  PixelsPerInch = 96
+  PrintScale = 'poPrintToFit'
+  WindowState = 'wsMaximized'
+  OnCreate = 'FormCreate'
+  OnKeyDown = 'FormKeyDown'
+  OnResize = 'FormResize'
+  OnShow = 'FormShow'
+  TextHeight = 19
+  object Panel0: TPanel
+    Left = 0
+    Top = 0
+    Width = 780
+    Height = 1380
+    BevelOuter = 'bvNone'
+    BorderWidth = 12
+    ParentColor = True
+    TabOrder = 0
+    object Panel1: TPanel
+      Left = 12
+      Top = 67
+      Width = 607
+      Height = 169
+      BevelOuter = 'bvNone'
+      Caption = 'Panel1'
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 0
+        Top = 0
+        Width = 607
+        Height = 19
+        Align = 'alTop'
+        Caption = 'Politiques des concurrents sur le produit 1 '
+      end
+      object StringGrid1: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 593
+        Height = 129
+        ColCount = 9
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        RowCount = 6
+        TabOrder = 0
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+        ColWidths = [64, 64, 64, 64, 64, 64, 64, 64, 64]
+        RowHeights = [24, 24, 24, 24, 24, 24]
+      end
+      object ListBox1et2: TListBox
+        Left = 0
+        Top = 16
+        Width = 121
+        Height = 25
+        ItemHeight = 19
+        Items.Strings = ['C,0=Ent.', '0,1=Prix', '0,2=Pub', '0,3=Action Com.', '0,4=FV', '0,5=Crédit']
+        TabOrder = 1
+        Visible = False
+      end
+    end
+    object Panel2: TPanel
+      Tag = 3
+      Left = 12
+      Top = 240
+      Width = 609
+      Height = 169
+      BevelOuter = 'bvNone'
+      Caption = 'Panel2'
+      TabOrder = 1
+      object Label2: TLabel
+        Left = 0
+        Top = 0
+        Width = 609
+        Height = 19
+        Align = 'alTop'
+        Caption = 'Politiques des concurrents sur le produit 2 '
+      end
+      object StringGrid2: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 593
+        Height = 129
+        ColCount = 9
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        RowCount = 6
+        TabOrder = 0
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+        ColWidths = [64, 64, 64, 64, 64, 64, 64, 64, 64]
+        RowHeights = [24, 24, 24, 24, 24, 24]
+      end
+    end
+    object Panel3: TPanel
+      Left = 12
+      Top = 416
+      Width = 609
+      Height = 121
+      BevelOuter = 'bvNone'
+      Caption = 'Panel3'
+      TabOrder = 2
+      object Label3: TLabel
+        Left = 0
+        Top = 0
+        Width = 609
+        Height = 19
+        Align = 'alTop'
+        Caption = 'Parts de marché des concurrents sur les produits'
+      end
+      object StringGrid3: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 593
+        Height = 81
+        ColCount = 9
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        RowCount = 3
+        TabOrder = 1
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+        ColWidths = [64, 64, 64, 64, 64, 64, 64, 64, 64]
+      end
+      object ListBox3: TListBox
+        Left = 0
+        Top = 24
+        Width = 121
+        Height = 25
+        ItemHeight = 19
+        Items.Strings = ['C,0=Ent.', '0,1=Produit 1', '0,2=Produit 2']
+        TabOrder = 0
+        Visible = False
+      end
+    end
+    object Panel4: TPanel
+      Left = 12
+      Top = 544
+      Width = 609
+      Height = 169
+      BevelOuter = 'bvNone'
+      Caption = 'Panel4'
+      TabOrder = 3
+      object Label4: TLabel
+        Left = 0
+        Top = 0
+        Width = 609
+        Height = 19
+        Align = 'alTop'
+        Caption = 'Résultats des concurrents '
+      end
+      object StringGrid4: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 593
+        Height = 129
+        ColCount = 9
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        TabOrder = 1
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+        ColWidths = [64, 64, 64, 64, 64, 64, 64, 64, 64]
+      end
+      object ListBox4: TListBox
+        Left = 0
+        Top = 24
+        Width = 121
+        Height = 25
+        ItemHeight = 19
+        Items.Strings = ['C,0=Ent.', '0,1=Produit 1  CA', '0,2=Produit 2  CA', '0,3=Résultat fiscal', '0,4=Résultat net']
+        TabOrder = 0
+        Visible = False
+      end
+    end
+    object Panel5: TPanel
+      Left = 12
+      Top = 720
+      Width = 609
+      Height = 217
+      BevelOuter = 'bvNone'
+      Caption = 'Panel5'
+      TabOrder = 4
+      object Label5: TLabel
+        Left = 0
+        Top = 0
+        Width = 609
+        Height = 19
+        Align = 'alTop'
+        Caption = 'Structure des entreprises concurrentes '
+      end
+      object StringGrid5: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 593
+        Height = 182
+        ColCount = 9
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        RowCount = 8
+        TabOrder = 1
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+        ColWidths = [64, 64, 64, 64, 64, 64, 64, 64, 64]
+      end
+      object ListBox5: TListBox
+        Left = 0
+        Top = 24
+        Width = 121
+        Height = 25
+        ItemHeight = 19
+        Items.Strings = ['C,0=Ent.', '0,1=Capital propre', '0,2=Immobilisations', '0,3=Valeur stock', '0,4=Endettement %', '0,5=Découvert', '0,6=HS (%) Produit 1', '0,7=HS (%) Produit 2']
+        TabOrder = 0
+        Visible = False
+      end
+    end
+    object Panel6: TPanel
+      Left = 12
+      Top = 946
+      Width = 281
+      Height = 163
+      BevelOuter = 'bvNone'
+      Caption = 'Panel6'
+      TabOrder = 5
+      object Label6: TLabel
+        Left = 0
+        Top = 0
+        Width = 281
+        Height = 19
+        Align = 'alTop'
+        Caption = 'Situation du marché '
+      end
+      object StringGrid6: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 209
+        Height = 127
+        ColCount = 3
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        TabOrder = 1
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+      end
+      object ListBox6: TListBox
+        Left = 0
+        Top = 32
+        Width = 121
+        Height = 25
+        ItemHeight = 19
+        Items.Strings = ['C,0=Prod.', '0,1=Demande potentielle', '0,2=Demande effective', '0,3=Demande non satisfaite', '0,4=Var. dem. effective %']
+        TabOrder = 0
+        Visible = False
+      end
+    end
+    object Panel7: TPanel
+      Left = 12
+      Top = 1114
+      Width = 281
+      Height = 167
+      BevelOuter = 'bvNone'
+      Caption = 'Panel7'
+      TabOrder = 6
+      object Label7: TLabel
+        Left = 0
+        Top = 0
+        Width = 281
+        Height = 19
+        Align = 'alTop'
+        Caption = "Performance de l'entreprise"
+      end
+      object StringGrid7: TStringGrid
+        Left = 0
+        Top = 19
+        Width = 209
+        Height = 127
+        ColCount = 3
+        DefaultDrawing = False
+        Options = ['goFixedVertLine', 'goFixedHorzLine', 'goVertLine', 'goHorzLine', 'goRangeSelect', 'goColSizing']
+        RowCount = 6
+        TabOrder = 0
+        OnDrawCell = 'StringGrid1DrawCell'
+        OnMouseDown = 'StringGrid1MouseDown'
+        OnSelectCell = 'StringGrid1SelectCell'
+      end
+      object ListBox7: TListBox
+        Left = 0
+        Top = 24
+        Width = 121
+        Height = 25
+        ItemHeight = 19
+        Items.Strings = ['C,0=Prod.', '0,1=Prix / moyenne', '0,2=% Pub / % moyen', '0,3=% Action Com. / % moyen', '0,4=FV / moyenne', '0,5=Crédit / moyenne ']
+        TabOrder = 1
+        Visible = False
+      end
+    end
+    object Panel8: TPanel
+      Left = 12
+      Top = 12
+      Width = 756
+      Height = 57
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      Font.Color = 'clWindowText'
+      Font.Height = -13
+      Font.Name = 'System'
+      Font.Style = []
+      ParentColor = True
+      ParentFont = False
+      TabOrder = 7
+      object Panel9: TPanel
+        Left = 8
+        Top = 12
+        Width = 121
+        Height = 25
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        Enabled = False
+        Caption = 'Jeu'
+        Font.Color = 'clBlack'
+        Font.Height = -13
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 0
+        object Panel10: TPanel
+          Left = 40
+          Top = 0
+          Width = 80
+          Height = 24
+          Caption = 'Panel3'
+          TabOrder = 0
+        end
+      end
+      object Panel11: TPanel
+        Left = 144
+        Top = 8
+        Width = 184
+        Height = 33
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        DragMode = 'dmAutomatic'
+        Caption = 'Entreprise'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 1
+        object Panel12: TPanel
+          Left = 104
+          Top = 0
+          Width = 64
+          Height = 33
+          Caption = '2'
+          Font.Color = 'clBlack'
+          Font.Height = -27
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object Panel13: TPanel
+        Left = 480
+        Top = 8
+        Width = 176
+        Height = 33
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        Caption = ' Période'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 2
+        object Panel37: TPanel
+          Left = 96
+          Top = 0
+          Width = 64
+          Height = 33
+          Caption = '1'
+          Font.Color = 'clBlack'
+          Font.Height = -27
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object Panel38: TPanel
+        Left = 328
+        Top = 8
+        Width = 137
+        Height = 33
+        BevelOuter = 'bvNone'
+        Caption = 'Etudes'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 3
+      end
+    end
+    object Panel44: TPanel
+      Left = 12
+      Top = 1292
+      Width = 756
+      Height = 76
+      Align = 'alBottom'
+      BevelOuter = 'bvNone'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold']
+      ParentColor = True
+      ParentFont = False
+      TabOrder = 8
+      object LabelU0: TLabel
+        Left = 0
+        Top = 20
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU0'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU1: TLabel
+        Left = 0
+        Top = 34
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU1'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU2: TLabel
+        Left = 0
+        Top = 48
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU2'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU3: TLabel
+        Left = 0
+        Top = 62
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU3'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object Memo1: TMemo
+      Left = 320
+      Top = 0
+      Width = 57
+      Height = 57
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      Lines.Strings = ['Memo', '1']
+      ParentFont = False
+      TabOrder = 9
+      Visible = False
+      WordWrap = False
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 160
+    object Fichier1: TMenuItem
+      Caption = '&Fichier'
+      object Imprimer1: TMenuItem
+        Caption = '&Imprimer...'
+        OnClick = 'Imprimer1Click'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object ImpressionRapide1: TMenuItem
+        Caption = 'Impression &Rapide...'
+        OnClick = 'ImpressionRapide1Click'
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+      object Quitter1: TMenuItem
+        Caption = '&Fermer fiche'
+        OnClick = 'Quitter1Click'
+      end
+    end
+    object Edition1: TMenuItem
+      Caption = '&Edition'
+      object Copier1: TMenuItem
+        Caption = 'Co&pier'
+        OnClick = 'Copier1Click'
+        ShortCutText = 'Ctrl+C'
+      end
+    end
+    object Affichage1: TMenuItem
+      Caption = '&Affichage'
+      object Barredoutils1: TMenuItem
+        Caption = "&Barre d'outils"
+        Enabled = False
+        Visible = False
+      end
+      object PleinEcran1: TMenuItem
+        Caption = '&Plein écran'
+        Checked = True
+        OnClick = 'PleinEcran1Click'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+        Visible = False
+      end
+      object Zoom1: TMenuItem
+        Caption = '&Zoom...'
+        Visible = False
+      end
+    end
+    object Periode1: TMenuItem
+      Caption = '&Période'
+      Visible = False
+      OnClick = 'Periode1Click'
+    end
+    object Periode2: TMenuItem
+      Caption = '&Période'
+      object N12: TMenuItem
+        Caption = '1'
+        OnClick = 'N12Click'
+      end
+      object N22: TMenuItem
+        Caption = '2'
+        OnClick = 'N12Click'
+      end
+      object N32: TMenuItem
+        Caption = '3'
+        OnClick = 'N12Click'
+      end
+      object N42: TMenuItem
+        Caption = '4'
+        OnClick = 'N12Click'
+      end
+      object N52: TMenuItem
+        Caption = '5'
+        OnClick = 'N12Click'
+      end
+      object N62: TMenuItem
+        Caption = '6'
+        OnClick = 'N12Click'
+      end
+      object N72: TMenuItem
+        Caption = '7'
+        OnClick = 'N12Click'
+      end
+      object N82: TMenuItem
+        Caption = '8'
+        OnClick = 'N12Click'
+      end
+      object N91: TMenuItem
+        Caption = '9'
+        OnClick = 'N12Click'
+      end
+      object N101: TMenuItem
+        Caption = '10'
+        OnClick = 'N12Click'
+      end
+      object N111: TMenuItem
+        Break = 'mbBarBreak'
+        Caption = '11'
+        OnClick = 'N12Click'
+      end
+      object N121: TMenuItem
+        Caption = '12'
+        OnClick = 'N12Click'
+      end
+      object N131: TMenuItem
+        Caption = '13'
+        OnClick = 'N12Click'
+      end
+      object N141: TMenuItem
+        Caption = '14'
+        OnClick = 'N12Click'
+      end
+      object N151: TMenuItem
+        Caption = '15'
+        OnClick = 'N12Click'
+      end
+      object N161: TMenuItem
+        Caption = '16'
+        OnClick = 'N12Click'
+      end
+      object N171: TMenuItem
+        Caption = '17'
+        OnClick = 'N12Click'
+      end
+      object N181: TMenuItem
+        Caption = '18'
+        OnClick = 'N12Click'
+      end
+      object N191: TMenuItem
+        Caption = '19'
+        OnClick = 'N12Click'
+      end
+      object N201: TMenuItem
+        Caption = '20'
+        OnClick = 'N12Click'
+      end
+      object autre1: TMenuItem
+        Break = 'mbBarBreak'
+        Caption = '&autre'
+        OnClick = 'N12Click'
+      end
+    end
+    object Entreprise1: TMenuItem
+      Caption = '&Entreprise'
+      object N11: TMenuItem
+        Caption = '&1'
+        OnClick = 'N11Click'
+      end
+      object N21: TMenuItem
+        Caption = '&2'
+        OnClick = 'N11Click'
+      end
+      object N31: TMenuItem
+        Caption = '&3'
+        OnClick = 'N11Click'
+      end
+      object N41: TMenuItem
+        Caption = '&4'
+        OnClick = 'N11Click'
+      end
+      object N51: TMenuItem
+        Caption = '&5'
+        OnClick = 'N11Click'
+      end
+      object N61: TMenuItem
+        Caption = '&6'
+        OnClick = 'N11Click'
+      end
+      object N71: TMenuItem
+        Caption = '&7'
+        OnClick = 'N11Click'
+      end
+      object N81: TMenuItem
+        Caption = '&8'
+        OnClick = 'N11Click'
+      end
+    end
+    object Rappeldecisions1: TMenuItem
+      Caption = 'Rappel &décisions'
+      OnClick = 'Rappeldecisions1Click'
+    end
+    object Aide1: TMenuItem
+      Caption = '&Aide'
+      object Fiche1: TMenuItem
+        Caption = '&Fiche'
+        HelpContext = 3260000
+        OnClick = 'Fiche1Click'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Index1: TMenuItem
+        Caption = '&Sommaire'
+        OnClick = 'Index1Click'
+      end
+      object Rechercher1: TMenuItem
+        Caption = '&Rechercher'
+        OnClick = 'Rechercher1Click'
+      end
+      object Utiliserlaide1: TMenuItem
+        Caption = "&Utiliser l'aide"
+        OnClick = 'Utiliserlaide1Click'
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object Apropos1: TMenuItem
+        Caption = '&A propos...'
+        OnClick = 'Apropos1Click'
+      end
+    end
+  end
+  object PrintDialog1: TPrintDialog
+    Left = 184
+  end
+  object TableEDP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDP.DB'
+    Left = 240
+    Top = 96
+  end
+  object TableERG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSERG.DB'
+    Left = 200
+    Top = 128
+  end
+  object TableERP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSERP.DB'
+    Left = 240
+    Top = 128
+  end
+  object TableEDM: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDM.DB'
+    Left = 280
+    Top = 96
+  end
+  object TableMRP: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSMRP.DB'
+    Left = 200
+    Top = 168
+  end
+end
+

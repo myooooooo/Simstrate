@@ -1,0 +1,3607 @@
+=== TFORMSERS_SITUATION.bin: PARTIAL (consumed 55436/55552) ===
+object FormSERS_Situation: TFormSERS_Situation
+  Left = 219
+  Top = 92
+  Width = 568
+  Height = 387
+  BorderIcons = ['biSystemMenu', 'biMaximize']
+  Caption = 'Période # - Entreprise # - Situation'
+  Color = 'clWhite'
+  Font.Color = 'clBlack'
+  Font.Height = -13
+  Font.Name = 'Times New Roman'
+  Font.Style = []
+  KeyPreview = True
+  Menu = 'MainMenu1'
+  PixelsPerInch = 96
+  PrintScale = 'poPrintToFit'
+  WindowState = 'wsMaximized'
+  OnClose = 'FormClose'
+  OnCreate = 'FormCreate'
+  OnKeyDown = 'FormKeyDown'
+  OnResize = 'FormResize'
+  OnShow = 'FormShow'
+  TextHeight = 15
+  object Panel0: TPanel
+    Left = 0
+    Top = 0
+    Width = 780
+    Height = 1100
+    BevelOuter = 'bvNone'
+    BorderWidth = 12
+    ParentColor = True
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 12
+      Top = 12
+      Width = 756
+      Height = 53
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 0
+      object Panel5: TPanel
+        Left = 0
+        Top = 9
+        Width = 105
+        Height = 25
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        Enabled = False
+        Caption = 'Jeu'
+        Font.Color = 'clBlack'
+        Font.Height = -13
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 0
+        object Panel3: TPanel
+          Left = 32
+          Top = 0
+          Width = 65
+          Height = 24
+          Caption = 'Panel3'
+          TabOrder = 0
+        end
+      end
+      object Panel6: TPanel
+        Left = 128
+        Top = 0
+        Width = 185
+        Height = 42
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        DragMode = 'dmAutomatic'
+        Caption = 'Entreprise'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 1
+        object Panel7: TPanel
+          Left = 104
+          Top = 0
+          Width = 64
+          Height = 42
+          Caption = '2'
+          Font.Color = 'clBlack'
+          Font.Height = -27
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object Panel8: TPanel
+        Left = 544
+        Top = 0
+        Width = 161
+        Height = 42
+        Alignment = 'taLeftJustify'
+        BevelOuter = 'bvNone'
+        Caption = ' Période'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 2
+        object Panel37: TPanel
+          Left = 96
+          Top = 0
+          Width = 64
+          Height = 42
+          Caption = '1'
+          Font.Color = 'clBlack'
+          Font.Height = -27
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object Panel38: TPanel
+        Left = 304
+        Top = 0
+        Width = 225
+        Height = 42
+        BevelOuter = 'bvNone'
+        Caption = 'Situation'
+        Font.Color = 'clBlack'
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentColor = True
+        ParentFont = False
+        TabOrder = 3
+      end
+    end
+    object Panel10: TPanel
+      Left = 12
+      Top = 65
+      Width = 756
+      Height = 280
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 1
+      object GroupBox1: TGroupBox
+        Left = 0
+        Top = 0
+        Width = 705
+        Height = 265
+        Caption = " STRUCTURE DE L'ENTREPRISE "
+        Font.Color = 'clBlack'
+        Font.Height = -16
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentFont = False
+        TabOrder = 0
+        object DBEdit1: TDBEdit
+          Left = 320
+          Top = 36
+          Width = 177
+          Height = 24
+          HelpContext = 3231001
+          AutoSize = False
+          DataField = 'CapaciteProductive'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 0
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit2: TDBEdit
+          Left = 320
+          Top = 60
+          Width = 177
+          Height = 24
+          HelpContext = 3231002
+          AutoSize = False
+          DataField = 'NombreProduits'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 1
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit3: TDBEdit
+          Left = 320
+          Top = 132
+          Width = 177
+          Height = 24
+          HelpContext = 3231005
+          AutoSize = False
+          DataField = 'Vendeurs'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 4
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit5: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 180
+          Width = 177
+          Height = 24
+          HelpContext = 3231007
+          AutoSize = False
+          DataField = 'Clients'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 6
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit6: TDBEdit
+          Left = 520
+          Top = 36
+          Width = 177
+          Height = 24
+          HelpContext = 3231001
+          AutoSize = False
+          DataField = 'CapaciteProductive'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 9
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit7: TDBEdit
+          Left = 520
+          Top = 60
+          Width = 177
+          Height = 24
+          HelpContext = 3231002
+          AutoSize = False
+          DataField = 'NombreProduits'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 10
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit8: TDBEdit
+          Left = 520
+          Top = 132
+          Width = 177
+          Height = 24
+          HelpContext = 3231005
+          AutoSize = False
+          DataField = 'Vendeurs'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 13
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit10: TDBEdit
+          Tag = 3
+          Left = 520
+          Top = 180
+          Width = 177
+          Height = 24
+          HelpContext = 3231007
+          AutoSize = False
+          DataField = 'Clients'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 15
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel11: TPanel
+          Left = 320
+          Top = 12
+          Width = 177
+          Height = 24
+          Caption = 'Fin de période précédente'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 18
+        end
+        object Panel12: TPanel
+          Left = 520
+          Top = 12
+          Width = 177
+          Height = 24
+          Caption = 'Fin de période'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 19
+        end
+        object Panel13: TPanel
+          Left = 32
+          Top = 36
+          Width = 257
+          Height = 24
+          HelpContext = 3231001
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Capacité productive (heures)'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 20
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel14: TPanel
+          Left = 32
+          Top = 60
+          Width = 257
+          Height = 24
+          HelpContext = 3231002
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Nombre de produits'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 21
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel16: TPanel
+          Tag = 3
+          Left = 32
+          Top = 180
+          Width = 257
+          Height = 24
+          HelpContext = 3231007
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Créances Clients'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 29
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit47: TDBEdit
+          Left = 320
+          Top = 108
+          Width = 177
+          Height = 24
+          HelpContext = 3231004
+          AutoSize = False
+          DataField = 'Productifs'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 3
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit48: TDBEdit
+          Left = 520
+          Top = 108
+          Width = 177
+          Height = 24
+          HelpContext = 3231004
+          AutoSize = False
+          DataField = 'Productifs'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 12
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit49: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 156
+          Width = 177
+          Height = 24
+          HelpContext = 3231006
+          AutoSize = False
+          DataField = 'Cadres'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 5
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit50: TDBEdit
+          Tag = 3
+          Left = 520
+          Top = 156
+          Width = 177
+          Height = 24
+          HelpContext = 3231006
+          AutoSize = False
+          DataField = 'Cadres'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 14
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel49: TPanel
+          Left = 32
+          Top = 108
+          Width = 233
+          Height = 24
+          HelpContext = 3231004
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Effectifs  '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 23
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel50: TPanel
+          Left = 32
+          Top = 132
+          Width = 233
+          Height = 24
+          HelpContext = 3231005
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Font.Color = 'clBlack'
+          Font.Height = -16
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 25
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel51: TPanel
+          Tag = 3
+          Left = 32
+          Top = 156
+          Width = 233
+          Height = 24
+          HelpContext = 3231006
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Font.Color = 'clBlack'
+          Font.Height = -16
+          Font.Name = 'Times New Roman'
+          Font.Style = ['fsBold']
+          ParentFont = False
+          TabOrder = 27
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel15: TPanel
+          Left = 32
+          Top = 84
+          Width = 257
+          Height = 24
+          HelpContext = 3231003
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Stock (en valeur)'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 22
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit4: TDBEdit
+          Left = 320
+          Top = 84
+          Width = 177
+          Height = 24
+          HelpContext = 3231003
+          AutoSize = False
+          DataField = 'ValeurStock'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 2
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit9: TDBEdit
+          Left = 520
+          Top = 84
+          Width = 177
+          Height = 24
+          HelpContext = 3231003
+          AutoSize = False
+          DataField = 'ValeurStock'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 11
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel43: TPanel
+          Tag = 3
+          Left = 112
+          Top = 156
+          Width = 177
+          Height = 24
+          HelpContext = 3231006
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Cadres'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 28
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel42: TPanel
+          Left = 112
+          Top = 132
+          Width = 177
+          Height = 24
+          HelpContext = 3231005
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Vendeurs'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 26
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel58: TPanel
+          Left = 112
+          Top = 108
+          Width = 177
+          Height = 24
+          HelpContext = 3231004
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Producteurs'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 24
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel56: TPanel
+          Tag = 3
+          Left = 32
+          Top = 204
+          Width = 257
+          Height = 24
+          HelpContext = 3231008
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Heures perdues (%)  '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 30
+          OnMouseDown = 'Panel13MouseDown'
+          object Panel62: TPanel
+            Tag = 3
+            Left = 176
+            Top = 0
+            Width = 81
+            Height = 24
+            HelpContext = 3231008
+            Caption = 'pannes'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+            OnMouseDown = 'Panel13MouseDown'
+          end
+        end
+        object Panel57: TPanel
+          Tag = 3
+          Left = 32
+          Top = 228
+          Width = 257
+          Height = 24
+          HelpContext = 3231009
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 31
+          OnMouseDown = 'Panel13MouseDown'
+          object Panel63: TPanel
+            Tag = 3
+            Left = 176
+            Top = 0
+            Width = 81
+            Height = 24
+            HelpContext = 3231009
+            Caption = 'grèves'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+            OnMouseDown = 'Panel13MouseDown'
+          end
+        end
+        object DBEdit59: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 204
+          Width = 177
+          Height = 24
+          HelpContext = 3231008
+          AutoSize = False
+          DataField = 'PannesPc'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 7
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit60: TDBEdit
+          Tag = 3
+          Left = 520
+          Top = 204
+          Width = 177
+          Height = 24
+          HelpContext = 3231008
+          AutoSize = False
+          DataField = 'PannesPc'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 16
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit61: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 228
+          Width = 177
+          Height = 24
+          HelpContext = 3231009
+          AutoSize = False
+          DataField = 'GrevesPc'
+          DataSource = 'DataSourceERG_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 8
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit62: TDBEdit
+          Tag = 3
+          Left = 520
+          Top = 228
+          Width = 177
+          Height = 24
+          HelpContext = 3231009
+          AutoSize = False
+          DataField = 'GrevesPc'
+          DataSource = 'DataSourceERG'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 17
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+      end
+    end
+    object Panel4: TPanel
+      Left = 12
+      Top = 345
+      Width = 756
+      Height = 328
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 2
+      object GroupBox2: TGroupBox
+        Left = 0
+        Top = 0
+        Width = 705
+        Height = 313
+        Caption = " DECISIONS D'EXPLOITATION "
+        Font.Color = 'clBlack'
+        Font.Height = -16
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentFont = False
+        TabOrder = 0
+        object DBEdit11: TDBEdit
+          Left = 320
+          Top = 36
+          Width = 177
+          Height = 24
+          HelpContext = 3232001
+          AutoSize = False
+          DataField = 'MachinesAffectees'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 1
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit12: TDBEdit
+          Left = 320
+          Top = 60
+          Width = 177
+          Height = 24
+          HelpContext = 3232002
+          AutoSize = False
+          DataField = 'MachinesPc'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 2
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit13: TDBEdit
+          Left = 320
+          Top = 108
+          Width = 177
+          Height = 24
+          HelpContext = 3232004
+          AutoSize = False
+          DataField = 'Production'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 4
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit15: TDBEdit
+          Left = 320
+          Top = 132
+          Width = 177
+          Height = 24
+          HelpContext = 3232005
+          AutoSize = False
+          DataField = 'TempsFabricationFutur'
+          DataSource = 'DataSourceERP1_Old'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 5
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit16: TDBEdit
+          Left = 320
+          Top = 180
+          Width = 177
+          Height = 24
+          HelpContext = 3232007
+          AutoSize = False
+          DataField = 'Prix'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 7
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit17: TDBEdit
+          Left = 320
+          Top = 204
+          Width = 177
+          Height = 24
+          HelpContext = 3232008
+          AutoSize = False
+          DataField = 'Publicite'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 8
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit19: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 276
+          Width = 177
+          Height = 24
+          HelpContext = 3232011
+          AutoSize = False
+          DataField = 'DureeCreditClient'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 11
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel17: TPanel
+          Left = 320
+          Top = 12
+          Width = 177
+          Height = 24
+          Caption = 'Produit 1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+        end
+        object Panel19: TPanel
+          Left = 32
+          Top = 36
+          Width = 233
+          Height = 24
+          HelpContext = 3232001
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Machines affectées   '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 12
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel20: TPanel
+          Left = 208
+          Top = 36
+          Width = 81
+          Height = 24
+          HelpContext = 3232001
+          Caption = 'qté'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 13
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel21: TPanel
+          Left = 32
+          Top = 60
+          Width = 233
+          Height = 24
+          HelpContext = 3232002
+          Alignment = 'taRightJustify'
+          BorderWidth = 5
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 14
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel22: TPanel
+          Left = 32
+          Top = 108
+          Width = 257
+          Height = 24
+          HelpContext = 3232004
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Production prévue'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 17
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel24: TPanel
+          Left = 32
+          Top = 132
+          Width = 257
+          Height = 24
+          HelpContext = 3232005
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Temps de fabrication (prévu)'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 18
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel25: TPanel
+          Left = 32
+          Top = 180
+          Width = 257
+          Height = 24
+          HelpContext = 3232007
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Prix'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 20
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel26: TPanel
+          Left = 32
+          Top = 204
+          Width = 257
+          Height = 24
+          HelpContext = 3232008
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Publicité'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 21
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel28: TPanel
+          Tag = 3
+          Left = 32
+          Top = 276
+          Width = 257
+          Height = 24
+          HelpContext = 3232011
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Crédit Clients (jours)'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 24
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel41: TPanel
+          Left = 32
+          Top = 84
+          Width = 257
+          Height = 24
+          HelpContext = 3232003
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Producteurs affectés'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 16
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit45: TDBEdit
+          Left = 320
+          Top = 84
+          Width = 177
+          Height = 24
+          HelpContext = 3232003
+          AutoSize = False
+          DataField = 'ProductifsAffectes'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 3
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel44: TPanel
+          Tag = 3
+          Left = 32
+          Top = 252
+          Width = 257
+          Height = 24
+          HelpContext = 3232010
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Action commerciale'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 23
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit51: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 252
+          Width = 177
+          Height = 24
+          HelpContext = 3232010
+          AutoSize = False
+          DataField = 'ActionCommerciale'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 10
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel45: TPanel
+          Tag = 3
+          Left = 32
+          Top = 156
+          Width = 257
+          Height = 24
+          HelpContext = 3232006
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Dépenses de qualité'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 19
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit53: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 156
+          Width = 177
+          Height = 24
+          HelpContext = 3232006
+          AutoSize = False
+          DataField = 'DepensesQualite'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 6
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel18: TPanel
+          Tag = 3
+          Left = 520
+          Top = 12
+          Width = 180
+          Height = 294
+          BevelOuter = 'bvNone'
+          ParentColor = True
+          TabOrder = 25
+          object Panel27: TPanel
+            Left = 0
+            Top = 0
+            Width = 177
+            Height = 24
+            Caption = 'Produit 2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit20: TDBEdit
+            Left = 0
+            Top = 24
+            Width = 177
+            Height = 24
+            HelpContext = 3232001
+            AutoSize = False
+            DataField = 'MachinesAffectees'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 1
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit21: TDBEdit
+            Left = 0
+            Top = 48
+            Width = 177
+            Height = 24
+            HelpContext = 3232002
+            AutoSize = False
+            DataField = 'MachinesPC'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 2
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit46: TDBEdit
+            Left = 0
+            Top = 72
+            Width = 177
+            Height = 24
+            HelpContext = 3232003
+            AutoSize = False
+            DataField = 'ProductifsAffectes'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 3
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit22: TDBEdit
+            Left = 0
+            Top = 96
+            Width = 177
+            Height = 24
+            HelpContext = 3232004
+            AutoSize = False
+            DataField = 'Production'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 4
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit24: TDBEdit
+            Left = 0
+            Top = 120
+            Width = 177
+            Height = 24
+            HelpContext = 3232005
+            AutoSize = False
+            DataField = 'TempsFabricationFutur'
+            DataSource = 'DataSourceERP2_OLd'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 5
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit54: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 144
+            Width = 177
+            Height = 24
+            HelpContext = 3232006
+            AutoSize = False
+            DataField = 'DepensesQualite'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 6
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit25: TDBEdit
+            Left = 0
+            Top = 168
+            Width = 177
+            Height = 24
+            HelpContext = 3232007
+            AutoSize = False
+            DataField = 'Prix'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 7
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit26: TDBEdit
+            Left = 0
+            Top = 192
+            Width = 177
+            Height = 24
+            HelpContext = 3232008
+            AutoSize = False
+            DataField = 'Publicite'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 8
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit27: TDBEdit
+            Left = 0
+            Top = 216
+            Width = 177
+            Height = 24
+            HelpContext = 3232009
+            AutoSize = False
+            DataField = 'VendeursAffectes'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 9
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit28: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 264
+            Width = 177
+            Height = 24
+            HelpContext = 3232011
+            AutoSize = False
+            DataField = 'DureeCreditClient'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 11
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit52: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 240
+            Width = 177
+            Height = 24
+            HelpContext = 3232010
+            AutoSize = False
+            DataField = 'ActionCommerciale'
+            DataSource = 'DataSourceEDP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 10
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel46: TPanel
+          Left = 208
+          Top = 60
+          Width = 81
+          Height = 24
+          HelpContext = 3232002
+          Caption = '%  '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 15
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel55: TPanel
+          Left = 32
+          Top = 228
+          Width = 257
+          Height = 24
+          HelpContext = 3232009
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Force de vente affectée'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 22
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit18: TDBEdit
+          Left = 320
+          Top = 228
+          Width = 177
+          Height = 24
+          HelpContext = 3232009
+          AutoSize = False
+          DataField = 'VendeursAffectes'
+          DataSource = 'DataSourceEDP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 9
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+      end
+    end
+    object Panel9: TPanel
+      Left = 12
+      Top = 673
+      Width = 756
+      Height = 324
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      ParentColor = True
+      TabOrder = 3
+      object GroupBox3: TGroupBox
+        Left = 0
+        Top = 0
+        Width = 705
+        Height = 312
+        Caption = ' RESULTATS '
+        Font.Color = 'clBlack'
+        Font.Height = -16
+        Font.Name = 'Times New Roman'
+        Font.Style = ['fsBold']
+        ParentFont = False
+        TabOrder = 0
+        object DBEdit29: TDBEdit
+          Left = 320
+          Top = 108
+          Width = 177
+          Height = 24
+          HelpContext = 3233004
+          AutoSize = False
+          DataField = 'Ventes'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 4
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit30: TDBEdit
+          Left = 320
+          Top = 180
+          Width = 177
+          Height = 24
+          HelpContext = 3233007
+          AutoSize = False
+          DataField = 'CA'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 7
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit31: TDBEdit
+          Left = 320
+          Top = 204
+          Width = 177
+          Height = 24
+          HelpContext = 3233008
+          AutoSize = False
+          DataField = 'PartMarche'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 8
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit32: TDBEdit
+          Left = 320
+          Top = 228
+          Width = 177
+          Height = 24
+          HelpContext = 3233009
+          AutoSize = False
+          DataField = 'QteStock'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 9
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit33: TDBEdit
+          Left = 320
+          Top = 252
+          Width = 177
+          Height = 24
+          HelpContext = 3233010
+          AutoSize = False
+          DataField = 'ValeurStock'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 10
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel29: TPanel
+          Left = 320
+          Top = 12
+          Width = 177
+          Height = 24
+          Caption = 'Produit 1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+        end
+        object Panel31: TPanel
+          Left = 32
+          Top = 108
+          Width = 257
+          Height = 24
+          HelpContext = 3233004
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Ventes normales   '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 15
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel32: TPanel
+          Left = 32
+          Top = 180
+          Width = 257
+          Height = 24
+          HelpContext = 3233007
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = "Chiffre d'affaires"
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 21
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel33: TPanel
+          Left = 32
+          Top = 204
+          Width = 257
+          Height = 24
+          HelpContext = 3233008
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Parts de marché (vtes norm.)'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 22
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit39: TDBEdit
+          Left = 320
+          Top = 276
+          Width = 177
+          Height = 24
+          HelpContext = 3233011
+          AutoSize = False
+          DataField = 'TempsFabricationFutur'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          TabOrder = 11
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel39: TPanel
+          Tag = 3
+          Left = 32
+          Top = 132
+          Width = 257
+          Height = 24
+          HelpContext = 3233005
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Ventes soldées  '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 17
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel40: TPanel
+          Tag = 3
+          Left = 32
+          Top = 156
+          Width = 257
+          Height = 24
+          HelpContext = 3233006
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Ventes spéciales  '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 19
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit41: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 132
+          Width = 177
+          Height = 24
+          HelpContext = 3233005
+          AutoSize = False
+          DataField = 'VentesSoldeesQte'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 5
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object DBEdit42: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 156
+          Width = 177
+          Height = 24
+          HelpContext = 3233006
+          AutoSize = False
+          DataField = 'VentesSpeQte'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 6
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel30: TPanel
+          Tag = 3
+          Left = 518
+          Top = 12
+          Width = 185
+          Height = 292
+          BevelOuter = 'bvNone'
+          ParentColor = True
+          TabOrder = 28
+          object Panel34: TPanel
+            Left = 0
+            Top = 0
+            Width = 177
+            Height = 24
+            Caption = 'Produit 2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+          end
+          object DBEdit34: TDBEdit
+            Left = 0
+            Top = 96
+            Width = 177
+            Height = 24
+            HelpContext = 3233004
+            AutoSize = False
+            DataField = 'Ventes'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 4
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit43: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 120
+            Width = 177
+            Height = 24
+            HelpContext = 3233005
+            AutoSize = False
+            DataField = 'VentesSoldeesQte'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 5
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit44: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 144
+            Width = 177
+            Height = 24
+            HelpContext = 3233006
+            AutoSize = False
+            DataField = 'VentesSpeQte'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 6
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit35: TDBEdit
+            Left = 0
+            Top = 168
+            Width = 177
+            Height = 24
+            HelpContext = 3233007
+            AutoSize = False
+            DataField = 'CA'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 7
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit36: TDBEdit
+            Left = 0
+            Top = 192
+            Width = 177
+            Height = 24
+            HelpContext = 3233008
+            AutoSize = False
+            DataField = 'PartMarche'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 8
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit37: TDBEdit
+            Left = 0
+            Top = 216
+            Width = 177
+            Height = 24
+            HelpContext = 3233009
+            AutoSize = False
+            DataField = 'QteStock'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 9
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit38: TDBEdit
+            Left = 0
+            Top = 240
+            Width = 177
+            Height = 24
+            HelpContext = 3233010
+            AutoSize = False
+            DataField = 'ValeurStock'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 10
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit40: TDBEdit
+            Left = 0
+            Top = 264
+            Width = 177
+            Height = 24
+            HelpContext = 3233011
+            AutoSize = False
+            DataField = 'TempsFabricationFutur'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            TabOrder = 11
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit58: TDBEdit
+            Left = 0
+            Top = 24
+            Width = 177
+            Height = 24
+            HelpContext = 3233001
+            AutoSize = False
+            DataField = 'ProductionReelle'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 1
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit23: TDBEdit
+            Left = 0
+            Top = 48
+            Width = 177
+            Height = 24
+            HelpContext = 3233002
+            AutoSize = False
+            DataField = 'TauxUtilisation'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 2
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+          object DBEdit56: TDBEdit
+            Tag = 3
+            Left = 0
+            Top = 72
+            Width = 177
+            Height = 24
+            HelpContext = 3233003
+            AutoSize = False
+            DataField = 'HeuresSupPc'
+            DataSource = 'DataSourceERP2'
+            Font.Color = 'clBlack'
+            Font.Height = -13
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            MaxLength = 0
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 3
+            OnExit = 'DBEdit1Exit'
+            OnKeyDown = 'DBEdit1KeyDown'
+            OnKeyUp = 'DBEdit1KeyUp'
+            OnMouseDown = 'DBEdit1MouseDown'
+          end
+        end
+        object Panel47: TPanel
+          Left = 32
+          Top = 276
+          Width = 257
+          Height = 24
+          HelpContext = 3233011
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Temps de fabrication futur'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 27
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel35: TPanel
+          Left = 32
+          Top = 228
+          Width = 257
+          Height = 24
+          HelpContext = 3233009
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Stock  '
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 23
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel48: TPanel
+          Left = 32
+          Top = 252
+          Width = 257
+          Height = 24
+          HelpContext = 3233010
+          Alignment = 'taLeftJustify'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 25
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel52: TPanel
+          Left = 217
+          Top = 108
+          Width = 72
+          Height = 24
+          HelpContext = 3233004
+          Caption = 'qté'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 16
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel53: TPanel
+          Tag = 3
+          Left = 217
+          Top = 132
+          Width = 72
+          Height = 24
+          HelpContext = 3233005
+          Caption = 'qté'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 18
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel54: TPanel
+          Tag = 3
+          Left = 217
+          Top = 156
+          Width = 72
+          Height = 24
+          HelpContext = 3233006
+          Caption = 'qté'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 20
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel36: TPanel
+          Left = 217
+          Top = 228
+          Width = 72
+          Height = 24
+          HelpContext = 3233009
+          Caption = 'qté'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 24
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel60: TPanel
+          Left = 217
+          Top = 252
+          Width = 72
+          Height = 24
+          HelpContext = 3233010
+          Caption = 'valeur'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 26
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object Panel1: TPanel
+          Left = 32
+          Top = 36
+          Width = 257
+          Height = 24
+          HelpContext = 3233001
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Production réelle'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 12
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit57: TDBEdit
+          Left = 320
+          Top = 36
+          Width = 177
+          Height = 24
+          HelpContext = 3233001
+          AutoSize = False
+          DataField = 'ProductionReelle'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 1
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel23: TPanel
+          Left = 32
+          Top = 60
+          Width = 257
+          Height = 24
+          HelpContext = 3233002
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = "Taux d'utilisation machines"
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 13
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit14: TDBEdit
+          Left = 320
+          Top = 60
+          Width = 177
+          Height = 24
+          HelpContext = 3233002
+          AutoSize = False
+          DataField = 'TauxUtilisation'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 2
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+        object Panel59: TPanel
+          Tag = 3
+          Left = 32
+          Top = 84
+          Width = 257
+          Height = 24
+          HelpContext = 3233003
+          Alignment = 'taLeftJustify'
+          BorderWidth = 5
+          Caption = 'Heures supplémentaires ( % )'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 14
+          OnMouseDown = 'Panel13MouseDown'
+        end
+        object DBEdit55: TDBEdit
+          Tag = 3
+          Left = 320
+          Top = 84
+          Width = 177
+          Height = 24
+          HelpContext = 3233003
+          AutoSize = False
+          DataField = 'HeuresSupPc'
+          DataSource = 'DataSourceERP1'
+          Font.Color = 'clBlack'
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          MaxLength = 0
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 3
+          OnExit = 'DBEdit1Exit'
+          OnKeyDown = 'DBEdit1KeyDown'
+          OnKeyUp = 'DBEdit1KeyUp'
+          OnMouseDown = 'DBEdit1MouseDown'
+        end
+      end
+    end
+    object Panel61: TPanel
+      Left = 12
+      Top = 1012
+      Width = 756
+      Height = 76
+      Align = 'alBottom'
+      BevelOuter = 'bvNone'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold']
+      ParentColor = True
+      ParentFont = False
+      TabOrder = 4
+      object LabelU0: TLabel
+        Left = 0
+        Top = 20
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU0'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU1: TLabel
+        Left = 0
+        Top = 34
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU1'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU2: TLabel
+        Left = 0
+        Top = 48
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU2'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU3: TLabel
+        Left = 0
+        Top = 62
+        Width = 756
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU3'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object Memo1: TMemo
+      Left = 480
+      Top = 0
+      Width = 65
+      Height = 41
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      Lines.Strings = ['Memo1']
+      ParentFont = False
+      TabOrder = 5
+      Visible = False
+      WordWrap = False
+    end
+  end
+  object PanelLOUPE: TPanel
+    Left = 664
+    Top = 98
+    Width = 241
+    Height = 41
+    BevelOuter = 'bvNone'
+    BorderStyle = 'bsSingle'
+    Caption = 'PanelLOUPE'
+    Color = 'clYellow'
+    Font.Color = 'clBlack'
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Visible = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 346
+    Top = 65533
+    object Fichier1: TMenuItem
+      Caption = '&Fichier'
+      object Imprimer1: TMenuItem
+        Caption = '&Imprimer...'
+        OnClick = 'Imprimer1Click'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object ImpressionRapide1: TMenuItem
+        Caption = 'Impression &Rapide...'
+        OnClick = 'ImpressionRapide1Click'
+      end
+      object N6: TMenuItem
+        Caption = '-'
+      end
+      object Quitter1: TMenuItem
+        Caption = '&Fermer fiche'
+        OnClick = 'Quitter1Click'
+      end
+    end
+    object Edition1: TMenuItem
+      Caption = '&Edition'
+      object Copier1: TMenuItem
+        Caption = 'Co&pier'
+        OnClick = 'Copier1Click'
+        ShortCutText = 'Ctrl+C'
+      end
+    end
+    object Affichage1: TMenuItem
+      Caption = '&Affichage'
+      object Barredoutils1: TMenuItem
+        Caption = "&Barred'outils"
+        Enabled = False
+        Visible = False
+        OnClick = 'Barredoutils1Click'
+      end
+      object PleinEcran1: TMenuItem
+        Caption = '&Plein écran'
+        Checked = True
+        OnClick = 'PleinEcran1Click'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Zoom1: TMenuItem
+        Caption = '&Zoom'
+        object N1001: TMenuItem
+          Caption = '&100'
+          Checked = True
+          OnClick = 'N1001Click'
+        end
+        object N1251: TMenuItem
+          Caption = '125'
+          OnClick = 'N1001Click'
+        end
+        object N1501: TMenuItem
+          Caption = '&150'
+          OnClick = 'N1001Click'
+        end
+        object N2001: TMenuItem
+          Caption = '&200'
+          OnClick = 'N1001Click'
+        end
+        object N751: TMenuItem
+          Caption = '&75'
+          OnClick = 'N1001Click'
+        end
+        object N501: TMenuItem
+          Caption = '&50'
+          OnClick = 'N1001Click'
+        end
+      end
+    end
+    object Periode1: TMenuItem
+      Caption = '&Période'
+      Visible = False
+      OnClick = 'Periode1Click'
+    end
+    object Periode2: TMenuItem
+      Caption = '&Période'
+      object N12: TMenuItem
+        Caption = '1'
+        OnClick = 'N12Click'
+      end
+      object N22: TMenuItem
+        Caption = '2'
+        OnClick = 'N12Click'
+      end
+      object N32: TMenuItem
+        Caption = '3'
+        OnClick = 'N12Click'
+      end
+      object N42: TMenuItem
+        Caption = '4'
+        OnClick = 'N12Click'
+      end
+      object N52: TMenuItem
+        Caption = '5'
+        OnClick = 'N12Click'
+      end
+      object N62: TMenuItem
+        Caption = '6'
+        OnClick = 'N12Click'
+      end
+      object N72: TMenuItem
+        Caption = '7'
+        OnClick = 'N12Click'
+      end
+      object N82: TMenuItem
+        Caption = '8'
+        OnClick = 'N12Click'
+      end
+      object N91: TMenuItem
+        Caption = '9'
+        OnClick = 'N12Click'
+      end
+      object N101: TMenuItem
+        Caption = '10'
+        OnClick = 'N12Click'
+      end
+      object N111: TMenuItem
+        Break = 'mbBarBreak'
+        Caption = '11'
+        OnClick = 'N12Click'
+      end
+      object N121: TMenuItem
+        Caption = '12'
+        OnClick = 'N12Click'
+      end
+      object N131: TMenuItem
+        Caption = '13'
+        OnClick = 'N12Click'
+      end
+      object N141: TMenuItem
+        Caption = '14'
+        OnClick = 'N12Click'
+      end
+      object N151: TMenuItem
+        Caption = '15'
+        OnClick = 'N12Click'
+      end
+      object N161: TMenuItem
+        Caption = '16'
+        OnClick = 'N12Click'
+      end
+      object N171: TMenuItem
+        Caption = '17'
+        OnClick = 'N12Click'
+      end
+      object N181: TMenuItem
+        Caption = '18'
+        OnClick = 'N12Click'
+      end
+      object N191: TMenuItem
+        Caption = '19'
+        OnClick = 'N12Click'
+      end
+      object N201: TMenuItem
+        Caption = '20'
+        OnClick = 'N12Click'
+      end
+      object autre1: TMenuItem
+        Break = 'mbBarBreak'
+        Caption = '&autre'
+        OnClick = 'N12Click'
+      end
+    end
+    object Entreprise1: TMenuItem
+      Caption = '&Entreprise'
+      object N11: TMenuItem
+        Caption = '&1'
+        OnClick = 'N11Click'
+      end
+      object N21: TMenuItem
+        Caption = '&2'
+        OnClick = 'N11Click'
+      end
+      object N31: TMenuItem
+        Caption = '&3'
+        OnClick = 'N11Click'
+      end
+      object N41: TMenuItem
+        Caption = '&4'
+        OnClick = 'N11Click'
+      end
+      object N51: TMenuItem
+        Caption = '&5'
+        OnClick = 'N11Click'
+      end
+      object N61: TMenuItem
+        Caption = '&6'
+        OnClick = 'N11Click'
+      end
+      object N71: TMenuItem
+        Caption = '&7'
+        OnClick = 'N11Click'
+      end
+      object N81: TMenuItem
+        Caption = '&8'
+        OnClick = 'N11Click'
+      end
+    end
+    object Autresrsultats1: TMenuItem
+      Caption = 'Autres &résultats'
+      object Situation1: TMenuItem
+        Caption = '&Situation...'
+        Enabled = False
+        OnClick = 'Situation1Click'
+      end
+      object CompteDeResultats1: TMenuItem
+        Caption = '&Compte de résultat...'
+        OnClick = 'CompteDeResultats1Click'
+      end
+      object Bilan1: TMenuItem
+        Caption = '&Bilan...'
+        OnClick = 'Bilan1Click'
+      end
+      object TableauDeFinancement1: TMenuItem
+        Caption = 'Tableau de &Financement...'
+        OnClick = 'TableauDeFinancement1Click'
+      end
+      object TableauDeTresorerie1: TMenuItem
+        Caption = 'Tableau de &Trésorerie...'
+        OnClick = 'TableauDeTresorerie1Click'
+      end
+      object SIG1: TMenuItem
+        Caption = 'S.I.G. ...'
+        OnClick = 'SIG1Click'
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object RappelDesDecisions1: TMenuItem
+        Caption = 'Rappel des &décisions...'
+        OnClick = 'RappelDesDecisions1Click'
+      end
+    end
+    object Aide1: TMenuItem
+      Caption = '&Aide'
+      object Fiche1: TMenuItem
+        Caption = '&Fiche'
+        HelpContext = 3230000
+        OnClick = 'Fiche1Click'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Index1: TMenuItem
+        Caption = '&Sommaire'
+        OnClick = 'Index1Click'
+      end
+      object Rechercher1: TMenuItem
+        Caption = '&Rechercher'
+        OnClick = 'Rechercher1Click'
+      end
+      object Utiliserlaide1: TMenuItem
+        Caption = "&Utiliser l'aide"
+        OnClick = 'Utiliserlaide1Click'
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+      object Apropos1: TMenuItem
+        Caption = '&A propos...'
+        OnClick = 'Apropos1Click'
+      end
+    end
+  end
+  object TableADG_old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSADG.DB'
+    Left = 16
+    Top = 36
+  end
+  object TableERG_old: TTable
+    OnCalcFields = 'TableERG_oldCalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERG.DB'
+    Left = 96
+    Top = 68
+    object TableERG_oldCapaciteProductive: TFloatField
+      Calculated = True
+      FieldName = 'CapaciteProductive'
+    end
+    object TableERG_oldNombreProduits: TIntegerField
+      Calculated = True
+      FieldName = 'NombreProduits'
+    end
+    object TableERG_oldValeurStock: TFloatField
+      Calculated = True
+      FieldName = 'ValeurStock'
+    end
+    object TableERG_oldPeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableERG_oldEntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableERG_oldCapitalSocial: TBCDField
+      FieldName = 'CapitalSocial'
+      Size = 2
+    end
+    object TableERG_oldReserves: TBCDField
+      FieldName = 'Reserves'
+      Size = 2
+    end
+    object TableERG_oldResultatNet: TBCDField
+      FieldName = 'ResultatNet'
+      Size = 2
+    end
+    object TableERG_oldSituationNette: TBCDField
+      FieldName = 'SituationNette'
+      Size = 2
+    end
+    object TableERG_oldCAF: TBCDField
+      FieldName = 'CAF'
+      Size = 2
+    end
+    object TableERG_oldImpot: TBCDField
+      FieldName = 'Impot'
+      Size = 2
+    end
+    object TableERG_oldIFA: TBCDField
+      FieldName = 'IFA'
+      Size = 2
+    end
+    object TableERG_oldClients: TBCDField
+      FieldName = 'Clients'
+      Size = 2
+    end
+    object TableERG_oldFournisseurs: TBCDField
+      FieldName = 'Fournisseurs'
+      Size = 2
+    end
+    object TableERG_oldTresorerie: TBCDField
+      FieldName = 'Tresorerie'
+      Size = 2
+    end
+    object TableERG_oldEmprunt: TBCDField
+      FieldName = 'Emprunt'
+      Size = 2
+    end
+    object TableERG_oldDecouvertAuto: TBCDField
+      FieldName = 'DecouvertAuto'
+      Size = 2
+    end
+    object TableERG_oldDecouvertNAuto: TBCDField
+      FieldName = 'DecouvertNAuto'
+      Size = 2
+    end
+    object TableERG_oldAmortissement: TBCDField
+      FieldName = 'Amortissement'
+      Size = 2
+    end
+    object TableERG_oldCessions: TBCDField
+      FieldName = 'Cessions'
+      Size = 2
+    end
+    object TableERG_oldMachines: TIntegerField
+      FieldName = 'Machines'
+    end
+    object TableERG_oldImmobilisationsBrutes: TBCDField
+      FieldName = 'ImmobilisationsBrutes'
+      Size = 2
+    end
+    object TableERG_oldCoutsFixesProduction: TBCDField
+      FieldName = 'CoutsFixesProduction'
+      Size = 2
+    end
+    object TableERG_oldProductifs: TIntegerField
+      FieldName = 'Productifs'
+    end
+    object TableERG_oldVendeurs: TIntegerField
+      FieldName = 'Vendeurs'
+    end
+    object TableERG_oldCadres: TIntegerField
+      FieldName = 'Cadres'
+    end
+    object TableERG_oldCoutEmbauche: TBCDField
+      FieldName = 'CoutEmbauche'
+      Size = 2
+    end
+    object TableERG_oldCoutLicencie: TBCDField
+      FieldName = 'CoutLicencie'
+      Size = 2
+    end
+    object TableERG_oldCoutFormation: TBCDField
+      FieldName = 'CoutFormation'
+      Size = 2
+    end
+    object TableERG_oldDistributions: TBCDField
+      FieldName = 'Distributions'
+      Size = 2
+    end
+    object TableERG_oldSpecial: TIntegerField
+      FieldName = 'Special'
+    end
+    object TableERG_oldTVADeductible: TBCDField
+      FieldName = 'TVADeductible'
+      Size = 2
+    end
+    object TableERG_oldRemunerationCadres: TBCDField
+      FieldName = 'RemunerationCadres'
+      Size = 2
+    end
+    object TableERG_oldTVACollectee: TBCDField
+      FieldName = 'TVACollectee'
+      Size = 2
+    end
+    object TableERG_oldReparations: TBCDField
+      FieldName = 'Reparations'
+      Size = 2
+    end
+    object TableERG_oldRemboursAssur: TBCDField
+      FieldName = 'RemboursAssur'
+      Size = 2
+    end
+    object TableERG_oldIndiceSatisPerson: TBCDField
+      FieldName = 'IndiceSatisPerson'
+      Size = 2
+    end
+    object TableERG_oldIndiceSatisAction: TBCDField
+      FieldName = 'IndiceSatisAction'
+      Size = 2
+    end
+    object TableERG_oldGrevesPc: TBCDField
+      FieldName = 'GrevesPc'
+      Size = 2
+    end
+    object TableERG_oldMachinesDetruitesQte: TIntegerField
+      FieldName = 'MachinesDetruitesQte'
+    end
+    object TableERG_oldStockDetruitQte: TIntegerField
+      FieldName = 'StockDetruitQte'
+    end
+    object TableERG_oldDemissionsProductifs: TIntegerField
+      FieldName = 'DemissionsProductifs'
+    end
+    object TableERG_oldDemissionsVendeurs: TIntegerField
+      FieldName = 'DemissionsVendeurs'
+    end
+    object TableERG_oldPannesPc: TBCDField
+      FieldName = 'PannesPc'
+      Size = 2
+    end
+    object TableERG_oldAgeMoyenMachines: TBCDField
+      FieldName = 'AgeMoyenMachines'
+      Size = 2
+    end
+    object TableERG_oldPrimesAssurance: TBCDField
+      FieldName = 'PrimesAssurance'
+      Size = 2
+    end
+    object TableERG_oldEntretienMachines: TBCDField
+      FieldName = 'EntretienMachines'
+      Size = 2
+    end
+  end
+  object TableEDP1_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDP.DB'
+    Left = 16
+    Top = 68
+  end
+  object TableEDP2_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDP.DB'
+    Left = 48
+    Top = 68
+  end
+  object TableADG: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSADG.DB'
+    Left = 16
+    Top = 108
+  end
+  object TableEDP1: TTable
+    OnCalcFields = 'TableEDP1CalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDP.DB'
+    Left = 16
+    Top = 248
+    object TableEDP1MachinesPc: TFloatField
+      Calculated = True
+      FieldName = 'MachinesPc'
+    end
+    object TableEDP1TauxUtilisation: TFloatField
+      Calculated = True
+      FieldName = 'TauxUtilisation'
+    end
+    object TableEDP1PeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableEDP1EntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableEDP1ProduitNo: TIntegerField
+      FieldName = 'ProduitNo'
+    end
+    object TableEDP1Production: TIntegerField
+      FieldName = 'Production'
+    end
+    object TableEDP1MachinesAffectees: TIntegerField
+      FieldName = 'MachinesAffectees'
+    end
+    object TableEDP1ProductifsAffectes: TIntegerField
+      FieldName = 'ProductifsAffectes'
+    end
+    object TableEDP1DepensesQualite: TBCDField
+      FieldName = 'DepensesQualite'
+      Size = 2
+    end
+    object TableEDP1Prix: TBCDField
+      FieldName = 'Prix'
+      Size = 2
+    end
+    object TableEDP1Publicite: TBCDField
+      FieldName = 'Publicite'
+      Size = 2
+    end
+    object TableEDP1ActionCommerciale: TBCDField
+      FieldName = 'ActionCommerciale'
+      Size = 2
+    end
+    object TableEDP1VendeursAffectes: TIntegerField
+      FieldName = 'VendeursAffectes'
+    end
+    object TableEDP1DureeCreditClient: TIntegerField
+      FieldName = 'DureeCreditClient'
+    end
+    object TableEDP1Liquidation: TIntegerField
+      FieldName = 'Liquidation'
+    end
+    object TableEDP1SoumissionQuantite: TIntegerField
+      FieldName = 'SoumissionQuantite'
+    end
+    object TableEDP1SoumissionPrix: TBCDField
+      FieldName = 'SoumissionPrix'
+      Size = 2
+    end
+    object TableEDP1Special: TIntegerField
+      FieldName = 'Special'
+    end
+  end
+  object TableEDP2: TTable
+    OnCalcFields = 'TableEDP1CalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDP.DB'
+    Left = 48
+    Top = 248
+    object TableEDP2MachinesPC: TFloatField
+      Calculated = True
+      FieldName = 'MachinesPC'
+    end
+    object TableEDP2TauxUtilisation: TFloatField
+      Calculated = True
+      FieldName = 'TauxUtilisation'
+    end
+    object TableEDP2PeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableEDP2EntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableEDP2ProduitNo: TIntegerField
+      FieldName = 'ProduitNo'
+    end
+    object TableEDP2Production: TIntegerField
+      FieldName = 'Production'
+    end
+    object TableEDP2MachinesAffectees: TIntegerField
+      FieldName = 'MachinesAffectees'
+    end
+    object TableEDP2ProductifsAffectes: TIntegerField
+      FieldName = 'ProductifsAffectes'
+    end
+    object TableEDP2DepensesQualite: TBCDField
+      FieldName = 'DepensesQualite'
+      Size = 2
+    end
+    object TableEDP2Prix: TBCDField
+      FieldName = 'Prix'
+      Size = 2
+    end
+    object TableEDP2Publicite: TBCDField
+      FieldName = 'Publicite'
+      Size = 2
+    end
+    object TableEDP2ActionCommerciale: TBCDField
+      FieldName = 'ActionCommerciale'
+      Size = 2
+    end
+    object TableEDP2VendeursAffectes: TIntegerField
+      FieldName = 'VendeursAffectes'
+    end
+    object TableEDP2DureeCreditClient: TIntegerField
+      FieldName = 'DureeCreditClient'
+    end
+    object TableEDP2Liquidation: TIntegerField
+      FieldName = 'Liquidation'
+    end
+    object TableEDP2SoumissionQuantite: TIntegerField
+      FieldName = 'SoumissionQuantite'
+    end
+    object TableEDP2SoumissionPrix: TBCDField
+      FieldName = 'SoumissionPrix'
+      Size = 2
+    end
+    object TableEDP2Special: TIntegerField
+      FieldName = 'Special'
+    end
+  end
+  object TableERG: TTable
+    OnCalcFields = 'TableERGCalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERG.DB'
+    Left = 16
+    Top = 133
+    object TableERGCapaciteProductive: TFloatField
+      Calculated = True
+      FieldName = 'CapaciteProductive'
+    end
+    object TableERGNombreProduits: TIntegerField
+      Calculated = True
+      FieldName = 'NombreProduits'
+    end
+    object TableERGValeurStock: TFloatField
+      Calculated = True
+      FieldName = 'ValeurStock'
+    end
+    object TableERGPeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableERGEntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableERGCapitalSocial: TBCDField
+      FieldName = 'CapitalSocial'
+      Size = 2
+    end
+    object TableERGReserves: TBCDField
+      FieldName = 'Reserves'
+      Size = 2
+    end
+    object TableERGResultatNet: TBCDField
+      FieldName = 'ResultatNet'
+      Size = 2
+    end
+    object TableERGSituationNette: TBCDField
+      FieldName = 'SituationNette'
+      Size = 2
+    end
+    object TableERGCAF: TBCDField
+      FieldName = 'CAF'
+      Size = 2
+    end
+    object TableERGImpot: TBCDField
+      FieldName = 'Impot'
+      Size = 2
+    end
+    object TableERGIFA: TBCDField
+      FieldName = 'IFA'
+      Size = 2
+    end
+    object TableERGClients: TBCDField
+      FieldName = 'Clients'
+      Size = 2
+    end
+    object TableERGFournisseurs: TBCDField
+      FieldName = 'Fournisseurs'
+      Size = 2
+    end
+    object TableERGTresorerie: TBCDField
+      FieldName = 'Tresorerie'
+      Size = 2
+    end
+    object TableERGEmprunt: TBCDField
+      FieldName = 'Emprunt'
+      Size = 2
+    end
+    object TableERGDecouvertAuto: TBCDField
+      FieldName = 'DecouvertAuto'
+      Size = 2
+    end
+    object TableERGDecouvertNAuto: TBCDField
+      FieldName = 'DecouvertNAuto'
+      Size = 2
+    end
+    object TableERGAmortissement: TBCDField
+      FieldName = 'Amortissement'
+      Size = 2
+    end
+    object TableERGCessions: TBCDField
+      FieldName = 'Cessions'
+      Size = 2
+    end
+    object TableERGMachines: TIntegerField
+      FieldName = 'Machines'
+    end
+    object TableERGImmobilisationsBrutes: TBCDField
+      FieldName = 'ImmobilisationsBrutes'
+      Size = 2
+    end
+    object TableERGCoutsFixesProduction: TBCDField
+      FieldName = 'CoutsFixesProduction'
+      Size = 2
+    end
+    object TableERGProductifs: TIntegerField
+      FieldName = 'Productifs'
+    end
+    object TableERGVendeurs: TIntegerField
+      FieldName = 'Vendeurs'
+    end
+    object TableERGCadres: TIntegerField
+      FieldName = 'Cadres'
+    end
+    object TableERGCoutEmbauche: TBCDField
+      FieldName = 'CoutEmbauche'
+      Size = 2
+    end
+    object TableERGCoutLicencie: TBCDField
+      FieldName = 'CoutLicencie'
+      Size = 2
+    end
+    object TableERGCoutFormation: TBCDField
+      FieldName = 'CoutFormation'
+      Size = 2
+    end
+    object TableERGDistributions: TBCDField
+      FieldName = 'Distributions'
+      Size = 2
+    end
+    object TableERGSpecial: TIntegerField
+      FieldName = 'Special'
+    end
+    object TableERGTVADeductible: TBCDField
+      FieldName = 'TVADeductible'
+      Size = 2
+    end
+    object TableERGRemunerationCadres: TBCDField
+      FieldName = 'RemunerationCadres'
+      Size = 2
+    end
+    object TableERGTVACollectee: TBCDField
+      FieldName = 'TVACollectee'
+      Size = 2
+    end
+    object TableERGReparations: TBCDField
+      FieldName = 'Reparations'
+      Size = 2
+    end
+    object TableERGRemboursAssur: TBCDField
+      FieldName = 'RemboursAssur'
+      Size = 2
+    end
+    object TableERGIndiceSatisPerson: TBCDField
+      FieldName = 'IndiceSatisPerson'
+      Size = 2
+    end
+    object TableERGIndiceSatisAction: TBCDField
+      FieldName = 'IndiceSatisAction'
+      Size = 2
+    end
+    object TableERGGrevesPc: TBCDField
+      FieldName = 'GrevesPc'
+      Size = 2
+    end
+    object TableERGMachinesDetruitesQte: TIntegerField
+      FieldName = 'MachinesDetruitesQte'
+    end
+    object TableERGStockDetruitQte: TIntegerField
+      FieldName = 'StockDetruitQte'
+    end
+    object TableERGDemissionsProductifs: TIntegerField
+      FieldName = 'DemissionsProductifs'
+    end
+    object TableERGDemissionsVendeurs: TIntegerField
+      FieldName = 'DemissionsVendeurs'
+    end
+    object TableERGPannesPc: TBCDField
+      FieldName = 'PannesPc'
+      Size = 2
+    end
+    object TableERGAgeMoyenMachines: TBCDField
+      FieldName = 'AgeMoyenMachines'
+      Size = 2
+    end
+    object TableERGPrimesAssurance: TBCDField
+      FieldName = 'PrimesAssurance'
+      Size = 2
+    end
+    object TableERGEntretienMachines: TBCDField
+      FieldName = 'EntretienMachines'
+      Size = 2
+    end
+  end
+  object TableERP1: TTable
+    OnCalcFields = 'TableERP1CalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 48
+    Top = 133
+    object TableERP1CA: TFloatField
+      Calculated = True
+      FieldName = 'CA'
+    end
+    object TableERP1PeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableERP1EntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableERP1ProduitNo: TIntegerField
+      FieldName = 'ProduitNo'
+    end
+    object TableERP1EffetPrix: TBCDField
+      FieldName = 'EffetPrix'
+      Size = 2
+    end
+    object TableERP1EffetPub: TBCDField
+      FieldName = 'EffetPub'
+      Size = 2
+    end
+    object TableERP1EffetFV: TBCDField
+      FieldName = 'EffetFV'
+      Size = 2
+    end
+    object TableERP1EffetCredit: TBCDField
+      FieldName = 'EffetCredit'
+      Size = 2
+    end
+    object TableERP1EffetGlobal: TBCDField
+      FieldName = 'EffetGlobal'
+      Size = 2
+    end
+    object TableERP1Demande: TIntegerField
+      FieldName = 'Demande'
+    end
+    object TableERP1Ventes: TIntegerField
+      FieldName = 'Ventes'
+    end
+    object TableERP1DemandeNonSatisfaite: TIntegerField
+      FieldName = 'DemandeNonSatisfaite'
+    end
+    object TableERP1VentesPrises: TIntegerField
+      FieldName = 'VentesPrises'
+    end
+    object TableERP1PartMarche: TBCDField
+      FieldName = 'PartMarche'
+      Size = 2
+    end
+    object TableERP1QteStock: TIntegerField
+      FieldName = 'QteStock'
+    end
+    object TableERP1ValeurStock: TBCDField
+      FieldName = 'ValeurStock'
+      Size = 2
+    end
+    object TableERP1DotAmortissement: TBCDField
+      FieldName = 'DotAmortissement'
+      Size = 2
+    end
+    object TableERP1VentesSoldeesQte: TIntegerField
+      FieldName = 'VentesSoldeesQte'
+    end
+    object TableERP1VentesSoldeesPrix: TBCDField
+      FieldName = 'VentesSoldeesPrix'
+      Size = 2
+    end
+    object TableERP1VentesSpeQte: TIntegerField
+      FieldName = 'VentesSpeQte'
+    end
+    object TableERP1VentesSpePrix: TBCDField
+      FieldName = 'VentesSpePrix'
+      Size = 2
+    end
+    object TableERP1MainOeuvreDirecte: TBCDField
+      FieldName = 'MainOeuvreDirecte'
+      Size = 2
+    end
+    object TableERP1ConsommationMatiere: TBCDField
+      FieldName = 'ConsommationMatiere'
+      Size = 2
+    end
+    object TableERP1TempsFabricationFutur: TFloatField
+      FieldName = 'TempsFabricationFutur'
+    end
+    object TableERP1Special: TIntegerField
+      FieldName = 'Special'
+    end
+    object TableERP1RemunerationFV: TBCDField
+      FieldName = 'RemunerationFV'
+      Size = 2
+    end
+    object TableERP1HeuresSupPc: TBCDField
+      FieldName = 'HeuresSupPc'
+      Size = 2
+    end
+    object TableERP1ProductionReelle: TIntegerField
+      FieldName = 'ProductionReelle'
+    end
+    object TableERP1TauxUtilisation: TFloatField
+      Calculated = True
+      FieldName = 'TauxUtilisation'
+    end
+  end
+  object TableERP2: TTable
+    OnCalcFields = 'TableERP2CalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 80
+    Top = 133
+    object TableERP2CA: TFloatField
+      Calculated = True
+      FieldName = 'CA'
+    end
+    object TableERP2PeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableERP2EntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableERP2ProduitNo: TIntegerField
+      FieldName = 'ProduitNo'
+    end
+    object TableERP2EffetPrix: TBCDField
+      FieldName = 'EffetPrix'
+      Size = 2
+    end
+    object TableERP2EffetPub: TBCDField
+      FieldName = 'EffetPub'
+      Size = 2
+    end
+    object TableERP2EffetFV: TBCDField
+      FieldName = 'EffetFV'
+      Size = 2
+    end
+    object TableERP2EffetCredit: TBCDField
+      FieldName = 'EffetCredit'
+      Size = 2
+    end
+    object TableERP2EffetGlobal: TBCDField
+      FieldName = 'EffetGlobal'
+      Size = 2
+    end
+    object TableERP2Demande: TIntegerField
+      FieldName = 'Demande'
+    end
+    object TableERP2Ventes: TIntegerField
+      FieldName = 'Ventes'
+    end
+    object TableERP2DemandeNonSatisfaite: TIntegerField
+      FieldName = 'DemandeNonSatisfaite'
+    end
+    object TableERP2VentesPrises: TIntegerField
+      FieldName = 'VentesPrises'
+    end
+    object TableERP2PartMarche: TBCDField
+      FieldName = 'PartMarche'
+      Size = 2
+    end
+    object TableERP2QteStock: TIntegerField
+      FieldName = 'QteStock'
+    end
+    object TableERP2ValeurStock: TBCDField
+      FieldName = 'ValeurStock'
+      Size = 2
+    end
+    object TableERP2DotAmortissement: TBCDField
+      FieldName = 'DotAmortissement'
+      Size = 2
+    end
+    object TableERP2VentesSoldeesQte: TIntegerField
+      FieldName = 'VentesSoldeesQte'
+    end
+    object TableERP2VentesSoldeesPrix: TBCDField
+      FieldName = 'VentesSoldeesPrix'
+      Size = 2
+    end
+    object TableERP2VentesSpeQte: TIntegerField
+      FieldName = 'VentesSpeQte'
+    end
+    object TableERP2VentesSpePrix: TBCDField
+      FieldName = 'VentesSpePrix'
+      Size = 2
+    end
+    object TableERP2MainOeuvreDirecte: TBCDField
+      FieldName = 'MainOeuvreDirecte'
+      Size = 2
+    end
+    object TableERP2ConsommationMatiere: TBCDField
+      FieldName = 'ConsommationMatiere'
+      Size = 2
+    end
+    object TableERP2TempsFabricationFutur: TFloatField
+      FieldName = 'TempsFabricationFutur'
+    end
+    object TableERP2Special: TIntegerField
+      FieldName = 'Special'
+    end
+    object TableERP2RemunerationFV: TBCDField
+      FieldName = 'RemunerationFV'
+      Size = 2
+    end
+    object TableERP2HeuresSupPc: TBCDField
+      FieldName = 'HeuresSupPc'
+      Size = 2
+    end
+    object TableERP2ProductionReelle: TIntegerField
+      FieldName = 'ProductionReelle'
+    end
+    object TableERP2TauxUtilisation: TFloatField
+      Calculated = True
+      FieldName = 'TauxUtilisation'
+    end
+  end
+  object TableERP1_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 128
+    Top = 64
+  end
+  object TableERP2_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 160
+    Top = 64
+  end
+  object DataSourceERG_Old: TDataSource
+    DataSet = 'TableERG_old'
+    Left = 96
+    Top = 92
+  end
+  object DataSourceERG: TDataSource
+    DataSet = 'TableERG'
+    Left = 16
+    Top = 165
+  end
+  object DataSourceEDP1: TDataSource
+    DataSet = 'TableEDP1'
+    Left = 16
+    Top = 222
+  end
+  object DataSourceEDP2: TDataSource
+    DataSet = 'TableEDP2'
+    Left = 48
+    Top = 222
+  end
+  object DataSourceERP1: TDataSource
+    DataSet = 'TableERP1'
+    Left = 48
+    Top = 166
+  end
+  object DataSourceERP2: TDataSource
+    DataSet = 'TableERP2'
+    Left = 80
+    Top = 158
+  end
+  object PrintDialog1: TPrintDialog
+    Left = 376
+    Top = 65533
+  end
+  object DataSourceERP1_Old: TDataSource
+    DataSet = 'TableERP1_Old'
+    Left = 128
+    Top = 92
+  end
+  object DataSourceERP2_OLd: TDataSource
+    DataSet = 'TableERP2_Old'
+    Left = 160
+    Top = 92
+  end
+end
+

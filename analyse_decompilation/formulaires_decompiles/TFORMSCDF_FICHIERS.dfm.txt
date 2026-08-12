@@ -1,0 +1,61 @@
+=== TFORMSCDF_FICHIERS.bin: PARTIAL (consumed 671/768) ===
+object FormSCDF_Fichiers: TFormSCDF_Fichiers
+  Left = 195
+  Top = 97
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'FormSCDF_Fichiers'
+  ClientHeight = 195
+  ClientWidth = 342
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  OnCreate = 'FormCreate'
+  TextHeight = 16
+  object CreTableSIMS: TTable
+    Left = 8
+  end
+  object CreTableSACG: TTable
+    Left = 40
+    Top = 32
+  end
+  object CreTableSACP: TTable
+    Left = 80
+    Top = 32
+  end
+  object CreTableSADG: TTable
+    Left = 40
+    Top = 72
+  end
+  object CreTableSADP: TTable
+    Left = 80
+    Top = 72
+  end
+  object CreTableSEDG: TTable
+    Left = 40
+    Top = 128
+  end
+  object CreTableSEDP: TTable
+    Left = 80
+    Top = 128
+  end
+  object CreTableSEDM: TTable
+    Left = 120
+    Top = 128
+  end
+  object CreTableSERG: TTable
+    Left = 208
+    Top = 128
+  end
+  object CreTableSERP: TTable
+    Left = 248
+    Top = 128
+  end
+  object CreTableSMRP: TTable
+    Left = 216
+    Top = 32
+  end
+end
+

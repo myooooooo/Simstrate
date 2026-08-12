@@ -1,0 +1,101 @@
+=== TLOGINDIALOG.bin: PARTIAL (consumed 1127/1280) ===
+object LoginDialog: TLoginDialog
+  Left = 200
+  Top = 99
+  ActiveControl = 'Password'
+  BorderStyle = 'bsDialog'
+  Caption = 'Connexion base de données'
+  ClientHeight = 147
+  ClientWidth = 300
+  Font.Color = 'clBlack'
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = ['fsBold']
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  TextHeight = 13
+  object OKButton: TBitBtn
+    Left = 123
+    Top = 114
+    Width = 77
+    Height = 27
+    TabOrder = 0
+    Kind = 'bkOK'
+    Margin = 2
+    Spacing = -1
+  end
+  object CancelButton: TBitBtn
+    Left = 211
+    Top = 114
+    Width = 77
+    Height = 27
+    TabOrder = 1
+    Kind = 'bkCancel'
+    Margin = 2
+    Spacing = -1
+  end
+  object Panel: TPanel
+    Left = 8
+    Top = 7
+    Width = 282
+    Height = 98
+    BevelInner = 'bvRaised'
+    BevelOuter = 'bvLowered'
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 10
+      Top = 39
+      Width = 106
+      Height = 13
+      Caption = "&Nom d'utilisateur :"
+      FocusControl = 'UserName'
+    end
+    object Label2: TLabel
+      Left = 10
+      Top = 67
+      Width = 103
+      Height = 13
+      Caption = '&Mot de passe :'
+      FocusControl = 'Password'
+    end
+    object Label3: TLabel
+      Left = 10
+      Top = 7
+      Width = 59
+      Height = 13
+      Caption = '&Base :'
+    end
+    object DatabaseName: TLabel
+      Left = 117
+      Top = 6
+      Width = 72
+      Height = 13
+      Caption = 'InterBase'
+    end
+    object Bevel: TBevel
+      Left = 1
+      Top = 24
+      Width = 278
+      Height = 9
+      Shape = 'bsTopLine'
+    end
+    object UserName: TEdit
+      Left = 117
+      Top = 36
+      Width = 153
+      Height = 20
+      MaxLength = 31
+      TabOrder = 0
+    end
+    object Password: TEdit
+      Left = 117
+      Top = 64
+      Width = 153
+      Height = 20
+      MaxLength = 31
+      PasswordChar = '*'
+      TabOrder = 1
+    end
+  end
+end
+

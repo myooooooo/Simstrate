@@ -1,0 +1,837 @@
+=== TFORMSARG_GENERAUX.bin: PARTIAL (consumed 11962/12032) ===
+object FormSARG_Generaux: TFormSARG_Generaux
+  Left = 201
+  Top = 65
+  Width = 586
+  Height = 436
+  BorderIcons = ['biSystemMenu', 'biMaximize']
+  Caption = 'Période # - Animateur - Entreprises'
+  Color = 'clWhite'
+  Font.Color = 'clBlack'
+  Font.Height = -16
+  Font.Name = 'Times New Roman'
+  Font.Style = ['fsBold']
+  KeyPreview = True
+  Menu = 'MainMenu1'
+  PixelsPerInch = 96
+  PrintScale = 'poPrintToFit'
+  WindowState = 'wsMaximized'
+  OnClose = 'FormClose'
+  OnCreate = 'FormCreate'
+  OnKeyDown = 'FormKeyDown'
+  OnResize = 'FormResize'
+  OnShow = 'FormShow'
+  TextHeight = 19
+  object Panel0: TPanel
+    Left = 0
+    Top = 0
+    Width = 780
+    Height = 1100
+    BevelOuter = 'bvNone'
+    BorderWidth = 5
+    ParentColor = True
+    TabOrder = 0
+    OnResize = 'Panel0Resize'
+    object Panel44: TPanel
+      Left = 5
+      Top = 1031
+      Width = 770
+      Height = 64
+      Align = 'alBottom'
+      BevelOuter = 'bvNone'
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold']
+      ParentColor = True
+      ParentFont = False
+      TabOrder = 0
+      Visible = False
+      object LabelU0: TLabel
+        Left = 0
+        Top = 8
+        Width = 770
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU0'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU1: TLabel
+        Left = 0
+        Top = 22
+        Width = 770
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU1'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU2: TLabel
+        Left = 0
+        Top = 36
+        Width = 770
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU2'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LabelU3: TLabel
+        Left = 0
+        Top = 50
+        Width = 770
+        Height = 14
+        Align = 'alBottom'
+        AutoSize = False
+        Caption = 'LabelU3'
+        Font.Color = 'clBlack'
+        Font.Height = -11
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object Panel02: TPanel
+      Left = 5
+      Top = 393
+      Width = 770
+      Height = 388
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      BorderWidth = 5
+      ParentColor = True
+      TabOrder = 3
+      object Panel10: TPanel
+        Left = 6
+        Top = 6
+        Width = 400
+        Height = 376
+        BevelOuter = 'bvNone'
+        BorderWidth = 5
+        ParentColor = True
+        TabOrder = 0
+        object Panel11: TPanel
+          Left = 5
+          Top = 343
+          Width = 390
+          Height = 28
+          Align = 'alBottom'
+          BevelOuter = 'bvNone'
+          TabOrder = 0
+        end
+        object Panel12: TPanel
+          Left = 5
+          Top = 5
+          Width = 390
+          Height = 25
+          Align = 'alTop'
+          BevelOuter = 'bvNone'
+          Caption = 'Panel12'
+          TabOrder = 1
+          object Panel2: TPanel
+            Left = 0
+            Top = 0
+            Width = 193
+            Height = 25
+            Align = 'alLeft'
+            Caption = 'Panel2'
+            TabOrder = 0
+          end
+          object Panel5: TPanel
+            Left = 193
+            Top = 0
+            Width = 197
+            Height = 25
+            Align = 'alClient'
+            Caption = 'Résultats Généraux.'
+            TabOrder = 1
+          end
+        end
+        object SpecialStringGrid2: TSpecialStringGrid
+          Left = 5
+          Top = 30
+          Width = 390
+          Height = 313
+          Align = 'alClient'
+          ColCount = 9
+          DefaultColWidth = 192
+          DefaultDrawing = False
+          Font.Color = 'clBlack'
+          Font.Height = -12
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          Options = ['goRangeSelect', 'goColSizing']
+          ParentFont = False
+          RowCount = 12
+          TabOrder = 2
+          OnMouseDown = 'SpecialStringGrid1MouseDown'
+          SpecialDrawing = True
+          ColWidths = [192, 49, 35, 32, 27, 30, 39, 37, 63]
+          RowHeights = [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24]
+        end
+      end
+    end
+    object Panel01: TPanel
+      Left = 5
+      Top = 5
+      Width = 770
+      Height = 388
+      Align = 'alTop'
+      BevelOuter = 'bvNone'
+      BorderWidth = 5
+      ParentColor = True
+      TabOrder = 4
+      OnResize = 'Panel01Resize'
+      object Panel1: TPanel
+        Left = 5
+        Top = 5
+        Width = 400
+        Height = 373
+        BevelOuter = 'bvNone'
+        BorderWidth = 5
+        ParentColor = True
+        TabOrder = 0
+        object Panel7: TPanel
+          Left = 5
+          Top = 340
+          Width = 390
+          Height = 28
+          Align = 'alBottom'
+          BevelOuter = 'bvNone'
+          Enabled = False
+          TabOrder = 0
+          object Edit1: TEdit
+            Left = 0
+            Top = 0
+            Width = 121
+            Height = 27
+            Color = 'clAqua'
+            ReadOnly = True
+            TabOrder = 0
+          end
+        end
+        object Panel9: TPanel
+          Left = 5
+          Top = 5
+          Width = 390
+          Height = 25
+          Align = 'alTop'
+          BevelOuter = 'bvNone'
+          BorderWidth = 1
+          BorderStyle = 'bsSingle'
+          Caption = 'Panel9'
+          TabOrder = 1
+          object Panel8: TPanel
+            Left = 192
+            Top = 1
+            Width = 195
+            Height = 21
+            Align = 'alClient'
+            Caption = 'Résultats Généraux.'
+            TabOrder = 0
+          end
+          object Panel3: TPanel
+            Left = 1
+            Top = 1
+            Width = 191
+            Height = 21
+            Align = 'alLeft'
+            Caption = 'Panel3'
+            TabOrder = 1
+          end
+        end
+        object SpecialStringGrid1: TSpecialStringGrid
+          Left = 5
+          Top = 30
+          Width = 390
+          Height = 310
+          Align = 'alClient'
+          ColCount = 9
+          DefaultColWidth = 192
+          DefaultDrawing = False
+          Font.Color = 'clBlack'
+          Font.Height = -12
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          Options = ['goColSizing']
+          ParentFont = False
+          RowCount = 12
+          TabOrder = 2
+          OnMouseDown = 'SpecialStringGrid1MouseDown'
+          SpecialDrawing = True
+          Loupe = 'PanelLoupe'
+          Edit = 'Edit1'
+          ColWidths = [192, 49, 35, 32, 27, 30, 39, 37, 63]
+          RowHeights = [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24]
+        end
+        object ListBox1: TListBox
+          Left = 8
+          Top = 35
+          Width = 153
+          Height = 25
+          ItemHeight = 19
+          Items.Strings = ['0,0=Période', 'C,0=Entreprise', '0,1= Trésorerie (+ ou -)', '0,2= Endettement (%)', '0,3= Valeur ajoutée', '0,4= E.B.E.', '0,5= C.A.F.', '0,6= Résultat avant impôt', '0,7= Résultat net', '0,8= Rentabilité /Cp', '0,9= Rotation actif', '0,10= Effet de levier', '0,11= Age moyen machines (fut.)']
+          TabOrder = 3
+          Visible = False
+        end
+      end
+    end
+    object Memo1: TMemo
+      Left = 216
+      Top = 0
+      Width = 49
+      Height = 57
+      Font.Color = 'clBlack'
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      Lines.Strings = ['Memo1']
+      ParentFont = False
+      TabOrder = 1
+      Visible = False
+      WordWrap = False
+    end
+    object PanelLoupe: TPanel
+      Left = 40
+      Top = 80
+      Width = 185
+      Height = 41
+      BorderStyle = 'bsSingle'
+      Caption = 'PanelLoupe'
+      Color = 'clYellow'
+      Font.Color = 'clBlack'
+      Font.Height = -32
+      Font.Name = 'Times New Roman'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      TabOrder = 2
+      Visible = False
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 416
+    object Fichier1: TMenuItem
+      Caption = '&Fichier'
+      object Imprimer1: TMenuItem
+        Caption = '&Imprimer...'
+        OnClick = 'Imprimer1Click'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object ImpressionRapide1: TMenuItem
+        Caption = 'Impression &Rapide...'
+        OnClick = 'ImpressionRapide1Click'
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
+      object Quitter1: TMenuItem
+        Caption = '&Fermer fiche'
+        OnClick = 'Quitter1Click'
+      end
+    end
+    object Edition1: TMenuItem
+      Caption = '&Edition'
+      object Copier1: TMenuItem
+        Caption = 'Co&pier'
+        OnClick = 'Copier1Click'
+        ShortCutText = 'Ctrl+C'
+      end
+    end
+    object Affichage1: TMenuItem
+      Caption = '&Affichage'
+      object Barredoutils1: TMenuItem
+        Caption = "&Barre d'outils"
+        Enabled = False
+        Visible = False
+        OnClick = 'Barredoutils1Click'
+      end
+      object PleinEcran1: TMenuItem
+        Caption = '&Plein écran'
+        Checked = True
+        OnClick = 'PleinEcran1Click'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Zoom1: TMenuItem
+        Caption = '&Zoom'
+        object N1001: TMenuItem
+          Caption = '&100'
+          Checked = True
+          OnClick = 'N1001Click'
+        end
+        object N1251: TMenuItem
+          Caption = '125'
+          OnClick = 'N1001Click'
+        end
+        object N1501: TMenuItem
+          Caption = '&150'
+          OnClick = 'N1001Click'
+        end
+        object N2001: TMenuItem
+          Caption = '&200'
+          OnClick = 'N1001Click'
+        end
+        object N751: TMenuItem
+          Caption = '&75'
+          OnClick = 'N1001Click'
+        end
+        object N501: TMenuItem
+          Caption = '&50'
+          OnClick = 'N1001Click'
+        end
+      end
+    end
+    object Format1: TMenuItem
+      Caption = 'Forma&t'
+      object Style1: TMenuItem
+        Caption = '&Style'
+        object Court1: TMenuItem
+          Caption = '&Court'
+          OnClick = 'Court1Click'
+        end
+        object Normal1: TMenuItem
+          Caption = '&Normal'
+          Checked = True
+          OnClick = 'Court1Click'
+        end
+        object Long1: TMenuItem
+          Caption = '&Long'
+          OnClick = 'Court1Click'
+        end
+      end
+      object Egaliser1: TMenuItem
+        Caption = '&Egaliser'
+        OnClick = 'Egaliser1Click'
+      end
+    end
+    object Periode1: TMenuItem
+      Caption = '&Période'
+      Visible = False
+      OnClick = 'Periode1Click'
+    end
+    object Periode2: TMenuItem
+      Caption = '&Période'
+      object N11: TMenuItem
+        Caption = '1'
+        OnClick = 'N11Click'
+      end
+      object N21: TMenuItem
+        Caption = '2'
+        OnClick = 'N11Click'
+      end
+      object N31: TMenuItem
+        Caption = '3'
+        OnClick = 'N11Click'
+      end
+      object N41: TMenuItem
+        Caption = '4'
+        OnClick = 'N11Click'
+      end
+      object N51: TMenuItem
+        Caption = '5'
+        OnClick = 'N11Click'
+      end
+      object N61: TMenuItem
+        Caption = '6'
+        OnClick = 'N11Click'
+      end
+      object N71: TMenuItem
+        Caption = '7'
+        OnClick = 'N11Click'
+      end
+      object N81: TMenuItem
+        Caption = '8'
+        OnClick = 'N11Click'
+      end
+      object N91: TMenuItem
+        Caption = '9'
+        OnClick = 'N11Click'
+      end
+      object N101: TMenuItem
+        Caption = '10'
+        OnClick = 'N11Click'
+      end
+      object N111: TMenuItem
+        Break = 'mbBarBreak'
+        Caption = '11'
+        OnClick = 'N11Click'
+      end
+      object N121: TMenuItem
+        Caption = '12'
+        OnClick = 'N11Click'
+      end
+      object N131: TMenuItem
+        Caption = '13'
+        OnClick = 'N11Click'
+      end
+      object N141: TMenuItem
+        Caption = '14'
+        OnClick = 'N11Click'
+      end
+      object N151: TMenuItem
+        Caption = '15'
+        OnClick = 'N11Click'
+      end
+      object N161: TMenuItem
+        Caption = '16'
+        OnClick = 'N11Click'
+      end
+      object N171: TMenuItem
+        Caption = '17'
+        OnClick = 'N11Click'
+      end
+      object N181: TMenuItem
+        Caption = '18'
+        OnClick = 'N11Click'
+      end
+      object N191: TMenuItem
+        Caption = '19'
+        OnClick = 'N11Click'
+      end
+      object N201: TMenuItem
+        Caption = '20'
+        OnClick = 'N11Click'
+      end
+      object autre1: TMenuItem
+        Break = 'mbBarBreak'
+        Caption = '&autre'
+        OnClick = 'N11Click'
+      end
+    end
+    object AutresResultats1: TMenuItem
+      Caption = 'Autres &résultats'
+      object ResultatsParProduits1: TMenuItem
+        Caption = 'Résultats par &Produits...'
+        OnClick = 'ResultatsParProduits1Click'
+      end
+      object ResultatsGeneraux1: TMenuItem
+        Caption = 'Résultats &Généraux...'
+        Enabled = False
+        OnClick = 'ResultatsGeneraux1Click'
+      end
+      object N6: TMenuItem
+        Caption = '-'
+      end
+      object Rappeldedecisions1: TMenuItem
+        Caption = 'Rappel de &décisions'
+        object Animateur1: TMenuItem
+          Caption = '&Animateur...'
+          OnClick = 'Animateur1Click'
+        end
+        object Entreprises1: TMenuItem
+          Caption = '&Entreprises...'
+          OnClick = 'Entreprises1Click'
+        end
+        object Creation1: TMenuItem
+          Caption = '&Création...'
+          OnClick = 'Creation1Click'
+        end
+      end
+    end
+    object Aide1: TMenuItem
+      Caption = '&Aide'
+      object Fiche1: TMenuItem
+        Caption = '&Fiche'
+        HelpContext = 2210000
+        OnClick = 'Fiche1Click'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Index1: TMenuItem
+        Caption = '&Sommaire'
+        OnClick = 'Index1Click'
+      end
+      object Rechercher1: TMenuItem
+        Caption = '&Rechercher'
+        OnClick = 'Rechercher1Click'
+      end
+      object Utiliserlaide1: TMenuItem
+        Caption = "&Utiliser l'aide"
+        OnClick = 'Utiliserlaide1Click'
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object Apropos1: TMenuItem
+        Caption = '&A propos...'
+        OnClick = 'Apropos1Click'
+      end
+    end
+  end
+  object TableERG: TTable
+    OnCalcFields = 'TableERGCalcFields'
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERG.DB'
+    Left = 40
+    Top = 232
+    object TableERGEndettementPC: TFloatField
+      Calculated = True
+      FieldName = 'EndettementPC'
+    end
+    object TableERGValeurAjoutee: TFloatField
+      Calculated = True
+      FieldName = 'ValeurAjoutee'
+    end
+    object TableERGEBE: TFloatField
+      Calculated = True
+      FieldName = 'EBE'
+    end
+    object TableERGResultatComptable: TFloatField
+      Calculated = True
+      FieldName = 'ResultatComptable'
+    end
+    object TableERGRentabiliteCp: TFloatField
+      Calculated = True
+      FieldName = 'RentabiliteCp'
+    end
+    object TableERGEffetLevier: TFloatField
+      Calculated = True
+      FieldName = 'EffetLevier'
+    end
+    object TableERGRotationActif: TFloatField
+      Calculated = True
+      FieldName = 'RotationActif'
+    end
+    object TableERGPeriodeNo: TIntegerField
+      FieldName = 'PeriodeNo'
+    end
+    object TableERGEntrepriseNo: TIntegerField
+      FieldName = 'EntrepriseNo'
+    end
+    object TableERGCapitalSocial: TBCDField
+      FieldName = 'CapitalSocial'
+      Size = 2
+    end
+    object TableERGReserves: TBCDField
+      FieldName = 'Reserves'
+      Size = 2
+    end
+    object TableERGResultatNet: TBCDField
+      FieldName = 'ResultatNet'
+      Size = 2
+    end
+    object TableERGSituationNette: TBCDField
+      FieldName = 'SituationNette'
+      Size = 2
+    end
+    object TableERGCAF: TBCDField
+      FieldName = 'CAF'
+      Size = 2
+    end
+    object TableERGImpot: TBCDField
+      FieldName = 'Impot'
+      Size = 2
+    end
+    object TableERGIFA: TBCDField
+      FieldName = 'IFA'
+      Size = 2
+    end
+    object TableERGClients: TBCDField
+      FieldName = 'Clients'
+      Size = 2
+    end
+    object TableERGFournisseurs: TBCDField
+      FieldName = 'Fournisseurs'
+      Size = 2
+    end
+    object TableERGTresorerie: TBCDField
+      FieldName = 'Tresorerie'
+      Size = 2
+    end
+    object TableERGEmprunt: TBCDField
+      FieldName = 'Emprunt'
+      Size = 2
+    end
+    object TableERGDecouvertAuto: TBCDField
+      FieldName = 'DecouvertAuto'
+      Size = 2
+    end
+    object TableERGDecouvertNAuto: TBCDField
+      FieldName = 'DecouvertNAuto'
+      Size = 2
+    end
+    object TableERGAmortissement: TBCDField
+      FieldName = 'Amortissement'
+      Size = 2
+    end
+    object TableERGCessions: TBCDField
+      FieldName = 'Cessions'
+      Size = 2
+    end
+    object TableERGMachines: TIntegerField
+      FieldName = 'Machines'
+    end
+    object TableERGImmobilisationsBrutes: TBCDField
+      FieldName = 'ImmobilisationsBrutes'
+      Size = 2
+    end
+    object TableERGCoutsFixesProduction: TBCDField
+      FieldName = 'CoutsFixesProduction'
+      Size = 2
+    end
+    object TableERGProductifs: TIntegerField
+      FieldName = 'Productifs'
+    end
+    object TableERGVendeurs: TIntegerField
+      FieldName = 'Vendeurs'
+    end
+    object TableERGCadres: TIntegerField
+      FieldName = 'Cadres'
+    end
+    object TableERGCoutEmbauche: TBCDField
+      FieldName = 'CoutEmbauche'
+      Size = 2
+    end
+    object TableERGCoutLicencie: TBCDField
+      FieldName = 'CoutLicencie'
+      Size = 2
+    end
+    object TableERGCoutFormation: TBCDField
+      FieldName = 'CoutFormation'
+      Size = 2
+    end
+    object TableERGDistributions: TBCDField
+      FieldName = 'Distributions'
+      Size = 2
+    end
+    object TableERGSpecial: TIntegerField
+      FieldName = 'Special'
+    end
+    object TableERGTVACollectee: TBCDField
+      FieldName = 'TVACollectee'
+      Size = 2
+    end
+    object TableERGTVADeductible: TBCDField
+      FieldName = 'TVADeductible'
+      Size = 2
+    end
+    object TableERGRemunerationCadres: TBCDField
+      FieldName = 'RemunerationCadres'
+      Size = 2
+    end
+    object TableERGTresoreriePlusMoins: TFloatField
+      Calculated = True
+      FieldName = 'TresoreriePlusMoins'
+    end
+    object TableERGAgeMoyenMachines: TBCDField
+      FieldName = 'AgeMoyenMachines'
+      Size = 2
+    end
+    object TableERGPrimesAssurance: TBCDField
+      FieldName = 'PrimesAssurance'
+      Size = 2
+    end
+    object TableERGReparations: TBCDField
+      FieldName = 'Reparations'
+      Size = 2
+    end
+    object TableERGEntretienMachines: TBCDField
+      FieldName = 'EntretienMachines'
+      Size = 2
+    end
+    object TableERGRemboursAssur: TBCDField
+      FieldName = 'RemboursAssur'
+      Size = 2
+    end
+  end
+  object TableERP1_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 80
+    Top = 160
+  end
+  object TableERP2_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 120
+    Top = 160
+  end
+  object TableERG_Old: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERG.DB'
+    Left = 40
+    Top = 160
+  end
+  object TableERP1: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 72
+    Top = 232
+  end
+  object TableERP2: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSERP.DB'
+    Left = 104
+    Top = 232
+  end
+  object TableADG: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSADG.DB'
+    Left = 40
+    Top = 128
+  end
+  object TableADP1: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSADP.DB'
+    Left = 80
+    Top = 128
+  end
+  object TableADP2: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSADP.DB'
+    Left = 120
+    Top = 128
+  end
+  object TableEDP1: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDP.DB'
+    Left = 80
+    Top = 192
+  end
+  object TableEDP2: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDP.DB'
+    Left = 120
+    Top = 192
+  end
+  object TableEDG: TTable
+    DatabaseName = 'DBEssai'
+    ReadOnly = True
+    TableName = 'TESTSEDG.DB'
+    Left = 40
+    Top = 192
+  end
+  object PrintDialog1: TPrintDialog
+    Options = ['poWarning']
+    Left = 440
+  end
+end
+

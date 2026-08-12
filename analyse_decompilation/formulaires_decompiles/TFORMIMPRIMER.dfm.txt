@@ -1,0 +1,124 @@
+=== TFORMIMPRIMER.bin: PARTIAL (consumed 1351/1536) ===
+object FormImprimer: TFormImprimer
+  Left = 198
+  Top = 96
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Impression en cours ....'
+  ClientHeight = 168
+  ClientWidth = 384
+  Font.Color = 'clBlack'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = ['fsBold']
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnCloseQuery = 'FormCloseQuery'
+  OnCreate = 'FormCreate'
+  OnShow = 'FormShow'
+  TextHeight = 16
+  object Label1: TLabel
+    Left = 16
+    Top = 8
+    Width = 73
+    Height = 16
+    Caption = 'Imprimante'
+  end
+  object Label2: TLabel
+    Left = 136
+    Top = 8
+    Width = 44
+    Height = 16
+    Caption = 'Label2'
+  end
+  object Label3: TLabel
+    Left = 16
+    Top = 24
+    Width = 40
+    Height = 16
+    Caption = 'Driver'
+  end
+  object Label4: TLabel
+    Left = 136
+    Top = 24
+    Width = 44
+    Height = 16
+    Caption = 'Label4'
+  end
+  object Label5: TLabel
+    Left = 16
+    Top = 40
+    Width = 26
+    Height = 16
+    Caption = 'Port'
+  end
+  object Label6: TLabel
+    Left = 136
+    Top = 40
+    Width = 44
+    Height = 16
+    Caption = 'Label6'
+  end
+  object Panel1: TPanel
+    Left = 8
+    Top = 64
+    Width = 369
+    Height = 57
+    BevelInner = 'bvLowered'
+    BevelOuter = 'bvNone'
+    TabOrder = 0
+    object Label7: TLabel
+      Left = 8
+      Top = 8
+      Width = 32
+      Height = 16
+      Caption = 'page'
+    end
+    object Label8: TLabel
+      Left = 48
+      Top = 8
+      Width = 44
+      Height = 16
+      Alignment = 'taCenter'
+      Caption = 'Label8'
+    end
+    object Label9: TLabel
+      Left = 80
+      Top = 8
+      Width = 21
+      Height = 16
+      Alignment = 'taCenter'
+      Caption = 'sur'
+    end
+    object Label10: TLabel
+      Left = 112
+      Top = 8
+      Width = 52
+      Height = 16
+      Alignment = 'taCenter'
+      Caption = 'Label10'
+    end
+    object Label11: TLabel
+      Left = 8
+      Top = 32
+      Width = 52
+      Height = 16
+      Caption = 'Label11'
+    end
+  end
+  object BitBtn1: TBitBtn
+    Left = 144
+    Top = 132
+    Width = 97
+    Height = 25
+    TabOrder = 1
+    OnClick = 'BitBtn1Click'
+    Kind = 'bkCancel'
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = 'Timer1Timer'
+    Left = 352
+  end
+end
+

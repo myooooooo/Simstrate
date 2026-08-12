@@ -1,0 +1,1346 @@
+=== TFORMSJSI_DLGIMPRIMER.bin: PARTIAL (consumed 24901/25088) ===
+object FormSJSI_DlgImprimer: TFormSJSI_DlgImprimer
+  Left = 199
+  Top = 185
+  HelpContext = 5000
+  BorderIcons = ['biSystemMenu']
+  BorderStyle = 'bsDialog'
+  Caption = 'Impressions multiples'
+  ClientHeight = 326
+  ClientWidth = 551
+  Font.Color = 'clWindowText'
+  Font.Height = -13
+  Font.Name = 'System'
+  Font.Style = []
+  PixelsPerInch = 96
+  Position = 'poScreenCenter'
+  OnClose = 'FormClose'
+  OnCloseQuery = 'FormCloseQuery'
+  OnCreate = 'FormCreate'
+  OnShow = 'FormShow'
+  TextHeight = 16
+  object TabbedNotebook1: TTabbedNotebook
+    Left = 0
+    Top = 0
+    Width = 551
+    Height = 326
+    Align = 'alClient'
+    TabsPerRow = 4
+    TabFont.Color = 'clBlue'
+    TabFont.Height = -12
+    TabFont.Name = 'MS Sans Serif'
+    TabFont.Style = []
+    TabOrder = 0
+    OnChange = 'TabbedNotebook1Change'
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 1'
+      object Image1: TImage
+        Left = 456
+        Top = 0
+        Width = 41
+        Height = 17
+        Visible = False
+      end
+      object Panel2: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE1D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions '
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE1E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel1: TBevel
+          Left = 96
+          Top = 24
+          Width = 17
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE1RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 225
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE1RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 217
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE1RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 217
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE1RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 209
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE1RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 217
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE1RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE1RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 2'
+      object Panel3: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE2D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions '
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE2E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox3: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel2: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE2RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 217
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE2RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 225
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE2RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 217
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE2RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 217
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE2RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 217
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE2RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE2RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 3'
+      object Panel4: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE3D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE3E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox4: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel3: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE3RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 233
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE3RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 233
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE3RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 233
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE3RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE3RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE3RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE3RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 4'
+      object Panel5: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE4D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE4E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox5: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel4: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE4RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 233
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE4RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 233
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE4RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 233
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE4RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE4RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE4RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE4RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 5'
+      object Panel7: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE5D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE5E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox1: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel6: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE5RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 233
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE5RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 233
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE5RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 233
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE5RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE5RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE5RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE5RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 6'
+      object Panel13: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE6D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE6E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox8: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = 'Résultats de fin de période'
+        TabOrder = 1
+        object Bevel7: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE6RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 233
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE6RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 233
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE6RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 233
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE6RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE6RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE6RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE6RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 7'
+      object Panel15: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE7D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE7E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox9: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel8: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE7RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 233
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE7RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 233
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE7RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 233
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE7RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE7RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE7RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE7RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Entreprise 8'
+      object Panel17: TPanel
+        Left = 8
+        Top = 16
+        Width = 369
+        Height = 33
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxE8D: TCheckBox
+          Left = 24
+          Top = 8
+          Width = 129
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1DClick'
+        end
+        object CheckBoxE8E: TCheckBox
+          Left = 192
+          Top = 8
+          Width = 160
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1EClick'
+        end
+      end
+      object GroupBox10: TGroupBox
+        Left = 8
+        Top = 64
+        Width = 369
+        Height = 169
+        Caption = ' Résultats '
+        TabOrder = 1
+        object Bevel9: TBevel
+          Left = 8
+          Top = 24
+          Width = 105
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxE8RSituation: TCheckBox
+          Left = 120
+          Top = 24
+          Width = 233
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 1
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE8RCompte: TCheckBox
+          Left = 120
+          Top = 48
+          Width = 233
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 2
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE8RBilan: TCheckBox
+          Left = 120
+          Top = 72
+          Width = 233
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 3
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE8RFinance: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 96
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 4
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE8RTresorerie: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 120
+          Width = 233
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 5
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+        object CheckBoxE8RTous: TCheckBox
+          Left = 24
+          Top = 72
+          Width = 81
+          Height = 17
+          Caption = 'Tous'
+          TabOrder = 0
+          OnClick = 'CheckBoxE1RTousClick'
+        end
+        object CheckBoxE8RSIG: TCheckBox
+          Tag = 3
+          Left = 120
+          Top = 144
+          Width = 241
+          Height = 17
+          Caption = 'Soldes intermédiaires de gestion'
+          TabOrder = 6
+          OnClick = 'CheckBoxE1RSituationClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Global'
+      object GroupBox6: TGroupBox
+        Left = 8
+        Top = 8
+        Width = 369
+        Height = 44
+        Caption = ' Animateur '
+        TabOrder = 0
+        object CheckBoxGAD: TCheckBox
+          Left = 24
+          Top = 20
+          Width = 153
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxGADClick'
+        end
+        object CheckBoxGARTous: TCheckBox
+          Left = 192
+          Top = 20
+          Width = 145
+          Height = 17
+          Caption = 'Résultats'
+          TabOrder = 1
+          OnClick = 'CheckBoxGARTousClick'
+        end
+      end
+      object GroupBox7: TGroupBox
+        Left = 8
+        Top = 56
+        Width = 369
+        Height = 193
+        Caption = ' Toutes les Entreprises '
+        TabOrder = 1
+        object Bevel5: TBevel
+          Left = 8
+          Top = 48
+          Width = 137
+          Height = 137
+          Shape = 'bsRightLine'
+        end
+        object CheckBoxGED: TCheckBox
+          Left = 24
+          Top = 24
+          Width = 161
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxGEDClick'
+        end
+        object CheckBoxGEE: TCheckBox
+          Left = 192
+          Top = 24
+          Width = 161
+          Height = 17
+          Caption = 'Etudes de Marché'
+          TabOrder = 1
+          OnClick = 'CheckBoxGEEClick'
+        end
+        object CheckBoxGERTous: TCheckBox
+          Left = 24
+          Top = 104
+          Width = 113
+          Height = 17
+          Caption = 'Tout résultat'
+          ParentShowHint = False
+          ShowHint = False
+          TabOrder = 2
+          OnClick = 'CheckBoxGERTousClick'
+        end
+        object CheckBoxGERSituation: TCheckBox
+          Left = 152
+          Top = 48
+          Width = 177
+          Height = 17
+          Caption = 'Situation'
+          TabOrder = 3
+          OnClick = 'CheckBoxGERSituationClick'
+        end
+        object CheckBoxGERCompte: TCheckBox
+          Left = 152
+          Top = 72
+          Width = 193
+          Height = 17
+          Caption = 'Compte de résultat'
+          TabOrder = 4
+          OnClick = 'CheckBoxGERCompteClick'
+        end
+        object CheckBoxGERBilan: TCheckBox
+          Left = 152
+          Top = 96
+          Width = 193
+          Height = 17
+          Caption = 'Bilan'
+          TabOrder = 5
+          OnClick = 'CheckBoxGERBilanClick'
+        end
+        object CheckBoxGERFinance: TCheckBox
+          Tag = 3
+          Left = 152
+          Top = 120
+          Width = 201
+          Height = 17
+          Caption = 'Tableau de Financement'
+          TabOrder = 6
+          OnClick = 'CheckBoxGERFinanceClick'
+        end
+        object CheckBoxGERTresorerie: TCheckBox
+          Tag = 3
+          Left = 152
+          Top = 144
+          Width = 201
+          Height = 17
+          Caption = 'Tableau de Trésorerie'
+          TabOrder = 7
+          OnClick = 'CheckBoxGERTresorerieClick'
+        end
+        object CheckBoxGERSIG: TCheckBox
+          Tag = 3
+          Left = 152
+          Top = 168
+          Width = 201
+          Height = 17
+          Caption = 'S.I.G.'
+          TabOrder = 8
+          OnClick = 'CheckBoxGERSIGClick'
+        end
+      end
+    end
+    object TTabPage
+      Left = 5
+      Top = 64
+      Caption = 'Animateur'
+      object Panel1: TPanel
+        Left = 8
+        Top = 16
+        Width = 361
+        Height = 97
+        BevelInner = 'bvRaised'
+        BevelOuter = 'bvLowered'
+        TabOrder = 0
+        object CheckBoxAD: TCheckBox
+          Left = 16
+          Top = 24
+          Width = 265
+          Height = 17
+          Caption = 'Décisions'
+          TabOrder = 0
+          OnClick = 'CheckBoxADClick'
+        end
+        object CheckBoxARTous: TCheckBox
+          Left = 16
+          Top = 56
+          Width = 265
+          Height = 17
+          Caption = 'Résultats'
+          TabOrder = 1
+          OnClick = 'CheckBoxARTousClick'
+        end
+      end
+      object GroupBox11: TGroupBox
+        Left = 8
+        Top = 128
+        Width = 361
+        Height = 57
+        TabOrder = 1
+        object CheckBoxADC: TCheckBox
+          Left = 16
+          Top = 24
+          Width = 265
+          Height = 17
+          Caption = 'Décisions de création'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object BitBtnTout: TBitBtn
+    Left = 392
+    Top = 260
+    Width = 129
+    Height = 25
+    Caption = '&Tout dans la page'
+    Font.Color = 'clBlack'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = ['fsBold']
+    ParentFont = False
+    TabOrder = 2
+    OnClick = 'BitBtnToutClick'
+    Glyph.Data = '<binary 1766 bytes>'
+    Margin = 2
+    NumGlyphs = 2
+    Spacing = -1
+  end
+  object BitBtnRien: TBitBtn
+    Left = 392
+    Top = 292
+    Width = 129
+    Height = 25
+    Caption = '&Rien dans la page'
+    Font.Color = 'clBlack'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = ['fsBold']
+    ParentFont = False
+    TabOrder = 3
+    OnClick = 'BitBtnRienClick'
+    Glyph.Data = '<binary 1730 bytes>'
+    Margin = 2
+    NumGlyphs = 2
+    Spacing = -1
+  end
+  object Panel6: TPanel
+    Left = 400
+    Top = 80
+    Width = 121
+    Height = 169
+    BevelInner = 'bvLowered'
+    BevelOuter = 'bvNone'
+    BevelWidth = 2
+    TabOrder = 1
+    object Label29: TLabel
+      Left = 7
+      Top = 13
+      Width = 50
+      Height = 16
+      Caption = 'Période'
+    end
+    object SpinEdit1: TSpinEdit
+      Left = 66
+      Top = 7
+      Width = 42
+      Height = 26
+      MaxValue = 1
+      MinValue = 1
+      TabOrder = 0
+      Value = 1
+      OnChange = 'SpinEdit1Change'
+    end
+    object ImprimerBtn: TBitBtn
+      Left = 10
+      Top = 40
+      Width = 100
+      Height = 25
+      Hint = 'Impression normale'
+      Caption = '&Imprimer'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+      OnClick = 'ImprimerBtnClick'
+      Glyph.Data = '<binary 1730 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+      Spacing = -1
+    end
+    object CancelBtn: TBitBtn
+      Left = 10
+      Top = 70
+      Width = 100
+      Height = 25
+      Caption = '&Fermer'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      TabOrder = 2
+      Kind = 'bkCancel'
+      Margin = 2
+      Spacing = -1
+    end
+    object HelpBtn: TBitBtn
+      Left = 10
+      Top = 102
+      Width = 100
+      Height = 25
+      Caption = '&Aide'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      TabOrder = 3
+      OnClick = 'HelpBtnClick'
+      Glyph.Data = '<binary 1730 bytes>'
+      Margin = 2
+      NumGlyphs = 2
+      Spacing = -1
+    end
+    object ImpRapideBtn: TBitBtn
+      Left = 10
+      Top = 134
+      Width = 100
+      Height = 25
+      Hint = 'Impression Rapide'
+      Caption = 'Imp. &Rapide'
+      Font.Color = 'clBlack'
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = ['fsBold']
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 4
+      OnClick = 'ImpRapideBtnClick'
+      Margin = 10
+      NumGlyphs = 2
+      Spacing = -1
+    end
+  end
+  object TestBtn: TBitBtn
+    Left = 408
+    Top = 64
+    Width = 33
+    Height = 25
+    Hint = 'Tests (mise au point)'
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+    TabStop = False
+    OnClick = 'TestBtnClick'
+    Glyph.Data = '<binary 380 bytes>'
+    NumGlyphs = 2
+  end
+  object Panel8: TPanel
+    Left = -136
+    Top = 228
+    Width = 257
+    Height = 89
+    BevelWidth = 3
+    BorderStyle = 'bsSingle'
+    Color = 'clYellow'
+    Font.Color = 'clBlack'
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = ['fsBold']
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+    object Label1: TLabel
+      Left = 16
+      Top = 8
+      Width = 217
+      Height = 19
+      Alignment = 'taCenter'
+      AutoSize = False
+      Caption = 'Impression en cours ...'
+    end
+    object ImpRCancelBtn: TBitBtn
+      Left = 83
+      Top = 48
+      Width = 89
+      Height = 25
+      TabOrder = 0
+      OnClick = 'ImpRCancelBtnClick'
+      Kind = 'bkCancel'
+    end
+  end
+  object PrintDialog1: TPrintDialog
+    Left = 288
+    Top = 56
+  end
+  object TableADG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSADG.DB'
+    Left = 133
+    Top = 56
+  end
+  object TableEDG: TTable
+    DatabaseName = 'DBEssai'
+    TableName = 'TESTSEDG.DB'
+    Left = 168
+    Top = 56
+  end
+  object PopupMenu1: TPopupMenu
+    AutoPopup = False
+    Top = 32
+    object Print1: TMenuItem
+      Caption = 'Print'
+      OnClick = 'Print1Click'
+    end
+    object Copy1: TMenuItem
+      Caption = 'Copy'
+      OnClick = 'Copy1Click'
+    end
+  end
+  object PrinterSetupDialog1: TPrinterSetupDialog
+    Left = 317
+    Top = 56
+  end
+end
+

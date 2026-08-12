@@ -1,0 +1,232 @@
+Cannot execute a dynamic-link library.
+$                                                                       NE
+SIMSTRA1
+WEP<
+TOOLHELP
+KERNEL
+USER
+KERNEL
+USER<
+SIMSTRA1.DLL
+PREMIER
+XL01BD01
+XL01BD02
+XL01BD03
+XL01BD04
+XL01BD05
+XL01BD06
+XL01BD07
+XL01BD08	
+XL02BD01
+XL02BD02
+XL02BD03
+NOUVEAUJEU
+NJ01BD01
+NJ01BD02
+NJ01BD03
+NJ01BD04
+DECISIONANIMATEUR
+DA01BD01
+DA01BD02
+DA01BD03
+DA01BD04
+DA01BD05
+DA01BD06
+DA01BD07
+DA01BD08
+DA01BD09
+DA01BD10
+DA01BD11
+DA01BD12
+DA01BD13
+DECISIONENTREPRISE 
+DE01BD01!
+DE01BD02"
+DE01BD03#
+DE01BD04$
+FARBITRAGE%
+FA01BD01&
+FA01BD02'
+FA01BD03(
+FA01BD04)
+FA01BD05*
+REPRISEDEPERIODE+
+RP01BD01,
+RP01BD02-
+VOIRTABLES.
+ZT01BD01/
+ZT01BD020
+ZT01BD031
+WR01BD012
+WR01BD023
+WR01BD034
+WR01BD045
+WR01BD056
+WR01BD067
+WR01BD078
+ZT01UR019
+ZT01UR02:
+ZT01UR03;
+          
+	Exception
+EOutOfMemory
+EInOutError
+	EIntError
+EDivByZero
+ERangeError
+EIntOverflow
+EMathError
+EInvalidOp
+EZeroDivide
+	EOverflow
+EUnderflow
+EInvalidPointer
+EInvalidCast
+EConvertError
+EProcessorException
+EFault
+EGPFault
+EStackFault
+EPageFault
+EInvalidOpCode
+EBreakpoint
+ESingleStepU
+m/d/yy
+mmmm d, yyyy
+ AMPM
+:mm:ss
+I<%t
+I<%t
+<*t <0rB<9w>,02
+4SPR
+@v:k
+NANINFU
+QS<$t
+$*@@*$@@$ *@* $@($*)-$*@$-*@$*-@(*$)-*$@*-$@*$-@-* $-$ *$ *-U
+<'t%<"t!
+<#t&<0t%<.t,<,t3<'t5<"t1<Et:<et6<;tF
+<#t'<0t#<.t
+<Et"<et
+<;tJ
+5r$&
+[YXZ
+Borland Delphi
+Portions Copyright (c) 1983,95 Borland
+TPug
+&;7u
+PRSQ3
+Y[ZX
+-~?v
+LtJ{H
+MGG&
+Y[XZ
+RPSQ
+<)sg
+WVQUSP
+[ZY]
+TObject
+TObject
+System
+2Cz1erT&VUs4
+Simstrat pour Windows. Version 1.00                                                                                                                                                                                                                            
+12/06/1998
+Utilisation exclusive en UN exemplaire par:                                                                                                                                                                                                                    
+VERSION DE DEMONSTRATION.                                                                                                                                                                                                                                      
+Non utilisable 
+ des fins p
+dagogiques ou commerciales.                                                                                                                                                                                                        
+Version de test.                                                                                                                                                                                                                                               
+serv
+ LABODIDACT                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                               
+11/06/2006B
+)+g>`6
+G5:D
+g/_!
+ W#)
+) \N
+F)9P
+)6MM
+%3W$)
+O3D)
+FQM;
+@)7d
+/BG)4
+W4)Cd?
+=)2'
+BA"),'
+H)$e
+intl
+sCurrency
+iCurrency
+iNegCurr
+sThousand
+sDecimal
+iCurrDigits
+sDate
+sShortDate
+sLongDate
+sTime
+s1159
+s2359
+iTLZero
+iTime
+Runtime error 000 at 0000:0000.
+*'%s' n'est pas une valeur enti
+re correcte,'%s' n'est pas une valeur flottante correcte '%s' n'est pas une date correcte!'%s' n'est pas une heure correcte)'%s' n'est pas une date et heure correcte#Argument incorrect pour Time encode#Argument incorrect pour date encode
+Plus de m
+moire
+Erreur E/S %d
+Fichier non trouv
+Nom de fichier incorrect
+Trop de fichiers ouverts
+s au fichier refus
+Lecteur incorrect$Lecture au del
+ de la fin de fichier
+Disque plein
+Saisie num
+rique incorrecte
+Division par z
+ro Erreur de v
+rification d'
+tendue
+bordement d'entier
+ration flottante incorrecte
+Division flottante par z
+bordement flottant
+bordement n
+gatif flottant
+ration pointeur incorrecte
+Transtypage de classe incorrect
+Faute g
+rale de protection
+Faute de pile
+Faute de page
+opcode incorrect
+Interruption point d'arr
+Interruption pas 
+ pas
+ration interrompue
+%s dans module %s 
+ %p'Exception %s dans
+module %s 
+ %p.
+%s%s
+Erreur de l'application5Format '%s' incorrect ou incompatible avec l'argument"Pas d'argument pour le format '%s'
+Janvier
+vrier
+Mars
+Avril
+Juin
+Juillet
+t	Septembre
+Octobre
+Novembre
+cembre
+Dimanche
+Lundi
+Mardi
+Mercredi
+Jeudi
+Vendredi
+Samedi
