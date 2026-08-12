@@ -496,3 +496,33 @@ l'équivalent est otvdm/winevdm, qui réutilise le même code Win16 issu de Wine
 
 Le BDE reste la pièce indispensable, et son installateur d'origine
 (InstallShield 3, 1996) s'exécute correctement sous Wine.
+
+### Ouverture d'un jeu : le décodage Paradox validé par l'application
+
+Le jeu d'exemple 1 a été ouvert dans l'application en fonctionnement
+(`Fichier → Ouvrir jeu`, filtre `????SIMS.DB` — la convention de nommage du
+chapitre 2, confirmée à l'écran). Le chargement réussit : les menus Animateur,
+Public, Entreprises, Impressions et Graphes, grisés jusque-là, deviennent
+actifs. Le BDE lit donc correctement les tables Paradox de 1997.
+
+L'écran `Bilan` de l'entreprise 1 affiche :
+
+| Poste | Valeur affichée |
+|---|---|
+| Outillage | 5 000,00 |
+| Amortissement | 0,00 |
+| Stocks produits finis | 114,00 |
+| Banque | **3 474,75** |
+
+À comparer à ce que `px_data.py` extrait de `FETESERG.DB` sans jamais exécuter
+le programme, pour la période 6 et l'entreprise 1 : `Tresorerie = 3474.75`,
+`ImmobilisationsBrutes = 5000.0`. **Correspondance au centime.**
+
+Le lecteur de tables Paradox écrit pour cette analyse restitue donc exactement
+les mêmes valeurs que l'application d'origine — y compris l'encodage BCD et le
+signe des nombres négatifs, qui avaient demandé une correction.
+
+Le menu `Résultats` de ce jeu ne propose que Situation, Compte de Résultat,
+Bilan et Études de Marché, alors que le formulaire décompilé en prévoit
+davantage (Financement, Trésorerie, S.I.G.). C'est cohérent : ce jeu est de
+`Niveau` 1, et l'interface s'adapte au niveau, comme supposé au chapitre 6.
